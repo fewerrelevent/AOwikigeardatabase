@@ -2,8 +2,8 @@ name: Update Equipment JSON
 
 on:
   schedule:
-    - cron: "0 0 * * *" # daily at midnight UTC
-  workflow_dispatch: {}   # manual trigger
+    - cron: "0 0 * * *"   # daily UTC
+  workflow_dispatch: {}    # manual trigger
 
 jobs:
   build:
@@ -11,13 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 20
 
-      - run: npm install
-
-      - run: node generateEquipment.js
+      - name: Generate JSON
+        run: node generateEquipment.js
 
       - name: Commit and push changes
         uses: ad-m/github-push-action@v0.6.0

@@ -1,17 +1,21 @@
 {
-  "Crystal Fury Helmet": {
-    "Name": "Crystal Fury Helmet",
-    "Link": "Crystal Fury Helmet",
-    "Image": "Crystal Fury Helmet.png",
-    "Stats": { "nested": "object (simplified)" },
-    "MinLevel": 170,
-    "MaxLevel": 250,
-    "EquipType": "Helmet",
-    "StatType": "Normal",
-    "Rarity": "Rare",
-    "JewelSlots": 2,
-    "ObtainedBy": ["Ormolu"],
-    "Description": "A set of heavy leggings carved out of ...",
-    "Drawback": { "nested": "object (simplified)" }
-  }
+  "Name": "Skyhall Protector Armor",
+  "Link": "Skyhall Protector Armor",
+  "Image": "Skyhall Protector Armor.png",
+  "Stats": {
+    "nested": "object (simplified)"
+  },
+  "MinLevel": 160,
+  "MaxLevel": 250,
+  "EquipType": "Chestpiece",
+  "StatType": "Normal",
+  "Rarity": "Uncommon",
+  "WorthValues": {
+    "nested": "object (simplified)"
+  },
+  "ObtainedBy": [
+    "Lord Emerson"
+  ],
+  "Variations": null,
+  "Description": "A simple, yet ornamented set of heavy upper body armor. It was forged for you as a gift from Lord Emerson of the Skyhall Kingdom for saving the Nimbus Lands from Allanon's rage, as well as doing additional work for the wellbeing of Skyhall's citizens. It was intended to be worn during the Keraxe-Sameria War for extra protection."
 }

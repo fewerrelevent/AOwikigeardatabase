@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Arcane Odyssey Equipment Viewer</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
+    body { font-family: Arial; margin: 20px; }
     table { border-collapse: collapse; width: 100%; }
     th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
     th { background-color: #f0f0f0; }
@@ -19,11 +19,14 @@
 <div id="armorTable">Loading...</div>
 
 <script>
-  // Replace this URL with your GitHub Pages JSON
-  const jsonURL = "https://yourusername.github.io/equipment-json/equipment.json";
+  // Use your GitHub Pages JSON URL
+  const jsonURL = "https://fewerrelevent.github.io/equipment-json/equipment.json";
 
   fetch(jsonURL)
-    .then(res => res.json())
+    .then(res => {
+      if (!res.ok) throw new Error("Network response was not ok");
+      return res.json();
+    })
     .then(data => {
       const container = document.getElementById("armorTable");
       let html = '<table><tr>';
@@ -42,7 +45,6 @@
           html += `<td>${val}</td>`;
         });
 
-        // Image column
         let imgHTML = item.Image ? `<img src="${item.Image}" alt="${item.Name}">` : "<span class='missing'>No image</span>";
         html += `<td>${imgHTML}</td>`;
 

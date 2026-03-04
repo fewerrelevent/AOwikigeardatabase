@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Equipment Viewer</title>
+  <style>
+    body { font-family: Arial; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+    .missing { color: #888; font-style: italic; }
+  </style>
+</head>
+<body>
+
+<h2>Equipment Database</h2>
+<div id="armorTable">Loading...</div>
+
+<script>
+// URL to your JSON (from GitHub Pages or any public host)
+const jsonURL = "https://yourusername.github.io/equipment-json/equipment.json";
+
+fetch(jsonURL)
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById("armorTable");
+
+    let html = '<table><tr>';
+    const headers = ["Key", "Name", "EquipType", "MinLevel", "MaxLevel", "Rarity", "JewelSlots"];
+    headers.forEach(h => html += `<th>${h}</th>`);
+    html += "</tr>";
+
+    for (let key in data) {
+      const item = data[key];
+      html += "<tr>";
+      html += `<td>${key}</td>`;
+      headers.slice(1).forEach(h => {
+        let val = item[h] !== undefined && item[h] !== null ? item[h] : "No information available";
+        html += `<td>${val}</td>`;
+      });
+      html += "</tr>";
+    }
+
+    html += "</table>";
+    container.innerHTML = html;
+  })
+  .catch(err => {
+    console.error(err);
+    document.getElementById("armorTable").innerText = "Failed to load data.";
+  });
+</script>
+
+</body>
+</html>

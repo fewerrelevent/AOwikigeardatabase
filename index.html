@@ -3,56 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <title>Arcane Odyssey Equipment Viewer</title>
-  <style>
-    body { font-family: Arial; margin: 20px; }
-    table { border-collapse: collapse; width: 100%; }
-    th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
-    th { background-color: #f0f0f0; }
-    .missing { color: #888; font-style: italic; }
-    img { max-width: 50px; max-height: 50px; }
-  </style>
+<style>
+  body { font-family: Arial; margin: 20px; background: #f8f8f8; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .card h2 {
+    margin-top: 0;
+  }
+
+  .section {
+    margin-bottom: 10px;
+    padding: 8px;
+    background: #f4f4f4;
+    border-radius: 4px;
+  }
+
+  .label {
+    font-weight: bold;
+  }
+
+  img {
+    max-width: 80px;
+    max-height: 80px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .missing {
+    color: #888;
+    font-style: italic;
+  }
+</style>
 </head>
 <body>
 
-<h1>Arcane Odyssey Equipment</h1>
-<p>Data updates automatically from GitHub Pages.</p>
-<div id="armorTable">Loading...</div>
+<h1>Arcane Odyssey Fandom Wiki Database</h1>
+<p>Data does not yet automatically update.</p>
+<div id="armorGrid" class="grid">Loading...</div>
 
 <script>
-  // Replace with your GitHub Pages JSON URL
-  const jsonURL = "equipment.json";
+const jsonURL = "equipment.json";
 
-  fetch(jsonURL)
-    .then(res => res.json())
-    .then(data => {
-      const container = document.getElementById("armorTable");
-      let html = '<table><tr>';
+fetch(jsonURL)
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById("armorGrid");
+    container.innerHTML = "";
 
-      const headers = ["Key", "Name", "EquipType", "MinLevel", "MaxLevel", "Rarity", "JewelSlots", "Image"];
-      headers.forEach(h => html += `<th>${h}</th>`);
-      html += "</tr>";
+    function renderObject(obj) {
+      let html = "";
+      for (let key in obj) {
+        let value = obj[key];
 
-      for (let key in data) {
-        const item = data[key];
-        html += "<tr>";
-        html += `<td>${key}</td>`;
-        headers.slice(1, -1).forEach(h => {
-          let val = item[h] !== undefined && item[h] !== null ? item[h] : "<span class='missing'>No information available</span>";
-          html += `<td>${val}</td>`;
-        });
-
-        let imgHTML = item.Image ? `<img src="${item.Image}" alt="${item.Name}">` : "<span class='missing'>No image</span>";
-        html += `<td>${imgHTML}</td>`;
-        html += "</tr>";
+        if (typeof value === "object" && value !== null) {
+          html += `<div class="section">
+                    <div class="label">${key}</div>
+                    ${renderObject(value)}
+                   </div>`;
+        } else {
+          html += `<div><span class="label">${key}:</span> ${value}</div>`;
+        }
       }
+      return html;
+    }
 
-      html += "</table>";
-      container.innerHTML = html;
-    })
-    .catch(err => {
-      console.error(err);
-      document.getElementById("armorTable").innerHTML = "<p style='color:red;'>Failed to load data. Make sure your JSON URL is correct and public.</p>";
-    });
+    for (let itemKey in data) {
+      const item = data[itemKey];
+
+      let card = document.createElement("div");
+      card.className = "card";
+
+      let imageHTML = item.Image 
+        ? `<img src="${item.Image}" alt="${item.Name}">`
+        : `<div class="missing">No image</div>`;
+
+      card.innerHTML = `
+        <h2>${item.Name || itemKey}</h2>
+        ${imageHTML}
+        ${renderObject(item)}
+      `;
+
+      container.appendChild(card);
+    }
+  })
+  .catch(err => {
+    console.error(err);
+    document.getElementById("armorGrid").innerHTML =
+      "<p style='color:red;'>Failed to load data.</p>";
+  });
 </script>
 
 </body>

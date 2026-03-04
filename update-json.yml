@@ -1,0 +1,26 @@
+name: Update Equipment JSON
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily UTC
+  workflow_dispatch: {}    # manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Generate JSON
+        run: node generateEquipment.js
+
+      - name: Commit and push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

@@ -19,14 +19,11 @@
 <div id="armorTable">Loading...</div>
 
 <script>
-  // Use your GitHub Pages JSON URL
-  const jsonURL = "https://fewerrelevent.github.io/equipment-json/equipment.json";
+  // Replace with your GitHub Pages JSON URL
+  const jsonURL = "equipment.json";
 
   fetch(jsonURL)
-    .then(res => {
-      if (!res.ok) throw new Error("Network response was not ok");
-      return res.json();
-    })
+    .then(res => res.json())
     .then(data => {
       const container = document.getElementById("armorTable");
       let html = '<table><tr>';
@@ -39,7 +36,6 @@
         const item = data[key];
         html += "<tr>";
         html += `<td>${key}</td>`;
-
         headers.slice(1, -1).forEach(h => {
           let val = item[h] !== undefined && item[h] !== null ? item[h] : "<span class='missing'>No information available</span>";
           html += `<td>${val}</td>`;
@@ -47,7 +43,6 @@
 
         let imgHTML = item.Image ? `<img src="${item.Image}" alt="${item.Name}">` : "<span class='missing'>No image</span>";
         html += `<td>${imgHTML}</td>`;
-
         html += "</tr>";
       }
 

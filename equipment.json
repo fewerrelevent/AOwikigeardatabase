@@ -1,0 +1,17 @@
+{
+  "Crystal Fury Helmet": {
+    "Name": "Crystal Fury Helmet",
+    "Link": "Crystal Fury Helmet",
+    "Image": "Crystal Fury Helmet.png",
+    "Stats": { "nested": "object (simplified)" },
+    "MinLevel": 170,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "JewelSlots": 2,
+    "ObtainedBy": ["Ormolu"],
+    "Description": "A set of heavy leggings carved out of ...",
+    "Drawback": { "nested": "object (simplified)" }
+  }
+}

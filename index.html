@@ -60,48 +60,83 @@ const jsonURL = "equipment.json";
 fetch(jsonURL)
   .then(res => res.json())
   .then(data => {
-    const container = document.getElementById("armorGrid");
-    container.innerHTML = "";
+    const container = document.getElementById("armorTable");
+    let html = "<table><thead><tr>";
 
-    function renderObject(obj) {
-      let html = "";
-      for (let key in obj) {
-        let value = obj[key];
+    const headers = [
+      "Key",
+      "Name",
+      "EquipType",
+      "MinLevel",
+      "MaxLevel",
+      "Rarity",
+      "StatType",
+      "Stats",
+      "WorthValues",
+      "ObtainedBy",
+      "Variations",
+      "Description",
+      "Image"
+    ];
 
-        if (typeof value === "object" && value !== null) {
-          html += `<div class="section">
-                    <div class="label">${key}</div>
-                    ${renderObject(value)}
-                   </div>`;
-        } else {
-          html += `<div><span class="label">${key}:</span> ${value}</div>`;
-        }
-      }
-      return html;
+    headers.forEach(h => html += `<th>${h}</th>`);
+    html += "</tr></thead><tbody>";
+
+    function formatStats(stats) {
+      if (!stats) return "<span class='missing'>None</span>";
+      return Object.entries(stats)
+        .map(([stat, values]) => {
+          return `${stat}: ${Object.entries(values)
+            .map(([k,v]) => `${k} ${v}`)
+            .join(", ")}`;
+        })
+        .join("<br>");
     }
 
-    for (let itemKey in data) {
-      const item = data[itemKey];
+    function formatObject(obj) {
+      if (!obj) return "<span class='missing'>None</span>";
+      return Object.values(obj).join("<br>");
+    }
 
-      let card = document.createElement("div");
-      card.className = "card";
+    function formatWorth(obj) {
+      if (!obj) return "<span class='missing'>None</span>";
+      return Object.entries(obj)
+        .map(([lvl,val]) => `Lv ${lvl}: ${val}`)
+        .join("<br>");
+    }
 
-      let imageHTML = item.Image 
+    for (let key in data) {
+      const item = data[key];
+      html += "<tr>";
+
+      html += `<td>${key}</td>`;
+      html += `<td>${item.Name || ""}</td>`;
+      html += `<td>${item.EquipType || ""}</td>`;
+      html += `<td>${item.MinLevel ?? ""}</td>`;
+      html += `<td>${item.MaxLevel ?? ""}</td>`;
+      html += `<td>${item.Rarity || ""}</td>`;
+      html += `<td>${item.StatType || ""}</td>`;
+      html += `<td>${formatStats(item.Stats)}</td>`;
+      html += `<td>${formatWorth(item.WorthValues)}</td>`;
+      html += `<td>${formatObject(item.ObtainedBy)}</td>`;
+      html += `<td>${item.Variations ?? ""}</td>`;
+      html += `<td>${item.Description || ""}</td>`;
+
+      const img = item.Image
         ? `<img src="${item.Image}" alt="${item.Name}">`
-        : `<div class="missing">No image</div>`;
+        : "<span class='missing'>None</span>";
 
-      card.innerHTML = `
-        <h2>${item.Name || itemKey}</h2>
-        ${imageHTML}
-        ${renderObject(item)}
-      `;
+      html += `<td>${img}</td>`;
 
-      container.appendChild(card);
+      html += "</tr>";
     }
+
+    html += "</tbody></table>";
+    container.innerHTML = html;
   })
   .catch(err => {
     console.error(err);
-    document.getElementById("armorGrid").innerHTML =
+    document.getElementById("armorTable").innerHTML =
       "<p style='color:red;'>Failed to load data.</p>";
   });
 </script>

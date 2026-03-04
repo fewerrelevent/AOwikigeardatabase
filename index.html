@@ -4,47 +4,64 @@
   <meta charset="UTF-8">
   <title>Arcane Odyssey Equipment Viewer</title>
 <style>
-  body { font-family: Arial; margin: 20px; background: #f8f8f8; }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 20px;
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 20px;
+    background: #f4f6f8;
+    color: #222;
   }
 
-  .card {
+  h1 {
+    margin-bottom: 5px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
     background: white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 14px;
   }
 
-  .card h2 {
-    margin-top: 0;
+  thead {
+    background: #1f2937;
+    color: white;
+    position: sticky;
+    top: 0;
   }
 
-  .section {
-    margin-bottom: 10px;
-    padding: 8px;
-    background: #f4f4f4;
-    border-radius: 4px;
+  th, td {
+    padding: 8px 10px;
+    border: 1px solid #e5e7eb;
+    vertical-align: top;
+    text-align: left;
   }
 
-  .label {
-    font-weight: bold;
+  th {
+    font-weight: 600;
   }
 
-  img {
-    max-width: 80px;
-    max-height: 80px;
+  tbody tr:nth-child(even) {
+    background: #f9fafb;
+  }
+
+  tbody tr:hover {
+    background: #eef2f7;
+  }
+
+  td img {
+    max-width: 60px;
+    max-height: 60px;
     display: block;
-    margin-bottom: 10px;
+    margin: auto;
   }
 
-  .missing {
+  .no-info {
     color: #888;
     font-style: italic;
+  }
+
+  .multi-line {
+    line-height: 1.4em;
   }
 </style>
 </head>
@@ -55,91 +72,102 @@
 <div id="armorTable">Loading...</div>
 
 <script>
-const jsonURL = "equipment.json";
+document.addEventListener("DOMContentLoaded", () => {
 
-fetch(jsonURL)
-  .then(res => res.json())
-  .then(data => {
-    const container = document.getElementById("armorTable");
-    let html = "<table><thead><tr>";
+  const jsonURL = "equipment.json";
+  const container = document.getElementById("armorTable");
 
-    const headers = [
-      "Key",
-      "Name",
-      "EquipType",
-      "MinLevel",
-      "MaxLevel",
-      "Rarity",
-      "StatType",
-      "Stats",
-      "WorthValues",
-      "ObtainedBy",
-      "Variations",
-      "Description",
-      "Image"
-    ];
+  const NO_INFO = "<span class='no-info'>No Info Available</span>";
 
-    headers.forEach(h => html += `<th>${h}</th>`);
-    html += "</tr></thead><tbody>";
-
-    function formatStats(stats) {
-      if (!stats) return "<span class='missing'>None</span>";
-      return Object.entries(stats)
-        .map(([stat, values]) => {
-          return `${stat}: ${Object.entries(values)
-            .map(([k,v]) => `${k} ${v}`)
-            .join(", ")}`;
-        })
-        .join("<br>");
+  function safeValue(value) {
+    if (value === undefined || value === null || value === "" ||
+        (typeof value === "object" && Object.keys(value).length === 0)) {
+      return NO_INFO;
     }
+    return value;
+  }
 
-    function formatObject(obj) {
-      if (!obj) return "<span class='missing'>None</span>";
-      return Object.values(obj).join("<br>");
-    }
+  function formatStats(stats) {
+    if (!stats || Object.keys(stats).length === 0) return NO_INFO;
 
-    function formatWorth(obj) {
-      if (!obj) return "<span class='missing'>None</span>";
-      return Object.entries(obj)
-        .map(([lvl,val]) => `Lv ${lvl}: ${val}`)
-        .join("<br>");
-    }
+    return Object.entries(stats)
+      .map(([stat, values]) =>
+        `${stat}: ${Object.entries(values)
+          .map(([k,v]) => `${k} ${v}`)
+          .join(", ")}`
+      )
+      .join("<br>");
+  }
 
-    for (let key in data) {
-      const item = data[key];
-      html += "<tr>";
+  function formatWorth(obj) {
+    if (!obj || Object.keys(obj).length === 0) return NO_INFO;
 
-      html += `<td>${key}</td>`;
-      html += `<td>${item.Name || ""}</td>`;
-      html += `<td>${item.EquipType || ""}</td>`;
-      html += `<td>${item.MinLevel ?? ""}</td>`;
-      html += `<td>${item.MaxLevel ?? ""}</td>`;
-      html += `<td>${item.Rarity || ""}</td>`;
-      html += `<td>${item.StatType || ""}</td>`;
-      html += `<td>${formatStats(item.Stats)}</td>`;
-      html += `<td>${formatWorth(item.WorthValues)}</td>`;
-      html += `<td>${formatObject(item.ObtainedBy)}</td>`;
-      html += `<td>${item.Variations ?? ""}</td>`;
-      html += `<td>${item.Description || ""}</td>`;
+    return Object.entries(obj)
+      .map(([lvl,val]) => `Lv ${lvl}: ${val}`)
+      .join("<br>");
+  }
 
-      const img = item.Image
-        ? `<img src="${item.Image}" alt="${item.Name}">`
-        : "<span class='missing'>None</span>";
+  function formatObject(obj) {
+    if (!obj || Object.keys(obj).length === 0) return NO_INFO;
 
-      html += `<td>${img}</td>`;
+    return Object.values(obj).join("<br>");
+  }
 
-      html += "</tr>";
-    }
+  fetch(jsonURL)
+    .then(res => {
+      if (!res.ok) throw new Error("HTTP error " + res.status);
+      return res.json();
+    })
+    .then(data => {
 
-    html += "</tbody></table>";
-    container.innerHTML = html;
-  })
-  .catch(err => {
-    console.error(err);
-    document.getElementById("armorTable").innerHTML =
-      "<p style='color:red;'>Failed to load data.</p>";
-  });
+      let html = "<table><thead><tr>";
+
+      const headers = [
+        "Key","Name","EquipType","MinLevel","MaxLevel",
+        "Rarity","StatType","Stats","WorthValues",
+        "ObtainedBy","Variations","Description","Image"
+      ];
+
+      headers.forEach(h => html += `<th>${h}</th>`);
+      html += "</tr></thead><tbody>";
+
+      for (let key in data) {
+        const item = data[key];
+        html += "<tr>";
+
+        html += `<td>${key}</td>`;
+        html += `<td>${safeValue(item.Name)}</td>`;
+        html += `<td>${safeValue(item.EquipType)}</td>`;
+        html += `<td>${safeValue(item.MinLevel)}</td>`;
+        html += `<td>${safeValue(item.MaxLevel)}</td>`;
+        html += `<td>${safeValue(item.Rarity)}</td>`;
+        html += `<td>${safeValue(item.StatType)}</td>`;
+        html += `<td class="multi-line">${formatStats(item.Stats)}</td>`;
+        html += `<td class="multi-line">${formatWorth(item.WorthValues)}</td>`;
+        html += `<td class="multi-line">${formatObject(item.ObtainedBy)}</td>`;
+        html += `<td>${safeValue(item.Variations)}</td>`;
+        html += `<td>${safeValue(item.Description)}</td>`;
+
+        const img = item.Image
+          ? `<img src="${item.Image}" alt="${item.Name}">`
+          : NO_INFO;
+
+        html += `<td>${img}</td>`;
+
+        html += "</tr>";
+      }
+
+      html += "</tbody></table>";
+      container.innerHTML = html;
+
+    })
+    .catch(err => {
+      console.error(err);
+      container.innerHTML =
+        "<p style='color:red;'>Failed to load data.</p>";
+    });
+
+});
 </script>
-
 </body>
 </html>

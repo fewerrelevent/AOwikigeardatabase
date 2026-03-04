@@ -9,9 +9,9 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "JewelSlots": 2,
-    "ObtainedBy": ["Ormolu"],
-    "Description": "A set of heavy leggings carved out of ...",
-    "Drawback": { "nested": "object (simplified)" }
-  }
+    "WorthValues": { "170": 203 },
+    "ObtainedBy": ["Ormolu"], 
+    "Variations": null,
+    "Description": "A helmet made of crystal, with a fierce design. It is said to have been crafted by a powerful sorcerer, and is imbued with magical properties that enhance the wearer's abilities.",
+    "JewelSlots": 2 }
 }

@@ -1,0 +1,62 @@
+{
+  "Name": "Crystal Fury Helmet",
+  "Link": "Crystal Fury Helmet",
+  "Image": "Crystal Fury Helmet.png",
+  "Stats": {
+    "nested": "object (simplified)"
+  },
+  "MinLevel": 170,
+  "MaxLevel": 250,
+  "EquipType": "Leggings",
+  "StatType": "Normal",
+  "Rarity": "Rare",
+  "WorthValues": {
+    "nested": "object (simplified)"
+  },
+  "ObtainedBy": [
+    "Ormolu"
+  ],
+  "Variations": null,
+  "Description": "A set of heavy leggings carved out of the remains of the Crystal Curse user's body, the monster of the Stepstones that was called Ormolu. The intense amount of magic energy imbued within it provides extreme protection at a cost.",
+  "Range": {
+    "nested": "object (simplified)"
+  },
+  "Variantions": null,
+  "Haste": {
+    "nested": "object (simplified)"
+  },
+  "Dexterity": {
+    "nested": "object (simplified)"
+  },
+  "JewelSlots": 2,
+  "Variation": 16,
+  "Size": {
+    "nested": "object (simplified)"
+  },
+  "Regeneration": {
+    "nested": "object (simplified)"
+  },
+  "Resistance": {
+    "nested": "object (simplified)"
+  },
+  "Pierce": {
+    "nested": "object (simplified)"
+  },
+  "EquipTyp": "Helmet",
+  "Stattype": "Normal",
+  "Power": {
+    "nested": "object (simplified)"
+  },
+  "Drawback": {
+    "nested": "object (simplified)"
+  },
+  "Warding": {
+    "nested": "object (simplified)"
+  },
+  "Defense": {
+    "nested": "object (simplified)"
+  },
+  "StatOverrides": {
+    "nested": "object (simplified)"
+  }
+}

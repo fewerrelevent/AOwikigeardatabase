@@ -876,32 +876,40 @@ async function init(data) {
 /* ── LOAD DATA (refresh first, then fetch equipment.json) ── */
 async function loadData() {
   try {
-    // Step 1: trigger scraper and wait for it to finish
     document.getElementById('loadingMsg').textContent = 'Refreshing data from wiki…';
-let refreshDone = false;
 
-while (!refreshDone) {
-  const refreshRes = await fetch('/refresh');
-  const body = await refreshRes.json().catch(() => ({}));
+    // Step 1: wait for refresh to complete
+    while (true) {
+      const refreshRes = await fetch('/refresh');
+      let body = {};
 
-  if (refreshRes.status === 202) {
-    // still running → wait and retry
-    await new Promise(r => setTimeout(r, 500));
-    continue;
-  }
+      try {
+        body = await refreshRes.json();
+      } catch (e) {}
 
-  if (!refreshRes.ok || !body.ok) {
-    throw new Error(body.error || `Refresh failed (${refreshRes.status})`);
-  }
+      if (refreshRes.status === 202) {
+        await new Promise(r => setTimeout(r, 500));
+        continue;
+      }
 
-  refreshDone = true;
-}
+      if (!refreshRes.ok) {
+        throw new Error(body.error || `Refresh failed (${refreshRes.status})`);
+      }
 
-    // Step 2: load the freshly written equipment.json
+      if (body.ok === false) {
+        throw new Error(body.error || "Refresh failed");
+      }
+
+      break; // success
+    }
+
+    // Step 2: load equipment.json
     document.getElementById('loadingMsg').textContent = 'Loading equipment.json…';
+
     const dataRes = await fetch(`/equipment.json?t=${Date.now()}`, {
-    cache: 'no-store'
+      cache: 'no-store'
     });
+
     if (!dataRes.ok) throw new Error(`HTTP ${dataRes.status}`);
 
     const data = await dataRes.json();
@@ -910,12 +918,13 @@ while (!refreshDone) {
   } catch (err) {
     console.error('Load error:', err);
     document.getElementById('loadingState').classList.add('hidden');
+
     const es = document.getElementById('errorState');
     es.classList.remove('hidden');
-    document.getElementById('errorMsg').textContent = `Failed to load: ${err.message}`;
+    document.getElementById('errorMsg').textContent =
+      `Failed to load: ${err.message}`;
   }
 }
-
 loadData();
 </script>
 </body>

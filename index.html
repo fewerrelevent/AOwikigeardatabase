@@ -565,33 +565,6 @@ function rarityBadge(r) {
   return `<span class="badge r-${cls}">${esc(r)}</span>`;
 }
 
-  try {
-    // STEP 1: search exact page
-    const searchUrl =
-      `${api}?action=query&list=search&srsearch=${encodeURIComponent(title)}&format=json&origin=*`;
-
-    const searchRes = await fetch(searchUrl);
-    const searchData = await searchRes.json();
-
-    const first = searchData?.query?.search?.[0];
-    if (!first) return null;
-
-    const pageid = first.pageid;
-
-    // STEP 2: fetch image from pageid
-    const pageUrl =
-      `${api}?action=query&pageids=${pageid}&prop=pageimages&pithumbsize=400&format=json&origin=*`;
-
-    const pageRes = await fetch(pageUrl);
-    const pageData = await pageRes.json();
-
-    const page = pageData?.query?.pages?.[pageid];
-    return page?.thumbnail?.source || null;
-
-  } catch (e) {
-    console.error("Wiki image error:", title, e);
-    return null;
-  }
 
 function renderCell(field, item) {
   const v = item[field.key];
@@ -882,8 +855,7 @@ fetch(JSON_URL)
     es.classList.remove('hidden');
     document.getElementById('errorMsg').textContent =
       `Failed to load: ${err.message}`;
-      console.log("DATA TYPE:", Array.isArray(data) ? "ARRAY" : "OBJECT");
-      console.log("SAMPLE:", data);
+     console.log("No data object available in catch block.");
   });
 </script>
 </body>

@@ -492,7 +492,7 @@ body.highlight-missing td.cell-missing {
 
 <script>
 /* ── CONFIG ──────────────────────────────────────────────── */
-const JSON_URL = 'equipment.json';
+const JSON_URL = '/equipment.json';
 
 const FIELDS = [
   { key: 'Name',        label: 'Name',         vis: true,  sortable: true,  fmt: 'text' },
@@ -816,22 +816,21 @@ function init(data) {
 
 fetch(JSON_URL)
   .then(r => {
-    if (!r.ok) throw new Error(
-      r.status === 404
-        ? `equipment.json not found. Run: node generateEquipment.js`
-        : `HTTP ${r.status}`
-    );
+    console.log('Fetch response:', r);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
     return r.json();
   })
-  .then(init)
+  .then(data => {
+    console.log('Data loaded:', data);
+    init(data);
+  })
   .catch(err => {
+    console.error('FETCH ERROR:', err);
     document.getElementById('loadingState').classList.add('hidden');
     const es = document.getElementById('errorState');
     es.classList.remove('hidden');
-    const isFileProtocol = location.protocol === 'file:';
-    document.getElementById('errorMsg').textContent = isFileProtocol
-      ? `Can't load files directly — run: node server.js, then open http://localhost:3000`
-      : `Could not load ${JSON_URL} — ${err.message}`;
+    document.getElementById('errorMsg').textContent =
+      `Failed to load: ${err.message}`;
   });
 </script>
 </body>

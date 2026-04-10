@@ -36,6 +36,7 @@
   --rare-boss:      #fb923c;
   --rare-halloween: #f97316;
   --rare-headless:  #ef4444;
+  
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -47,6 +48,10 @@ body {
   min-height: 100vh;
   font-size: 14px;
   line-height: 1.5;
+}
+
+.hidden {
+  display: none !important;
 }
 
 /* ── HEADER ─────────────────────────────── */
@@ -492,7 +497,7 @@ body.highlight-missing td.cell-missing {
 
 <script>
 /* ── CONFIG ──────────────────────────────────────────────── */
-const JSON_URL = '/equipment.json';
+const JSON_URL = 'https://aowikigeardatabase.pages.dev/equipment.json';
 
 const FIELDS = [
   { key: 'Name',        label: 'Name',         vis: true,  sortable: true,  fmt: 'text' },
@@ -658,7 +663,6 @@ function applyFilters() {
   filtered = allData.filter(item => {
     if (rar && item.Rarity !== rar) return false;
     if (typ && item.EquipType !== typ) return false;
-    if (activeMissingField && !isMissing(item[activeMissingField]) === true) return false;
     if (activeMissingField && !getMissingFields(item).includes(activeMissingField)) return false;
     if (miss === 'any' && getMissingFields(item).length === 0) return false;
     if (miss === 'complete' && getMissingFields(item).length > 0) return false;
@@ -791,7 +795,9 @@ document.getElementById('highlightCheck').addEventListener('change', function() 
 
 /* ── INIT ────────────────────────────────────────────────── */
 function init(data) {
-  allData = Object.entries(data).map(([key, item]) => ({ _key: key, ...item }));
+  allData = Array.isArray(data)
+  ? data
+  : Object.entries(data).map(([key, item]) => ({ _key: key, ...item }));
   document.getElementById('loadingState').classList.add('hidden');
   populateDropdowns();
   renderColToggles();
@@ -831,6 +837,8 @@ fetch(JSON_URL)
     es.classList.remove('hidden');
     document.getElementById('errorMsg').textContent =
       `Failed to load: ${err.message}`;
+      console.log("DATA TYPE:", Array.isArray(data) ? "ARRAY" : "OBJECT");
+      console.log("SAMPLE:", data);
   });
 </script>
 </body>

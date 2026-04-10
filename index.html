@@ -384,7 +384,6 @@ td img {
   object-fit: contain;
   background: var(--bg4);
   border-radius: 6px;
-  display: none;
 }
 
 /* ── EXPORT ──────────────────────────────── */
@@ -648,7 +647,7 @@ case 'img': {
     break;
   }
 
-  html = `<img data-name="${esc(name)}" data-src="${esc(name)}" alt="${esc(name)}" loading="lazy" style="display:none;">`;
+  html = `<img data-name="${esc(name)}" data-src="${esc(name)}" alt="${esc(name)}" loading="lazy">`;
   break;
 }
     default:
@@ -769,17 +768,24 @@ async function hydrateImages() {
 
     if (imageCache[name]) {
       img.src = imageCache[name];
+      img.style.display = "block";
       continue;
     }
 
-    const url = await getWikiImage(name);
+    try {
+      const url = await getWikiImage(name);
 
-    console.log("Image lookup:", name, url);
+      console.log("Image lookup:", name, url);
 
-    if (url) {
-      imageCache[name] = url;
-      img.src = url;
-    } else {
+      if (url) {
+        imageCache[name] = url;
+        img.src = url;
+        img.style.display = "block";
+      } else {
+        img.remove();
+      }
+    } catch (e) {
+      console.warn("Failed image:", name, e);
       img.remove();
     }
   }

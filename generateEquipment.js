@@ -273,22 +273,8 @@ async function main() {
   const count = Object.keys(data).length;
   console.log(`Parsed ${count} equipment entries.`);
 
-const version = Date.now();
-
-// write versioned file
-fs.writeFileSync(
-  `equipment-${version}.json`,
-  JSON.stringify(data, null, 2)
-);
-
-// write pointer file
-fs.writeFileSync(
-  "latest.json",
-  JSON.stringify({ version }, null, 2)
-);
-
-console.log(`✓ equipment-${version}.json written`);
-console.log("✓ latest.json updated");
+  fs.writeFileSync("equipment.json", JSON.stringify(data, null, 2));
+  console.log("✓ equipment.json written successfully!");
 }
 
 main();

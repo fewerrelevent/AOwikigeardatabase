@@ -36,7 +36,6 @@
   --rare-boss:      #fb923c;
   --rare-halloween: #f97316;
   --rare-headless:  #ef4444;
-  
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -50,9 +49,7 @@ body {
   line-height: 1.5;
 }
 
-.hidden {
-  display: none !important;
-}
+.hidden { display: none !important; }
 
 /* ── HEADER ─────────────────────────────── */
 header {
@@ -165,7 +162,6 @@ select { cursor: pointer; padding-right: 26px; background-image: url("data:image
   border-bottom: 1px solid var(--border);
 }
 
-/* Missing field checklist */
 .field-row {
   display: flex;
   align-items: center;
@@ -198,7 +194,6 @@ select { cursor: pointer; padding-right: 26px; background-image: url("data:image
 }
 .field-row.active .field-count { background: var(--missing); color: white; }
 
-/* Column vis checkboxes */
 .col-check {
   display: flex;
   align-items: center;
@@ -267,7 +262,6 @@ tbody tr {
   transition: background 0.1s;
 }
 tbody tr:hover { background: var(--bg3); }
-/* highlight row if it has missing fields */
 tbody tr.has-missing { border-left: 2px solid var(--missing); }
 tbody tr.has-missing:hover { background: var(--miss-bg); }
 
@@ -279,7 +273,6 @@ td {
 }
 td:last-child { border-right: none; }
 
-/* Missing cell styling */
 td.cell-missing {
   background: var(--miss-bg);
   color: var(--missing);
@@ -297,7 +290,6 @@ td img {
   padding: 3px;
 }
 
-/* Rarity badges */
 .badge {
   display: inline-block;
   padding: 2px 8px;
@@ -325,7 +317,7 @@ body.highlight-missing td.cell-missing {
   box-shadow: inset 0 0 0 1px var(--miss-bdr);
 }
 
-/* ── TOOLBAR (bottom) ────────────────────── */
+/* ── FOOTER ──────────────────────────────── */
 #footer {
   display: flex;
   align-items: center;
@@ -378,15 +370,6 @@ body.highlight-missing td.cell-missing {
 .dot:nth-child(3) { animation-delay: .36s; }
 @keyframes pulse { 0%,80%,100% { opacity: .15; } 40% { opacity: 1; } }
 
-td img {
-  width: 44px;
-  height: 44px;
-  object-fit: contain;
-  background: var(--bg4);
-  border-radius: 6px;
-}
-
-/* ── EXPORT ──────────────────────────────── */
 .action-btn {
   background: transparent;
   border: 1px solid var(--border2);
@@ -404,7 +387,6 @@ td img {
 }
 .action-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
 
-/* ── MISSING PANEL TOGGLE ─────────────────── */
 #missingToggle {
   display: flex;
   align-items: center;
@@ -476,7 +458,7 @@ td img {
     <div id="tableArea">
       <div class="state-screen" id="loadingState">
         <div style="display:flex;gap:6px;"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-        <p>Loading equipment.json…</p>
+        <p id="loadingMsg">Refreshing data from wiki…</p>
       </div>
       <div class="state-screen error hidden" id="errorState">
         <div class="icon">⚠</div>
@@ -505,37 +487,6 @@ td img {
 
 <script>
 /* ── CONFIG ──────────────────────────────────────────────── */
-async function loadData() {
-  try {
-    // step 1: get latest version
-    const metaRes = await fetch('https://aowikigeardatabase.pages.dev/latest.json', {
-      cache: "no-store"
-    });
-    const meta = await metaRes.json();
-
-    // step 2: fetch versioned data file
-    const dataRes = await fetch(
-      `https://aowikigeardatabase.pages.dev/equipment-${meta.version}.json`,
-      { cache: "no-store" }
-    );
-
-    if (!dataRes.ok) throw new Error(`HTTP ${dataRes.status}`);
-
-    const data = await dataRes.json();
-    init(data);
-
-  } catch (err) {
-    console.error('FETCH ERROR:', err);
-    document.getElementById('loadingState').classList.add('hidden');
-    const es = document.getElementById('errorState');
-    es.classList.remove('hidden');
-    document.getElementById('errorMsg').textContent =
-      `Failed to load: ${err.message}`;
-  }
-}
-
-loadData();
-
 const FIELDS = [
   { key: 'Name',        label: 'Name',         vis: true,  sortable: true,  fmt: 'text' },
   { key: 'EquipType',   label: 'Type',          vis: true,  sortable: true,  fmt: 'text' },
@@ -556,7 +507,8 @@ let allData = [];
 let filtered = [];
 let sortCol = 'Name', sortDir = 1;
 let page = 0;
-let activeMissingField = null; // sidebar filter
+let activeMissingField = null;
+const imageCache = new Map();
 
 /* ── UTILITIES ───────────────────────────────────────────── */
 function esc(s) {
@@ -578,48 +530,39 @@ async function getWikiImage(title) {
   if (imageCache.has(title)) return imageCache.get(title);
 
   try {
-    // Step 1: search for the correct page
     const searchRes = await fetch(
       `https://roblox-arcane-odyssey.fandom.com/api.php?action=query&list=search&srsearch=${encodeURIComponent(title)}&format=json&origin=*`
     );
     const searchData = await searchRes.json();
-    const page = searchData.query.search[0];
+    const pg = searchData.query.search[0];
+    if (!pg) return null;
 
-    if (!page) return null;
-
-    // Step 2: get page images
     const imgRes = await fetch(
-      `https://roblox-arcane-odyssey.fandom.com/api.php?action=query&prop=images&titles=${encodeURIComponent(page.title)}&format=json&origin=*`
+      `https://roblox-arcane-odyssey.fandom.com/api.php?action=query&prop=images&titles=${encodeURIComponent(pg.title)}&format=json&origin=*`
     );
     const imgData = await imgRes.json();
     const pageId = Object.keys(imgData.query.pages)[0];
     const images = imgData.query.pages[pageId].images;
-
     if (!images || !images.length) return null;
 
-    // Step 3: pick a relevant image (skip icons/logos)
     const fileName = images
       .map(img => img.title)
       .find(name =>
-  name.toLowerCase().endsWith('.png') &&
-  !name.toLowerCase().includes('map') &&
-  !name.toLowerCase().includes('ui')
-);
-
+        name.toLowerCase().endsWith('.png') &&
+        !name.toLowerCase().includes('map') &&
+        !name.toLowerCase().includes('ui')
+      );
     if (!fileName) return null;
 
-    // Step 4: get actual image URL
     const fileRes = await fetch(
       `https://roblox-arcane-odyssey.fandom.com/api.php?action=query&titles=${encodeURIComponent(fileName)}&prop=imageinfo&iiprop=url&format=json&origin=*`
     );
     const fileData = await fileRes.json();
     const filePage = Object.values(fileData.query.pages)[0];
-
     const url = filePage.imageinfo?.[0]?.url || null;
 
     imageCache.set(title, url);
     return url;
-
   } catch (err) {
     console.error("Image fetch failed:", title, err);
     return null;
@@ -637,7 +580,6 @@ function fmtKV(o) {
   if (!o || !Object.keys(o).length) return null;
   return Object.entries(o).map(([k,v]) => `Lv ${esc(k)}: ${esc(v)}`).join('<br>');
 }
-
 function fmtObj(o) {
   if (!o || !Object.keys(o).length) return null;
   return Object.values(o).map(v => esc(String(v))).join('<br>');
@@ -656,22 +598,12 @@ function renderCell(field, item) {
     case 'stats':  html = fmtStats(v);    break;
     case 'kv':     html = fmtKV(v);       break;
     case 'obj':    html = fmtObj(v);      break;
-
-case 'img': {
-  const name = item.Name;
-
-  html = `
-    <img 
-      data-name="${esc(name)}"
-      alt="${esc(name)}"
-      loading="lazy"
-      src=""
-      onerror="this.style.display='none'; this.insertAdjacentHTML('afterend','<div style=&quot;color:#ff4d4d;font-size:11px;&quot;>Failed</div>');"
-    >
-  `;
-  break;
-}
-
+    case 'img': {
+      const name = item.Name;
+      html = `<img data-name="${esc(name)}" alt="${esc(name)}" loading="lazy" src=""
+        onerror="this.style.display='none';">`;
+      break;
+    }
     default:
       html = isMissing(v) ? null : esc(v);
   }
@@ -782,7 +714,6 @@ function applyFilters() {
   renderTable();
 }
 
-
 /* ── TABLE ───────────────────────────────────────────────── */
 function renderTable() {
   const visCols = FIELDS.filter(f => f.vis);
@@ -810,7 +741,6 @@ function renderTable() {
   const tbody = document.getElementById('tbody');
   const table = document.getElementById('table');
   const emptyState = document.getElementById('emptyState');
-  const imageCache = new Map();
 
   if (filtered.length === 0) {
     table.classList.add('hidden');
@@ -828,7 +758,6 @@ function renderTable() {
     }).join('');
   }
 
-  // summary
   const showing = Math.min(slice.length, filtered.length);
   document.getElementById('summaryText').textContent =
     `Showing ${showing} of ${filtered.length} items${filtered.length !== allData.length ? ` (${allData.length} total)` : ''}`;
@@ -836,25 +765,18 @@ function renderTable() {
   renderPagination(ps);
 
   setTimeout(() => {
-  document.querySelectorAll('img[data-name]').forEach(async img => {
-    if (img.src) return;
-
-    const name = img.dataset.name;
-
-    try {
-      const url = await getWikiImage(name);
-      if (url) {
-        img.src = url;
-      } else {
+    document.querySelectorAll('img[data-name]').forEach(async img => {
+      if (img.src && img.src !== window.location.href) return;
+      const name = img.dataset.name;
+      try {
+        const url = await getWikiImage(name);
+        if (url) img.src = url;
+        else img.style.display = 'none';
+      } catch (e) {
         img.style.display = 'none';
       }
-    } catch (e) {
-      console.error("Image load error:", name, e);
-      img.style.display = 'none';
-    }
-  });
-}, 0);
-
+    });
+  }, 0);
 }
 
 function renderPagination(ps) {
@@ -922,8 +844,8 @@ document.getElementById('highlightCheck').addEventListener('change', function() 
 /* ── INIT ────────────────────────────────────────────────── */
 async function init(data) {
   allData = Array.isArray(data)
-  ? data
-  : Object.entries(data).map(([key, item]) => ({ _key: key, ...item }));
+    ? data
+    : Object.entries(data).map(([key, item]) => ({ _key: key, ...item }));
   document.getElementById('loadingState').classList.add('hidden');
   populateDropdowns();
   renderColToggles();
@@ -946,25 +868,35 @@ async function init(data) {
   });
 }
 
-fetch(JSON_URL)
-  .then(r => {
-    console.log('Fetch response:', r);
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    return r.json();
-  })
-  .then(data => {
-    console.log('Data loaded:', data);
+/* ── LOAD DATA (refresh first, then fetch equipment.json) ── */
+async function loadData() {
+  try {
+    // Step 1: trigger scraper and wait for it to finish
+    document.getElementById('loadingMsg').textContent = 'Refreshing data from wiki…';
+    const refreshRes = await fetch('/refresh');
+    if (!refreshRes.ok) {
+      const body = await refreshRes.json().catch(() => ({}));
+      throw new Error(body.error || `Refresh failed (HTTP ${refreshRes.status})`);
+    }
+
+    // Step 2: load the freshly written equipment.json
+    document.getElementById('loadingMsg').textContent = 'Loading equipment.json…';
+    const dataRes = await fetch('/equipment.json', { cache: 'no-store' });
+    if (!dataRes.ok) throw new Error(`HTTP ${dataRes.status}`);
+
+    const data = await dataRes.json();
     init(data);
-  })
-  .catch(err => {
-    console.error('FETCH ERROR:', err);
+
+  } catch (err) {
+    console.error('Load error:', err);
     document.getElementById('loadingState').classList.add('hidden');
     const es = document.getElementById('errorState');
     es.classList.remove('hidden');
-    document.getElementById('errorMsg').textContent =
-      `Failed to load: ${err.message}`;
-     console.log("No data object available in catch block.");
-  });
+    document.getElementById('errorMsg').textContent = `Failed to load: ${err.message}`;
+  }
+}
+
+loadData();
 </script>
 </body>
 </html>

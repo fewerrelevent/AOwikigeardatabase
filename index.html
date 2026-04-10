@@ -573,28 +573,6 @@ function fmtKV(o) {
   return Object.entries(o).map(([k,v]) => `Lv ${esc(k)}: ${esc(v)}`).join('<br>');
 }
 
-const WIKI_API = "https://roblox-arcane-odyssey.fandom.com/api.php";
-
-async function getWikiImage(title) {
-  try {
-    const url =
-      `${WIKI_API}?action=query&format=json&origin=*&prop=pageimages&piprop=thumbnail&pithumbsize=400&titles=${encodeURIComponent(title)}`;
-
-    const res = await fetch(url);
-    const data = await res.json();
-
-    const pages = data?.query?.pages;
-    if (!pages) return null;
-
-    const page = Object.values(pages)[0];
-    return page?.thumbnail?.source || null;
-
-  } catch (e) {
-    console.error("Wiki image error:", title, e);
-    return null;
-  }
-}
-
 function fmtObj(o) {
   if (!o || !Object.keys(o).length) return null;
   return Object.values(o).map(v => esc(String(v))).join('<br>');
@@ -603,10 +581,46 @@ function rarityBadge(r) {
   if (!r) return null;
   const cls = esc(r.replace(/\s+/g,''));
   return `<span class="badge r-${cls}">${esc(r)}</span>`;
-
+}
 function renderCell(field, item) {
   const v = item[field.key];
   let html = null;
+
+  switch (field.fmt) {
+    case 'rarity': html = rarityBadge(v); break;
+    case 'stats':  html = fmtStats(v);    break;
+    case 'kv':     html = fmtKV(v);       break;
+    case 'obj':    html = fmtObj(v);      break;
+
+    case 'img': {
+      const url = item.Image;
+
+      if (!url) {
+        html = `<div style="color:#ff4d4d;font-size:11px;">No wiki image found</div>`;
+        break;
+      }
+
+      html = `
+        <img 
+          src="${esc(url)}" 
+          alt="${esc(item.Name || '')}" 
+          loading="lazy"
+          onerror="this.style.display='none'; this.insertAdjacentHTML('afterend','<div style=&quot;color:#ff4d4d;font-size:11px;&quot;>Failed to load</div>');"
+        >
+      `;
+      break;
+    }
+
+    default:
+      html = isMissing(v) ? null : esc(v);
+  }
+
+  const missing = isMissing(v);
+  return {
+    tdClass: missing ? ' class="cell-missing"' : '',
+    content: missing ? '—' : (html ?? esc(v))
+  };
+}
 
   switch (field.fmt) {
     case 'rarity': html = rarityBadge(v); break;
@@ -766,7 +780,6 @@ function renderTable() {
   } else {
     emptyState.classList.add('hidden');
     table.classList.remove('hidden');
-    const hasMissingAny = getMissingFields;
     tbody.innerHTML = slice.map(item => {
       const missing = getMissingFields(item);
       const rowClass = missing.length ? ' class="has-missing"' : '';
@@ -911,6 +924,7 @@ fetch(JSON_URL)
       `Failed to load: ${err.message}`;
      console.log("No data object available in catch block.");
   });
+  }
 </script>
 </body>
 </html>

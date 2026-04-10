@@ -1,0 +1,11 @@
+{
+  "name": "ao-equipment-viewer",
+  "version": "2.0.0",
+  "description": "Arcane Odyssey equipment database viewer for wiki editors",
+  "scripts": {
+    "fetch": "node generateEquipment.js",
+    "start": "node server.js",
+    "go": "node generateEquipment.js && node server.js"
+  },
+  "dependencies": {}
+}

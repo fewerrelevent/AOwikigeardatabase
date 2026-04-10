@@ -1,173 +1,838 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Arcane Odyssey Equipment Viewer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arcane Odyssey — Equipment Database</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-  body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    margin: 20px;
-    background: #f4f6f8;
-    color: #222;
-  }
+:root {
+  --bg:        #0d0f14;
+  --bg2:       #13161e;
+  --bg3:       #1a1e2a;
+  --bg4:       #222636;
+  --border:    rgba(255,255,255,0.07);
+  --border2:   rgba(255,255,255,0.13);
+  --gold:      #c9a84c;
+  --gold-dim:  #8a6e2e;
+  --gold-glow: rgba(201,168,76,0.15);
+  --text:      #e2e0d8;
+  --text-dim:  #8a8880;
+  --text-faint:#4a4845;
+  --missing:   #ff4d4d;
+  --miss-bg:   rgba(255,77,77,0.08);
+  --miss-bdr:  rgba(255,77,77,0.25);
+  --ok:        #4caf7d;
+  --ok-bg:     rgba(76,175,125,0.08);
+  --warn:      #e5a03a;
+  --warn-bg:   rgba(229,160,58,0.08);
+  --rare-common:    #8a8880;
+  --rare-uncommon:  #4caf7d;
+  --rare-rare:      #5b9bd5;
+  --rare-exotic:    #a78bfa;
+  --rare-seasonal:  #f472b6;
+  --rare-legendary: #c9a84c;
+  --rare-sunken:    #22d3ee;
+  --rare-boss:      #fb923c;
+  --rare-halloween: #f97316;
+  --rare-headless:  #ef4444;
+}
 
-  h1 {
-    margin-bottom: 5px;
-  }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background: white;
-    font-size: 14px;
-  }
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  font-size: 14px;
+  line-height: 1.5;
+}
 
-  thead {
-    background: #1f2937;
-    color: white;
-    position: sticky;
-    top: 0;
-  }
+/* ── HEADER ─────────────────────────────── */
+header {
+  background: linear-gradient(180deg, #0a0c10 0%, var(--bg) 100%);
+  border-bottom: 1px solid var(--border2);
+  padding: 18px 24px 14px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
-  th, td {
-    padding: 8px 10px;
-    border: 1px solid #e5e7eb;
-    vertical-align: top;
-    text-align: left;
-  }
+.logo {
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.logo span { font-weight: 400; color: var(--text-dim); font-size: 13px; display: block; font-family: 'Source Sans 3', sans-serif; letter-spacing: 0; margin-top: 1px; }
 
-  th {
-    font-weight: 600;
-  }
+.header-controls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
+  align-items: center;
+}
 
-  tbody tr:nth-child(even) {
-    background: #f9fafb;
-  }
+input[type=text], select {
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: 6px;
+  color: var(--text);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 13px;
+  padding: 6px 10px;
+  height: 34px;
+  outline: none;
+  transition: border-color 0.15s;
+  appearance: none;
+  -webkit-appearance: none;
+}
+input[type=text]:focus, select:focus { border-color: var(--gold-dim); }
+input[type=text] { flex: 1; min-width: 160px; }
+select { cursor: pointer; padding-right: 26px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238a8880'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 8px center; }
 
-  tbody tr:hover {
-    background: #eef2f7;
-  }
+/* ── STATS BAR ───────────────────────────── */
+#statsBar {
+  display: flex;
+  gap: 0;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: none;
+  flex-shrink: 0;
+}
+#statsBar::-webkit-scrollbar { display: none; }
 
-  td img {
-    max-width: 60px;
-    max-height: 60px;
-    display: block;
-    margin: auto;
-  }
+.stat-pill {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border-right: 1px solid var(--border);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.stat-pill:last-child { border-right: none; }
+.stat-pill .val { font-size: 22px; font-weight: 600; font-family: 'Cinzel', serif; line-height: 1; }
+.stat-pill .lbl { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.06em; }
+.stat-pill.danger .val { color: var(--missing); }
+.stat-pill.warn .val   { color: var(--warn); }
+.stat-pill.ok .val     { color: var(--ok); }
+.stat-pill.gold .val   { color: var(--gold); }
 
-  .no-info {
-    color: #888;
-    font-style: italic;
-  }
+/* ── LAYOUT ──────────────────────────────── */
+#layout {
+  display: flex;
+  height: calc(100vh - 110px);
+  overflow: hidden;
+}
 
-  .multi-line {
-    line-height: 1.4em;
-  }
+/* ── SIDEBAR ─────────────────────────────── */
+#sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background: var(--bg2);
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 14px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg4) transparent;
+}
+
+.sidebar-section { margin-bottom: 18px; }
+.sidebar-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-faint);
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Missing field checklist */
+.field-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.12s;
+  gap: 6px;
+}
+.field-row:hover { background: var(--bg3); }
+.field-row.active { background: var(--miss-bg); border: 1px solid var(--miss-bdr); }
+.field-row label {
+  font-size: 12px;
+  color: var(--text-dim);
+  cursor: pointer;
+  flex: 1;
+  user-select: none;
+}
+.field-row.active label { color: var(--missing); }
+.field-count {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-faint);
+  background: var(--bg4);
+  border-radius: 99px;
+  padding: 1px 7px;
+  min-width: 24px;
+  text-align: center;
+}
+.field-row.active .field-count { background: var(--missing); color: white; }
+
+/* Column vis checkboxes */
+.col-check {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 3px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.12s;
+}
+.col-check:hover { background: var(--bg3); }
+.col-check label { font-size: 12px; color: var(--text-dim); cursor: pointer; user-select: none; }
+.col-check input[type=checkbox] {
+  width: 13px;
+  height: 13px;
+  accent-color: var(--gold);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* ── TABLE AREA ──────────────────────────── */
+#tableArea {
+  flex: 1;
+  overflow: auto;
+  min-width: 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg4) transparent;
+}
+
+table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+th {
+  background: var(--bg3);
+  border-bottom: 1px solid var(--border2);
+  border-right: 1px solid var(--border);
+  padding: 9px 12px;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-dim);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.12s;
+  text-align: left;
+}
+th:hover { color: var(--gold); }
+th.active { color: var(--gold); }
+th .si { margin-left: 3px; opacity: 0.5; font-size: 9px; }
+th.active .si { opacity: 1; }
+th:last-child { border-right: none; }
+
+tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.1s;
+}
+tbody tr:hover { background: var(--bg3); }
+/* highlight row if it has missing fields */
+tbody tr.has-missing { border-left: 2px solid var(--missing); }
+tbody tr.has-missing:hover { background: var(--miss-bg); }
+
+td {
+  padding: 7px 12px;
+  vertical-align: top;
+  border-right: 1px solid var(--border);
+  max-width: 220px;
+}
+td:last-child { border-right: none; }
+
+/* Missing cell styling */
+td.cell-missing {
+  background: var(--miss-bg);
+  color: var(--missing);
+  font-size: 11px;
+  font-style: italic;
+}
+
+td img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  display: block;
+  border-radius: 6px;
+  background: var(--bg4);
+  padding: 3px;
+}
+
+/* Rarity badges */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+.r-Common    { color: var(--rare-common);    background: rgba(138,136,128,0.12); border: 1px solid rgba(138,136,128,0.25); }
+.r-Uncommon  { color: var(--rare-uncommon);  background: rgba(76,175,125,0.12);  border: 1px solid rgba(76,175,125,0.25); }
+.r-Rare      { color: var(--rare-rare);      background: rgba(91,155,213,0.12);  border: 1px solid rgba(91,155,213,0.25); }
+.r-Exotic    { color: var(--rare-exotic);    background: rgba(167,139,250,0.12); border: 1px solid rgba(167,139,250,0.25); }
+.r-Seasonal  { color: var(--rare-seasonal);  background: rgba(244,114,182,0.12); border: 1px solid rgba(244,114,182,0.25); }
+.r-Legendary { color: var(--rare-legendary); background: rgba(201,168,76,0.12);  border: 1px solid rgba(201,168,76,0.3); }
+.r-Sunken    { color: var(--rare-sunken);    background: rgba(34,211,238,0.10);  border: 1px solid rgba(34,211,238,0.25); }
+.r-Boss      { color: var(--rare-boss);      background: rgba(251,146,60,0.12);  border: 1px solid rgba(251,146,60,0.25); }
+.r-Halloween { color: var(--rare-halloween); background: rgba(249,115,22,0.12);  border: 1px solid rgba(249,115,22,0.25); }
+.r-Headless  { color: var(--rare-headless);  background: rgba(239,68,68,0.12);   border: 1px solid rgba(239,68,68,0.25); }
+
+.multi { line-height: 1.65; white-space: pre-wrap; word-break: break-word; }
+
+/* ── MISSING HIGHLIGHT MODE ─────────────── */
+body.highlight-missing td.cell-missing {
+  box-shadow: inset 0 0 0 1px var(--miss-bdr);
+}
+
+/* ── TOOLBAR (bottom) ────────────────────── */
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  background: var(--bg2);
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text-dim);
+  flex-shrink: 0;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#pagination {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.pg-btn {
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: 5px;
+  color: var(--text-dim);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: border-color 0.12s, color 0.12s;
+}
+.pg-btn:hover:not(:disabled) { border-color: var(--gold-dim); color: var(--gold); }
+.pg-btn:disabled { opacity: 0.35; cursor: default; }
+
+/* ── STATES ──────────────────────────────── */
+.state-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 100%;
+  min-height: 300px;
+}
+.state-screen .icon { font-size: 36px; }
+.state-screen p { color: var(--text-dim); font-size: 13px; }
+.state-screen.error p { color: var(--missing); }
+
+.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--gold); animation: pulse 1s infinite; }
+.dot:nth-child(2) { animation-delay: .18s; }
+.dot:nth-child(3) { animation-delay: .36s; }
+@keyframes pulse { 0%,80%,100% { opacity: .15; } 40% { opacity: 1; } }
+
+/* ── EXPORT ──────────────────────────────── */
+.action-btn {
+  background: transparent;
+  border: 1px solid var(--border2);
+  border-radius: 6px;
+  color: var(--text-dim);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: border-color 0.12s, color 0.12s;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.action-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
+
+/* ── MISSING PANEL TOGGLE ─────────────────── */
+#missingToggle {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: var(--text-dim);
+  cursor: pointer;
+  user-select: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+  transition: background 0.12s;
+}
+#missingToggle:hover { background: var(--bg3); }
+#missingToggle input { accent-color: var(--missing); cursor: pointer; }
+#missingToggle.on { color: var(--missing); }
 </style>
 </head>
 <body>
 
-<h1>Arcane Odyssey Fandom Wiki Database</h1>
-<p>Data does not yet automatically update.</p>
-<div id="armorTable">Loading...</div>
+<header>
+  <div class="logo">
+    Arcane Odyssey
+    <span>Equipment Database · Wiki Editor View</span>
+  </div>
+  <div class="header-controls">
+    <input type="text" id="search" placeholder="Search name, type, rarity…">
+    <select id="rarityFilter"><option value="">All rarities</option></select>
+    <select id="typeFilter"><option value="">All types</option></select>
+    <select id="missingFilter">
+      <option value="">All items</option>
+      <option value="any">Has any missing data</option>
+      <option value="complete">Fully complete</option>
+    </select>
+    <select id="pageSize">
+      <option value="50">50 / page</option>
+      <option value="100">100 / page</option>
+      <option value="25">25 / page</option>
+      <option value="0">All</option>
+    </select>
+  </div>
+</header>
+
+<div id="statsBar">
+  <div class="stat-pill gold"><div class="val" id="s-total">—</div><div class="lbl">Total items</div></div>
+  <div class="stat-pill danger"><div class="val" id="s-incomplete">—</div><div class="lbl">Items with gaps</div></div>
+  <div class="stat-pill warn"><div class="val" id="s-fields">—</div><div class="lbl">Missing fields</div></div>
+  <div class="stat-pill ok"><div class="val" id="s-complete">—</div><div class="lbl">Complete items</div></div>
+  <div class="stat-pill"><div class="val" id="s-pct">—</div><div class="lbl">Completeness</div></div>
+</div>
+
+<div id="layout">
+  <div id="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">Missing by field</div>
+      <div id="fieldList"></div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">
+        <label id="missingToggle"><input type="checkbox" id="highlightCheck"> Highlight missing cells</label>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">Columns</div>
+      <div id="colToggles"></div>
+    </div>
+  </div>
+
+  <div style="flex:1;display:flex;flex-direction:column;min-width:0;overflow:hidden;">
+    <div id="tableArea">
+      <div class="state-screen" id="loadingState">
+        <div style="display:flex;gap:6px;"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+        <p>Loading equipment.json…</p>
+      </div>
+      <div class="state-screen error hidden" id="errorState">
+        <div class="icon">⚠</div>
+        <p id="errorMsg">Failed to load data.</p>
+      </div>
+      <table id="table" class="hidden">
+        <thead><tr id="thead"></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <div class="state-screen hidden" id="emptyState">
+        <div class="icon">🔍</div>
+        <p>No items match your filters.</p>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div id="summaryText" style="color:var(--text-dim)"></div>
+      <div id="pagination"></div>
+      <div style="display:flex;gap:6px;">
+        <button class="action-btn" id="exportMissing">Export missing CSV</button>
+        <button class="action-btn" id="exportAll">Export all CSV</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
-document.addEventListener("DOMContentLoaded", () => {
+/* ── CONFIG ──────────────────────────────────────────────── */
+const JSON_URL = 'equipment.json';
 
-  const jsonURL = "equipment.json";
-  const container = document.getElementById("armorTable");
+const FIELDS = [
+  { key: 'Name',        label: 'Name',         vis: true,  sortable: true,  fmt: 'text' },
+  { key: 'EquipType',   label: 'Type',          vis: true,  sortable: true,  fmt: 'text' },
+  { key: 'MinLevel',    label: 'Min Lv',        vis: true,  sortable: true,  fmt: 'num'  },
+  { key: 'MaxLevel',    label: 'Max Lv',        vis: true,  sortable: true,  fmt: 'num'  },
+  { key: 'Rarity',      label: 'Rarity',        vis: true,  sortable: true,  fmt: 'rarity' },
+  { key: 'StatType',    label: 'Stat Type',     vis: true,  sortable: true,  fmt: 'text' },
+  { key: 'Stats',       label: 'Stats',         vis: true,  sortable: false, fmt: 'stats' },
+  { key: 'WorthValues', label: 'Worth',         vis: false, sortable: false, fmt: 'kv'   },
+  { key: 'ObtainedBy',  label: 'Obtained By',   vis: true,  sortable: false, fmt: 'obj'  },
+  { key: 'Variations',  label: 'Variations',    vis: false, sortable: false, fmt: 'obj'  },
+  { key: 'Description', label: 'Description',   vis: false, sortable: false, fmt: 'text' },
+  { key: 'Image',       label: 'Image',         vis: true,  sortable: false, fmt: 'img'  },
+];
 
-  const NO_INFO = "<span class='no-info'>No Info Available</span>";
+/* ── STATE ───────────────────────────────────────────────── */
+let allData = [];
+let filtered = [];
+let sortCol = 'Name', sortDir = 1;
+let page = 0;
+let activeMissingField = null; // sidebar filter
 
-  function safeValue(value) {
-    if (value === undefined || value === null || value === "" ||
-        (typeof value === "object" && Object.keys(value).length === 0)) {
-      return NO_INFO;
-    }
-    return value;
+/* ── UTILITIES ───────────────────────────────────────────── */
+function esc(s) {
+  return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function isMissing(v) {
+  if (v === undefined || v === null || v === '') return true;
+  if (typeof v === 'object' && Object.keys(v).length === 0) return true;
+  return false;
+}
+
+function getMissingFields(item) {
+  return FIELDS.filter(f => f.key !== 'Image' && isMissing(item[f.key])).map(f => f.key);
+}
+
+/* ── FORMATTERS ──────────────────────────────────────────── */
+function fmtStats(s) {
+  if (!s || !Object.keys(s).length) return null;
+  return Object.entries(s)
+    .map(([k,v]) => `<b>${esc(k)}</b>: ${Object.entries(v).map(([a,b])=>`${esc(a)} ${esc(b)}`).join(', ')}`)
+    .join('<br>');
+}
+function fmtKV(o) {
+  if (!o || !Object.keys(o).length) return null;
+  return Object.entries(o).map(([k,v]) => `Lv ${esc(k)}: ${esc(v)}`).join('<br>');
+}
+function fmtObj(o) {
+  if (!o || !Object.keys(o).length) return null;
+  return Object.values(o).map(v => esc(String(v))).join('<br>');
+}
+function rarityBadge(r) {
+  if (!r) return null;
+  const cls = esc(r.replace(/\s+/g,''));
+  return `<span class="badge r-${cls}">${esc(r)}</span>`;
+}
+
+function renderCell(field, item) {
+  const v = item[field.key];
+  let html = null;
+
+  switch (field.fmt) {
+    case 'rarity': html = rarityBadge(v); break;
+    case 'stats':  html = fmtStats(v);    break;
+    case 'kv':     html = fmtKV(v);       break;
+    case 'obj':    html = fmtObj(v);      break;
+    case 'img':
+      html = v ? `<img src="${esc(v)}" alt="${esc(item.Name||'')}" loading="lazy">` : null;
+      break;
+    default:
+      html = isMissing(v) ? null : esc(String(v));
   }
 
-  function formatStats(stats) {
-    if (!stats || Object.keys(stats).length === 0) return NO_INFO;
+  const missing = html === null;
+  const tdClass = missing ? ' class="cell-missing"' : '';
+  const content = missing ? '✗ missing' : `<div class="multi">${html}</div>`;
+  return { tdClass, content };
+}
 
-    return Object.entries(stats)
-      .map(([stat, values]) =>
-        `${stat}: ${Object.entries(values)
-          .map(([k,v]) => `${k} ${v}`)
-          .join(", ")}`
-      )
-      .join("<br>");
-  }
+/* ── SIDEBAR: MISSING BY FIELD ───────────────────────────── */
+function buildFieldCounts() {
+  const counts = {};
+  FIELDS.forEach(f => { if (f.key !== 'Image') counts[f.key] = 0; });
+  allData.forEach(item => {
+    getMissingFields(item).forEach(k => { if (counts[k] !== undefined) counts[k]++; });
+  });
+  return counts;
+}
 
-  function formatWorth(obj) {
-    if (!obj || Object.keys(obj).length === 0) return NO_INFO;
-
-    return Object.entries(obj)
-      .map(([lvl,val]) => `Lv ${lvl}: ${val}`)
-      .join("<br>");
-  }
-
-  function formatObject(obj) {
-    if (!obj || Object.keys(obj).length === 0) return NO_INFO;
-
-    return Object.values(obj).join("<br>");
-  }
-
-  fetch(jsonURL)
-    .then(res => {
-      if (!res.ok) throw new Error("HTTP error " + res.status);
-      return res.json();
-    })
-    .then(data => {
-
-      let html = "<table><thead><tr>";
-
-      const headers = [
-        "Key","Name","EquipType","MinLevel","MaxLevel",
-        "Rarity","StatType","Stats","WorthValues",
-        "ObtainedBy","Variations","Description","Image"
-      ];
-
-      headers.forEach(h => html += `<th>${h}</th>`);
-      html += "</tr></thead><tbody>";
-
-      for (let key in data) {
-        const item = data[key];
-        html += "<tr>";
-
-        html += `<td>${key}</td>`;
-        html += `<td>${safeValue(item.Name)}</td>`;
-        html += `<td>${safeValue(item.EquipType)}</td>`;
-        html += `<td>${safeValue(item.MinLevel)}</td>`;
-        html += `<td>${safeValue(item.MaxLevel)}</td>`;
-        html += `<td>${safeValue(item.Rarity)}</td>`;
-        html += `<td>${safeValue(item.StatType)}</td>`;
-        html += `<td class="multi-line">${formatStats(item.Stats)}</td>`;
-        html += `<td class="multi-line">${formatWorth(item.WorthValues)}</td>`;
-        html += `<td class="multi-line">${formatObject(item.ObtainedBy)}</td>`;
-        html += `<td>${safeValue(item.Variations)}</td>`;
-        html += `<td>${safeValue(item.Description)}</td>`;
-
-        const img = item.Image
-          ? `<img src="${item.Image}" alt="${item.Name}">`
-          : NO_INFO;
-
-        html += `<td>${img}</td>`;
-
-        html += "</tr>";
-      }
-
-      html += "</tbody></table>";
-      container.innerHTML = html;
-
-    })
-    .catch(err => {
-      console.error(err);
-      container.innerHTML =
-        "<p style='color:red;'>Failed to load data.</p>";
+function renderFieldList() {
+  const counts = buildFieldCounts();
+  const el = document.getElementById('fieldList');
+  el.innerHTML = '';
+  FIELDS.filter(f => f.key !== 'Image').forEach(f => {
+    const n = counts[f.key] || 0;
+    const row = document.createElement('div');
+    row.className = 'field-row' + (activeMissingField === f.key ? ' active' : '');
+    row.dataset.key = f.key;
+    row.innerHTML = `<label>${f.label}</label><span class="field-count">${n}</span>`;
+    row.addEventListener('click', () => {
+      activeMissingField = activeMissingField === f.key ? null : f.key;
+      renderFieldList();
+      page = 0;
+      applyFilters();
     });
+    el.appendChild(row);
+  });
+}
 
+/* ── COL TOGGLES ─────────────────────────────────────────── */
+function renderColToggles() {
+  const el = document.getElementById('colToggles');
+  el.innerHTML = '';
+  FIELDS.forEach(f => {
+    const wrap = document.createElement('div');
+    wrap.className = 'col-check';
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = f.vis;
+    cb.id = 'col_' + f.key;
+    cb.addEventListener('change', () => { f.vis = cb.checked; renderTable(); });
+    const lbl = document.createElement('label');
+    lbl.htmlFor = 'col_' + f.key;
+    lbl.textContent = f.label;
+    wrap.appendChild(cb);
+    wrap.appendChild(lbl);
+    el.appendChild(wrap);
+  });
+}
+
+/* ── STATS BAR ───────────────────────────────────────────── */
+function updateStats() {
+  const total = allData.length;
+  const incomplete = allData.filter(i => getMissingFields(i).length > 0).length;
+  const complete = total - incomplete;
+  const totalMissing = allData.reduce((acc, i) => acc + getMissingFields(i).length, 0);
+  const pct = total ? Math.round((complete / total) * 100) : 0;
+  document.getElementById('s-total').textContent = total.toLocaleString();
+  document.getElementById('s-incomplete').textContent = incomplete.toLocaleString();
+  document.getElementById('s-fields').textContent = totalMissing.toLocaleString();
+  document.getElementById('s-complete').textContent = complete.toLocaleString();
+  document.getElementById('s-pct').textContent = pct + '%';
+}
+
+/* ── FILTERS & SORT ──────────────────────────────────────── */
+function applyFilters() {
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  const rar = document.getElementById('rarityFilter').value;
+  const typ = document.getElementById('typeFilter').value;
+  const miss = document.getElementById('missingFilter').value;
+
+  const cmp = (a, b) => {
+    let av = a[sortCol], bv = b[sortCol];
+    if (isMissing(av)) av = '';
+    if (isMissing(bv)) bv = '';
+    const an = parseFloat(av), bn = parseFloat(bv);
+    if (!isNaN(an) && !isNaN(bn)) return (an - bn) * sortDir;
+    return String(av).localeCompare(String(bv)) * sortDir;
+  };
+
+  filtered = allData.filter(item => {
+    if (rar && item.Rarity !== rar) return false;
+    if (typ && item.EquipType !== typ) return false;
+    if (activeMissingField && !isMissing(item[activeMissingField]) === true) return false;
+    if (activeMissingField && !getMissingFields(item).includes(activeMissingField)) return false;
+    if (miss === 'any' && getMissingFields(item).length === 0) return false;
+    if (miss === 'complete' && getMissingFields(item).length > 0) return false;
+    if (q) {
+      const hay = [item.Name, item.Rarity, item.EquipType, item.StatType, item.Description]
+        .map(v => String(v || '').toLowerCase()).join(' ');
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }).sort(cmp);
+
+  page = 0;
+  renderTable();
+}
+
+/* ── TABLE ───────────────────────────────────────────────── */
+function renderTable() {
+  const visCols = FIELDS.filter(f => f.vis);
+  const thead = document.getElementById('thead');
+  thead.innerHTML = visCols.map(f => {
+    const active = f.key === sortCol;
+    const icon = active ? (sortDir === 1 ? '▲' : '▼') : '⇅';
+    return `<th class="${active ? 'active' : ''}" data-col="${f.key}" ${f.sortable ? '' : 'style="cursor:default"'}>
+      ${f.label}${f.sortable ? `<span class="si">${icon}</span>` : ''}
+    </th>`;
+  }).join('');
+  thead.querySelectorAll('th[data-col]').forEach(th => {
+    const f = FIELDS.find(c => c.key === th.dataset.col);
+    if (f && f.sortable) {
+      th.addEventListener('click', () => {
+        if (sortCol === f.key) sortDir *= -1; else { sortCol = f.key; sortDir = 1; }
+        page = 0; applyFilters();
+      });
+    }
+  });
+
+  const ps = parseInt(document.getElementById('pageSize').value) || 0;
+  const slice = ps === 0 ? filtered : filtered.slice(page * ps, (page + 1) * ps);
+
+  const tbody = document.getElementById('tbody');
+  const table = document.getElementById('table');
+  const emptyState = document.getElementById('emptyState');
+
+  if (filtered.length === 0) {
+    table.classList.add('hidden');
+    emptyState.classList.remove('hidden');
+  } else {
+    emptyState.classList.add('hidden');
+    table.classList.remove('hidden');
+    const hasMissingAny = getMissingFields;
+    tbody.innerHTML = slice.map(item => {
+      const missing = getMissingFields(item);
+      const rowClass = missing.length ? ' class="has-missing"' : '';
+      return `<tr${rowClass}>${visCols.map(f => {
+        const { tdClass, content } = renderCell(f, item);
+        return `<td${tdClass}>${content}</td>`;
+      }).join('')}</tr>`;
+    }).join('');
+  }
+
+  // summary
+  const showing = Math.min(slice.length, filtered.length);
+  document.getElementById('summaryText').textContent =
+    `Showing ${showing} of ${filtered.length} items${filtered.length !== allData.length ? ` (${allData.length} total)` : ''}`;
+
+  renderPagination(ps);
+}
+
+function renderPagination(ps) {
+  const el = document.getElementById('pagination');
+  if (ps === 0 || filtered.length <= ps) { el.innerHTML = ''; return; }
+  const pages = Math.ceil(filtered.length / ps);
+  const btn = (label, target, disabled) => {
+    const b = document.createElement('button');
+    b.className = 'pg-btn';
+    b.textContent = label;
+    b.disabled = disabled;
+    if (!disabled) b.addEventListener('click', () => { page = target; renderTable(); });
+    return b;
+  };
+  el.innerHTML = '';
+  el.appendChild(btn('← Prev', page - 1, page === 0));
+  const lbl = document.createElement('span');
+  lbl.textContent = `${page + 1} / ${pages}`;
+  el.appendChild(lbl);
+  el.appendChild(btn('Next →', page + 1, page >= pages - 1));
+}
+
+/* ── POPULATE DROPDOWNS ──────────────────────────────────── */
+function populateDropdowns() {
+  const rarSet = new Set(), typSet = new Set();
+  allData.forEach(i => { if (i.Rarity) rarSet.add(i.Rarity); if (i.EquipType) typSet.add(i.EquipType); });
+  const rarSel = document.getElementById('rarityFilter');
+  const typSel = document.getElementById('typeFilter');
+  [...rarSet].sort().forEach(r => {
+    const o = document.createElement('option'); o.value = r; o.textContent = r; rarSel.appendChild(o);
+  });
+  [...typSet].sort().forEach(t => {
+    const o = document.createElement('option'); o.value = t; o.textContent = t; typSel.appendChild(o);
+  });
+}
+
+/* ── CSV EXPORT ──────────────────────────────────────────── */
+function toCSV(items) {
+  const keys = FIELDS.map(f => f.key);
+  const escape = v => {
+    if (v === null || v === undefined) return '';
+    const s = typeof v === 'object' ? JSON.stringify(v) : String(v);
+    return `"${s.replace(/"/g, '""')}"`;
+  };
+  const header = keys.join(',');
+  const rows = items.map(item => keys.map(k => escape(item[k])).join(','));
+  return [header, ...rows].join('\r\n');
+}
+
+function downloadCSV(content, filename) {
+  const blob = new Blob([content], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename; a.click();
+  URL.revokeObjectURL(url);
+}
+
+/* ── MISSING HIGHLIGHT TOGGLE ────────────────────────────── */
+document.getElementById('highlightCheck').addEventListener('change', function() {
+  const tog = document.getElementById('missingToggle');
+  if (this.checked) { document.body.classList.add('highlight-missing'); tog.classList.add('on'); }
+  else { document.body.classList.remove('highlight-missing'); tog.classList.remove('on'); }
 });
+
+/* ── INIT ────────────────────────────────────────────────── */
+function init(data) {
+  allData = Object.entries(data).map(([key, item]) => ({ _key: key, ...item }));
+  document.getElementById('loadingState').classList.add('hidden');
+  populateDropdowns();
+  renderColToggles();
+  updateStats();
+  renderFieldList();
+  filtered = [...allData];
+  applyFilters();
+
+  ['search', 'rarityFilter', 'typeFilter', 'missingFilter'].forEach(id => {
+    document.getElementById(id).addEventListener('input', () => { page = 0; applyFilters(); });
+  });
+  document.getElementById('pageSize').addEventListener('change', () => { page = 0; renderTable(); });
+
+  document.getElementById('exportMissing').addEventListener('click', () => {
+    const items = allData.filter(i => getMissingFields(i).length > 0);
+    downloadCSV(toCSV(items), 'ao-equipment-missing.csv');
+  });
+  document.getElementById('exportAll').addEventListener('click', () => {
+    downloadCSV(toCSV(allData), 'ao-equipment-all.csv');
+  });
+}
+
+fetch(JSON_URL)
+  .then(r => {
+    if (!r.ok) throw new Error(
+      r.status === 404
+        ? `equipment.json not found. Run: node generateEquipment.js`
+        : `HTTP ${r.status}`
+    );
+    return r.json();
+  })
+  .then(init)
+  .catch(err => {
+    document.getElementById('loadingState').classList.add('hidden');
+    const es = document.getElementById('errorState');
+    es.classList.remove('hidden');
+    const isFileProtocol = location.protocol === 'file:';
+    document.getElementById('errorMsg').textContent = isFileProtocol
+      ? `Can't load files directly — run: node server.js, then open http://localhost:3000`
+      : `Could not load ${JSON_URL} — ${err.message}`;
+  });
 </script>
 </body>
 </html>

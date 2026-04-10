@@ -565,42 +565,6 @@ function rarityBadge(r) {
   return `<span class="badge r-${cls}">${esc(r)}</span>`;
 }
 
-async function getWikiImage(title) {
-  const api = "https://arcane-odyssey.fandom.com/api.php";
-
-  try {
-    // STEP 1: search exact page
-    const searchUrl =
-      `${api}?action=query&list=search&srsearch=${encodeURIComponent(title)}&format=json&origin=*`;
-
-    const searchRes = await fetch(searchUrl);
-    const searchData = await searchRes.json();
-
-    const first = searchData?.query?.search?.[0];
-    if (!first) return null;
-
-    const pageid = first.pageid;
-
-    // STEP 2: fetch image from pageid
-    const pageUrl =
-      `${api}?action=query&pageids=${pageid}&prop=pageimages&pithumbsize=400&format=json&origin=*`;
-
-    const pageRes = await fetch(pageUrl);
-    const pageData = await pageRes.json();
-
-    const page = pageData?.query?.pages?.[pageid];
-    return page?.thumbnail?.source || null;
-
-  } catch (e) {
-    console.error("Wiki image error:", title, e);
-    return null;
-  }
-}
-const imageCache = {};
-
-async function getWikiImage(title) {
-  const api = "https://arcane-odyssey.fandom.com/api.php";
-
   try {
     // STEP 1: search exact page
     const searchUrl =
@@ -640,14 +604,14 @@ function renderCell(field, item) {
     case 'kv':     html = fmtKV(v);       break;
     case 'obj':    html = fmtObj(v);      break;
 case 'img': {
-  const name = item.Name;
+  const url = item.Image;
 
-  if (!name) {
+  if (!url) {
     html = null;
     break;
   }
 
-  html = `<img data-name="${esc(name)}" data-src="${esc(name)}" alt="${esc(name)}" loading="lazy">`;
+  html = `<img src="${esc(url)}" alt="${esc(item.Name || '')}" loading="lazy">`;
   break;
 }
     default:
@@ -759,37 +723,6 @@ function applyFilters() {
   renderTable();
 }
 
-async function hydrateImages() {
-  const imgs = [...document.querySelectorAll("img[data-name]")];
-
-  for (const img of imgs) {
-    const name = img.dataset.name;
-    if (!name) continue;
-
-    if (imageCache[name]) {
-      img.src = imageCache[name];
-      img.style.display = "block";
-      continue;
-    }
-
-    try {
-      const url = await getWikiImage(name);
-
-      console.log("Image lookup:", name, url);
-
-      if (url) {
-        imageCache[name] = url;
-        img.src = url;
-        img.style.display = "block";
-      } else {
-        img.remove();
-      }
-    } catch (e) {
-      console.warn("Failed image:", name, e);
-      img.remove();
-    }
-  }
-}
 
 /* ── TABLE ───────────────────────────────────────────────── */
 function renderTable() {
@@ -834,7 +767,6 @@ function renderTable() {
         return `<td${tdClass}>${content}</td>`;
       }).join('')}</tr>`;
     }).join('');
-    setTimeout(() => hydrateImages(), 0);
   }
 
   // summary

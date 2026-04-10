@@ -781,7 +781,6 @@ function renderTable() {
     `Showing ${showing} of ${filtered.length} items${filtered.length !== allData.length ? ` (${allData.length} total)` : ''}`;
 
   renderPagination(ps);
-  hydrateImages();
 }
 
 function renderPagination(ps) {
@@ -893,6 +892,8 @@ fetch(JSON_URL)
       console.log("DATA TYPE:", Array.isArray(data) ? "ARRAY" : "OBJECT");
       console.log("SAMPLE:", data);
   });
+
+  hydrateImages();
 </script>
 </body>
 </html>

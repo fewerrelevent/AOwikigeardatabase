@@ -486,6 +486,11 @@ body.highlight-missing td.cell-missing {
 </div>
 
 <script>
+
+  window.addEventListener('beforeunload', () => {
+  navigator.sendBeacon('/refresh');
+});
+
 /* ── CONFIG ──────────────────────────────────────────────── */
 const FIELDS = [
   { key: 'Name',        label: 'Name',         vis: true,  sortable: true,  fmt: 'text' },
@@ -873,15 +878,30 @@ async function loadData() {
   try {
     // Step 1: trigger scraper and wait for it to finish
     document.getElementById('loadingMsg').textContent = 'Refreshing data from wiki…';
-    const refreshRes = await fetch('/refresh');
-    if (!refreshRes.ok) {
-      const body = await refreshRes.json().catch(() => ({}));
-      throw new Error(body.error || `Refresh failed (HTTP ${refreshRes.status})`);
-    }
+let refreshDone = false;
+
+while (!refreshDone) {
+  const refreshRes = await fetch('/refresh');
+  const body = await refreshRes.json().catch(() => ({}));
+
+  if (refreshRes.status === 202) {
+    // still running → wait and retry
+    await new Promise(r => setTimeout(r, 500));
+    continue;
+  }
+
+  if (!refreshRes.ok || !body.ok) {
+    throw new Error(body.error || `Refresh failed (${refreshRes.status})`);
+  }
+
+  refreshDone = true;
+}
 
     // Step 2: load the freshly written equipment.json
     document.getElementById('loadingMsg').textContent = 'Loading equipment.json…';
-    const dataRes = await fetch('/equipment.json', { cache: 'no-store' });
+    const dataRes = await fetch(`/equipment.json?t=${Date.now()}`, {
+    cache: 'no-store'
+    });
     if (!dataRes.ok) throw new Error(`HTTP ${dataRes.status}`);
 
     const data = await dataRes.json();

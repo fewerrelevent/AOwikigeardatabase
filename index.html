@@ -560,33 +560,25 @@ function rarityBadge(r) {
 async function getWikiImage(title) {
   const api = "https://arcane-odyssey.fandom.com/api.php";
 
+  const url =
+    `${api}?action=query` +
+    `&generator=search` +
+    `&gsrsearch=${encodeURIComponent(title)}` +
+    `&gsrlimit=1` +
+    `&prop=pageimages` +
+    `&pithumbsize=400` +
+    `&format=json&origin=*`;
+
   try {
-    // Step 1: search for closest match (VERY IMPORTANT)
-    const searchUrl =
-      `${api}?action=query&list=search&srsearch=${encodeURIComponent(title)}&format=json&origin=*`;
+    const res = await fetch(url);
+    const data = await res.json();
 
-    const searchRes = await fetch(searchUrl);
-    const searchData = await searchRes.json();
-
-    const first = searchData?.query?.search?.[0];
-    if (!first) return null;
-
-    const pageTitle = first.title;
-
-    // Step 2: get image info from that page
-    const imageUrl =
-      `${api}?action=query&titles=${encodeURIComponent(pageTitle)}` +
-      `&prop=imageinfo&iiprop=url&format=json&origin=*`;
-
-    const imgRes = await fetch(imageUrl);
-    const imgData = await imgRes.json();
-
-    const pages = imgData.query?.pages;
+    const pages = data.query?.pages;
     if (!pages) return null;
 
     const page = Object.values(pages)[0];
 
-    return page?.imageinfo?.[0]?.url || null;
+    return page?.thumbnail?.source || null;
 
   } catch (e) {
     console.error("Wiki image fetch failed:", e);
@@ -598,33 +590,25 @@ const imageCache = {};
 async function getWikiImage(title) {
   const api = "https://arcane-odyssey.fandom.com/api.php";
 
+  const url =
+    `${api}?action=query` +
+    `&generator=search` +
+    `&gsrsearch=${encodeURIComponent(title)}` +
+    `&gsrlimit=1` +
+    `&prop=pageimages` +
+    `&pithumbsize=400` +
+    `&format=json&origin=*`;
+
   try {
-    // Step 1: search for closest match (VERY IMPORTANT)
-    const searchUrl =
-      `${api}?action=query&list=search&srsearch=${encodeURIComponent(title)}&format=json&origin=*`;
+    const res = await fetch(url);
+    const data = await res.json();
 
-    const searchRes = await fetch(searchUrl);
-    const searchData = await searchRes.json();
-
-    const first = searchData?.query?.search?.[0];
-    if (!first) return null;
-
-    const pageTitle = first.title;
-
-    // Step 2: get image info from that page
-    const imageUrl =
-      `${api}?action=query&titles=${encodeURIComponent(pageTitle)}` +
-      `&prop=imageinfo&iiprop=url&format=json&origin=*`;
-
-    const imgRes = await fetch(imageUrl);
-    const imgData = await imgRes.json();
-
-    const pages = imgData.query?.pages;
+    const pages = data.query?.pages;
     if (!pages) return null;
 
     const page = Object.values(pages)[0];
 
-    return page?.imageinfo?.[0]?.url || null;
+    return page?.thumbnail?.source || null;
 
   } catch (e) {
     console.error("Wiki image fetch failed:", e);
@@ -779,9 +763,11 @@ async function hydrateImages() {
       imageCache[name] = url;
       img.src = url;
     } else {
-      img.style.display = "none";img.remove(); // only show image if wiki has oneS
+      img.alt = "No image";
+      img.style.opacity = "0.2";
     }
   }
+  console.log("Fetching image for:", name, url);
 }
 
 /* ── TABLE ───────────────────────────────────────────────── */

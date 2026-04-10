@@ -579,6 +579,34 @@ async function getWikiImage(title) {
 }
 const imageCache = {};
 
+async function getWikiImage(title) {
+  const api = "https://arcane-odyssey.fandom.com/api.php";
+
+  const url =
+    `${api}?action=query&titles=${encodeURIComponent(title)}` +
+    `&prop=pageimages&format=json&pithumbsize=400`;
+
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+
+    const pages = data.query?.pages;
+    if (!pages) return null;
+
+    const page = Object.values(pages)[0];
+
+    if (!page || page.missing || !page.thumbnail?.source) {
+      return null;
+    }
+
+    return page.thumbnail.source;
+
+  } catch (e) {
+    console.error(e);
+    return null;
+  }
+}
+
 function renderCell(field, item) {
   const v = item[field.key];
   let html = null;
@@ -730,6 +758,22 @@ function applyFilters() {
   renderTable();
 }
 
+async function hydrateImages() {
+  const imgs = document.querySelectorAll("img[data-name]");
+
+  for (const img of imgs) {
+    const name = img.dataset.name;
+
+    const url = await getWikiImage(name);
+
+    if (url) {
+      img.src = url;
+    } else {
+      img.remove();
+    }
+  }
+}
+
 /* ── TABLE ───────────────────────────────────────────────── */
 function renderTable() {
   const visCols = FIELDS.filter(f => f.vis);
@@ -773,6 +817,7 @@ function renderTable() {
         return `<td${tdClass}>${content}</td>`;
       }).join('')}</tr>`;
     }).join('');
+    hydrateImages();
   }
 
   // summary
@@ -892,8 +937,6 @@ fetch(JSON_URL)
       console.log("DATA TYPE:", Array.isArray(data) ? "ARRAY" : "OBJECT");
       console.log("SAMPLE:", data);
   });
-
-  hydrateImages();
 </script>
 </body>
 </html>

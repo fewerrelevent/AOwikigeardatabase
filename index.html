@@ -557,6 +557,28 @@ function rarityBadge(r) {
   return `<span class="badge r-${cls}">${esc(r)}</span>`;
 }
 
+async function getWikiImage(title) {
+  const api = "https://arcane-odyssey.fandom.com/api.php";
+
+  const url =
+    `${api}?action=query&titles=${encodeURIComponent(title)}` +
+    `&prop=pageimages&format=json&pithumbsize=300`;
+
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+
+    const pages = data.query.pages;
+    const page = Object.values(pages)[0];
+
+    return page?.thumbnail?.source || null;
+  } catch (e) {
+    console.error("Image fetch failed:", e);
+    return null;
+  }
+}
+const imageCache = {};
+
 function renderCell(field, item) {
   const v = item[field.key];
   let html = null;
@@ -566,12 +588,42 @@ function renderCell(field, item) {
     case 'stats':  html = fmtStats(v);    break;
     case 'kv':     html = fmtKV(v);       break;
     case 'obj':    html = fmtObj(v);      break;
-    case 'img':
-      html = v ? `<img src="${esc(v)}" alt="${esc(item.Name||'')}" loading="lazy">` : null;
-      break;
+case 'img': {
+  const name = item.Name;
+
+  if (!name) {
+    html = null;
+    break;
+  }
+
+  html = `<img data-name="${esc(name)}" alt="${esc(name)}" loading="lazy">`;
+  break;
+}
     default:
       html = isMissing(v) ? null : esc(String(v));
   }
+
+async function hydrateImages() {
+  const imgs = document.querySelectorAll("img[data-name]");
+
+  for (const img of imgs) {
+    const name = img.dataset.name;
+
+    if (imageCache[name]) {
+      img.src = imageCache[name];
+      continue;
+    }
+
+    const url = await getWikiImage(name);
+
+    if (url) {
+      imageCache[name] = url;
+      img.src = url;
+    } else {
+      img.remove(); // or fallback icon
+    }
+  }
+}
 
   const missing = html === null;
   const tdClass = missing ? ' class="cell-missing"' : '';
@@ -729,6 +781,7 @@ function renderTable() {
     `Showing ${showing} of ${filtered.length} items${filtered.length !== allData.length ? ` (${allData.length} total)` : ''}`;
 
   renderPagination(ps);
+  hydrateImages();
 }
 
 function renderPagination(ps) {

@@ -544,8 +544,6 @@ function getMissingFields(item) {
   return FIELDS.filter(f => f.key !== 'Image' && isMissing(item[f.key])).map(f => f.key);
 }
 
-imageCache.set(title, url);
-
 async function getWikiImage(title) {
   if (!title) return null;
   if (imageCache.has(title)) return imageCache.get(title);
@@ -590,7 +588,7 @@ async function getWikiImage(title) {
 
     const url = filePage.imageinfo?.[0]?.url || null;
 
-    imageCache[title] = url;
+    imageCache.set(title, url);
     return url;
 
   } catch (err) {
@@ -775,20 +773,6 @@ function renderTable() {
         page = 0; applyFilters();
       });
     }
-
-    document.querySelectorAll('img[data-name]').forEach(async img => {
-  if (img.src) return;
-
-  const name = img.dataset.name;
-  const url = await getWikiImage(name);
-
-  if (url) {
-    img.src = url;
-  } else {
-    img.style.display = 'none';
-    img.insertAdjacentHTML('afterend','<div style="color:#ff4d4d;font-size:11px;">No image</div>');
-  }
-});
   });
 
   const ps = parseInt(document.getElementById('pageSize').value) || 0;
@@ -797,6 +781,7 @@ function renderTable() {
   const tbody = document.getElementById('tbody');
   const table = document.getElementById('table');
   const emptyState = document.getElementById('emptyState');
+  const imageCache = new Map();
 
   if (filtered.length === 0) {
     table.classList.add('hidden');
@@ -820,6 +805,27 @@ function renderTable() {
     `Showing ${showing} of ${filtered.length} items${filtered.length !== allData.length ? ` (${allData.length} total)` : ''}`;
 
   renderPagination(ps);
+
+  setTimeout(() => {
+  document.querySelectorAll('img[data-name]').forEach(async img => {
+    if (img.src) return;
+
+    const name = img.dataset.name;
+
+    try {
+      const url = await getWikiImage(name);
+      if (url) {
+        img.src = url;
+      } else {
+        img.style.display = 'none';
+      }
+    } catch (e) {
+      console.error("Image load error:", name, e);
+      img.style.display = 'none';
+    }
+  });
+}, 0);
+
 }
 
 function renderPagination(ps) {
@@ -884,16 +890,6 @@ document.getElementById('highlightCheck').addEventListener('change', function() 
   else { document.body.classList.remove('highlight-missing'); tog.classList.remove('on'); }
 });
 
-async function preloadImages() {
-  await Promise.all(
-    allData.map(async (item) => {
-      if (!item.Image) {
-        item.Image = await getWikiImage(item.Name);
-      }
-    })
-  );
-}
-
 /* ── INIT ────────────────────────────────────────────────── */
 async function init(data) {
   allData = Array.isArray(data)
@@ -904,6 +900,8 @@ async function init(data) {
   renderColToggles();
   updateStats();
   renderFieldList();
+  filtered = [...allData];
+  applyFilters();
 
   ['search', 'rarityFilter', 'typeFilter', 'missingFilter'].forEach(id => {
     document.getElementById(id).addEventListener('input', () => { page = 0; applyFilters(); });

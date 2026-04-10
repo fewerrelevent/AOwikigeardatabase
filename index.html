@@ -562,29 +562,7 @@ async function getWikiImage(title) {
 
   const url =
     `${api}?action=query&titles=${encodeURIComponent(title)}` +
-    `&prop=pageimages&format=json&pithumbsize=300`;
-
-  try {
-    const res = await fetch(url);
-    const data = await res.json();
-
-    const pages = data.query.pages;
-    const page = Object.values(pages)[0];
-
-    return page?.thumbnail?.source || null;
-  } catch (e) {
-    console.error("Image fetch failed:", e);
-    return null;
-  }
-}
-const imageCache = {};
-
-async function getWikiImage(title) {
-  const api = "https://arcane-odyssey.fandom.com/api.php";
-
-  const url =
-    `${api}?action=query&titles=${encodeURIComponent(title)}` +
-    `&prop=pageimages&format=json&pithumbsize=400`;
+    `&prop=pageimages&format=json&pithumbsize=400&origin=*`;
 
   try {
     const res = await fetch(url);
@@ -602,7 +580,36 @@ async function getWikiImage(title) {
     return page.thumbnail.source;
 
   } catch (e) {
-    console.error(e);
+    console.error("Wiki image fetch failed:", e);
+    return null;
+  }
+}
+const imageCache = {};
+
+async function getWikiImage(title) {
+  const api = "https://arcane-odyssey.fandom.com/api.php";
+
+  const url =
+    `${api}?action=query&titles=${encodeURIComponent(title)}` +
+    `&prop=pageimages&format=json&pithumbsize=400&origin=*`;
+
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+
+    const pages = data.query?.pages;
+    if (!pages) return null;
+
+    const page = Object.values(pages)[0];
+
+    if (!page || page.missing || !page.thumbnail?.source) {
+      return null;
+    }
+
+    return page.thumbnail.source;
+
+  } catch (e) {
+    console.error("Wiki image fetch failed:", e);
     return null;
   }
 }
@@ -630,28 +637,6 @@ case 'img': {
     default:
       html = isMissing(v) ? null : esc(String(v));
   }
-
-async function hydrateImages() {
-  const imgs = document.querySelectorAll("img[data-name]");
-
-  for (const img of imgs) {
-    const name = img.dataset.name;
-
-    if (imageCache[name]) {
-      img.src = imageCache[name];
-      continue;
-    }
-
-    const url = await getWikiImage(name);
-
-    if (url) {
-      imageCache[name] = url;
-      img.src = url;
-    } else {
-      img.remove(); // or fallback icon
-    }
-  }
-}
 
   const missing = html === null;
   const tdClass = missing ? ' class="cell-missing"' : '';
@@ -763,13 +748,20 @@ async function hydrateImages() {
 
   for (const img of imgs) {
     const name = img.dataset.name;
+    if (!name) continue;
+
+    if (imageCache[name]) {
+      img.src = imageCache[name];
+      continue;
+    }
 
     const url = await getWikiImage(name);
 
     if (url) {
+      imageCache[name] = url;
       img.src = url;
     } else {
-      img.remove();
+      img.style.display = "none";img.remove(); // only show image if wiki has one
     }
   }
 }
@@ -817,7 +809,7 @@ function renderTable() {
         return `<td${tdClass}>${content}</td>`;
       }).join('')}</tr>`;
     }).join('');
-    hydrateImages();
+    setTimeout(() => hydrateImages(), 0);
   }
 
   // summary

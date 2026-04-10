@@ -544,11 +544,11 @@ function getMissingFields(item) {
   return FIELDS.filter(f => f.key !== 'Image' && isMissing(item[f.key])).map(f => f.key);
 }
 
-const imageCache = new Map();
+imageCache.set(title, url);
 
 async function getWikiImage(title) {
   if (!title) return null;
-  if (imageCache[title]) return imageCache[title];
+  if (imageCache.has(title)) return imageCache.get(title);
 
   try {
     // Step 1: search for the correct page
@@ -573,7 +573,11 @@ async function getWikiImage(title) {
     // Step 3: pick a relevant image (skip icons/logos)
     const fileName = images
       .map(img => img.title)
-      .find(name => !name.toLowerCase().includes('icon') && !name.toLowerCase().includes('logo'));
+      .find(name =>
+  name.toLowerCase().endsWith('.png') &&
+  !name.toLowerCase().includes('map') &&
+  !name.toLowerCase().includes('ui')
+);
 
     if (!fileName) return null;
 
@@ -626,24 +630,20 @@ function renderCell(field, item) {
     case 'kv':     html = fmtKV(v);       break;
     case 'obj':    html = fmtObj(v);      break;
 
-    case 'img': {
-      const url = item.Image;
+case 'img': {
+  const name = item.Name;
 
-      if (!url) {
-        html = `<div style="color:#ff4d4d;font-size:11px;">No wiki image found</div>`;
-        break;
-      }
-
-      html = `
-        <img 
-          src="${esc(url)}" 
-          alt="${esc(item.Name || '')}" 
-          loading="lazy"
-          onerror="this.style.display='none'; this.insertAdjacentHTML('afterend','<div style=&quot;color:#ff4d4d;font-size:11px;&quot;>Failed to load</div>');"
-        >
-      `;
-      break;
-    }
+  html = `
+    <img 
+      data-name="${esc(name)}"
+      alt="${esc(name)}"
+      loading="lazy"
+      src=""
+      onerror="this.style.display='none'; this.insertAdjacentHTML('afterend','<div style=&quot;color:#ff4d4d;font-size:11px;&quot;>Failed</div>');"
+    >
+  `;
+  break;
+}
 
     default:
       html = isMissing(v) ? null : esc(v);
@@ -775,6 +775,20 @@ function renderTable() {
         page = 0; applyFilters();
       });
     }
+
+    document.querySelectorAll('img[data-name]').forEach(async img => {
+  if (img.src) return;
+
+  const name = img.dataset.name;
+  const url = await getWikiImage(name);
+
+  if (url) {
+    img.src = url;
+  } else {
+    img.style.display = 'none';
+    img.insertAdjacentHTML('afterend','<div style="color:#ff4d4d;font-size:11px;">No image</div>');
+  }
+});
   });
 
   const ps = parseInt(document.getElementById('pageSize').value) || 0;
@@ -890,16 +904,6 @@ async function init(data) {
   renderColToggles();
   updateStats();
   renderFieldList();
-  Promise.all(
-  allData.map(async (item) => {
-    if (!item.Image) {
-      item.Image = await getWikiImage(item.Name);
-    }
-  })
-).then(() => {
-  filtered = [...allData];
-  applyFilters();
-});
 
   ['search', 'rarityFilter', 'typeFilter', 'missingFilter'].forEach(id => {
     document.getElementById(id).addEventListener('input', () => { page = 0; applyFilters(); });

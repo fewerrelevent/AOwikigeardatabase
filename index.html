@@ -569,29 +569,31 @@ function rarityBadge(r) {
 async function getWikiImage(title) {
   const api = "https://arcane-odyssey.fandom.com/api.php";
 
-  const url =
-    `${api}?action=query` +
-    `&generator=search` +
-    `&gsrsearch=${encodeURIComponent(title)}` +
-    `&gsrlimit=1` +
-    `&prop=pageimages` +
-    `&pithumbsize=400` +
-    `&format=json` +
-    `&origin=*`;
-
   try {
-    const res = await fetch(url);
-    const data = await res.json();
+    // STEP 1: search exact page
+    const searchUrl =
+      `${api}?action=query&list=search&srsearch=${encodeURIComponent(title)}&format=json&origin=*`;
 
-    const pages = data.query?.pages;
-    if (!pages) return null;
+    const searchRes = await fetch(searchUrl);
+    const searchData = await searchRes.json();
 
-    const page = Object.values(pages)[0];
+    const first = searchData?.query?.search?.[0];
+    if (!first) return null;
 
+    const pageid = first.pageid;
+
+    // STEP 2: fetch image from pageid
+    const pageUrl =
+      `${api}?action=query&pageids=${pageid}&prop=pageimages&pithumbsize=400&format=json&origin=*`;
+
+    const pageRes = await fetch(pageUrl);
+    const pageData = await pageRes.json();
+
+    const page = pageData?.query?.pages?.[pageid];
     return page?.thumbnail?.source || null;
 
   } catch (e) {
-    console.error("Image fetch failed for:", title, e);
+    console.error("Wiki image error:", title, e);
     return null;
   }
 }
@@ -600,29 +602,31 @@ const imageCache = {};
 async function getWikiImage(title) {
   const api = "https://arcane-odyssey.fandom.com/api.php";
 
-  const url =
-    `${api}?action=query` +
-    `&generator=search` +
-    `&gsrsearch=${encodeURIComponent(title)}` +
-    `&gsrlimit=1` +
-    `&prop=pageimages` +
-    `&pithumbsize=400` +
-    `&format=json` +
-    `&origin=*`;
-
   try {
-    const res = await fetch(url);
-    const data = await res.json();
+    // STEP 1: search exact page
+    const searchUrl =
+      `${api}?action=query&list=search&srsearch=${encodeURIComponent(title)}&format=json&origin=*`;
 
-    const pages = data.query?.pages;
-    if (!pages) return null;
+    const searchRes = await fetch(searchUrl);
+    const searchData = await searchRes.json();
 
-    const page = Object.values(pages)[0];
+    const first = searchData?.query?.search?.[0];
+    if (!first) return null;
 
+    const pageid = first.pageid;
+
+    // STEP 2: fetch image from pageid
+    const pageUrl =
+      `${api}?action=query&pageids=${pageid}&prop=pageimages&pithumbsize=400&format=json&origin=*`;
+
+    const pageRes = await fetch(pageUrl);
+    const pageData = await pageRes.json();
+
+    const page = pageData?.query?.pages?.[pageid];
     return page?.thumbnail?.source || null;
 
   } catch (e) {
-    console.error("Image fetch failed for:", title, e);
+    console.error("Wiki image error:", title, e);
     return null;
   }
 }

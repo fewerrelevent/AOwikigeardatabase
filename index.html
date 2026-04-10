@@ -378,6 +378,15 @@ body.highlight-missing td.cell-missing {
 .dot:nth-child(3) { animation-delay: .36s; }
 @keyframes pulse { 0%,80%,100% { opacity: .15; } 40% { opacity: 1; } }
 
+td img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  background: var(--bg4);
+  border-radius: 6px;
+  display: none;
+}
+
 /* ── EXPORT ──────────────────────────────── */
 .action-btn {
   background: transparent;
@@ -633,7 +642,7 @@ case 'img': {
     break;
   }
 
-  html = `<img data-name="${esc(name)}" alt="${esc(name)}" loading="lazy">`;
+  html = `<img data-name="${esc(name)}" data-src="${esc(name)}" alt="${esc(name)}" loading="lazy" style="display:none;">`;
   break;
 }
     default:
@@ -746,14 +755,15 @@ function applyFilters() {
 }
 
 async function hydrateImages() {
-  const imgs = document.querySelectorAll("img[data-name]");
+  const imgs = document.querySelectorAll("img[data-src]");
 
   for (const img of imgs) {
-    const name = img.dataset.name;
+    const name = img.dataset.src;
     if (!name) continue;
 
     if (imageCache[name]) {
       img.src = imageCache[name];
+      img.style.display = "block";
       continue;
     }
 
@@ -762,12 +772,11 @@ async function hydrateImages() {
     if (url) {
       imageCache[name] = url;
       img.src = url;
+      img.style.display = "block";
     } else {
-      img.alt = "No image";
-      img.style.opacity = "0.2";
+      img.remove(); // no valid image
     }
   }
-  console.log("Fetching image for:", name, url);
 }
 
 /* ── TABLE ───────────────────────────────────────────────── */

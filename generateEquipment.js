@@ -277,4 +277,6 @@ async function main() {
   console.log("✓ equipment.json written successfully!");
 }
 
+fs.writeFileSync("./equipment.json", JSON.stringify(data, null, 2));
+
 main();

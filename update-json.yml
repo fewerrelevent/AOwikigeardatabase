@@ -1,26 +1,33 @@
-name: Update Equipment JSON
+name: Update Wiki Data
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily UTC
-  workflow_dispatch: {}    # manual trigger
+    - cron: "0 */6 * * *"  # every 6 hours
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Generate JSON
+      - name: Install deps
+        run: npm install
+
+      - name: Run parser
         run: node generateEquipment.js
 
-      - name: Commit and push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add equipment.json
+          git commit -m "Update equipment data" || echo "No changes"
+          git push

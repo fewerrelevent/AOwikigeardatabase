@@ -505,7 +505,36 @@ td img {
 
 <script>
 /* ── CONFIG ──────────────────────────────────────────────── */
-const JSON_URL = 'https://aowikigeardatabase.pages.dev/equipment.json';
+async function loadData() {
+  try {
+    // step 1: get latest version
+    const metaRes = await fetch('https://aowikigeardatabase.pages.dev/latest.json', {
+      cache: "no-store"
+    });
+    const meta = await metaRes.json();
+
+    // step 2: fetch versioned data file
+    const dataRes = await fetch(
+      `https://aowikigeardatabase.pages.dev/equipment-${meta.version}.json`,
+      { cache: "no-store" }
+    );
+
+    if (!dataRes.ok) throw new Error(`HTTP ${dataRes.status}`);
+
+    const data = await dataRes.json();
+    init(data);
+
+  } catch (err) {
+    console.error('FETCH ERROR:', err);
+    document.getElementById('loadingState').classList.add('hidden');
+    const es = document.getElementById('errorState');
+    es.classList.remove('hidden');
+    document.getElementById('errorMsg').textContent =
+      `Failed to load: ${err.message}`;
+  }
+}
+
+loadData();
 
 const FIELDS = [
   { key: 'Name',        label: 'Name',         vis: true,  sortable: true,  fmt: 'text' },

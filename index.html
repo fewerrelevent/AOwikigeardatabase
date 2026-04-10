@@ -576,7 +576,8 @@ async function getWikiImage(title) {
     `&gsrlimit=1` +
     `&prop=pageimages` +
     `&pithumbsize=400` +
-    `&format=json&origin=*`;
+    `&format=json` +
+    `&origin=*`;
 
   try {
     const res = await fetch(url);
@@ -590,7 +591,7 @@ async function getWikiImage(title) {
     return page?.thumbnail?.source || null;
 
   } catch (e) {
-    console.error("Wiki image fetch failed:", e);
+    console.error("Image fetch failed for:", title, e);
     return null;
   }
 }
@@ -606,7 +607,8 @@ async function getWikiImage(title) {
     `&gsrlimit=1` +
     `&prop=pageimages` +
     `&pithumbsize=400` +
-    `&format=json&origin=*`;
+    `&format=json` +
+    `&origin=*`;
 
   try {
     const res = await fetch(url);
@@ -620,7 +622,7 @@ async function getWikiImage(title) {
     return page?.thumbnail?.source || null;
 
   } catch (e) {
-    console.error("Wiki image fetch failed:", e);
+    console.error("Image fetch failed for:", title, e);
     return null;
   }
 }
@@ -755,26 +757,26 @@ function applyFilters() {
 }
 
 async function hydrateImages() {
-  const imgs = document.querySelectorAll("img[data-src]");
+  const imgs = [...document.querySelectorAll("img[data-name]")];
 
   for (const img of imgs) {
-    const name = img.dataset.src;
+    const name = img.dataset.name;
     if (!name) continue;
 
     if (imageCache[name]) {
       img.src = imageCache[name];
-      img.style.display = "block";
       continue;
     }
 
     const url = await getWikiImage(name);
 
+    console.log("Image lookup:", name, url);
+
     if (url) {
       imageCache[name] = url;
       img.src = url;
-      img.style.display = "block";
     } else {
-      img.remove(); // no valid image
+      img.remove();
     }
   }
 }

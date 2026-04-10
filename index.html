@@ -622,30 +622,6 @@ function renderCell(field, item) {
   };
 }
 
-  switch (field.fmt) {
-    case 'rarity': html = rarityBadge(v); break;
-    case 'stats':  html = fmtStats(v);    break;
-    case 'kv':     html = fmtKV(v);       break;
-    case 'obj':    html = fmtObj(v);      break;
-case 'img': {
-  const url = item.Image;
-
-  if (!url) {
-    html = `<div style="color:#ff4d4d;font-size:11px;">No wiki image found</div>`;
-    break;
-  }
-
-  html = `
-    <img 
-      src="${esc(url)}" 
-      alt="${esc(item.Name || '')}" 
-      loading="lazy"
-      onerror="this.style.display='none'; this.insertAdjacentHTML('afterend','<div style=&quot;color:#ff4d4d;font-size:11px;&quot;>Failed to load</div>');"
-    >
-  `;
-  break;
-}
-
 /* ── SIDEBAR: MISSING BY FIELD ───────────────────────────── */
 function buildFieldCounts() {
   const counts = {};
@@ -924,7 +900,6 @@ fetch(JSON_URL)
       `Failed to load: ${err.message}`;
      console.log("No data object available in catch block.");
   });
-  }
 </script>
 </body>
 </html>

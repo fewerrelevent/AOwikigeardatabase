@@ -544,6 +544,23 @@ function getMissingFields(item) {
   return FIELDS.filter(f => f.key !== 'Image' && isMissing(item[f.key])).map(f => f.key);
 }
 
+const imageCache = new Map();
+
+async function getWikiImage(title) {
+  if (imageCache.has(title)) return imageCache.get(title);
+
+  const url = `https://roblox-arcane-odyssey.fandom.com/api.php?action=query&format=json&origin=*&prop=pageimages&piprop=thumbnail&pithumbsize=400&titles=${encodeURIComponent(title)}`;
+
+  const res = await fetch(url);
+  const data = await res.json();
+
+  const page = Object.values(data?.query?.pages || {})[0];
+  const img = page?.thumbnail?.source || null;
+
+  imageCache.set(title, img);
+  return img;
+}
+
 /* ── FORMATTERS ──────────────────────────────────────────── */
 function fmtStats(s) {
   if (!s || !Object.keys(s).length) return null;
@@ -555,6 +572,29 @@ function fmtKV(o) {
   if (!o || !Object.keys(o).length) return null;
   return Object.entries(o).map(([k,v]) => `Lv ${esc(k)}: ${esc(v)}`).join('<br>');
 }
+
+const WIKI_API = "https://roblox-arcane-odyssey.fandom.com/api.php";
+
+async function getWikiImage(title) {
+  try {
+    const url =
+      `${WIKI_API}?action=query&format=json&origin=*&prop=pageimages&piprop=thumbnail&pithumbsize=400&titles=${encodeURIComponent(title)}`;
+
+    const res = await fetch(url);
+    const data = await res.json();
+
+    const pages = data?.query?.pages;
+    if (!pages) return null;
+
+    const page = Object.values(pages)[0];
+    return page?.thumbnail?.source || null;
+
+  } catch (e) {
+    console.error("Wiki image error:", title, e);
+    return null;
+  }
+}
+
 function fmtObj(o) {
   if (!o || !Object.keys(o).length) return null;
   return Object.values(o).map(v => esc(String(v))).join('<br>');
@@ -563,8 +603,6 @@ function rarityBadge(r) {
   if (!r) return null;
   const cls = esc(r.replace(/\s+/g,''));
   return `<span class="badge r-${cls}">${esc(r)}</span>`;
-}
-
 
 function renderCell(field, item) {
   const v = item[field.key];
@@ -579,21 +617,19 @@ case 'img': {
   const url = item.Image;
 
   if (!url) {
-    html = null;
+    html = `<div style="color:#ff4d4d;font-size:11px;">No wiki image found</div>`;
     break;
   }
 
-  html = `<img src="${esc(url)}" alt="${esc(item.Name || '')}" loading="lazy">`;
+  html = `
+    <img 
+      src="${esc(url)}" 
+      alt="${esc(item.Name || '')}" 
+      loading="lazy"
+      onerror="this.style.display='none'; this.insertAdjacentHTML('afterend','<div style=&quot;color:#ff4d4d;font-size:11px;&quot;>Failed to load</div>');"
+    >
+  `;
   break;
-}
-    default:
-      html = isMissing(v) ? null : esc(String(v));
-  }
-
-  const missing = html === null;
-  const tdClass = missing ? ' class="cell-missing"' : '';
-  const content = missing ? '✗ missing' : `<div class="multi">${html}</div>`;
-  return { tdClass, content };
 }
 
 /* ── SIDEBAR: MISSING BY FIELD ───────────────────────────── */
@@ -811,8 +847,18 @@ document.getElementById('highlightCheck').addEventListener('change', function() 
   else { document.body.classList.remove('highlight-missing'); tog.classList.remove('on'); }
 });
 
+async function preloadImages() {
+  await Promise.all(
+    allData.map(async (item) => {
+      if (!item.Image) {
+        item.Image = await getWikiImage(item.Name);
+      }
+    })
+  );
+}
+
 /* ── INIT ────────────────────────────────────────────────── */
-function init(data) {
+async function init(data) {
   allData = Array.isArray(data)
   ? data
   : Object.entries(data).map(([key, item]) => ({ _key: key, ...item }));
@@ -821,8 +867,16 @@ function init(data) {
   renderColToggles();
   updateStats();
   renderFieldList();
+  Promise.all(
+  allData.map(async (item) => {
+    if (!item.Image) {
+      item.Image = await getWikiImage(item.Name);
+    }
+  })
+).then(() => {
   filtered = [...allData];
   applyFilters();
+});
 
   ['search', 'rarityFilter', 'typeFilter', 'missingFilter'].forEach(id => {
     document.getElementById(id).addEventListener('input', () => { page = 0; applyFilters(); });

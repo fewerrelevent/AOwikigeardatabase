@@ -547,18 +547,52 @@ function getMissingFields(item) {
 const imageCache = new Map();
 
 async function getWikiImage(title) {
-  if (imageCache.has(title)) return imageCache.get(title);
+  if (!title) return null;
+  if (imageCache[title]) return imageCache[title];
 
-  const url = `https://roblox-arcane-odyssey.fandom.com/api.php?action=query&format=json&origin=*&prop=pageimages&piprop=thumbnail&pithumbsize=400&titles=${encodeURIComponent(title)}`;
+  try {
+    // Step 1: search for the correct page
+    const searchRes = await fetch(
+      `https://roblox-arcane-odyssey.fandom.com/api.php?action=query&list=search&srsearch=${encodeURIComponent(title)}&format=json&origin=*`
+    );
+    const searchData = await searchRes.json();
+    const page = searchData.query.search[0];
 
-  const res = await fetch(url);
-  const data = await res.json();
+    if (!page) return null;
 
-  const page = Object.values(data?.query?.pages || {})[0];
-  const img = page?.thumbnail?.source || null;
+    // Step 2: get page images
+    const imgRes = await fetch(
+      `https://roblox-arcane-odyssey.fandom.com/api.php?action=query&prop=images&titles=${encodeURIComponent(page.title)}&format=json&origin=*`
+    );
+    const imgData = await imgRes.json();
+    const pageId = Object.keys(imgData.query.pages)[0];
+    const images = imgData.query.pages[pageId].images;
 
-  imageCache.set(title, img);
-  return img;
+    if (!images || !images.length) return null;
+
+    // Step 3: pick a relevant image (skip icons/logos)
+    const fileName = images
+      .map(img => img.title)
+      .find(name => !name.toLowerCase().includes('icon') && !name.toLowerCase().includes('logo'));
+
+    if (!fileName) return null;
+
+    // Step 4: get actual image URL
+    const fileRes = await fetch(
+      `https://roblox-arcane-odyssey.fandom.com/api.php?action=query&titles=${encodeURIComponent(fileName)}&prop=imageinfo&iiprop=url&format=json&origin=*`
+    );
+    const fileData = await fileRes.json();
+    const filePage = Object.values(fileData.query.pages)[0];
+
+    const url = filePage.imageinfo?.[0]?.url || null;
+
+    imageCache[title] = url;
+    return url;
+
+  } catch (err) {
+    console.error("Image fetch failed:", title, err);
+    return null;
+  }
 }
 
 /* ── FORMATTERS ──────────────────────────────────────────── */

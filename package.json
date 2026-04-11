@@ -7,5 +7,12 @@
     "start": "node server.js",
     "go": "node generateEquipment.js && node server.js"
   },
-  "dependencies": {}
+  "main": "generateEquipment.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }

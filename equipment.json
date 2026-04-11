@@ -34,12 +34,12 @@
     "Image": "MerchantPants.png",
     "Stats": {
       "Defense": {
-        "Multiplier": "2 / 11"
+        "Multiplier": "2/11"
       }
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -128,7 +128,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -276,7 +276,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -421,7 +421,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -532,12 +532,12 @@
     "Image": "HuntingBoots.png",
     "Stats": {
       "Power": {
-        "Multiplier": "5 / 14"
+        "Multiplier": "5/14"
       }
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -585,7 +585,7 @@
     "Image": "FancyPants.png",
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -706,7 +706,7 @@
     },
     "MinLevel": 10,
     "MaxLevel": 60,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -1227,7 +1227,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -1255,6 +1255,25 @@
       "2": "Fishing"
     },
     "Variations": null
+  },
+  "Jewel Amulet": {
+    "Name": "Jewel Amulet",
+    "Link": "Jewel Amulet",
+    "Image": "JewelAmulet.png",
+    "MinLevel": 170,
+    "MaxLevel": 170,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "WorthValues": {
+      "170": 840
+    },
+    "ObtainedBy": {
+      "1": "Jewelcrafting"
+    },
+    "Variations": null,
+    "Description": "An amulet with five slots for jewels to be slotted into.",
+    "JewelSlots": 5
   },
   "Spirit Hat": {
     "Name": "Spirit Hat",
@@ -1573,7 +1592,7 @@
     "Image": "Fitted Jacket.png",
     "Stats": {
       "Power": {
-        "Multiplier": "8 / 35"
+        "Multiplier": "8/35"
       }
     },
     "MinLevel": 1,
@@ -1761,7 +1780,7 @@
     "Image": "Spectacles.png",
     "Stats": {
       "Defense": {
-        "Multiplier": "10 / 27"
+        "Multiplier": "10/27"
       }
     },
     "MinLevel": 1,
@@ -1809,7 +1828,7 @@
     "Image": "Vest.png",
     "Stats": {
       "Power": {
-        "Multiplier": "8 / 35"
+        "Multiplier": "8/35"
       }
     },
     "MinLevel": 1,
@@ -2800,7 +2819,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -2916,7 +2935,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -3032,7 +3051,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -3063,7 +3082,7 @@
       "1": 5
     },
     "ObtainedBy": {
-      "1": "[[Darkness|Darkness Talent]]"
+      "1": "Starting [[Favor of Chaos]] Quest"
     },
     "Variations": null,
     "Description": "A black hood worn by acolytes of the Seekers of Sight, a mysterious group that spans the entire War Seas, committing atrocities in the shadows in hope of gaining a power called the Sight. It was given to you by their leader, Cazal the Ghost.",
@@ -3082,7 +3101,7 @@
       "1": 10
     },
     "ObtainedBy": {
-      "1": "[[Darkness|Darkness Talent]]"
+      "1": "Starting [[Favor of Chaos]] Quest"
     },
     "Variations": null,
     "Description": "A black and grey shirt worn by acolytes of the Seekers of Sight, a mysterious group that spans the entire War Seas, committing atrocities in the shadows in hope of gaining a power called the Sight. It was given to you by their leader, Cazal the Ghost.",
@@ -3094,18 +3113,75 @@
     "Image": "Seeker Acolyte Boots.png",
     "MinLevel": 1,
     "MaxLevel": 1,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
       "1": 10
     },
     "ObtainedBy": {
-      "1": "[[Darkness|Darkness Talent]]"
+      "1": "Starting [[Favor of Chaos]] Quest"
     },
     "Variations": null,
     "Description": "A pair of black boots worn by acolytes of the Seekers of Sight, a mysterious group that spans the entire War Seas, committing atrocities in the shadows in hope of gaining a power called the Sight. It was given to you by their leader, Cazal the Ghost.",
     "JewelSlots": 1
+  },
+  "Seer Hood": {
+    "Name": "Seer Hood",
+    "Link": "Seer Hood",
+    "Image": "Seer Hood.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "WorthValues": {
+      "1": 10
+    },
+    "ObtainedBy": {
+      "1": "Favor of Chaos"
+    },
+    "Variations": null,
+    "Description": "A black hood worn by Seers of the Seekers of Sight, a mysterious group that spans the entire War Seas, committing atrocities in the shadows in hope of gaining a power called the Sight. It was given to you by their leader, Cazal the Ghost.",
+    "JewelSlots": 2
+  },
+  "Seer Shirt": {
+    "Name": "Seer Shirt",
+    "Link": "Seer Shirt",
+    "Image": "Seer Shirt.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "WorthValues": {
+      "1": 20
+    },
+    "ObtainedBy": {
+      "1": "Favor of Chaos"
+    },
+    "Variations": null,
+    "Description": "A black and grey shirt worn by Seers of the Seekers of Sight, a mysterious group that spans the entire War Seas, committing atrocities in the shadows in hope of gaining a power called the Sight. It was given to you by their leader, Cazal the Ghost.",
+    "JewelSlots": 2
+  },
+  "Seer Boots": {
+    "Name": "Seer Boots",
+    "Link": "Seer Boots",
+    "Image": "Seer Boots.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "WorthValues": {
+      "1": 20
+    },
+    "ObtainedBy": {
+      "1": "Favor of Chaos"
+    },
+    "Variations": null,
+    "Description": "A pair of black boots worn by Seers of the Seekers of Sight, a mysterious group that spans the entire War Seas, committing atrocities in the shadows in hope of gaining a power called the Sight. It was given to you by their leader, Cazal the Ghost.",
+    "JewelSlots": 2
   },
   "Knights Proxy Helmet": {
     "Name": "Knights Proxy Helmet",
@@ -3170,7 +3246,7 @@
     "Image": "Knights Proxy Boots.png",
     "MinLevel": 1,
     "MaxLevel": 1,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -3221,6 +3297,701 @@
     "Description": "A thick, faded green cloak, the signature garb of the Knights Proxy, a group that executes all lawbreakers they come across.",
     "JewelSlots": 1
   },
+  "Nephrite Amulet": {
+    "Name": "Nephrite Amulet",
+    "Link": "Nephrite Amulet",
+    "Image": "Nephrite Amulet.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.625
+      },
+      "Resistance": {
+        "Multiplier": 0.45
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 180,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 321,
+      "60": 335,
+      "70": 350,
+      "80": 364,
+      "90": 378,
+      "100": 392,
+      "110": 407,
+      "120": 421,
+      "130": 435,
+      "140": 450,
+      "150": 462,
+      "160": 478,
+      "170": 492
+    },
+    "ObtainedBy": {
+      "1": "Helewyse"
+    },
+    "Variations": null,
+    "Description": "A polished nephrite gemstone fitted into a necklace, the signature gemstone of the Knights Proxy, a group led by a woman named Helewyse who wises to kill all lawbreakers.",
+    "JewelSlots": 0
+  },
+  "Brotherhood Armor": {
+    "Name": "Brotherhood Armor",
+    "Link": "Brotherhood Armor",
+    "Image": "Brotherhood Armor.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 100
+    },
+    "ObtainedBy": {
+      "1": "Lord Derrick"
+    },
+    "Variations": null,
+    "Description": "A set of mismatched, rugged black armor trimmed in faded gold, the signature armor of the Brotherhood of Balance, a group striving for peace in War Seas by any means necessary.",
+    "JewelSlots": 1
+  },
+  "Brotherhood Boots": {
+    "Name": "Brotherhood Boots",
+    "Link": "Brotherhood Boots",
+    "Image": "Brotherhood Boots.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 50
+    },
+    "ObtainedBy": {
+      "1": "Lord Derrick"
+    },
+    "Variations": null,
+    "Description": "A set of faded red pants and rugged black boots, the signature garb of the Brotherhood of Balance, a group striving for peace in War Seas by any means necessary.",
+    "JewelSlots": 1
+  },
+  "Brotherhood Cloak": {
+    "Name": "Brotherhood Cloak",
+    "Link": "Brotherhood Cloak",
+    "Image": "Brotherhood Cloak.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 50
+    },
+    "ObtainedBy": {
+      "1": "Lord Derrick"
+    },
+    "Variations": null,
+    "Description": "A thick, tattered red cloak, the signature garb of the Brotherhood of Balance, a group striving for peace in War Seas by any means necessary.",
+    "JewelSlots": 1
+  },
+  "Brotherhood Helmet": {
+    "Name": "Brotherhood Helmet",
+    "Link": "Brotherhood Helmet",
+    "Image": "Brotherhood Helmet.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 50
+    },
+    "ObtainedBy": {
+      "1": "Lord Derrick"
+    },
+    "Variations": null,
+    "Description": "A cracked black helmet trimmed in faded gold, the signature helmet of the Brotherhood of Balance, a group striving for peace in War Seas by any means necessary.",
+    "JewelSlots": 1
+  },
+  "Heavy Brotherhood Armor": {
+    "Name": "Heavy Brotherhood Armor",
+    "Link": "Heavy Brotherhood Armor",
+    "Image": "Heavy Brotherhood Armor.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 300
+    },
+    "ObtainedBy": {
+      "1": "Lord Derrick"
+    },
+    "Variations": null,
+    "Description": "A set of rugged black armor trimmed in faded gold, the signature armor of the Brotherhood of Balance, a group striving for peace in War Seas by any means necessary.",
+    "JewelSlots": 1
+  },
+  "Heavy Brotherhood Helmet": {
+    "Name": "Heavy Brotherhood Helmet",
+    "Link": "Heavy Brotherhood Helmet",
+    "Image": "Heavy Brotherhood Helmet.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 50
+    },
+    "ObtainedBy": {
+      "1": "Lord Derrick"
+    },
+    "Variations": null,
+    "Description": "A thick black helmet trimmed in faded gold, the signature helmet of the Brotherhood of Balance, a group striving for peace in War Seas by any means necessary.",
+    "JewelSlots": 1
+  },
+  "Torn Brotherhood Cloak": {
+    "Name": "Torn Brotherhood Cloak",
+    "Link": "Torn Brotherhood Cloak",
+    "Image": "Torn Brotherhood Cloak.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 100
+    },
+    "ObtainedBy": {
+      "1": "Lord Derrick"
+    },
+    "Variations": null,
+    "Description": "A thick, tattered red cloak, the signature garb of the Brotherhood of Balance, a group striving for peace in War Seas by any means necessary.",
+    "JewelSlots": 1
+  },
+  "Jasper Amulet": {
+    "Name": "Jasper Amulet",
+    "Link": "Jasper Amulet",
+    "Image": "Jasper Amulet.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.45
+      },
+      "Pierce": {
+        "Multiplier": 0.625
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 180,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 321,
+      "60": 335,
+      "70": 350,
+      "80": 364,
+      "90": 378,
+      "100": 392,
+      "110": 407,
+      "120": 421,
+      "130": 435,
+      "140": 450,
+      "150": 462,
+      "160": 478,
+      "170": 492
+    },
+    "ObtainedBy": {
+      "1": "Lord Derrick"
+    },
+    "Variations": null,
+    "Description": "A polished jasper gemstone fitted into a necklace, the signature gemstone of the Brotherhood of Balance, a group led by a man named Lord Derrick who wishes to bring peace to the War Seas by any means necessary.",
+    "JewelSlots": 0
+  },
+  "Veil": {
+    "Name": "Veil",
+    "Link": "Veil",
+    "Image": "Veil.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "WorthValues": {
+      "1": 50
+    },
+    "ObtainedBy": {
+      "1": "Morovane's Target"
+    },
+    "Description": "A veil of black fabric that allows you to hide your identity when worn, making you more difficult to track. This technique was taught to you by Morovane, the retired assassin.",
+    "JewelSlots": 2
+  },
+  "Grass Cape": {
+    "Name": "Grass Cape",
+    "Link": "Grass Cape",
+    "Image": "Grass Cape.png",
+    "Stats": {
+      "Dexterity": {
+        "Multiplier": 0.36
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 10,
+      "10": 12,
+      "20": 14,
+      "30": 16,
+      "40": 18,
+      "50": 20
+    },
+    "ObtainedBy": {
+      "1": "Grey Ones"
+    },
+    "Variations": null,
+    "Description": "A cape crafted out of grass and other foliage.",
+    "JewelSlots": 1
+  },
+  "Large Grass Cape": {
+    "Name": "Large Grass Cape",
+    "Link": "Large Grass Cape",
+    "Image": "Large Grass Cape.png",
+    "Stats": {
+      "Dexterity": {
+        "Multiplier": 0.36
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 10,
+      "10": 12,
+      "20": 14,
+      "30": 16,
+      "40": 18,
+      "50": 20
+    },
+    "ObtainedBy": {
+      "1": "Grey Ones",
+      "2": "Grey Chief"
+    },
+    "Variations": null,
+    "Description": "A long cape crafted out of grass and other foliage.",
+    "JewelSlots": 1
+  },
+  "Bone Crown": {
+    "Name": "Bone Crown",
+    "Link": "Bone Crown",
+    "Image": "Bone Crown.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.36
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 30,
+      "10": 36,
+      "20": 42,
+      "30": 48,
+      "40": 54,
+      "50": 60
+    },
+    "ObtainedBy": {
+      "1": "Grey Chief"
+    },
+    "Variations": null,
+    "Description": "A crown made of human bones, originally worn by the Grey Chief, leader of the Grey Ones of the Nimbus Wilds.",
+    "JewelSlots": 1
+  },
+  "Bone Necklace": {
+    "Name": "Bone Necklace",
+    "Link": "Bone Necklace",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.36
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 15,
+      "10": 18,
+      "20": 21,
+      "30": 24,
+      "40": 27,
+      "50": 30
+    },
+    "ObtainedBy": {
+      "1": "Grey Ones",
+      "2": "Grey Chief"
+    },
+    "Variations": null,
+    "Description": "A set of human bones attached to a thin rope, usually worn around the necks of cannibals.",
+    "JewelSlots": 1
+  },
+  "Bone Bracelets": {
+    "Name": "Bone Bracelets",
+    "Link": "Bone Bracelets",
+    "Image": "Bone Bracelets.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.36
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Arm",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 15,
+      "10": 18,
+      "20": 21,
+      "30": 24,
+      "40": 27,
+      "50": 30
+    },
+    "ObtainedBy": {
+      "1": "Grey Ones",
+      "2": "Grey Chief"
+    },
+    "Variations": null,
+    "Description": "A set of human bones attached around thin rope, usually worn around the wrists of cannibals.",
+    "JewelSlots": 1
+  },
+  "Nimbus Wilds Dress": {
+    "Name": "Nimbus Wilds Dress",
+    "Link": "Nimbus Wilds Dress",
+    "Image": "Nimbus Wilds Dress.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.25
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 10,
+      "10": 12,
+      "20": 14,
+      "30": 16,
+      "40": 18,
+      "50": 20
+    },
+    "ObtainedBy": {
+      "1": "Grey Ones"
+    },
+    "Variations": null,
+    "Description": "A black dress worn by the Grey Ones of the Nimbus Wilds.",
+    "JewelSlots": 1
+  },
+  "Nimbus Wilds Waistband": {
+    "Name": "Nimbus Wilds Waistband",
+    "Link": "Nimbus Wilds Waistband",
+    "Image": "Nimbus Wilds Waistband.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.36
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 7,
+      "10": 8,
+      "20": 9,
+      "30": 11,
+      "40": 12,
+      "50": 14
+    },
+    "ObtainedBy": {
+      "1": "Grey Ones"
+    },
+    "Variations": null,
+    "Description": "A black waistband worn by the Grey Ones of the Nimbus Wilds.",
+    "JewelSlots": 1
+  },
+  "Nimbus Wilds Waistcloth": {
+    "Name": "Nimbus Wilds Waistcloth",
+    "Link": "Nimbus Wilds Waistcloth",
+    "Image": "Nimbus Wilds Waistcloth.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.36
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 15,
+      "10": 18,
+      "20": 21,
+      "30": 24,
+      "40": 27,
+      "50": 30
+    },
+    "ObtainedBy": {
+      "1": "Grey Chief"
+    },
+    "Variations": null,
+    "Description": "A torn black waistcloth originally worn by the Grey Chief, leader of the Grey Ones of the Nimbus Wilds.",
+    "JewelSlots": 1
+  },
+  "Cloth Chest Wrap": {
+    "Name": "Cloth Chest Wrap",
+    "Link": "Cloth Chest Wrap",
+    "Image": "Cloth Chest Wrap.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.25
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 5,
+      "10": 6,
+      "20": 7,
+      "30": 8,
+      "40": 9,
+      "50": 10
+    },
+    "ObtainedBy": {
+      "1": "Grey Ones"
+    },
+    "Variations": null,
+    "Description": "A cloth chest wrap usually worn by female warriors and fighters.",
+    "JewelSlots": 1
+  },
+  "Aneignos Scholar Tunic": {
+    "Name": "Aneignos Scholar Tunic",
+    "Link": "Aneignos Scholar Tunic",
+    "Image": "Aneignos Scholar Tunic.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.5
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 110
+    },
+    "ObtainedBy": {
+      "1": "Chests"
+    },
+    "Variations": null,
+    "Description": "A grey-ish blue shirt worn by scholars at the Library of Aneignos in the Skyhall Kingdom.",
+    "JewelSlots": 1
+  },
+  "Aneignos Scholar Pants": {
+    "Name": "Aneignos Scholar Pants",
+    "Link": "Aneignos Scholar Pants",
+    "Image": "Aneignos Scholar Pants.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.5
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 210
+    },
+    "ObtainedBy": {
+      "1": "Chests"
+    },
+    "Variations": null,
+    "Description": "A lower part of a grey-ish blue robe  worn by scholars at the Library of Aneignos in the Skyhall Kingdom.",
+    "JewelSlots": 1
+  },
+  "Frosted Winter Armor": {
+    "Name": "Frosted Winter Armor",
+    "Link": "Frosted Winter Armor",
+    "Image": "Frosted Winter Armor.png",
+    "Stats": {},
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Limited",
+    "WorthValues": {
+      "1": 0
+    },
+    "ObtainedBy": {
+      "1": "The Scout Report"
+    },
+    "Variations": null,
+    "Description": "A rime-lined cuirass gifted to you by the Toymakers in anticipation of your impending battle with Natasha.",
+    "JewelSlots": 0
+  },
+  "Frosted Winter Boots": {
+    "Name": "Frosted Winter Boots",
+    "Link": "Frosted Winter Boots",
+    "Image": "Frosted Winter Boots.png",
+    "Stats": {},
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Leggings",
+    "StatType": "Normal",
+    "Rarity": "Limited",
+    "WorthValues": {
+      "1": 0
+    },
+    "ObtainedBy": {
+      "1": "The Scout Report"
+    },
+    "Variations": null,
+    "Description": "A set of icy greaves gifted to you by the Toymakers in anticipation of your impending battle with Natasha.",
+    "JewelSlots": 0
+  },
+  "War Saint's Coat": {
+    "Name": "War Saint's Coat",
+    "Link": "War Saint's Coat",
+    "Image": "Red War Saint's Cloak.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Limited",
+    "WorthValues": {
+      "1": 0
+    },
+    "ObtainedBy": {
+      "1": "[[Giftboxes|Flaming Giftboxes]]"
+    },
+    "Variations": null,
+    "Description": "A thick, warm coat from War Saint Nicholas's closet.",
+    "JewelSlots": 0
+  },
+  "War Saint's Cap": {
+    "Name": "War Saint's Cap",
+    "Link": "War Saint's Cap",
+    "Image": "War Saint's Cap.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Limited",
+    "WorthValues": {
+      "1": 0
+    },
+    "ObtainedBy": {
+      "1": "[[Giftboxes|Flaming Giftboxes]]"
+    },
+    "Variations": null,
+    "Description": "This hat was stolen from War Saint Nicholas by Natasha. You suppose there's no harm in holding onto it for now.",
+    "JewelSlots": 0
+  },
+  "Yuletide Sweater": {
+    "Name": "Yuletide Sweater",
+    "Link": "Yuletide Sweater",
+    "Image": "Yuletide Sweater.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Limited",
+    "WorthValues": {
+      "1": 0
+    },
+    "ObtainedBy": {
+      "1": "A Yuletide Welcome"
+    },
+    "Variations": null,
+    "Description": "This colorful knitted sweater is sure to keep you warm during the cold months.",
+    "JewelSlots": 0
+  },
+  "Yuletide Beanie": {
+    "Name": "Yuletide Beanie",
+    "Link": "Yuletide Beanie",
+    "Image": "Yuletide Beanie.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Limited",
+    "WorthValues": {
+      "1": 0
+    },
+    "ObtainedBy": {
+      "1": "A Yuletide Welcome"
+    },
+    "Variations": null,
+    "Description": "A warm knitted beanie decorated with festive designs.",
+    "JewelSlots": 0
+  },
+  "Yuletide Savior's Cape": {
+    "Name": "Yuletide Savior's Cape",
+    "Link": "Yuletide Savior's Cape",
+    "Image": "Yuletide Savior's Cape.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Limited",
+    "WorthValues": {
+      "1": 0
+    },
+    "ObtainedBy": {
+      "1": "Completing the Yuletide 2024 Event"
+    },
+    "Variations": null,
+    "Description": "An extravagant cape adorned with unmelting ice that seems to emit billowing frost. Gifted to you by the Toymakers for completing the 2024 Yuletide Event.",
+    "JewelSlots": 0
+  },
+  "Yuletide Savior's Crown": {
+    "Name": "Yuletide Savior's Crown",
+    "Link": "Yuletide Savior's Crown",
+    "Image": "Yuletide Savior's Crown.png",
+    "MinLevel": 1,
+    "MaxLevel": 1,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Limited",
+    "WorthValues": {
+      "1": 0
+    },
+    "ObtainedBy": {
+      "1": "[[Giftboxes|Frozen Giftboxes]]"
+    },
+    "Variations": null,
+    "Description": "An icy crown stolen from the Toymaker Village by Natasha. Upon further examination it appears to be a missing counterpart to the cloak you received.",
+    "JewelSlots": 0
+  },
   "Butler's Jacket": {
     "Name": "Butler's Jacket",
     "Link": "Butler's Jacket",
@@ -3261,7 +4032,7 @@
     },
     "MinLevel": 50,
     "MaxLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -3359,7 +4130,7 @@
     },
     "MinLevel": 50,
     "MaxLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -3455,7 +4226,7 @@
         "Multiplier": 0.225
       }
     },
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -3479,7 +4250,7 @@
     "Image": "GreyArcherCloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": "13 / 35"
+        "Multiplier": "13/35"
       }
     },
     "MinLevel": 50,
@@ -3537,12 +4308,12 @@
     "Image": "Archer Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": "13 / 35"
+        "Multiplier": "13/35"
       }
     },
     "MinLevel": 50,
     "MaxLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -3570,7 +4341,7 @@
     "Name": "Bruiser Boots",
     "Link": "Bruiser Boots",
     "MinLevel": 50,
-    "EquipType": "Leggings"
+    "EquipType": "Legging"
   },
   "Tropical Shirt": {
     "Name": "Tropical Shirt",
@@ -3618,7 +4389,7 @@
     "Name": "Sailor's Boots",
     "Link": "Sailor's Boots",
     "MinLevel": 50,
-    "EquipType": "Leggings"
+    "EquipType": "Legging"
   },
   "Warrior's Coat": {
     "Name": "Warrior's Coat",
@@ -3630,7 +4401,7 @@
     "Name": "Warrior's Boots",
     "Link": "Warrior's Boots",
     "MinLevel": 50,
-    "EquipType": "Leggings"
+    "EquipType": "Legging"
   },
   "Samurai Straw Hat": {
     "Name": "Samurai Straw Hat",
@@ -3648,7 +4419,7 @@
     "Name": "Samurai Pants",
     "Link": "Samurai Pants",
     "MinLevel": 50,
-    "EquipType": "Leggings"
+    "EquipType": "Legging"
   },
   "Wizard Hat": {
     "Name": "Wizard Hat",
@@ -3666,13 +4437,193 @@
     "Name": "Wizard Pants",
     "Link": "Wizard Pants",
     "MinLevel": 50,
-    "EquipType": "Leggings"
+    "EquipType": "Legging"
   },
   "Iron Helmet": {
     "Name": "Iron Helmet",
     "Link": "Iron Helmet",
+    "Image": "IronHelmet.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
     "MinLevel": 50,
-    "EquipType": "Helmet"
+    "MaxLevel": 100,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Common",
+    "WorthValues": {
+      "50": 25,
+      "60": 40,
+      "70": 42,
+      "80": 45,
+      "90": 47,
+      "100": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
+  },
+  "Iron Bucket Helmet": {
+    "Name": "Iron Bucket Helmet",
+    "Link": "Iron Bucket Helmet",
+    "Image": "Iron Bucket Helmet.png",
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Common",
+    "WorthValues": {
+      "50": 25,
+      "60": 40,
+      "70": 42,
+      "80": 45,
+      "90": 47,
+      "100": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
+  },
+  "Iron Gladiator Helmet": {
+    "Name": "Iron Gladiator Helmet",
+    "Link": "Iron Gladiator Helmet",
+    "Image": "Iron Gladiator Helmet.png",
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Common",
+    "WorthValues": {
+      "50": 25,
+      "60": 40,
+      "70": 42,
+      "80": 45,
+      "90": 47,
+      "100": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
+  },
+  "Iron Plumed Helmet": {
+    "Name": "Iron Plumed Helmet",
+    "Link": "Iron Plumed Helmet",
+    "Image": "Red Iron Plumed Helmet.png",
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Common",
+    "WorthValues": {
+      "50": 25,
+      "60": 40,
+      "70": 42,
+      "80": 45,
+      "90": 47,
+      "100": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
+  },
+  "Iron Sallet Helmet": {
+    "Name": "Iron Sallet Helmet",
+    "Link": "Iron Sallet Helmet",
+    "Image": "Iron Sallet Helmet.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Common",
+    "WorthValues": {
+      "50": 25,
+      "60": 40,
+      "70": 42,
+      "80": 45,
+      "90": 47,
+      "100": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
+  },
+  "Iron Kettle Helmet": {
+    "Name": "Iron Kettle Helmet",
+    "Link": "Iron Kettle Helmet",
+    "Image": "Iron Kettle Helmet.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Common",
+    "WorthValues": {
+      "50": 25,
+      "60": 40,
+      "70": 42,
+      "80": 45,
+      "90": 47,
+      "100": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
   },
   "Iron Armor": {
     "Name": "Iron Armor",
@@ -3736,38 +4687,192 @@
   "Iron Boots": {
     "Name": "Iron Boots",
     "Link": "Iron Boots",
+    "Image": "IronBoots.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
     "MinLevel": 50,
-    "EquipType": "Leggings"
+    "MaxLevel": 100,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Common",
+    "WorthValues": {
+      "50": 25,
+      "60": 40,
+      "70": 42,
+      "80": 45,
+      "90": 47,
+      "100": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy pair of boots reinforced with iron to provide a small amount of protection.",
+    "JewelSlots": 1
   },
   "Iron Pauldrons": {
     "Name": "Iron Pauldrons",
     "Link": "Iron Pauldrons",
+    "Image": "IronPauldrons.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
     "MinLevel": 50,
-    "EquipType": "Shoulder"
+    "MaxLevel": 100,
+    "EquipType": "Shoulder",
+    "StatType": "Normal",
+    "Rarity": "Common",
+    "WorthValues": {
+      "50": 25,
+      "60": 40,
+      "70": 42,
+      "80": 45,
+      "90": 47,
+      "100": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A set of pauldrons out of iron, usually worn by knights.",
+    "JewelSlots": 1
   },
   "Greenwish Cultist Cowl": {
     "Name": "Greenwish Cultist Cowl",
     "Link": "Greenwish Cultist Cowl",
-    "MinLevel": 50,
-    "EquipType": "Hat"
+    "Image": "Greenwish cultist cowl.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.225
+      },
+      "Haste": {
+        "Multiplier": 0.125
+      }
+    },
+    "MinLevel": 60,
+    "MaxLevel": 110,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "60": 30,
+      "70": 49,
+      "80": 51,
+      "90": 54,
+      "100": 66,
+      "110": 70
+    },
+    "ObtainedBy": {
+      "1": "Greenwish Cultist"
+    },
+    "Variations": null,
+    "Description": "A cowl made of green cloth worn by the Greenwish Cultists of the Forest of Cernunno.",
+    "JewelSlots": 1
   },
   "Greenwish Cultist Faulds": {
     "Name": "Greenwish Cultist Faulds",
     "Link": "Greenwish Cultist Faulds",
-    "MinLevel": 50,
-    "EquipType": "Waist"
+    "Image": "Greenwish cultist faulds.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.225
+      },
+      "Haste": {
+        "Multiplier": 0.125
+      }
+    },
+    "MinLevel": 60,
+    "MaxLevel": 110,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "60": 30,
+      "70": 49,
+      "80": 51,
+      "90": 54,
+      "100": 66,
+      "110": 70
+    },
+    "ObtainedBy": {
+      "1": "Greenwish Cultist"
+    },
+    "Variations": null,
+    "Description": "Faulds of green cloth worn around the waist by the Greenwish Cultists of the Forest of Cernunno.",
+    "JewelSlots": 1
   },
   "Greenwish Cultist Robe": {
     "Name": "Greenwish Cultist Robe",
     "Link": "Greenwish Cultist Robe",
-    "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "Image": "Greenwish cultist robe.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.45
+      },
+      "Haste": {
+        "Multiplier": 0.25
+      }
+    },
+    "MinLevel": 60,
+    "MaxLevel": 110,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "60": 30,
+      "70": 56,
+      "80": 59,
+      "90": 63,
+      "100": 66,
+      "110": 70
+    },
+    "ObtainedBy": {
+      "1": "Greenwish Cultist"
+    },
+    "Variations": null,
+    "Description": "A ragged, dark robe worn by the Greenwish Cultists of the Forest of Cernunno.",
+    "JewelSlots": 1
   },
   "Greenwish Cultist Boots": {
     "Name": "Greenwish Cultist Boots",
     "Link": "Greenwish Cultist Boots",
-    "MinLevel": 50,
-    "EquipType": "Leggings"
+    "Image": "GreenwishCultistBoots.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": "1/3"
+      },
+      "Haste": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 60,
+    "MaxLevel": 110,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "60": 30,
+      "70": 49,
+      "80": 51,
+      "90": 54,
+      "100": 57,
+      "110": 60
+    },
+    "ObtainedBy": {
+      "1": "Greenwish Cultist"
+    },
+    "Variations": null,
+    "Description": "A pair of grey pants worn by the Greenwish Cultists of the Forest of Cernunno.",
+    "JewelSlots": 1
   },
   "Wolf Pelt Hood": {
     "Name": "Wolf Pelt Hood",
@@ -3826,7 +4931,7 @@
     },
     "MinLevel": 50,
     "MaxLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "ObtainedBy": {
@@ -3838,20 +4943,134 @@
   "Steel Helmet": {
     "Name": "Steel Helmet",
     "Link": "Steel Helmet",
-    "MinLevel": 50,
-    "EquipType": "Helmet"
+    "Image": "SteelHelmet.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "MinLevel": 70,
+    "MaxLevel": 150,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "70": 54,
+      "80": 56,
+      "90": 59,
+      "100": 61,
+      "110": 64,
+      "120": 66,
+      "130": 69,
+      "140": 71,
+      "150": 74
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made out of fine steel, providing a decent amount of protection.",
+    "JewelSlots": 1
   },
   "Steel Armor": {
     "Name": "Steel Armor",
     "Link": "Steel Armor",
-    "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "Image": "SteelArmor.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.6
+      }
+    },
+    "MinLevel": 70,
+    "MaxLevel": 150,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "70": 110,
+      "80": 114,
+      "90": 120,
+      "100": 125,
+      "110": 130,
+      "120": 135,
+      "130": 140,
+      "140": 145,
+      "150": 150
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A protective suit of armor made out of fine steel.",
+    "JewelSlots": 1
+  },
+  "Steel Chainmail Shirt": {
+    "Name": "Steel Chainmail Shirt",
+    "Link": "Steel Chainmail Shirt",
+    "Image": "Steel Chainmail Shirt.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.3
+      }
+    },
+    "MinLevel": 70,
+    "MaxLevel": 120,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "70": 55,
+      "80": 91,
+      "90": 96,
+      "100": 100,
+      "110": 105,
+      "120": 110
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing"
+    },
+    "Variations": null,
+    "Description": "A chainmail shirt made out of refined steel, providing added protection against attacks.",
+    "JewelSlots": 1
   },
   "Steel Boots": {
     "Name": "Steel Boots",
     "Link": "Steel Boots",
-    "MinLevel": 50,
-    "EquipType": "Leggings"
+    "Image": "SteelBoots.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "MinLevel": 70,
+    "MaxLevel": 150,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "70": 54,
+      "80": 56,
+      "90": 59,
+      "100": 61,
+      "110": 64,
+      "120": 66,
+      "130": 69,
+      "140": 71,
+      "150": 74
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy pair of boots reinforced with fine steel to providing a decent amount of protection.",
+    "JewelSlots": 1
   },
   "Steel Pauldrons": {
     "Name": "Steel Pauldrons",
@@ -3859,82 +5078,265 @@
     "Image": "SteelPauldrons.png",
     "Stats": {
       "Defense": {
-        "Multiplier": 0.55
+        "Multiplier": 0.45
       }
     },
     "MinLevel": 70,
-    "MaxLevel": 170,
+    "MaxLevel": 150,
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
-      "70": 37,
+      "70": 54,
       "80": 56,
       "90": 59,
       "100": 61,
       "110": 64,
       "120": 66,
-      "130": 69
+      "130": 69,
+      "140": 71,
+      "150": 74
     },
     "ObtainedBy": {
       "1": "Chests",
-      "2": "Fishing"
+      "2": "Fishing",
+      "3": "Armorer"
     },
     "Variations": null,
-    "Description": "A set of pauldrons out of fine steel, providing a decent amount of protection."
+    "Description": "A set of pauldrons out of fine steel, providing a decent amount of protection.",
+    "JewelSlots": 1
+  },
+  "Steel Plumed Helmet": {
+    "Name": "Steel Plumed Helmet",
+    "Link": "Steel Plumed Helmet",
+    "Image": "Red Steel Plumed Helmet.png",
+    "MinLevel": 70,
+    "MaxLevel": 150,
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "70": 36,
+      "80": 38,
+      "90": 40,
+      "100": 41,
+      "110": 43,
+      "120": 45,
+      "130": 46,
+      "140": 48,
+      "150": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
+  },
+  "Steel Gladiator Helmet": {
+    "Name": "Steel Gladiator Helmet",
+    "Link": "Steel Gladiator Helmet",
+    "Image": "Steel Gladiator Helmet.png",
+    "MinLevel": 70,
+    "MaxLevel": 150,
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "70": 36,
+      "80": 38,
+      "90": 40,
+      "100": 41,
+      "110": 43,
+      "120": 45,
+      "130": 46,
+      "140": 48,
+      "150": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
+  },
+  "Steel Bucket Helmet": {
+    "Name": "Steel Bucket Helmet",
+    "Link": "Steel Bucket Helmet",
+    "Image": "Steel Bucket Helmet.png",
+    "MinLevel": 70,
+    "MaxLevel": 150,
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "70": 36,
+      "80": 38,
+      "90": 40,
+      "100": 41,
+      "110": 43,
+      "120": 45,
+      "130": 46,
+      "140": 48,
+      "150": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
+  },
+  "Steel Sallet Helmet": {
+    "Name": "Steel Sallet Helmet",
+    "Link": "Steel Sallet Helmet",
+    "Image": "Steel Sallet Helmet.png",
+    "MinLevel": 70,
+    "MaxLevel": 150,
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "70": 36,
+      "80": 38,
+      "90": 40,
+      "100": 41,
+      "110": 43,
+      "120": 45,
+      "130": 46,
+      "140": 48,
+      "150": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
+  },
+  "Steel Kettle Helmet": {
+    "Name": "Steel Kettle Helmet",
+    "Link": "Steel Kettle Helmet",
+    "Image": "Steel Kettle Helmet.png",
+    "MinLevel": 70,
+    "MaxLevel": 150,
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "70": 36,
+      "80": 38,
+      "90": 40,
+      "100": 41,
+      "110": 43,
+      "120": 45,
+      "130": 46,
+      "140": 48,
+      "150": 50
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Armorer"
+    },
+    "Variations": null,
+    "Description": "A sturdy helmet made of iron, usually worn by knights.",
+    "JewelSlots": 1
   },
   "Deluxe Hunting Armor": {
     "Name": "Deluxe Hunting Armor",
     "Link": "Deluxe Hunting Armor",
     "MinLevel": 50,
+    "MaxLevel": 100,
     "EquipType": "Chestpiece"
   },
   "Deluxe Hunting Boots": {
     "Name": "Deluxe Hunting Boots",
     "Link": "Deluxe Hunting Boots",
     "MinLevel": 50,
-    "EquipType": "Leggings"
+    "MaxLevel": 100,
+    "EquipType": "Legging"
   },
   "Flower Dress": {
     "Name": "Flower Dress",
     "Link": "Flower Dress",
     "MinLevel": 50,
+    "MaxLevel": 100,
     "EquipType": "Chestpiece"
   },
   "Flower Leggings": {
     "Name": "Flower Leggings",
     "Link": "Flower Leggings",
     "MinLevel": 50,
-    "EquipType": "Leggings"
+    "MaxLevel": 100,
+    "EquipType": "Legging"
   },
   "Thane Cloak": {
     "Name": "Thane Cloak",
     "Link": "Thane Cloak",
-    "MinLevel": 50,
+    "MinLevel": 70,
+    "MaxLevel": 150,
     "EquipType": "Collar"
   },
   "Thane Armbands": {
     "Name": "Thane Armbands",
     "Link": "Thane Armbands",
-    "MinLevel": 50,
+    "MinLevel": 70,
+    "MaxLevel": 150,
     "EquipType": "Arm"
   },
   "Thane Pauldrons": {
     "Name": "Thane Pauldrons",
     "Link": "Thane Pauldrons",
-    "MinLevel": 50,
+    "MinLevel": 70,
+    "MaxLevel": 150,
     "EquipType": "Shoulder"
   },
   "Thane Armor": {
     "Name": "Thane Armor",
     "Link": "Thane Armor",
-    "MinLevel": 50,
+    "MinLevel": 70,
+    "MaxLevel": 150,
     "EquipType": "Chestpiece"
   },
   "Thane Boots": {
     "Name": "Thane Boots",
     "Link": "Thane Boots",
-    "MinLevel": 50,
+    "MinLevel": 70,
+    "MaxLevel": 150,
     "EquipType": "Boots"
   },
   "Sunken Iron Helmet": {
@@ -4021,7 +5423,7 @@
       }
     },
     "MinLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Mystic",
     "WorthValues": {
@@ -4063,7 +5465,8 @@
     "Rarity": "Rare",
     "WorthValues": {
       "120": 1671,
-      "130": 1735
+      "130": 1735,
+      "140": 1799
     },
     "ObtainedBy": {
       "1": "Treasure Charts"
@@ -4085,7 +5488,7 @@
     },
     "MinLevel": 50,
     "MaxLevel": 180,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -4213,35 +5616,6 @@
     },
     "Variations": null,
     "Description": "A small backpack equipped with tools that a treasure hunter would normally use."
-  },
-  "Steel Chainmail Shirt": {
-    "Name": "Steel Chainmail Shirt",
-    "Link": "Steel Chainmail Shirt",
-    "Image": "Steel Chainmail Shirt.png",
-    "Stats": {
-      "Defense": {
-        "Multiplier": 0.3
-      }
-    },
-    "MinLevel": 70,
-    "MaxLevel": 120,
-    "EquipType": "Chestpiece",
-    "StatType": "Normal",
-    "Rarity": "Uncommon",
-    "WorthValues": {
-      "70": 55,
-      "80": 91,
-      "90": 96,
-      "100": 100,
-      "110": 105,
-      "120": 110
-    },
-    "ObtainedBy": {
-      "1": "Chests",
-      "2": "Fishing"
-    },
-    "Variations": null,
-    "Description": "A chainmail shirt made out of refined steel, providing added protection against attacks."
   },
   "Dull Amulets": {
     "Name": "Dull Amulets",
@@ -4373,150 +5747,6 @@
     "Link": "Seafarer's Coat",
     "MinLevel": 50,
     "EquipType": "Chestpiece"
-  },
-  "Iron Plumed Helmet": {
-    "Name": "Iron Plumed Helmet",
-    "Link": "Iron Plumed Helmet",
-    "Image": "Red Iron Plumed Helmet.png",
-    "MinLevel": 50,
-    "MaxLevel": 100,
-    "Stats": {
-      "Defense": {
-        "Multiplier": 0.45
-      }
-    },
-    "EquipType": "Helmet",
-    "StatType": "Normal",
-    "Rarity": "Common",
-    "WorthValues": {
-      "100": 50
-    },
-    "ObtainedBy": {
-      "1": "Chests",
-      "2": "Fishing"
-    },
-    "Variations": null,
-    "Description": "A sturdy helmet made of iron, usually worn by knights."
-  },
-  "Iron Bucket Helmet": {
-    "Name": "Iron Bucket Helmet",
-    "Link": "Iron Bucket Helmet",
-    "Image": "Iron Bucket Helmet.png",
-    "MinLevel": 50,
-    "MaxLevel": 100,
-    "Stats": {
-      "Defense": {
-        "Multiplier": 0.45
-      }
-    },
-    "EquipType": "Helmet",
-    "StatType": "Normal",
-    "Rarity": "Common",
-    "WorthValues": {
-      "100": 50
-    },
-    "ObtainedBy": {
-      "1": "Chests",
-      "2": "Fishing"
-    },
-    "Variations": null,
-    "Description": "A sturdy helmet made of iron, usually worn by knights."
-  },
-  "Iron Gladiator Helmet": {
-    "Name": "Iron Gladiator Helmet",
-    "Link": "Iron Gladiator Helmet",
-    "Image": "Iron Gladiator Helmet.png",
-    "MinLevel": 50,
-    "MaxLevel": 100,
-    "Stats": {
-      "Defense": {
-        "Multiplier": 0.45
-      }
-    },
-    "EquipType": "Helmet",
-    "StatType": "Normal",
-    "Rarity": "Common",
-    "WorthValues": {
-      "100": 50
-    },
-    "ObtainedBy": {
-      "1": "Chests",
-      "2": "Fishing"
-    },
-    "Variations": null,
-    "Description": "A sturdy helmet made of iron, usually worn by knights."
-  },
-  "Steel Plumed Helmet": {
-    "Name": "Steel Plumed Helmet",
-    "Link": "Steel Plumed Helmet",
-    "Image": "Red Steel Plumed Helmet.png",
-    "MinLevel": 70,
-    "MaxLevel": 140,
-    "Stats": {
-      "Defense": {
-        "Multiplier": 0.45
-      }
-    },
-    "EquipType": "Helmet",
-    "StatType": "Normal",
-    "Rarity": "Uncommon",
-    "WorthValues": {
-      "140": 48
-    },
-    "ObtainedBy": {
-      "1": "Chests",
-      "2": "Fishing"
-    },
-    "Variations": null,
-    "Description": "A sturdy helmet made of iron, usually worn by knights."
-  },
-  "Steel Gladiator Helmet": {
-    "Name": "Steel Gladiator Helmet",
-    "Link": "Steel Gladiator Helmet",
-    "Image": "Steel Gladiator Helmet.png",
-    "MinLevel": 70,
-    "MaxLevel": 140,
-    "Stats": {
-      "Defense": {
-        "Multiplier": 0.45
-      }
-    },
-    "EquipType": "Helmet",
-    "StatType": "Normal",
-    "Rarity": "Uncommon",
-    "WorthValues": {
-      "140": 48
-    },
-    "ObtainedBy": {
-      "1": "Chests",
-      "2": "Fishing"
-    },
-    "Variations": null,
-    "Description": "A sturdy helmet made of iron, usually worn by knights."
-  },
-  "Steel Bucket Helmet": {
-    "Name": "Steel Bucket Helmet",
-    "Link": "Steel Bucket Helmet",
-    "Image": "Steel Bucket Helmet.png",
-    "MinLevel": 70,
-    "MaxLevel": 140,
-    "Stats": {
-      "Defense": {
-        "Multiplier": 0.45
-      }
-    },
-    "EquipType": "Helmet",
-    "StatType": "Normal",
-    "Rarity": "Uncommon",
-    "WorthValues": {
-      "140": 48
-    },
-    "ObtainedBy": {
-      "1": "Chests",
-      "2": "Fishing"
-    },
-    "Variations": null,
-    "Description": "A sturdy helmet made of iron, usually worn by knights."
   },
   "Long-Horned Helm": {
     "Name": "Long-Horned Helm",
@@ -4762,7 +5992,7 @@
     },
     "MinLevel": 80,
     "MaxLevel": 180,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -4782,6 +6012,156 @@
     },
     "Variations": null,
     "Description": "A pair of worn boots trimmed in silver that were once worn by the Lost Chief of Redwake, Hallbjorn.",
+    "JewelSlots": 2
+  },
+  "Golden Ones Armor": {
+    "Name": "Golden Ones Armor",
+    "Link": "Golden Ones Armor",
+    "Image": "Golden Ones Armor.PNG",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.6
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 120,
+      "60": 128,
+      "70": 136,
+      "80": 144,
+      "90": 152,
+      "100": 160
+    },
+    "ObtainedBy": {
+      "1": "Golden Ones Mercenaries"
+    },
+    "Variations": null,
+    "Description": "A set of fine metal armor trimmed in gold tint, the armor worn by the Golden Ones mercenaries of the Paramount Bank.",
+    "JewelSlots": 2
+  },
+  "Golden Ones Leggings": {
+    "Name": "Golden Ones Leggings",
+    "Link": "Golden Ones Leggings",
+    "Image": "Golden Ones Leggings.PNG",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 60,
+      "60": 64,
+      "70": 68,
+      "80": 72,
+      "90": 76,
+      "100": 80
+    },
+    "ObtainedBy": {
+      "1": "Golden Ones Mercenaries"
+    },
+    "Variations": null,
+    "Description": "A set of fine metal leggings trimmed in gold tint, worn by the Golden Ones mercenaries of the Paramount Bank.",
+    "JewelSlots": 2
+  },
+  "Golden Ones Cloak": {
+    "Name": "Golden Ones Cloak",
+    "Link": "Golden Ones Cloak",
+    "Image": "Golden Ones Cloak.PNG",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.3
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 30,
+      "60": 32,
+      "70": 34,
+      "80": 36,
+      "90": 38,
+      "100": 40
+    },
+    "ObtainedBy": {
+      "1": "Golden Ones Mercenaries"
+    },
+    "Variations": null,
+    "Description": "A cloak dyed gold intended to be clasped to a chestpiece, worn by the Golden Ones mercenaries of the Paramount Bank.",
+    "JewelSlots": 2
+  },
+  "Golden Ones Helmet": {
+    "Name": "Golden Ones Helmet",
+    "Link": "Golden Ones Helmet",
+    "Image": "Golden Ones Helmet.PNG",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.45
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 30,
+      "60": 32,
+      "70": 34,
+      "80": 36,
+      "90": 38,
+      "100": 40
+    },
+    "ObtainedBy": {
+      "1": "Golden Ones Mercenaries"
+    },
+    "Variations": null,
+    "Description": "A fine metal helmet trimmed in gold tint, worn by the Golden Ones mercenaries of the Paramount Bank.",
+    "JewelSlots": 2
+  },
+  "Bucket": {
+    "Name": "Bucket",
+    "Link": "Bucket",
+    "Image": "Pine Bucket.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.25
+      },
+      "Resistance": {
+        "Multiplier": 0.45
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 22,
+      "60": 24,
+      "70": 25,
+      "80": 27,
+      "90": 28,
+      "100": 30
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing",
+      "3": "Tailor"
+    },
+    "Variations": 9,
+    "Description": "A wooden bucket reinforced with metal bands, intended to be worn as a helmet.",
     "JewelSlots": 2
   },
   "Deluxe Iron Helmet": {
@@ -4860,7 +6240,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -4953,7 +6333,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -5015,7 +6395,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
     "WorthValues": {
@@ -5072,7 +6452,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 180,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -5100,7 +6480,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 180,
-    "EquipType": "Shoulders",
+    "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -5181,7 +6561,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -5209,7 +6589,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Shoulders",
+    "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -5264,8 +6644,8 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
-    "EquipTyp": "Helmet",
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -5291,7 +6671,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "Stattype": "Normal",
     "Rarity": "Uncommon",
@@ -5380,7 +6760,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -5497,7 +6877,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -5524,7 +6904,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5554,7 +6934,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5582,7 +6962,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5610,7 +6990,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5638,7 +7018,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5663,7 +7043,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5693,7 +7073,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5723,8 +7103,8 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
-    "EquipType": "Leggings",
+    "MaxLevel": 250,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -5753,7 +7133,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5783,8 +7163,8 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
-    "EquipType": "Leggings",
+    "MaxLevel": 250,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -5813,7 +7193,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5843,7 +7223,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5874,7 +7254,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -5977,7 +7357,7 @@
     },
     "MinLevel": 120,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -6034,20 +7414,24 @@
     "Image": "WhiteTheurgistRobes.png",
     "Stats": {
       "Dexterity": {
-        "Multiplier": 0.925
+        "Multiplier": 1.03
       },
       "Warding": {
         "Value": 1
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
-      "120": 240,
-      "130": 364
+      "120": 355,
+      "130": 364,
+      "140": 374,
+      "150": 384,
+      "160": 393,
+      "170": 403
     },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
@@ -6062,21 +7446,24 @@
     "Image": "WhiteTheurgistPants.png",
     "Stats": {
       "Dexterity": {
-        "Multiplier": 0.6
+        "Multiplier": "23/30"
       },
       "Warding": {
         "Value": 1
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
-    "EquipType": "Leggings",
+    "MaxLevel": 250,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
-      "120": 120,
+      "120": 177,
       "130": 182,
-      "140": 187
+      "140": 187,
+      "150": 192,
+      "160": 196,
+      "170": 201
     },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
@@ -6091,21 +7478,24 @@
     "Image": "WhiteTheurgistHat.png",
     "Stats": {
       "Dexterity": {
-        "Multiplier": 0.6
+        "Multiplier": "23/30"
       },
       "Warding": {
         "Value": 1
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
-      "120": 120,
+      "120": 177,
       "130": 182,
-      "140": 187
+      "140": 187,
+      "150": 192,
+      "160": 196,
+      "170": 201
     },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
@@ -6120,21 +7510,24 @@
     "Image": "WhiteTheurgistCloak.png",
     "Stats": {
       "Dexterity": {
-        "Multiplier": 0.6
+        "Multiplier": "23/30"
       },
       "Warding": {
         "Value": 1
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
-      "120": 120,
+      "120": 177,
       "130": 182,
-      "140": 187
+      "140": 187,
+      "150": 192,
+      "160": 196,
+      "170": 201
     },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
@@ -6152,7 +7545,7 @@
         "Multiplier": 0.871
       },
       "Haste": {
-        "Multiplier": 0.603
+        "Multiplier": 0.6
       }
     },
     "MinLevel": 120,
@@ -6177,15 +7570,15 @@
     "Image": "AereusPants.png",
     "Stats": {
       "Size": {
-        "Multiplier": 0.65325
+        "Multiplier": 0.65
       },
       "Haste": {
-        "Multiplier": "29 / 65"
+        "Multiplier": 0.45
       }
     },
     "MinLevel": 120,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -6205,10 +7598,10 @@
     "Image": "Aereus Hat.png",
     "Stats": {
       "Size": {
-        "Multiplier": 0.65325
+        "Multiplier": 0.65
       },
       "Haste": {
-        "Multiplier": "29 / 65"
+        "Multiplier": 0.45
       }
     },
     "MinLevel": 120,
@@ -6296,7 +7689,7 @@
     },
     "MinLevel": 120,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -6316,24 +7709,27 @@
     "Image": "Diatrys Hood.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.215625
+        "Multiplier": 0.255
       },
       "Pierce": {
-        "Multiplier": 0.4875
+        "Multiplier": 0.553
       },
       "Warding": {
         "Value": 1
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
-      "120": 180,
+      "120": 266,
       "130": 273,
-      "140": 280
+      "140": 280,
+      "150": 288,
+      "160": 295,
+      "170": 302
     },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
@@ -6347,24 +7743,27 @@
     "Image": "Diatrys Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2875
+        "Multiplier": 0.322
       },
       "Pierce": {
-        "Multiplier": 0.65
+        "Multiplier": 0.73
       },
       "Warding": {
         "Value": 1
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
-      "120": 147,
-      "130": 203,
-      "140": 561
+      "120": 532,
+      "130": 547,
+      "140": 561,
+      "150": 576,
+      "160": 590,
+      "170": 604
     },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
@@ -6378,23 +7777,27 @@
     "Image": "Diatrys Leggings.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.215625
+        "Multiplier": 0.255
       },
       "Pierce": {
-        "Multiplier": 0.4875
+        "Multiplier": 0.553
       },
       "Warding": {
         "Value": 1
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
-    "EquipType": "Chestpiece",
+    "MaxLevel": 250,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
-      "130": 131,
-      "140": 139
+      "120": 266,
+      "130": 273,
+      "140": 280,
+      "150": 288,
+      "160": 295,
+      "170": 302
     },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
@@ -6411,18 +7814,21 @@
         "Multiplier": 0.8095
       },
       "Defense": {
-        "Multiplier": "-0.3068"
+        "Multiplier": -0.3068
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
       "120": 180,
       "130": 273,
-      "140": 280
+      "140": 280,
+      "150": 288,
+      "160": 295,
+      "170": 302
     },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
@@ -6439,18 +7845,21 @@
         "Multiplier": 0.8095
       },
       "Defense": {
-        "Multiplier": "-0.3068"
+        "Multiplier": -0.3068
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
-    "EquipType": "Leggings",
+    "MaxLevel": 250,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
       "120": 180,
       "130": 273,
-      "140": 280
+      "140": 280,
+      "150": 288,
+      "160": 295,
+      "170": 302
     },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
@@ -6464,21 +7873,24 @@
     "Image": "Sophragos Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": "14 / 13"
+        "Multiplier": "14/13"
       },
       "Defense": {
-        "Multiplier": "-0.41"
+        "Multiplier": "-.41"
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
       "120": 360,
       "130": 547,
-      "140": 561
+      "140": 561,
+      "150": 576,
+      "160": 590,
+      "170": 604
     },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
@@ -6495,14 +7907,14 @@
         "Multiplier": 0.675
       },
       "Range": {
-        "Multiplier": "61 / 60"
+        "Multiplier": 1.024
       },
-      "Regeneration": {
-        "Multiplier": "-0.55"
+      "Defense": {
+        "Multiplier": -0.3
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
@@ -6526,15 +7938,15 @@
         "Multiplier": 0.675
       },
       "Range": {
-        "Multiplier": "61 / 60"
+        "Multiplier": 1.024
       },
-      "Regeneration": {
-        "Multiplier": "-0.55"
+      "Defense": {
+        "Multiplier": -0.3
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
-    "EquipType": "Leggings",
+    "MaxLevel": 250,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -6557,14 +7969,19 @@
         "Multiplier": 0.9
       },
       "Range": {
-        "Multiplier": "19 / 14"
+        "Multiplier": 1.366
       },
-      "Regeneration": {
-        "Multiplier": "-11 / 15"
+      "Defense": {
+        "Multiplier": -0.3987
+      }
+    },
+    "StatOverrides": {
+      "120": {
+        "Defense": -129
       }
     },
     "MinLevel": 120,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
@@ -6631,7 +8048,7 @@
     "Name": "Atlantean-Hide Legs",
     "Link": "Atlantean-Hide Legs",
     "MinLevel": 100,
-    "EquipType": "Leggings"
+    "EquipType": "Legging"
   },
   "Atlantean Fish Leg": {
     "Name": "Atlantean Fish Leg",
@@ -6643,7 +8060,7 @@
     "Name": "Atlantean Creature Leg",
     "Link": "Atlantean Creature Leg",
     "MinLevel": 100,
-    "EquipType": "Leggings"
+    "EquipType": "Legging"
   },
   "Arcmancer Hat": {
     "Name": "Arcmancer Hat",
@@ -6693,7 +8110,7 @@
       }
     },
     "MinLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
     "ObtainedBy": {
@@ -6759,7 +8176,7 @@
       }
     },
     "MinLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
     "ObtainedBy": {
@@ -6825,7 +8242,7 @@
       }
     },
     "MinLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
     "ObtainedBy": {
@@ -6863,7 +8280,7 @@
       }
     },
     "MinLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Strength",
     "Rarity": "Uncommon",
     "ObtainedBy": {
@@ -6942,7 +8359,7 @@
       }
     },
     "MinLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Strength",
     "Rarity": "Uncommon",
     "ObtainedBy": {
@@ -7002,7 +8419,7 @@
       }
     },
     "MinLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Strength",
     "Rarity": "Uncommon",
     "ObtainedBy": {
@@ -7106,7 +8523,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Vitality",
     "Rarity": "Rare",
     "ObtainedBy": {
@@ -7172,7 +8589,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Vitality",
     "Rarity": "Rare",
     "ObtainedBy": {
@@ -7216,7 +8633,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Vitality",
     "Rarity": "Rare",
     "ObtainedBy": {
@@ -7322,7 +8739,7 @@
       }
     },
     "MinLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Mystic",
     "WorthValues": {
@@ -7356,7 +8773,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -7383,7 +8800,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -7410,8 +8827,8 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
-    "EquipType": "Leggings",
+    "MaxLevel": 250,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {},
@@ -7472,12 +8889,6 @@
     "Variations": null,
     "Description": "A bracelet made out of arcanium metal, capable of conducting some magic. It can be worn on the wrist to increase the wearer's power."
   },
-  "Fighter Jacket": {
-    "Name": "Fighter Jacket",
-    "Link": "Fighter Jacket",
-    "MinLevel": 100,
-    "EquipType": "Chestpiece"
-  },
   "Titanium Chainmail Shirt": {
     "Name": "Titanium Chainmail Shirt",
     "Link": "Titanium Chainmail Shirt",
@@ -7488,7 +8899,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -7547,8 +8958,8 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 170,
-    "EquipType": "Leggings",
+    "MaxLevel": 250,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -7581,7 +8992,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -7661,7 +9072,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
@@ -7685,14 +9096,14 @@
     "Image": "Overcoat.png",
     "Stats": {
       "Haste": {
-        "Multiplier": "13 / 70"
+        "Multiplier": "13/70"
       },
       "Regeneration": {
-        "Multiplier": "13 / 70"
+        "Multiplier": "13/70"
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -7713,12 +9124,14 @@
   "Silver Suit": {
     "Name": "Silver Suit",
     "Link": "Silver Suit",
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "MinLevel": 100
   },
   "Silver Pants": {
     "Name": "Silver Pants",
     "Link": "Silver Pants",
-    "EquipType": "Leggings"
+    "EquipType": "Legging",
+    "MinLevel": 100
   },
   "Elite Knight's Pauldrons": {
     "Name": "Elite Knight's Pauldrons",
@@ -7857,7 +9270,7 @@
     "Link": "Titanium Plumed Helmet",
     "Image": "Titanium Plumed Helmet.png",
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "Stats": {
       "Defense": {
         "Multiplier": 0.45
@@ -7884,7 +9297,7 @@
     "Link": "Titanium Bucket Helmet",
     "Image": "Titanium Bucket Helmet.png",
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "Stats": {
       "Defense": {
         "Multiplier": 0.45
@@ -7911,7 +9324,7 @@
     "Link": "Titanium Gladiator Helmet",
     "Image": "Titanium Gladiator Helmet.png",
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "Stats": {
       "Defense": {
         "Multiplier": 0.45
@@ -7985,7 +9398,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
@@ -8019,7 +9432,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Common",
@@ -8050,7 +9463,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -8081,7 +9494,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -8105,11 +9518,11 @@
     "Image": "Large Cape.png",
     "Stats": {
       "Range": {
-        "Multiplier": "13 / 35"
+        "Multiplier": "13/35"
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Common",
@@ -8130,12 +9543,14 @@
   "Large Cloak": {
     "Name": "Large Cloak",
     "Link": "Large Cloak",
-    "EquipType": "Collar"
+    "EquipType": "Collar",
+    "MinLevel": 100
   },
   "Large Jacket": {
     "Name": "Large Jacket",
     "Link": "Large Jacket",
-    "EquipType": "Collar"
+    "EquipType": "Collar",
+    "MinLevel": 100
   },
   "Samerian Commander Pauldrons": {
     "Name": "Samerian Commander Pauldrons",
@@ -8147,7 +9562,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -8171,14 +9586,14 @@
     "Image": "Spiked Bracelets.png",
     "Stats": {
       "Power": {
-        "Multiplier": "2 / 7"
+        "Multiplier": "2/7"
       },
       "Pierce": {
         "Multiplier": 0.3
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -8209,7 +9624,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 140,
+    "MaxLevel": 250,
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -8231,12 +9646,15 @@
   "Wanderer Robe": {
     "Name": "Wanderer Robe",
     "Link": "Wanderer Robe",
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "MinLevel": 50,
+    "MaxLevel": 100
   },
   "Warlock Jacket": {
     "Name": "Warlock Jacket",
     "Link": "Warlock Jacket",
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "MinLevel": 100
   },
   "Dapper Witch Hat": {
     "Name": "Dapper Witch Hat",
@@ -8251,7 +9669,7 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 170,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
@@ -8268,6 +9686,146 @@
     },
     "Variations": 37,
     "Description": "A dapper hat for dapper people."
+  },
+  "Fighter Jacket": {
+    "Name": "Fighter Jacket",
+    "Link": "Fighter Jacket",
+    "Image": "Purple Fighter Jacket.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.5
+      },
+      "Range": {
+        "Multiplier": 0.3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 100,
+      "110": 144,
+      "120": 148,
+      "130": 152,
+      "140": 156,
+      "150": 160,
+      "160": 164,
+      "170": 168
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing"
+    },
+    "Variations": null,
+    "Description": "A sleeveless jacket usually worn by martial artists and fighters."
+  },
+  "Fighter Pants": {
+    "Name": "Fighter Pants",
+    "Link": "Fighter Pants",
+    "Image": "White Fighter Pants.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.375
+      },
+      "Range": {
+        "Multiplier": 0.225
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 50,
+      "110": 72,
+      "120": 74,
+      "130": 76,
+      "140": 78,
+      "150": 80,
+      "160": 82,
+      "170": 84
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing"
+    },
+    "Variations": null,
+    "Description": "A pair of short, baggy pants and sandels usually worn by martial artist and fighters."
+  },
+  "Forsaken Robe": {
+    "Name": "Forsaken Robe",
+    "Link": "Forsaken Robe",
+    "Image": "ForsakenRobe.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.5
+      }
+    },
+    "MinLevel": 160,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "160": 161,
+      "170": 165
+    },
+    "ObtainedBy": {
+      "1": "[[The Forsaken|The Shade]]"
+    },
+    "Variations": null,
+    "Description": "A black robe top with a clasp of dark yellow fabric attached to it, the signature outfit of the Forsaken, a group of assassin that originated in the Nimbus Lands."
+  },
+  "Forsaken Boots": {
+    "Name": "Forsaken Boots",
+    "Link": "Forsaken Boots",
+    "Image": "ForsakenBoots.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.37
+      }
+    },
+    "MinLevel": 160,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "160": 80,
+      "170": 82
+    },
+    "ObtainedBy": {
+      "1": "[[The Forsaken|The Shade]]"
+    },
+    "Variations": null,
+    "Description": "A pair of black boots trimmed in dark yellow, the signature outfit of the Forsaken, a group of assassin that originated in the Nimbus Lands."
+  },
+  "Forsaken Cloak": {
+    "Name": "Forsaken Cloak",
+    "Link": "Forsaken Cloak",
+    "Image": "ForsakenCloak.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.37
+      }
+    },
+    "MinLevel": 160,
+    "MaxLevel": 250,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "160": 80,
+      "170": 82
+    },
+    "ObtainedBy": {
+      "1": "[[The Forsaken|The Shade]]"
+    },
+    "Variations": null,
+    "Description": "A black mask and dark yellow tattered cloak, the signature outfit of the Forsaken, a group of assassin that originated in the Nimbus Lands."
   },
   "Shroud": {
     "Name": "Shroud",
@@ -8383,7 +9941,7 @@
     },
     "MinLevel": 60,
     "MaxLevel": 160,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -8417,7 +9975,7 @@
     },
     "MinLevel": 60,
     "MaxLevel": 160,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -8625,7 +10183,7 @@
     },
     "MinLevel": 80,
     "MaxLevel": 180,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -8684,7 +10242,7 @@
         "Multiplier": 0.4
       },
       "Haste": {
-        "Multiplier": 0.65
+        "Multiplier": 0.7
       }
     },
     "MinLevel": 80,
@@ -8693,11 +10251,16 @@
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
-      "80": 50,
+      "80": 72,
       "90": 75,
       "100": 77,
       "110": 80,
-      "120": 85
+      "120": 83,
+      "130": 86,
+      "140": 88,
+      "150": 91,
+      "160": 94,
+      "170": 97
     },
     "ObtainedBy": {
       "1": "General Argos"
@@ -8728,9 +10291,14 @@
       "110": 315,
       "120": 326,
       "130": 336,
-      "140": 347
+      "140": 347,
+      "150": 357,
+      "160": 368,
+      "170": 378
     },
-    "ObtainedBy": "Lady Carina",
+    "ObtainedBy": {
+      "1": "Lady Carina"
+    },
     "Variations": 16,
     "Description": "A finely sewn gi that was specifically made to be worn by Lady Carina, a noble of the Ravenna Realm. It was stolen from her after she was defeated in the Shining Plains of Ravenna."
   },
@@ -8748,7 +10316,7 @@
     },
     "MinLevel": 90,
     "MaxLevel": 190,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -8759,7 +10327,9 @@
       "130": 168,
       "140": 173
     },
-    "ObtainedBy": "Lady Carina",
+    "ObtainedBy": {
+      "1": "Lady Carina"
+    },
     "Variations": null,
     "Description": "A pair of sturdy, metal-capped boots with red metal greaves. These leggings were specifically made to be worn by Lady Carina, a noble of the Ravenna Realm, and were stolen from her after she was defeated in the Shining Plains of Ravenna."
   },
@@ -8786,9 +10356,14 @@
       "110": 78,
       "120": 81,
       "130": 84,
-      "140": 86
+      "140": 86,
+      "150": 89,
+      "160": 92,
+      "170": 94
     },
-    "ObtainedBy": "Lady Carina",
+    "ObtainedBy": {
+      "1": "Lady Carina"
+    },
     "Variations": 16,
     "Description": "Colorful metal bracelets that were specifically made to be worn by Lady Carina, a noble of the Ravenna Realm. They were stolen from her after she was defeated in the Shining Plains of Ravenna."
   },
@@ -8813,9 +10388,16 @@
       "90": 75,
       "100": 114,
       "110": 118,
-      "120": 122
+      "120": 122,
+      "130": 126,
+      "140": 130,
+      "150": 134,
+      "160": 138,
+      "170": 142
     },
-    "ObtainedBy": "Lady Carina",
+    "ObtainedBy": {
+      "1": "Lady Carina"
+    },
     "Variations": 16,
     "Description": "Faulds of fine cloth to be worn around the wasit. They were specifically made to be worn by Lady Carina, a noble of the Ravenna Realm, and were stolen from her after she was defeated in the Shining Plains of Ravenna."
   },
@@ -8842,16 +10424,21 @@
       "110": 156,
       "120": 163,
       "130": 168,
-      "140": 173
+      "140": 173,
+      "150": 178,
+      "160": 184,
+      "170": 189
     },
-    "ObtainedBy": "Lady Carina",
+    "ObtainedBy": {
+      "1": "Lady Carina"
+    },
     "Variations": null,
     "Description": "Lightweight metal pauldrons that were specifically made to be worn by Lady Carina, a noble of the Ravenna Realm, and were stolen from her after she was defeated in the Shining Plains of Ravenna."
   },
   "Mountainbreaker Armor": {
     "Name": "Mountainbreaker Armor",
     "Link": "Mountainbreaker Armor",
-    "Image": "Mountainbreaker Armor Temp.PNG",
+    "Image": "Mountain Breaker Armor.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.6
@@ -8892,7 +10479,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 200,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -9027,7 +10614,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 200,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -9125,7 +10712,7 @@
     },
     "MinLevel": 110,
     "MaxLevel": 210,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -9198,7 +10785,7 @@
   "Scorching Sentinel Armor": {
     "Name": "Scorching Sentinel Armor",
     "Link": "Scorching Sentinel Armor",
-    "Image": "Scorch Armor.png",
+    "Image": "Scorching Sentinel Armor.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.45
@@ -9243,7 +10830,7 @@
     },
     "MinLevel": 120,
     "MaxLevel": 220,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -9260,7 +10847,7 @@
   "Scorching Sentinel Helmet": {
     "Name": "Scorching Sentinel Helmet",
     "Link": "Scorching Sentinel Helmet",
-    "Image": "Scorched.png",
+    "Image": "Scorching Sentinel Helmet.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.345
@@ -9440,7 +11027,7 @@
     "Image": "Omen Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": "-0.4"
+        "Multiplier": -0.4
       },
       "Defense": {
         "Multiplier": 1.255
@@ -9467,13 +11054,14 @@
     "Image": "Omen Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": "-0.53"
+        "Multiplier": -0.53
       },
       "Defense": {
         "Multiplier": 1.675
       }
     },
     "MinLevel": 150,
+    "MaxLevel": 180,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Mystic",
@@ -9493,14 +11081,15 @@
     "Image": "Omen Leggings.png",
     "Stats": {
       "Power": {
-        "Multiplier": "-0.4"
+        "Multiplier": "-(0.4)"
       },
       "Defense": {
         "Multiplier": 1.255
       }
     },
     "MinLevel": 150,
-    "EquipType": "Leggings",
+    "MaxLevel": 180,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Mystic",
     "WorthValues": {
@@ -9513,6 +11102,37 @@
     },
     "Variations": null,
     "Description": "Heavy leggings set crafted out of the hard, metallic skin of the Omen, a legendary sea monster from the Far Reaches of the Dark Sea."
+  },
+  "Kraken Band": {
+    "Name": "Kraken Band",
+    "Link": "Kraken Band",
+    "Image": "Kraken Band.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.5
+      },
+      "Defense": {
+        "Multiplier": 0.25
+      },
+      "Range": {
+        "Multiplier": 0.25
+      }
+    },
+    "MinLevel": 150,
+    "MaxLevel": 250,
+    "EquipType": "Arm",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "WorthValues": {
+      "150": 960,
+      "160": 984,
+      "170": 1008
+    },
+    "ObtainedBy": {
+      "1": "[[Sea Monsters#Behemoth|Kraken]]"
+    },
+    "Variations": null,
+    "Description": "A bracelet made out of the bone of a kraken, dyed black from its ink and polished to a shine."
   },
   "Apex Armor": {
     "Name": "Apex Armor",
@@ -9554,7 +11174,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {},
@@ -9567,7 +11187,7 @@
   "Apex Cloak": {
     "Name": "Apex Cloak",
     "Link": "Apex Cloak",
-    "Image": "Apexcloak.png",
+    "Image": "Apex Cloak.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.260625
@@ -9646,7 +11266,7 @@
     },
     "MinLevel": 150,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -9760,24 +11380,25 @@
   "Blessed Knight Armor": {
     "Name": "Blessed Knight Armor",
     "Link": "Blessed Knight Armor",
-    "Image": "Placeholder_V2.png",
+    "Image": "Blessed Knight Armor.PNG",
     "Stats": {
       "Defense": {
-        "Multiplier": 0.617872969
+        "Multiplier": 0.6
       },
       "Resistance": {
-        "Multiplier": 0.2
+        "Multiplier": 0.4
       }
     },
     "MinLevel": 140,
-    "MaxLevel": 170,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
       "140": 475,
       "150": 487,
-      "160": 499
+      "160": 499,
+      "170": 512
     },
     "ObtainedBy": {
       "1": "Delamere"
@@ -9792,20 +11413,21 @@
     "Image": "Blessed Knight Leggings.png",
     "Stats": {
       "Defense": {
-        "Multiplier": 1.212957746
+        "Multiplier": 0.45
       },
       "Resistance": {
-        "Multiplier": 0.147746479
+        "Multiplier": 0.3
       }
     },
     "MinLevel": 140,
-    "MaxLevel": 170,
-    "EquipType": "Leggings",
+    "MaxLevel": 250,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
       "140": 237,
       "150": 243,
+      "160": 249,
       "170": 256
     },
     "ObtainedBy": {
@@ -9821,14 +11443,14 @@
     "Image": "Blessed Knight Greathelm.png",
     "Stats": {
       "Defense": {
-        "Multiplier": 0
+        "Multiplier": 0.45
       },
       "Resistance": {
-        "Multiplier": 0
+        "Multiplier": 0.3
       }
     },
     "MinLevel": 140,
-    "MaxLevel": 170,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
@@ -9851,19 +11473,22 @@
     "Image": "Blessed Knight Cloak.png",
     "Stats": {
       "Defense": {
-        "Multiplier": 0
+        "Multiplier": 0.45
       },
       "Resistance": {
-        "Multiplier": 0
+        "Multiplier": 0.3
       }
     },
     "MinLevel": 140,
-    "MaxLevel": 170,
-    "EquipType": "Collar",
+    "MaxLevel": 250,
+    "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
-      "150": 121
+      "140": 118,
+      "150": 121,
+      "160": 124,
+      "170": 128
     },
     "ObtainedBy": {
       "1": "Delamere"
@@ -10044,7 +11669,7 @@
       }
     },
     "MinLevel": 150,
-    "MaxLevel": 170,
+    "MaxLevel": 250,
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
@@ -10076,7 +11701,7 @@
       }
     },
     "MinLevel": 150,
-    "MaxLevel": 170,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
@@ -10108,7 +11733,7 @@
       }
     },
     "MinLevel": 150,
-    "MaxLevel": 170,
+    "MaxLevel": 250,
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
@@ -10140,8 +11765,8 @@
       }
     },
     "MinLevel": 150,
-    "MaxLevel": 170,
-    "EquipType": "Leggings",
+    "MaxLevel": 250,
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -10637,7 +12262,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -10766,7 +12391,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -10908,6 +12533,642 @@
     },
     "Variations": null,
     "Description": "A fur belt fashioned from the carcass of a Kynatos, an enormous mutated tiger species that resides in the Far Reaches of the Dark Sea.",
+    "JewelSlots": 2
+  },
+  "Bearpaw Bandit Shoulderpads": {
+    "Name": "Bearpaw Bandit Shoulderpads",
+    "Link": "Bearpaw Bandit Shoulderpads",
+    "Image": "Bearpaw Bandit Shoulderpads.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Shoulder",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 20,
+      "10": 24,
+      "20": 28,
+      "30": 32,
+      "40": 36,
+      "50": 40
+    },
+    "ObtainedBy": {
+      "1": "Bearpaw Bandits"
+    },
+    "Variations": null,
+    "Description": "A set of hard leather shoulderpads, usually worn by the Bearpaw Bandits of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Bearpaw Bandit Sash": {
+    "Name": "Bearpaw Bandit Sash",
+    "Link": "Bearpaw Bandit Sash",
+    "Image": "Bearpaw Bandit Sash.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 20,
+      "10": 24,
+      "20": 28,
+      "30": 32,
+      "40": 36,
+      "50": 40
+    },
+    "ObtainedBy": {
+      "1": "Bearpaw Bandits"
+    },
+    "Variations": null,
+    "Description": "Part of a brown bear's pelt tied around the waist, usually worn by the Bearpaw Bandits of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Bearpaw Bandit Belt": {
+    "Name": "Bearpaw Bandit Belt",
+    "Link": "Bearpaw Bandit Belt",
+    "Image": "Bearpaw Bandit Belt.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 20,
+      "10": 24,
+      "20": 28,
+      "30": 32,
+      "40": 36,
+      "50": 40
+    },
+    "ObtainedBy": {
+      "1": "Bearpaw Bandits"
+    },
+    "Variations": null,
+    "Description": "A belt fashioned from the pelt of a brown bear, usually worn by the Bearpaw Bandits of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Bearpaw Bandit Cloak": {
+    "Name": "Bearpaw Bandit Cloak",
+    "Link": "Bearpaw Bandit Cloak",
+    "Image": "Bearpaw Bandit Cloak.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 30,
+      "10": 36,
+      "20": 42,
+      "30": 48,
+      "40": 54,
+      "50": 60
+    },
+    "ObtainedBy": {
+      "1": "Bearpaw Bandits"
+    },
+    "Variations": null,
+    "Description": "A tattered cloak made out of a brown bear's pelt, usually worn by the Bearpaw Bandits of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Bearpaw Bandit Hood": {
+    "Name": "Bearpaw Bandit Hood",
+    "Link": "Bearpaw Bandit Hood",
+    "Image": "Bearpaw Bandit Hood.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.15
+      },
+      "Dexterity": {
+        "Multiplier": 0.3
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 40,
+      "10": 48,
+      "20": 56,
+      "30": 64,
+      "40": 72,
+      "50": 80
+    },
+    "ObtainedBy": {
+      "1": "Bearpaw Bandits"
+    },
+    "Variations": null,
+    "Description": "A hood fashioned from the pelt of a brown bear, usually worn by the Bearpaw Bandits of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Bearpaw Bandit Shirt": {
+    "Name": "Bearpaw Bandit Shirt",
+    "Link": "Bearpaw Bandit Shirt",
+    "Image": "Bearpaw Bandit Shirt.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.2
+      },
+      "Dexterity": {
+        "Multiplier": 0.4
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 20,
+      "10": 24,
+      "20": 28,
+      "30": 32,
+      "40": 36,
+      "50": 40
+    },
+    "ObtainedBy": {
+      "1": "Bearpaw Bandits"
+    },
+    "Variations": null,
+    "Description": "A tattered leather vest with a ripped grey undershirt, usually worn by the Bearpaw Bandits of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Bearpaw Bandit Boots": {
+    "Name": "Bearpaw Bandit Boots",
+    "Link": "Bearpaw Bandit Boots",
+    "Image": "Bearpaw Bandit Boots.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.15
+      },
+      "Dexterity": {
+        "Multiplier": 0.3
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 20,
+      "10": 24,
+      "20": 28,
+      "30": 32,
+      "40": 36,
+      "50": 40
+    },
+    "ObtainedBy": {
+      "1": "Bearpaw Bandits"
+    },
+    "Variations": null,
+    "Description": "A pair of black boots and brown pants, usually worn by the Bearpaw Bandits of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Bearpaw Leader Vest": {
+    "Name": "Bearpaw Leader Vest",
+    "Link": "Bearpaw Leader Vest",
+    "Image": "Bearpaw Leader Vest.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.195
+      },
+      "Dexterity": {
+        "Multiplier": 0.4
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 90,
+      "60": 96,
+      "70": 102,
+      "80": 108,
+      "90": 114,
+      "100": 120
+    },
+    "ObtainedBy": {
+      "1": "Harzog"
+    },
+    "Variations": null,
+    "Description": "A layered vest of thick leather originally worn by Harzog, leader of the Bearpaw Bandits based in the Bronze Sea.",
+    "JewelSlots": 2
+  },
+  "Bearpaw Leader Cloak": {
+    "Name": "Bearpaw Leader Cloak",
+    "Link": "Bearpaw Leader Cloak",
+    "Image": "Bearpaw Leader Cloak.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.15
+      },
+      "Dexterity": {
+        "Multiplier": 0.3
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 75,
+      "60": 80,
+      "70": 85,
+      "80": 90,
+      "90": 95,
+      "100": 100
+    },
+    "ObtainedBy": {
+      "1": "Harzog"
+    },
+    "Variations": null,
+    "Description": "A tattered cloak made out of a brown bear's pelt, originally worn by Harzog, leader of the Bearpaw Bandits based in the Bronze Sea.",
+    "JewelSlots": 2
+  },
+  "Jaw Pirate Necklace": {
+    "Name": "Jaw Pirate Necklace",
+    "Link": "Jaw Pirate Necklace",
+    "Image": "Jaw Pirate Necklace.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.2
+      },
+      "Range": {
+        "Multiplier": 0.4
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 30,
+      "10": 36,
+      "20": 42,
+      "30": 48,
+      "40": 54,
+      "50": 60
+    },
+    "ObtainedBy": {
+      "1": "Jaw Pirates"
+    },
+    "Variations": null,
+    "Description": "A necklace of small shark teeth usually worn by the Jaw Pirates of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Jaw Pirate Sash": {
+    "Name": "Jaw Pirate Sash",
+    "Link": "Jaw Pirate Sash",
+    "Image": "Jaw Pirate Sash.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.2
+      },
+      "Range": {
+        "Multiplier": 0.4
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 10,
+      "10": 12,
+      "20": 14,
+      "30": 16,
+      "40": 18,
+      "50": 20
+    },
+    "ObtainedBy": {
+      "1": "Jaw Pirates"
+    },
+    "Variations": null,
+    "Description": "A black and brown sash usually worn by the Jaw Pirates of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Jaw Pirate Cape": {
+    "Name": "Jaw Pirate Cape",
+    "Link": "Jaw Pirate Cape",
+    "Image": "Jaw Pirate Cape.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.2
+      },
+      "Range": {
+        "Multiplier": 0.4
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 10,
+      "10": 12,
+      "20": 14,
+      "30": 16,
+      "40": 18,
+      "50": 20
+    },
+    "ObtainedBy": {
+      "1": "Jaw Pirates"
+    },
+    "Variations": null,
+    "Description": "A tattered brown cape usually worn by the Jaw Pirates of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Jaw Pirate Boots": {
+    "Name": "Jaw Pirate Boots",
+    "Link": "Jaw Pirate Boots",
+    "Image": "Jaw Pirate Boots.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.2
+      },
+      "Range": {
+        "Multiplier": 0.4
+      }
+    },
+    "MinLevel": 1,
+    "MaxLevel": 50,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "1": 20,
+      "10": 24,
+      "20": 28,
+      "30": 32,
+      "40": 36,
+      "50": 40
+    },
+    "ObtainedBy": {
+      "1": "Jaw Pirates"
+    },
+    "Variations": null,
+    "Description": "A pair of brown boots usually worn by the Jaw Pirates of the Bronze Sea.",
+    "JewelSlots": 1
+  },
+  "Jaw Quartermaster Sash": {
+    "Name": "Jaw Quartermaster Sash",
+    "Link": "Jaw Quartermaster Sash",
+    "Image": "Jaw Quartermaster Sash.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.32
+      },
+      "Range": {
+        "Multiplier": 0.22
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 120,
+      "60": 128,
+      "70": 136,
+      "80": 144,
+      "90": 152,
+      "100": 160
+    },
+    "ObtainedBy": {
+      "1": "Vatnulf"
+    },
+    "Variations": null,
+    "Description": "A bear pelt worn as a belt sash, originally worn by Captain Vatnulf, Quartermaster of the Jaw Pirates based in the Bronze Sea.",
+    "JewelSlots": 2
+  },
+  "Jaw Quartermaster Necklace": {
+    "Name": "Jaw Quartermaster Necklace",
+    "Link": "Jaw Quartermaster Necklace",
+    "Image": "Jawquartermasternecklace.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.32
+      },
+      "Range": {
+        "Multiplier": 0.22
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 180,
+      "60": 192,
+      "70": 204,
+      "80": 216,
+      "90": 228,
+      "100": 240
+    },
+    "ObtainedBy": {
+      "1": "Vatnulf"
+    },
+    "Variations": null,
+    "Description": "Various accessories originally worn around the neck by Captain Vatnulf, Quartermaster of the Jaw Pirates based in the Bronze Sea.",
+    "JewelSlots": 2
+  },
+  "Jaw Quartermaster Boots": {
+    "Name": "Jaw Quartermaster Boots",
+    "Link": "Jaw Quartermaster Boots",
+    "Image": "Jaw Quartermaster Boots.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.32
+      },
+      "Range": {
+        "Multiplier": 0.22
+      }
+    },
+    "MinLevel": 50,
+    "MaxLevel": 100,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "50": 60,
+      "60": 64,
+      "70": 68,
+      "80": 72,
+      "90": 76,
+      "100": 80
+    },
+    "ObtainedBy": {
+      "1": "Vatnulf"
+    },
+    "Variations": null,
+    "Description": "A pair of brown boots trimmed in faded silver, originally worn by Captain Vatnulf, Quartermaster of the Jaw Pirates based in the Bronze Sea.",
+    "JewelSlots": 2
+  },
+  "Hunter Tunic": {
+    "Name": "Hunter Tunic",
+    "Link": "Hunter Tunic",
+    "Image": "Hunter Tunic.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 1
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 150,
+      "110": 155,
+      "120": 160,
+      "130": 165,
+      "140": 170,
+      "150": 175,
+      "160": 180,
+      "170": 185
+    },
+    "ObtainedBy": {
+      "1": "Maine"
+    },
+    "Variations": null,
+    "Description": "An open-chest tunic adorned with a dyed blue fur belt and a gloved arm sleeve. It was taken from Maine the Hunter, a criminal from an unknown organization in the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Hunter Boots": {
+    "Name": "Hunter Boots",
+    "Link": "Hunter Boots",
+    "Image": "Hunter Boots.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.75
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 75,
+      "110": 77,
+      "120": 80,
+      "130": 82,
+      "140": 85,
+      "150": 87,
+      "160": 90,
+      "170": 92
+    },
+    "ObtainedBy": {
+      "1": "Maine"
+    },
+    "Variations": null,
+    "Description": "A set of sturdy leather boots. They were taken from Maine the Hunter, a criminal from an unknown organization in the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Hunter Pauldron Cape": {
+    "Name": "Hunter Pauldron Cape",
+    "Link": "Hunter Pauldron Cape",
+    "Image": "Hunter Pauldron Cape.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.75
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 75,
+      "110": 77,
+      "120": 80,
+      "130": 82,
+      "140": 85,
+      "150": 87,
+      "160": 90,
+      "170": 92
+    },
+    "ObtainedBy": {
+      "1": "Maine"
+    },
+    "Variations": null,
+    "Description": "A leather pauldron with a small cape attached to it, both trimmed in dark blue. It was taken from Maine the Hunter, a criminal from an unknown organization in the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Quiver": {
+    "Name": "Quiver",
+    "Link": "Quiver",
+    "Image": "Quiver.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.75
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Back",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 75,
+      "110": 77,
+      "120": 80,
+      "130": 82,
+      "140": 85,
+      "150": 87,
+      "160": 90,
+      "170": 92
+    },
+    "ObtainedBy": {
+      "1": "Maine"
+    },
+    "Variations": null,
+    "Description": "A quiver for holding arrows. It was taken from Maine the Hunter, a criminal from an unknown organization in the Nimbus Sea.",
     "JewelSlots": 2
   },
   "Veridian Hunter Bandana": {
@@ -11052,7 +13313,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -11145,7 +13406,7 @@
     },
     "MinLevel": 50,
     "MaxLevel": 100,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -11378,7 +13639,7 @@
     "Image": "Bogatyr Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.17
+        "Multiplier": 0.125
       },
       "Defense": {
         "Multiplier": 0.15
@@ -11416,7 +13677,7 @@
     "Image": "Bogatyr Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.125
+        "Multiplier": 0.17
       },
       "Defense": {
         "Multiplier": 0.2
@@ -11503,7 +13764,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -11587,7 +13848,7 @@
     },
     "MinLevel": 150,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -11684,7 +13945,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -11848,7 +14109,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -12032,7 +14293,7 @@
     },
     "MinLevel": 150,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -12114,7 +14375,7 @@
   "Swiftstrider Leader Attire": {
     "Name": "Swiftstrider Leader Attire",
     "Link": "Swiftstrider Leader Attire",
-    "Image": "Placeholder_V2.png",
+    "Image": "Swiftstrider Leader Attire.png",
     "Stats": {
       "Dexterity": {
         "Multiplier": 0.387
@@ -12160,7 +14421,7 @@
     },
     "MinLevel": 150,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -12506,7 +14767,7 @@
     },
     "MinLevel": 160,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -12602,7 +14863,7 @@
     },
     "MinLevel": 160,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -12771,7 +15032,7 @@
     },
     "MinLevel": 20,
     "MaxLevel": 70,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -12800,7 +15061,7 @@
     },
     "MinLevel": 20,
     "MaxLevel": 70,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -12887,7 +15148,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -12916,7 +15177,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -12945,7 +15206,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -13090,7 +15351,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -13119,7 +15380,7 @@
     },
     "MinLevel": 1,
     "MaxLevel": 50,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -13219,7 +15480,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -13321,7 +15582,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -13423,7 +15684,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -13525,7 +15786,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -13573,9 +15834,9 @@
     "JewelSlots": 2
   },
   "Crystal Remnant Armor": {
-    "Name": "Crystal Remnant Helmet",
-    "Link": "Crystal Remnant Helmet",
-    "Image": "Crystal Remnant Helmet.png",
+    "Name": "Crystal Remnant Armor",
+    "Link": "Crystal Remnant Armor",
+    "Image": "Crystal Remnant Armor.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.6
@@ -13613,7 +15874,7 @@
     },
     "MinLevel": 170,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -13687,9 +15948,9 @@
     "JewelSlots": 2
   },
   "Crystal Fury Leggings": {
-    "Name": "Crystal Fury Helmet",
-    "Link": "Crystal Fury Helmet",
-    "Image": "Crystal Fury Helmet.png",
+    "Name": "Crystal Fury Leggings",
+    "Link": "Crystal Fury Leggings",
+    "Image": "Crystal Fury Leggings.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.6
@@ -13703,7 +15964,7 @@
     },
     "MinLevel": 170,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
     "WorthValues": {
@@ -13753,7 +16014,7 @@
     },
     "MinLevel": 150,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -13831,7 +16092,7 @@
     },
     "MinLevel": 150,
     "MaxLevel": 250,
-    "EquipType": "Leggings",
+    "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthValues": {
@@ -13870,6 +16131,285 @@
     },
     "Variations": null,
     "Description": "A heavy white cloak trimmed in gold, made for you as a gift by the the mysterious Oathkeepers group.",
+    "JewelSlots": 2
+  },
+  "The Lost Coronet of Skyhall": {
+    "Name": "The Lost Coronet of Skyhall",
+    "Link": "The Lost Coronet of Skyhall",
+    "Image": "The Lost Coronet of Skyhall.PNG",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.27
+      },
+      "Regeneration": {
+        "Multiplier": 0.45
+      },
+      "Resistance": {
+        "Multiplier": 0.27
+      }
+    },
+    "MinLevel": 160,
+    "MaxLevel": 250,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "WorthValues": {
+      "160": 420,
+      "170": 430
+    },
+    "ObtainedBy": {
+      "1": "Allanon"
+    },
+    "Variations": null,
+    "Description": "A cracked silver circlet that was once worn by Prince Allanon of the Skyhall Kingdom, and was taken from him when he was defeated in the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Broken Prince Shirt": {
+    "Name": "Broken Prince Shirt",
+    "Link": "Broken Prince Shirt",
+    "Image": "Broken Prince Shirt.PNG",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.36
+      },
+      "Regeneration": {
+        "Multiplier": 0.6
+      },
+      "Resistance": {
+        "Multiplier": 0.36
+      }
+    },
+    "MinLevel": 160,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "WorthValues": {
+      "160": 363,
+      "170": 430
+    },
+    "ObtainedBy": {
+      "1": "Allanon"
+    },
+    "Variations": null,
+    "Description": "A torn and charred collared shirt that was once worn by Prince Allanon of the Skyhall Kingdom, and was taken from him when he was defeated in the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Broken Prince Pants": {
+    "Name": "Broken Prince Pants",
+    "Link": "Broken Prince Pants",
+    "Image": "Broken Prince Pants.PNG",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.27
+      },
+      "Regeneration": {
+        "Multiplier": 0.45
+      },
+      "Resistance": {
+        "Multiplier": 0.27
+      }
+    },
+    "MinLevel": 160,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "WorthValues": {
+      "160": 177,
+      "170": 181
+    },
+    "ObtainedBy": {
+      "1": "Allanon"
+    },
+    "Variations": null,
+    "Description": "A set of torn and charred robe bottoms that were once worn by Prince Allanon of the Skyhall Kingdom, and were taken from him when he was defeated in the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Broken Prince Cape": {
+    "Name": "Broken Prince Cape",
+    "Link": "Broken Prince Cape",
+    "Image": "Broken Prince Cape.PNG",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.27
+      },
+      "Regeneration": {
+        "Multiplier": 0.45
+      },
+      "Resistance": {
+        "Multiplier": 0.27
+      }
+    },
+    "MinLevel": 160,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "WorthValues": {
+      "160": 177,
+      "170": 181
+    },
+    "ObtainedBy": {
+      "1": "Allanon"
+    },
+    "Variations": null,
+    "Description": "A charred cape that was once worn by Prince Allanon of the Skyhall Kingdom, and was taken from him when he was defeated in the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Murderous Hat": {
+    "Name": "Murderous Hat",
+    "Link": "Murderous Hat",
+    "Image": "Murderous Hat.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.225
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 45,
+      "110": 46,
+      "120": 48,
+      "130": 49,
+      "140": 51,
+      "150": 52,
+      "160": 54,
+      "170": 55
+    },
+    "ObtainedBy": {
+      "1": "The Crone"
+    },
+    "Variations": 38,
+    "Description": "A large mage hat trimmed in grey. It was taken from the Crone, a murderous witch who wanders the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Murderous Robes": {
+    "Name": "Murderous Robes",
+    "Link": "Murderous Robes",
+    "Image": "Murderous Robe.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 45,
+      "110": 46,
+      "120": 48,
+      "130": 49,
+      "140": 51,
+      "150": 52,
+      "160": 54,
+      "170": 55
+    },
+    "ObtainedBy": {
+      "1": "The Crone"
+    },
+    "Variations": null,
+    "Description": "A upper part of a red robe trimmed in grey. It was taken from the Crone, a murderous witch who wanders the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Murderous Boots": {
+    "Name": "Murderous Boots",
+    "Link": "Murderous Boots",
+    "Image": "Murderous Boots.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.225
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 45,
+      "110": 46,
+      "120": 48,
+      "130": 49,
+      "140": 51,
+      "150": 52,
+      "160": 54,
+      "170": 55
+    },
+    "ObtainedBy": {
+      "1": "The Crone"
+    },
+    "Variations": null,
+    "Description": "A set of dark grey pants and tall black boots. They were taken from the Crone, a murderous witch who wanders the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Robe Flaps": {
+    "Name": "Robe Flaps",
+    "Link": "Robe Flaps",
+    "Image": "Robe Flaps.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 45,
+      "110": 46,
+      "120": 48,
+      "130": 49,
+      "140": 51,
+      "150": 52,
+      "160": 54,
+      "170": 55
+    },
+    "ObtainedBy": {
+      "1": "The Crone"
+    },
+    "Variations": 38,
+    "Description": "The lower part of a robe. It was taken from the Crone, a murderous with who wanders the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Stacked Bracelets": {
+    "Name": "Stacked Bracelets",
+    "Link": "Stacked Bracelets",
+    "Image": "Stacked Red Bracelets.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Arm",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "WorthValues": {
+      "100": 45,
+      "110": 46,
+      "120": 48,
+      "130": 49,
+      "140": 51,
+      "150": 52,
+      "160": 54,
+      "170": 55
+    },
+    "ObtainedBy": {
+      "1": "The Crone"
+    },
+    "Variations": 37,
+    "Description": "Two silver bracelets with dyed metal bracelets stacked on top of them. They were taken from the Crone, a murderous witch who wanders the Nimbus Sea.",
     "JewelSlots": 2
   }
 }

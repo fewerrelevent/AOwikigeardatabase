@@ -138,10 +138,35 @@ function parseLua(src) {
     if (src.startsWith("nil", pos))   { pos += 3; return null; }
 
     // number (including negative)
-    if (c === "-" || /\d/.test(c)) return readNumber();
+    if (c === "-" || /\d/.test(c)) {
+  let start = pos;
 
-    throw new Error(`Unexpected character '${c}' at pos ${pos} (context: ...${src.slice(Math.max(0,pos-20),pos+20)}...)`);
+  // read full numeric/expression chunk
+  while (
+    !eof() &&
+    /[0-9+\-*/.() ]/.test(src[pos])
+  ) {
+    pos++;
   }
+
+  const token = src.slice(start, pos).trim();
+
+  // if it's a pure number → parse it
+  if (/^-?\d+(\.\d+)?$/.test(token)) {
+    return parseFloat(token);
+  }
+
+  // otherwise it's an expression like 2/11 → return as string
+  return token;
+}
+
+// bare identifier fallback (e.g., ni36l)
+if (/[a-zA-Z_]/.test(c)) {
+  return readBareKey();
+}
+
+throw new Error(`Unexpected character '${c}' at pos ${pos} (context: ...${src.slice(Math.max(0,pos-20),pos+20)}...)`);
+}
 
   function parseTable() {
     expect("{");
@@ -276,7 +301,5 @@ async function main() {
   fs.writeFileSync("equipment.json", JSON.stringify(data, null, 2));
   console.log("✓ equipment.json written successfully!");
 }
-
-fs.writeFileSync("./equipment.json", JSON.stringify(data, null, 2));
 
 main();

@@ -1248,6 +1248,7 @@
   "Amulet": {
     "Name": "Amulets",
     "Link": "Amulets",
+    "MinLevel": 50,
     "EquipType": "Neck",
     "StatType": "Normal",
     "ObtainedBy": {

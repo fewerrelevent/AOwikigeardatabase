@@ -263,7 +263,7 @@ tbody tr {
 }
 tbody tr:hover { background: var(--bg3); }
 tbody tr.has-missing { border-left: 2px solid var(--missing); }
-tbody tr.has-missing:hover { background: var(--miss-bg); }
+tbody tr.has-missing:hover { background: var(--warn-bg); }
 
 td {
   padding: 7px 12px;
@@ -493,18 +493,18 @@ body.highlight-missing td.cell-missing {
 
 /* ── CONFIG ──────────────────────────────────────────────── */
 const FIELDS = [
-  { key: 'Name',        label: 'Name',         vis: true,  sortable: true,  fmt: 'text' },
-  { key: 'EquipType',   label: 'Type',          vis: true,  sortable: true,  fmt: 'text' },
-  { key: 'MinLevel',    label: 'Min Lv',        vis: true,  sortable: true,  fmt: 'num'  },
-  { key: 'MaxLevel',    label: 'Max Lv',        vis: true,  sortable: true,  fmt: 'num'  },
-  { key: 'Rarity',      label: 'Rarity',        vis: true,  sortable: true,  fmt: 'rarity' },
-  { key: 'StatType',    label: 'Stat Type',     vis: true,  sortable: true,  fmt: 'text' },
-  { key: 'Stats',       label: 'Stats',         vis: true,  sortable: false, fmt: 'stats' },
+  { key: 'Name',           label: 'Name',          vis: true,  sortable: true,  fmt: 'text' },
+  { key: 'EquipType',      label: 'Type',          vis: true,  sortable: true,  fmt: 'text' },
+  { key: 'MinLevel',       label: 'Min Lv',        vis: true,  sortable: true,  fmt: 'num'  },
+  { key: 'MaxLevel',       label: 'Max Lv',        vis: true,  sortable: true,  fmt: 'num'  },
+  { key: 'Rarity',         label: 'Rarity',        vis: true,  sortable: true,  fmt: 'rarity' },
+  { key: 'StatType',       label: 'Stat Type',     vis: true,  sortable: true,  fmt: 'text' },
+  { key: 'Stats',          label: 'Stats',         vis: true,  sortable: false, fmt: 'stats' },
   { key: 'WorthOverrides', label: 'Worth',         vis: false, sortable: false, fmt: 'kv'   },
-  { key: 'ObtainedBy',  label: 'Obtained By',   vis: true,  sortable: false, fmt: 'obj'  },
-  { key: 'Variations',  label: 'Variations',    vis: false, sortable: false, fmt: 'obj'  },
-  { key: 'Description', label: 'Description',   vis: false, sortable: false, fmt: 'text' },
-  { key: 'Image',       label: 'Image',         vis: true,  sortable: false, fmt: 'img'  },
+  { key: 'ObtainedBy',     label: 'Obtained By',   vis: true,  sortable: false, fmt: 'obj'  },
+  { key: 'Variations',     label: 'Variations',    vis: false, sortable: false, fmt: 'obj'  },
+  { key: 'Description',    label: 'Description',   vis: false, sortable: false, fmt: 'text' },
+  { key: 'Image',          label: 'Image',         vis: true,  sortable: false, fmt: 'img'  },
 ];
 
 /* ── STATE ───────────────────────────────────────────────── */

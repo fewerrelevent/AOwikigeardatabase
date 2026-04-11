@@ -2,8 +2,11 @@ name: Update Wiki Data
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/60 * * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -36,4 +39,4 @@ jobs:
           fi
 
           git commit -m "update equipment.json"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git

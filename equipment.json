@@ -1474,26 +1474,30 @@
     "Name": "Winter Cap",
     "Link": "Winter Cap",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Glasses": {
     "Name": "Glasses",
     "Link": "Glasses",
     "MinLevel": 1,
     "EquipType": "Face",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Scarf": {
     "Name": "Scarf",
     "Link": "Scarf",
     "MinLevel": 1,
-    "EquipType": "Neck"
+    "EquipType": "Neck",
+    "Rarity": "Common"
   },
   "Loose Scarf": {
     "Name": "Loose Scarf",
     "Link": "Loose Scarf",
     "MinLevel": 1,
     "EquipType": "Neck",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Hairband": {
@@ -1501,6 +1505,7 @@
     "Link": "Hairband",
     "MinLevel": 1,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Headband": {
@@ -1508,6 +1513,7 @@
     "Link": "Headband",
     "MinLevel": 1,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Mysterious Mask": {
@@ -1515,19 +1521,22 @@
     "Link": "Mysterious Mask",
     "MinLevel": 1,
     "EquipType": "Face",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Scary Hat": {
     "Name": "Scary Hat",
     "Link": "Scary Hat",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Eye Poppers": {
     "Name": "Eye Poppers",
     "Link": "Eye Poppers",
     "MinLevel": 1,
     "EquipType": "Face",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Banded Top Hat": {
@@ -1535,19 +1544,22 @@
     "Link": "Banded Top Hat",
     "MinLevel": 1,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Top Hat": {
     "Name": "Top Hat",
     "Link": "Top Hat",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Corduroy Hat": {
     "Name": "Corduroy Hat",
     "Link": "Corduroy Hat",
     "MinLevel": 1,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Eyepatch": {
@@ -1555,6 +1567,7 @@
     "Link": "Eyepatch",
     "MinLevel": 1,
     "EquipType": "Face",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Gloves": {
@@ -1562,6 +1575,7 @@
     "Link": "Gloves",
     "MinLevel": 1,
     "EquipType": "Arm",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Canvas Hat": {
@@ -1569,6 +1583,7 @@
     "Link": "Canvas Hat",
     "MinLevel": 1,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Monocle": {
@@ -1576,13 +1591,15 @@
     "Link": "Monocle",
     "MinLevel": 1,
     "EquipType": "Face",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Toothpick": {
     "Name": "Toothpick",
     "Link": "Toothpick",
     "MinLevel": 1,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Diving Helmet": {
     "Name": "Diving Helmet",
@@ -1619,6 +1636,7 @@
     "Link": "Cowboy Hat",
     "MinLevel": 1,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Durag": {
@@ -1686,13 +1704,15 @@
     "Name": "Sombrero",
     "Link": "Sombrero",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Head Bandages": {
     "Name": "Head Bandages",
     "Link": "Head Bandages",
     "MinLevel": 1,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Military Cap": {
@@ -1882,19 +1902,22 @@
     "Name": "Striped Shirt",
     "Link": "Striped Shirt",
     "MinLevel": 1,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Sunglasses": {
     "Name": "Sunglasses",
     "Link": "Sunglasses",
     "MinLevel": 1,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Undershirt Jacket": {
     "Name": "Undershirt Jacket",
     "Link": "Undershirt Jacket",
     "MinLevel": 1,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Vest": {
     "Name": "Vest",
@@ -4272,6 +4295,7 @@
     "Link": "Mercenary Jacket",
     "MinLevel": 50,
     "EquipType": "Chestpiece",
+    "StatType": "Normal",
     "Rarity": "Common",
     "ObtainedBy": {
       "1": "Chests",
@@ -4503,6 +4527,7 @@
     "Link": "Bruiser Armor",
     "MinLevel": 50,
     "EquipType": "Chestpiece",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Bruiser Boots": {
@@ -4510,19 +4535,22 @@
     "Link": "Bruiser Boots",
     "MinLevel": 50,
     "EquipType": "Legging",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Tropical Shirt": {
     "Name": "Tropical Shirt",
     "Link": "Tropical Shirt",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Tropical Jacket": {
     "Name": "Tropical Jacket",
     "Link": "Tropical Jacket",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Sailor's Headband": {
     "Name": "Sailor's Headband",
@@ -4570,49 +4598,57 @@
     "Name": "Warrior's Coat",
     "Link": "Warrior's Coat",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Warrior's Boots": {
     "Name": "Warrior's Boots",
     "Link": "Warrior's Boots",
     "MinLevel": 50,
-    "EquipType": "Legging"
+    "EquipType": "Legging",
+    "Rarity": "Common"
   },
   "Samurai Straw Hat": {
     "Name": "Samurai Straw Hat",
     "Link": "Samurai Straw Hat",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Samurai Robes": {
     "Name": "Samurai Robes",
     "Link": "Samurai Robes",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Samurai Pants": {
     "Name": "Samurai Pants",
     "Link": "Samurai Pants",
     "MinLevel": 50,
-    "EquipType": "Legging"
+    "EquipType": "Legging",
+    "Rarity": "Common"
   },
   "Wizard Hat": {
     "Name": "Wizard Hat",
     "Link": "Wizard Hat",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Wizard Robes": {
     "Name": "Wizard Robes",
     "Link": "Wizard Robes",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Wizard Pants": {
     "Name": "Wizard Pants",
     "Link": "Wizard Pants",
     "MinLevel": 50,
-    "EquipType": "Legging"
+    "EquipType": "Legging",
+    "Rarity": "Common"
   },
   "Iron Helmet": {
     "Name": "Iron Helmet",
@@ -5482,6 +5518,7 @@
     "MinLevel": 50,
     "MaxLevel": 100,
     "EquipType": "Chestpiece",
+    "StatType": "Normal",
     "Rarity": "Uncommon"
   },
   "Deluxe Hunting Boots": {
@@ -5490,6 +5527,7 @@
     "MinLevel": 50,
     "MaxLevel": 100,
     "EquipType": "Legging",
+    "StatType": "Normal",
     "Rarity": "Uncommon"
   },
   "Flower Dress": {
@@ -5498,6 +5536,7 @@
     "MinLevel": 50,
     "MaxLevel": 100,
     "EquipType": "Chestpiece",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Flower Leggings": {
@@ -5506,6 +5545,7 @@
     "MinLevel": 50,
     "MaxLevel": 100,
     "EquipType": "Legging",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Thane Cloak": {
@@ -5541,7 +5581,8 @@
     "Link": "Thane Boots",
     "MinLevel": 70,
     "MaxLevel": 150,
-    "EquipType": "Boots"
+    "EquipType": "Boots",
+    "Rarity": "Common"
   },
   "Sunken Iron Helmet": {
     "Name": "Sunken Iron Helmet",
@@ -5797,13 +5838,15 @@
     "Link": "Amulets#Dull Amulets",
     "MinLevel": 50,
     "JewelSlots": 0,
-    "EquipType": "Neck"
+    "EquipType": "Neck",
+    "StatType": "Normal"
   },
   "Straw Hat": {
     "Name": "Straw Hat",
     "Link": "Straw Hat",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Traveller's Backpack": {
     "Name": "Traveller's Backpack",
@@ -5840,6 +5883,7 @@
     "Link": "Cape",
     "MinLevel": 50,
     "EquipType": "Collar",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Gilded Wings": {
@@ -5847,6 +5891,7 @@
     "Link": "Gilded Wings",
     "MinLevel": 50,
     "EquipType": "Back",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Hood": {
@@ -5854,6 +5899,7 @@
     "Link": "Hood",
     "MinLevel": 50,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Blindfold": {
@@ -5861,6 +5907,7 @@
     "Link": "Blindfold",
     "MinLevel": 50,
     "EquipType": "Face",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Dual Bracelets": {
@@ -5868,19 +5915,22 @@
     "Link": "Dual Bracelets",
     "MinLevel": 50,
     "EquipType": "Arm",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Valkyrie Helm": {
     "Name": "Valkyrie Helm",
     "Link": "Valkyrie Helm",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Crow Wings": {
     "Name": "Crow Wings",
     "Link": "Crow Wings",
     "MinLevel": 50,
     "EquipType": "Back",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Dual Armbands": {
@@ -5888,6 +5938,7 @@
     "Link": "Dual Armbands",
     "MinLevel": 50,
     "EquipType": "Arm",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Frilled Top": {
@@ -5925,19 +5976,22 @@
     "Link": "Fur Hood",
     "MinLevel": 50,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Seafarer's Coat": {
     "Name": "Seafarer's Coat",
     "Link": "Seafarer's Coat",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Long-Horned Helm": {
     "Name": "Long-Horned Helm",
     "Link": "Long-Horned Helm",
     "MinLevel": 50,
-    "EquipType": "Helmrt",
+    "EquipType": "Helmet",
+    "StatType": "Normal",
     "Rarity": "Uncommon"
   },
   "Round Hood": {
@@ -5945,6 +5999,7 @@
     "Link": "Round Hood",
     "MinLevel": 50,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Musketeer Hat": {
@@ -5952,6 +6007,7 @@
     "Link": "Musketeer Hat",
     "MinLevel": 50,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Fear Mask": {
@@ -5959,13 +6015,15 @@
     "Link": "Fear Mask",
     "MinLevel": 50,
     "EquipType": "Face",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Villainous Mask": {
     "Name": "Villainous Mask",
     "Link": "Villainous Mask",
     "MinLevel": 50,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Fancy Sombrero": {
     "Name": "Fancy Sombrero",
@@ -6005,6 +6063,7 @@
     "Link": "Head Goggles",
     "MinLevel": 50,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Mystic Hood": {
@@ -6012,6 +6071,7 @@
     "Link": "Mystic Hood",
     "MinLevel": 50,
     "EquipType": "Hat",
+    "StatType": "Normal",
     "Rarity": "Uncommon"
   },
   "Pearl Eyepatch": {
@@ -6019,32 +6079,37 @@
     "Link": "Pearl Eyepatch",
     "MinLevel": 50,
     "EquipType": "Face",
+    "StatType": "Normal",
     "Rarity": "Uncommon"
   },
   "Sunset Shades": {
     "Name": "Sunset Shades",
     "Link": "Sunset Shades",
     "MinLevel": 50,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Iron Fists": {
     "Name": "Iron Fists",
     "Link": "Iron Fists",
     "MinLevel": 50,
     "EquipType": "Arm",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Spiked Iron Fists": {
     "Name": "Spiked Iron Fists",
     "Link": "Spiked Iron Fists",
     "MinLevel": 50,
-    "EquipType": "Arm"
+    "EquipType": "Arm",
+    "Rarity": "Uncommon"
   },
   "Martial Artist Gi": {
     "Name": "Martial Artist Gi",
     "Link": "Martial Artist Gi",
     "MinLevel": 50,
     "EquipType": "Chestpiece",
+    "StatType": "Normal",
     "Rarity": "Common"
   },
   "Samerian Captain Pauldrons": {
@@ -6891,7 +6956,7 @@
     "MinLevel": 100,
     "MaxLevel": 250,
     "EquipType": "Chestpiece",
-    "Stattype": "Normal",
+    "StatType": "Normal",
     "Rarity": "Uncommon",
     "BaseWorth": 110,
     "WorthOverrides": {
@@ -9394,13 +9459,15 @@
     "Name": "Silver Suit",
     "Link": "Silver Suit",
     "EquipType": "Chestpiece",
-    "MinLevel": 100
+    "MinLevel": 100,
+    "Rarity": "Uncommon"
   },
   "Silver Pants": {
     "Name": "Silver Pants",
     "Link": "Silver Pants",
     "EquipType": "Legging",
-    "MinLevel": 100
+    "MinLevel": 100,
+    "Rarity": "Uncommon"
   },
   "Elite Knight's Pauldrons": {
     "Name": "Elite Knight's Pauldrons",
@@ -9825,6 +9892,7 @@
     "Name": "Large Cloak",
     "Link": "Large Cloak",
     "EquipType": "Collar",
+    "StatType": "Normal",
     "MinLevel": 100,
     "Rarity": "Common"
   },
@@ -9832,6 +9900,7 @@
     "Name": "Large Jacket",
     "Link": "Large Jacket",
     "EquipType": "Collar",
+    "StatType": "Normal",
     "MinLevel": 100,
     "Rarity": "Common"
   },
@@ -9933,13 +10002,15 @@
     "Link": "Wanderer Robe",
     "EquipType": "Chestpiece",
     "MinLevel": 50,
-    "MaxLevel": 100
+    "MaxLevel": 100,
+    "Rarity": "Common"
   },
   "Warlock Jacket": {
     "Name": "Warlock Jacket",
     "Link": "Warlock Jacket",
     "EquipType": "Chestpiece",
-    "MinLevel": 100
+    "MinLevel": 100,
+    "Rarity": "Common"
   },
   "Dapper Witch Hat": {
     "Name": "Dapper Witch Hat",
@@ -11277,6 +11348,7 @@
     "MaxLevel": 70,
     "EquipType": "Arm",
     "StatType": "Normal",
+    "Rarity": "Uncommon",
     "BaseWorth": 60,
     "WorthOverrides": {
       "20": 60,

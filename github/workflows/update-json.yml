@@ -1,0 +1,43 @@
+name: Update Wiki Data
+
+on:
+  schedule:
+    - cron: "*/60 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install
+
+      - name: Run scraper
+        run: node generateEquipment.js
+
+      - name: Verify output exists
+        run: ls -lah equipment.json
+
+- name: Commit changes
+  run: |
+    git config user.name "github-actions"
+    git config user.email "github-actions@github.com"
+    git add equipment.json
+
+    if git diff --cached --quiet; then
+      echo "No changes to commit"
+      exit 0
+    fi
+
+    git commit -m "update equipment.json"
+
+    git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git

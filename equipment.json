@@ -8211,7 +8211,8 @@
     "Name": "Atlantean Shell Helmet",
     "Link": "Atlantean Shell Helmet",
     "MinLevel": 100,
-    "EquipType": "Helmet"
+    "EquipType": "Helmet",
+    "Rarity": "Uncommon"
   },
   "Atlantean Snapper Helmet": {
     "Name": "Atlantean Snapper Helmet",
@@ -8223,31 +8224,36 @@
     "Name": "Atlantean Starfish",
     "Link": "Atlantean Starfish",
     "MinLevel": 100,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Uncommon"
   },
   "Atlantean Ear Mutation": {
     "Name": "Atlantean Ear Mutation",
     "Link": "Atlantean Ear Mutation",
     "MinLevel": 100,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Uncommon"
   },
   "Atlantean Sailfish Fin": {
     "Name": "Atlantean Sailfish Fin",
     "Link": "Atlantean Sailfish Fin",
     "MinLevel": 100,
-    "EquipType": "Back"
+    "EquipType": "Back",
+    "Rarity": "Uncommon"
   },
   "Atlantean Shark Fin": {
     "Name": "Atlantean Shark Fin",
     "Link": "Atlantean Shark Fin",
     "MinLevel": 100,
-    "EquipType": "Back"
+    "EquipType": "Back",
+    "Rarity": "Uncommon"
   },
   "Atlantean-Hide Body": {
     "Name": "Atlantean-Hide Body",
     "Link": "Atlantean-Hide Body",
     "MinLevel": 100,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Uncommon"
   },
   "Atlantean Tentacled Cloak": {
     "Name": "Atlantean Tentacled Cloak",
@@ -8259,19 +8265,22 @@
     "Name": "Atlantean-Hide Legs",
     "Link": "Atlantean-Hide Legs",
     "MinLevel": 100,
-    "EquipType": "Legging"
+    "EquipType": "Legging",
+    "Rarity": "Uncommon"
   },
   "Atlantean Fish Leg": {
     "Name": "Atlantean Fish Leg",
     "Link": "Atlantean Fish Leg",
     "MinLevel": 100,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Uncommon"
   },
   "Atlantean Creature Leg": {
     "Name": "Atlantean Creature Leg",
     "Link": "Atlantean Creature Leg",
     "MinLevel": 100,
-    "EquipType": "Legging"
+    "EquipType": "Legging",
+    "Rarity": "Uncommon"
   },
   "Arcmancer Hat": {
     "Name": "Arcmancer Hat",

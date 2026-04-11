@@ -13,7 +13,8 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "BaseWorth": 20,
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -42,7 +43,8 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "BaseWorth": 10,
+    "WorthOverrides": {
       "1": 10,
       "10": 12,
       "20": 14,
@@ -71,7 +73,8 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "BaseWorth": 6,
+    "WorthOverrides": {
       "1": 6,
       "10": 7,
       "20": 8,
@@ -101,7 +104,8 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "BaseWorth": 15,
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -131,7 +135,8 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "BaseWorth": 8,
+    "WorthOverrides": {
       "1": 8,
       "10": 9,
       "20": 11,
@@ -161,7 +166,8 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "BaseWorth": 9,
+    "WorthOverrides": {
       "1": 9,
       "10": 10,
       "20": 12,
@@ -191,7 +197,8 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "BaseWorth": 9,
+    "WorthOverrides": {
       "1": 9,
       "10": 10,
       "20": 12,
@@ -221,7 +228,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 12,
       "10": 14,
       "20": 16,
@@ -250,7 +257,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 30,
       "10": 36,
       "20": 42,
@@ -279,7 +286,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 16,
       "10": 19,
       "20": 22,
@@ -308,7 +315,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 18,
       "10": 21,
       "20": 25,
@@ -337,7 +344,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 18,
       "10": 21,
       "20": 25,
@@ -366,7 +373,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 12,
       "10": 14,
       "20": 16,
@@ -395,7 +402,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 30,
       "10": 36,
       "20": 42,
@@ -424,7 +431,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 16,
       "10": 19,
       "20": 22,
@@ -453,7 +460,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 18,
       "10": 21,
       "20": 25,
@@ -482,7 +489,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 18,
       "10": 21,
       "20": 25,
@@ -511,7 +518,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 31,
       "10": 34,
       "20": 37,
@@ -540,7 +547,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10,
       "10": 13,
       "20": 16,
@@ -564,7 +571,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50,
       "10": 60,
       "20": 70,
@@ -588,7 +595,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 25,
       "10": 30,
       "20": 35,
@@ -617,7 +624,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 16,
       "10": 19,
       "20": 22,
@@ -646,7 +653,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -678,7 +685,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "10": 46,
       "20": 53,
       "30": 60,
@@ -709,7 +716,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "10": 23,
       "20": 26,
       "30": 30,
@@ -737,7 +744,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 30,
       "30": 42,
       "40": 47,
@@ -765,7 +772,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 60,
       "30": 85,
       "40": 94,
@@ -793,7 +800,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 15,
       "30": 21,
       "40": 23,
@@ -817,7 +824,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 15,
       "60": 18,
       "70": 21,
@@ -842,7 +849,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 20,
       "30": 28,
       "40": 31,
@@ -865,7 +872,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 20,
       "30": 28,
       "40": 31,
@@ -888,7 +895,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 20,
       "30": 28,
       "40": 31,
@@ -911,7 +918,7 @@
     "EquipType": "Front",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 20,
       "30": 28,
       "40": 31,
@@ -934,7 +941,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 20,
       "30": 28,
       "40": 31,
@@ -957,7 +964,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 80,
       "30": 114,
       "40": 125,
@@ -982,7 +989,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 0
     },
     "ObtainedBy": {
@@ -1001,7 +1008,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 0
     },
     "ObtainedBy": {
@@ -1025,7 +1032,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 38,
       "30": 42,
       "40": 47,
@@ -1055,7 +1062,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 102,
       "30": 114,
       "40": 125,
@@ -1084,7 +1091,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {},
+    "WorthOverrides": {},
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing",
@@ -1107,7 +1114,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -1136,7 +1143,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -1165,7 +1172,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -1198,7 +1205,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -1230,7 +1237,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 25,
       "10": 30,
       "20": 35,
@@ -1248,7 +1255,6 @@
   "Amulet": {
     "Name": "Amulets",
     "Link": "Amulets",
-    "MinLevel": 50,
     "EquipType": "Neck",
     "StatType": "Normal",
     "ObtainedBy": {
@@ -1266,7 +1272,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "170": 840
     },
     "ObtainedBy": {
@@ -1285,7 +1291,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 25,
       "10": 30,
       "20": 35,
@@ -1309,7 +1315,7 @@
     "EquipType": "Face",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -1333,7 +1339,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 16,
       "10": 19,
       "20": 22,
@@ -1357,7 +1363,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 16,
       "10": 19,
       "20": 22,
@@ -1381,7 +1387,7 @@
     "EquipType": "Face",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 7,
       "10": 8,
       "20": 9,
@@ -1405,7 +1411,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 12,
       "10": 14,
       "20": 16,
@@ -1536,7 +1542,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 25,
       "10": 30,
       "20": 35,
@@ -1571,7 +1577,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 5,
       "10": 6,
       "20": 7,
@@ -1601,7 +1607,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 5,
       "10": 6,
       "20": 7,
@@ -1642,7 +1648,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 25,
       "10": 30,
       "20": 35,
@@ -1672,7 +1678,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -1701,7 +1707,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -1730,7 +1736,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -1759,7 +1765,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -1789,7 +1795,7 @@
     "EquipType": "Face",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 25,
       "10": 30,
       "20": 35,
@@ -1837,7 +1843,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 5,
       "10": 6,
       "20": 7,
@@ -1866,7 +1872,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 5,
       "10": 6,
       "20": 7,
@@ -1895,7 +1901,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10,
       "10": 12,
       "20": 14,
@@ -1924,7 +1930,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 30,
       "10": 36,
       "20": 42,
@@ -1953,7 +1959,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 30,
       "10": 36,
       "20": 42,
@@ -1982,7 +1988,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -2011,7 +2017,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 45,
       "10": 54,
       "20": 62,
@@ -2040,7 +2046,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 45,
       "10": 54,
       "20": 62,
@@ -2069,7 +2075,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 30,
       "10": 36,
       "20": 42,
@@ -2098,7 +2104,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 30,
       "10": 36,
       "20": 42,
@@ -2127,7 +2133,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 30,
       "10": 36,
       "20": 42,
@@ -2156,7 +2162,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 45,
       "10": 54,
       "20": 62,
@@ -2185,7 +2191,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 45,
       "10": 54,
       "20": 62,
@@ -2214,7 +2220,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50,
       "10": 60,
       "20": 70,
@@ -2243,7 +2249,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 65,
       "10": 78,
       "20": 91,
@@ -2272,7 +2278,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 55,
       "10": 66,
       "20": 77,
@@ -2301,7 +2307,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50,
       "10": 60,
       "20": 70,
@@ -2330,7 +2336,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 65,
       "10": 78,
       "20": 91,
@@ -2359,7 +2365,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 55,
       "10": 66,
       "20": 77,
@@ -2388,7 +2394,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 100,
       "10": 120,
       "20": 140,
@@ -2417,7 +2423,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 130,
       "10": 156,
       "20": 182,
@@ -2446,7 +2452,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 110,
       "10": 132,
       "20": 154,
@@ -2475,7 +2481,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 75,
       "10": 90,
       "20": 105,
@@ -2504,7 +2510,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 80,
       "10": 96,
       "20": 112,
@@ -2533,7 +2539,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 85,
       "10": 102,
       "20": 118,
@@ -2562,7 +2568,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 100,
       "10": 120,
       "20": 140,
@@ -2591,7 +2597,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 60,
       "10": 72,
       "20": 84,
@@ -2620,7 +2626,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 100,
       "10": 120,
       "20": 140,
@@ -2649,7 +2655,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 60,
       "10": 72,
       "20": 84,
@@ -2678,7 +2684,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 100,
       "10": 120,
       "20": 140,
@@ -2707,7 +2713,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 60,
       "10": 72,
       "20": 84,
@@ -2736,7 +2742,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 60,
       "10": 72,
       "20": 84,
@@ -2765,7 +2771,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 80,
       "10": 96,
       "20": 112,
@@ -2794,7 +2800,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 40,
       "10": 48,
       "20": 56,
@@ -2823,7 +2829,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 80,
       "10": 96,
       "20": 112,
@@ -2852,7 +2858,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 60,
       "10": 72,
       "20": 84,
@@ -2881,7 +2887,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 80,
       "10": 96,
       "20": 112,
@@ -2910,7 +2916,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 40,
       "10": 48,
       "20": 56,
@@ -2939,7 +2945,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 80,
       "10": 96,
       "20": 112,
@@ -2968,7 +2974,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 60,
       "10": 72,
       "20": 84,
@@ -2997,7 +3003,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 80,
       "10": 96,
       "20": 112,
@@ -3026,7 +3032,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 40,
       "10": 48,
       "20": 56,
@@ -3055,7 +3061,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 80,
       "10": 96,
       "20": 112,
@@ -3079,7 +3085,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 5
     },
     "ObtainedBy": {
@@ -3098,7 +3104,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10
     },
     "ObtainedBy": {
@@ -3117,7 +3123,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10
     },
     "ObtainedBy": {
@@ -3136,7 +3142,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10
     },
     "ObtainedBy": {
@@ -3155,7 +3161,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20
     },
     "ObtainedBy": {
@@ -3174,7 +3180,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20
     },
     "ObtainedBy": {
@@ -3193,7 +3199,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50
     },
     "ObtainedBy": {
@@ -3212,7 +3218,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 100
     },
     "ObtainedBy": {
@@ -3231,7 +3237,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 100
     },
     "ObtainedBy": {
@@ -3250,7 +3256,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50
     },
     "ObtainedBy": {
@@ -3269,7 +3275,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50
     },
     "ObtainedBy": {
@@ -3288,7 +3294,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50
     },
     "ObtainedBy": {
@@ -3315,7 +3321,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 321,
       "60": 335,
       "70": 350,
@@ -3346,7 +3352,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 100
     },
     "ObtainedBy": {
@@ -3365,7 +3371,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50
     },
     "ObtainedBy": {
@@ -3384,7 +3390,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50
     },
     "ObtainedBy": {
@@ -3403,7 +3409,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50
     },
     "ObtainedBy": {
@@ -3422,7 +3428,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 300
     },
     "ObtainedBy": {
@@ -3441,7 +3447,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50
     },
     "ObtainedBy": {
@@ -3460,7 +3466,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 100
     },
     "ObtainedBy": {
@@ -3487,7 +3493,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 321,
       "60": 335,
       "70": 350,
@@ -3518,7 +3524,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50
     },
     "ObtainedBy": {
@@ -3541,7 +3547,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10,
       "10": 12,
       "20": 14,
@@ -3570,7 +3576,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10,
       "10": 12,
       "20": 14,
@@ -3600,7 +3606,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 30,
       "10": 36,
       "20": 42,
@@ -3629,7 +3635,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -3659,7 +3665,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -3689,7 +3695,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10,
       "10": 12,
       "20": 14,
@@ -3718,7 +3724,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 7,
       "10": 8,
       "20": 9,
@@ -3747,7 +3753,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -3776,7 +3782,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 5,
       "10": 6,
       "20": 7,
@@ -3805,7 +3811,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 110
     },
     "ObtainedBy": {
@@ -3829,7 +3835,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 210
     },
     "ObtainedBy": {
@@ -3849,7 +3855,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Limited",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 0
     },
     "ObtainedBy": {
@@ -3869,7 +3875,7 @@
     "EquipType": "Leggings",
     "StatType": "Normal",
     "Rarity": "Limited",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 0
     },
     "ObtainedBy": {
@@ -3888,7 +3894,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Limited",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 0
     },
     "ObtainedBy": {
@@ -3907,7 +3913,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Limited",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 0
     },
     "ObtainedBy": {
@@ -3926,7 +3932,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Limited",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 0
     },
     "ObtainedBy": {
@@ -3945,7 +3951,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Limited",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 0
     },
     "ObtainedBy": {
@@ -3964,7 +3970,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Limited",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 0
     },
     "ObtainedBy": {
@@ -3983,7 +3989,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Limited",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 0
     },
     "ObtainedBy": {
@@ -4007,7 +4013,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 20,
       "60": 32,
       "70": 34,
@@ -4036,7 +4042,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 20,
       "60": 32,
       "70": 34,
@@ -4065,7 +4071,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 20,
       "60": 32,
       "70": 34,
@@ -4093,7 +4099,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 18,
       "60": 28,
       "70": 30,
@@ -4134,7 +4140,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 16,
       "60": 16,
       "70": 17,
@@ -4166,7 +4172,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4198,7 +4204,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 50,
       "60": 80,
       "70": 85,
@@ -4230,7 +4236,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4259,7 +4265,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 15,
       "60": 24,
       "70": 25,
@@ -4288,7 +4294,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 30,
       "60": 48,
       "70": 51,
@@ -4317,7 +4323,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 15,
       "60": 24,
       "70": 25,
@@ -4454,7 +4460,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4485,7 +4491,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4516,7 +4522,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4547,7 +4553,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4578,7 +4584,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4609,7 +4615,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4640,7 +4646,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 50,
       "60": 80,
       "70": 85,
@@ -4670,7 +4676,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4699,7 +4705,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4730,7 +4736,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 25,
       "60": 40,
       "70": 42,
@@ -4764,7 +4770,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 30,
       "70": 49,
       "80": 51,
@@ -4796,7 +4802,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 30,
       "70": 49,
       "80": 51,
@@ -4828,7 +4834,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 30,
       "70": 56,
       "80": 59,
@@ -4860,7 +4866,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 30,
       "70": 49,
       "80": 51,
@@ -4897,7 +4903,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "80": 80,
       "90": 135,
       "100": 141,
@@ -4955,7 +4961,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 54,
       "80": 56,
       "90": 59,
@@ -4989,7 +4995,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 110,
       "80": 114,
       "90": 120,
@@ -5023,7 +5029,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 55,
       "80": 91,
       "90": 96,
@@ -5053,7 +5059,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 54,
       "80": 56,
       "90": 59,
@@ -5087,7 +5093,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 54,
       "80": 56,
       "90": 59,
@@ -5121,7 +5127,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 36,
       "80": 38,
       "90": 40,
@@ -5155,7 +5161,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 36,
       "80": 38,
       "90": 40,
@@ -5189,7 +5195,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 36,
       "80": 38,
       "90": 40,
@@ -5223,7 +5229,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 36,
       "80": 38,
       "90": 40,
@@ -5257,7 +5263,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 36,
       "80": 38,
       "90": 40,
@@ -5356,18 +5362,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "WorthValues": {
-      "50": 450,
-      "60": 642,
-      "70": 675,
-      "80": 707,
-      "90": 739,
-      "100": 771,
-      "110": 803,
-      "120": 835,
-      "130": 867,
-      "140": 900
-    },
+    "BaseWorth": 450,
     "ObtainedBy": {
       "1": "Fishing",
       "2": "Underwater Chests",
@@ -5392,17 +5387,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "WorthValues": {
-      "50": 900,
-      "60": 1285,
-      "70": 1350,
-      "80": 1414,
-      "100": 1542,
-      "110": 1607,
-      "120": 1671,
-      "130": 1735,
-      "140": 1800
-    },
+    "BaseWorth": 900,
     "ObtainedBy": {
       "1": "Fishing",
       "2": "Underwater Chests",
@@ -5427,18 +5412,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "WorthValues": {
-      "50": 450,
-      "60": 642,
-      "70": 675,
-      "80": 707,
-      "90": 739,
-      "100": 771,
-      "110": 803,
-      "120": 835,
-      "130": 867,
-      "140": 900
-    },
+    "BaseWorth": 450,
     "ObtainedBy": {
       "1": "Fishing",
       "2": "Underwater Chests",
@@ -5464,7 +5438,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 1671,
       "130": 1735,
       "140": 1799
@@ -5492,7 +5466,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 835
     },
     "ObtainedBy": {
@@ -5518,7 +5492,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 803
     },
     "ObtainedBy": {
@@ -5544,7 +5518,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 30,
       "60": 48,
       "70": 51,
@@ -5574,7 +5548,7 @@
     "EquipType": "Back",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 30,
       "60": 48,
       "70": 51,
@@ -5603,7 +5577,7 @@
     "EquipType": "Back",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -5645,7 +5619,7 @@
     "EquipType": "Back",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 20,
       "60": 32,
       "70": 34,
@@ -5722,7 +5696,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 20,
       "60": 32,
       "70": 34,
@@ -5796,7 +5770,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 30,
       "60": 48,
       "70": 51,
@@ -5867,7 +5841,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100
     },
     "ObtainedBy": {
@@ -5892,7 +5866,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 20,
       "60": 32,
       "70": 34,
@@ -5924,7 +5898,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "80": 86,
       "90": 90,
       "100": 93,
@@ -5960,7 +5934,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "80": 173,
       "90": 180,
       "100": 186,
@@ -5996,7 +5970,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "80": 86,
       "90": 90,
       "100": 93,
@@ -6029,7 +6003,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 120,
       "60": 128,
       "70": 136,
@@ -6058,7 +6032,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 60,
       "60": 64,
       "70": 68,
@@ -6087,7 +6061,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 30,
       "60": 32,
       "70": 34,
@@ -6116,7 +6090,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 30,
       "60": 32,
       "70": 34,
@@ -6148,7 +6122,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 22,
       "60": 24,
       "70": 25,
@@ -6182,7 +6156,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 144,
       "120": 148,
@@ -6213,7 +6187,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 200,
       "110": 288,
       "120": 296,
@@ -6244,7 +6218,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 144,
       "120": 148,
@@ -6275,7 +6249,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 125,
       "110": 180,
       "120": 185,
@@ -6306,7 +6280,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 250,
       "110": 360,
       "120": 370,
@@ -6337,7 +6311,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 125,
       "110": 180,
       "120": 185,
@@ -6368,7 +6342,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 50,
       "110": 72,
       "120": 74,
@@ -6399,7 +6373,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 25,
       "110": 36,
       "120": 37,
@@ -6430,7 +6404,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 2507
     },
     "ObtainedBy": {
@@ -6456,7 +6430,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 1205,
       "120": 1253,
       "140": 1350
@@ -6484,7 +6458,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 803,
       "120": 835,
       "130": 867
@@ -6509,7 +6483,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 30,
       "110": 43,
       "120": 44,
@@ -6537,7 +6511,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 60,
       "110": 86,
       "120": 88,
@@ -6565,7 +6539,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 30,
       "110": 43,
       "120": 44,
@@ -6593,7 +6567,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 35,
       "110": 50,
       "120": 51,
@@ -6621,7 +6595,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 45,
       "110": 64,
       "120": 66,
@@ -6649,7 +6623,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 55,
       "110": 79,
       "120": 81,
@@ -6676,7 +6650,7 @@
     "EquipType": "Chestpiece",
     "Stattype": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 110,
       "110": 158,
       "120": 162,
@@ -6703,7 +6677,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 37,
       "110": 53,
       "120": 54,
@@ -6734,7 +6708,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 150,
       "110": 216,
       "120": 222,
@@ -6764,7 +6738,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 75,
       "110": 108,
       "120": 111,
@@ -6794,7 +6768,7 @@
     "EquipType": "Face",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 50,
       "110": 72,
       "120": 74,
@@ -6825,7 +6799,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 144,
       "120": 148,
@@ -6853,7 +6827,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 200,
       "110": 288,
       "120": 296,
@@ -6881,7 +6855,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 144,
       "120": 148,
@@ -6909,7 +6883,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 13
     },
     "ObtainedBy": {
@@ -6939,7 +6913,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {},
+    "WorthOverrides": {},
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
@@ -6967,7 +6941,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {},
+    "WorthOverrides": {},
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
@@ -6995,7 +6969,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {},
+    "WorthOverrides": {},
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
@@ -7023,7 +6997,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {},
+    "WorthOverrides": {},
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
@@ -7048,7 +7022,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 72,
       "120": 74,
       "130": 76,
@@ -7078,7 +7052,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 122,
       "120": 125,
       "130": 129,
@@ -7108,7 +7082,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 122,
       "120": 125,
       "130": 129,
@@ -7138,7 +7112,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 200,
       "110": 288,
       "120": 296,
@@ -7168,7 +7142,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 144,
       "120": 148,
@@ -7198,7 +7172,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 200,
       "110": 288,
       "120": 296,
@@ -7228,7 +7202,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 124,
       "120": 148,
@@ -7259,7 +7233,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 124,
       "120": 148,
@@ -7293,7 +7267,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 180,
       "130": 273,
       "140": 280,
@@ -7327,7 +7301,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 360,
       "130": 547,
       "140": 561,
@@ -7361,7 +7335,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 180,
       "130": 273,
       "140": 280,
@@ -7395,7 +7369,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 180,
       "130": 273,
       "140": 280,
@@ -7426,7 +7400,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 355,
       "130": 364,
       "140": 374,
@@ -7458,7 +7432,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 177,
       "130": 182,
       "140": 187,
@@ -7490,7 +7464,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 177,
       "130": 182,
       "140": 187,
@@ -7522,7 +7496,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 177,
       "130": 182,
       "140": 187,
@@ -7554,7 +7528,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 180,
       "130": 273,
       "140": 280
@@ -7582,7 +7556,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 90,
       "130": 136,
       "140": 140
@@ -7610,7 +7584,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 90,
       "130": 136,
       "140": 140
@@ -7638,7 +7612,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 100,
       "130": 152,
       "140": 156
@@ -7666,7 +7640,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 200,
       "130": 304
     },
@@ -7693,7 +7667,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 100,
       "130": 152,
       "140": 156
@@ -7724,7 +7698,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 266,
       "130": 273,
       "140": 280,
@@ -7758,7 +7732,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 532,
       "130": 547,
       "140": 561,
@@ -7792,7 +7766,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 266,
       "130": 273,
       "140": 280,
@@ -7823,7 +7797,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 180,
       "130": 273,
       "140": 280,
@@ -7854,7 +7828,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 180,
       "130": 273,
       "140": 280,
@@ -7885,7 +7859,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 360,
       "130": 547,
       "140": 561,
@@ -7919,7 +7893,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 180,
       "130": 273,
       "140": 280
@@ -7950,7 +7924,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 180,
       "130": 273,
       "140": 280
@@ -7986,7 +7960,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 360,
       "130": 547,
       "140": 561
@@ -8681,13 +8655,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "WorthValues": {
-      "100": 675,
-      "110": 1205,
-      "120": 1253,
-      "130": 1301,
-      "140": 1350
-    },
+    "BaseWorth": 675,
     "ObtainedBy": {
       "1": "Fishing",
       "2": "Underwater Chests",
@@ -8712,13 +8680,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "WorthValues": {
-      "100": 1350,
-      "110": 2410,
-      "120": 2507,
-      "130": 2603,
-      "140": 2700
-    },
+    "BaseWorth": 1350,
     "ObtainedBy": {
       "1": "Fishing",
       "2": "Underwater Chests",
@@ -8743,13 +8705,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "WorthValues": {
-      "100": 675,
-      "110": 1205,
-      "120": 1253,
-      "130": 1301,
-      "140": 1350
-    },
+    "BaseWorth": 675,
     "ObtainedBy": {
       "1": "Fishing",
       "2": "Underwater Chests",
@@ -8778,7 +8734,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {},
+    "WorthOverrides": {},
     "ObtainedBy": {
       "1": "Treasure Charts"
     },
@@ -8805,7 +8761,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {},
+    "WorthOverrides": {},
     "ObtainedBy": {
       "1": "Treasure Charts"
     },
@@ -8832,7 +8788,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {},
+    "WorthOverrides": {},
     "ObtainedBy": {
       "1": "Treasure Charts"
     },
@@ -8852,7 +8808,7 @@
     "EquipType": "Hat",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 300,
       "110": 432,
       "120": 444,
@@ -8883,7 +8839,7 @@
     "EquipType": "Arm",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
-    "WorthValues": {},
+    "WorthOverrides": {},
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
     },
@@ -8904,7 +8860,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 144,
       "120": 148,
@@ -8932,7 +8888,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 150,
       "110": 216,
       "120": 222,
@@ -8963,7 +8919,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 120,
       "110": 172,
       "120": 177,
@@ -8997,7 +8953,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 85,
       "110": 122,
       "120": 125,
@@ -9028,7 +8984,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 85,
       "110": 122,
       "120": 125,
@@ -9077,7 +9033,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 80,
       "110": 115,
       "120": 118,
@@ -9108,7 +9064,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 20,
       "110": 28,
       "120": 29,
@@ -9151,7 +9107,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 75,
       "110": 108,
       "120": 111,
@@ -9184,7 +9140,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 75,
       "110": 108,
       "120": 111,
@@ -9217,7 +9173,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 144,
       "120": 148,
@@ -9250,7 +9206,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 150,
       "110": 216,
       "120": 222,
@@ -9280,7 +9236,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 9,
       "120": 13,
       "130": 17,
@@ -9307,7 +9263,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 9,
       "120": 13,
       "130": 17,
@@ -9334,7 +9290,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 9,
       "120": 13,
       "130": 17,
@@ -9364,7 +9320,7 @@
     "EquipType": "Arm",
     "StatType": "Vitality",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 288,
       "120": 296,
       "130": 304,
@@ -9403,7 +9359,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 30,
       "110": 43,
       "120": 44,
@@ -9437,7 +9393,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 30,
       "110": 43,
       "120": 44,
@@ -9468,7 +9424,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 300,
       "110": 403,
       "120": 414,
@@ -9499,7 +9455,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 300,
       "110": 403,
       "120": 414,
@@ -9527,7 +9483,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Common",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 50,
       "110": 72,
       "120": 74,
@@ -9567,7 +9523,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 86,
       "120": 88,
       "130": 91,
@@ -9598,7 +9554,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 80,
       "110": 115,
       "120": 118,
@@ -9629,7 +9585,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 80,
       "110": 115,
       "120": 118,
@@ -9674,7 +9630,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 37,
       "110": 53,
       "120": 54,
@@ -9705,7 +9661,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 144,
       "120": 148,
@@ -9739,7 +9695,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 50,
       "110": 72,
       "120": 74,
@@ -9770,7 +9726,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 161,
       "170": 165
     },
@@ -9794,7 +9750,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 80,
       "170": 82
     },
@@ -9818,7 +9774,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 80,
       "170": 82
     },
@@ -9845,7 +9801,7 @@
     "EquipType": "Face",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 20,
       "70": 28,
       "80": 30,
@@ -9879,7 +9835,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 40,
       "70": 57,
       "80": 60,
@@ -9913,7 +9869,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 150,
       "70": 215,
       "80": 225,
@@ -9945,7 +9901,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 75,
       "70": 107,
       "80": 112,
@@ -9979,7 +9935,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 60,
       "70": 86,
       "80": 90,
@@ -10015,7 +9971,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 120,
       "70": 172,
       "80": 180,
@@ -10051,7 +10007,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 30,
       "70": 43,
       "80": 45,
@@ -10090,7 +10046,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 120,
       "70": 172,
       "80": 180,
@@ -10125,7 +10081,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "80": 90,
       "90": 135,
       "100": 140,
@@ -10156,7 +10112,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "80": 250,
       "90": 375,
       "100": 388,
@@ -10187,7 +10143,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "80": 125,
       "90": 187,
       "100": 194,
@@ -10219,7 +10175,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "80": 30,
       "90": 45,
       "100": 46,
@@ -10251,7 +10207,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "80": 72,
       "90": 75,
       "100": 77,
@@ -10286,7 +10242,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "90": 200,
       "100": 305,
       "110": 315,
@@ -10320,7 +10276,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "90": 100,
       "100": 152,
       "110": 156,
@@ -10351,7 +10307,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "90": 50,
       "100": 76,
       "110": 78,
@@ -10385,7 +10341,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "90": 75,
       "100": 114,
       "110": 118,
@@ -10419,7 +10375,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "90": 100,
       "100": 152,
       "110": 156,
@@ -10453,7 +10409,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 200,
       "110": 310,
       "120": 320,
@@ -10483,7 +10439,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 100,
       "110": 155,
       "120": 160,
@@ -10513,7 +10469,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 75,
       "110": 116,
       "120": 120,
@@ -10546,7 +10502,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 200,
       "110": 310,
       "120": 320,
@@ -10582,7 +10538,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 400,
       "110": 620,
       "120": 640,
@@ -10618,7 +10574,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 200,
       "110": 310,
       "120": 320,
@@ -10654,7 +10610,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 200,
       "110": 310,
       "120": 320,
@@ -10687,7 +10643,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 180,
       "120": 282,
       "130": 291,
@@ -10716,7 +10672,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 90,
       "120": 141,
       "130": 145
@@ -10744,7 +10700,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 62,
       "120": 97,
       "130": 100
@@ -10772,7 +10728,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "110": 62,
       "120": 97,
       "130": 100
@@ -10803,7 +10759,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 250,
       "130": 397,
       "140": 409
@@ -10834,7 +10790,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 125,
       "130": 198,
       "140": 204
@@ -10865,7 +10821,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 75,
       "130": 119,
       "140": 122
@@ -10896,7 +10852,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 100,
       "130": 159,
       "140": 163
@@ -10927,7 +10883,7 @@
     "EquipType": "Face",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 75,
       "130": 119,
       "140": 122
@@ -10953,7 +10909,7 @@
     "MaxLevel": 70,
     "EquipType": "Arm",
     "StatType": "Normal",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 60,
       "30": 85,
       "40": 94,
@@ -10987,7 +10943,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "WorthValues": {
+    "WorthOverrides": {
       "140": 350
     },
     "ObtainedBy": {
@@ -11013,7 +10969,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "140": 220
     },
     "ObtainedBy": {
@@ -11038,7 +10994,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 2321,
       "160": 2392,
       "170": 2464
@@ -11066,7 +11022,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 4642,
       "170": 4928
     },
@@ -11093,7 +11049,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 2321,
       "160": 2392,
       "170": 2464
@@ -11124,7 +11080,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 960,
       "160": 984,
       "170": 1008
@@ -11152,7 +11108,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 305
     },
     "ObtainedBy": {
@@ -11178,7 +11134,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {},
+    "WorthOverrides": {},
     "ObtainedBy": {
       "1": "White Eyes"
     },
@@ -11202,7 +11158,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 152,
       "110": 155,
       "120": 158,
@@ -11238,7 +11194,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 160,
       "160": 164,
       "170": 168
@@ -11270,7 +11226,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 80,
       "160": 82,
       "170": 84
@@ -11302,7 +11258,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 40,
       "160": 41,
       "170": 42
@@ -11334,7 +11290,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 40,
       "160": 41,
       "170": 42
@@ -11366,7 +11322,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 160,
       "160": 164,
       "170": 168
@@ -11395,7 +11351,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "140": 475,
       "150": 487,
       "160": 499,
@@ -11425,7 +11381,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "140": 237,
       "150": 243,
       "160": 249,
@@ -11455,7 +11411,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "140": 237,
       "150": 243,
       "160": 249,
@@ -11485,7 +11441,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "140": 118,
       "150": 121,
       "160": 124,
@@ -11515,7 +11471,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 150,
       "60": 155,
       "70": 160,
@@ -11554,7 +11510,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 150,
       "60": 155,
       "70": 160,
@@ -11593,7 +11549,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 150,
       "60": 155,
       "70": 160,
@@ -11632,7 +11588,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 150,
       "60": 155,
       "70": 160,
@@ -11674,7 +11630,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 80,
       "160": 82,
       "170": 84
@@ -11706,7 +11662,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 320,
       "160": 328,
       "170": 336
@@ -11738,7 +11694,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 80,
       "160": 82,
       "170": 84
@@ -11770,7 +11726,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 160,
       "160": 164,
       "170": 168
@@ -11796,7 +11752,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 125,
       "110": 129,
       "120": 133,
@@ -11827,7 +11783,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 125,
       "110": 129,
       "120": 133,
@@ -11858,7 +11814,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 125,
       "110": 129,
       "120": 133,
@@ -11889,7 +11845,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 350,
       "110": 360,
       "120": 370,
@@ -11920,7 +11876,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 350,
       "110": 360,
       "120": 370,
@@ -11951,7 +11907,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 350,
       "110": 360,
       "120": 370,
@@ -11982,7 +11938,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 210,
       "110": 216,
       "120": 222,
@@ -12013,7 +11969,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 287,
       "110": 295,
       "120": 303,
@@ -12044,7 +12000,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 230,
       "110": 237,
       "120": 244,
@@ -12075,7 +12031,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 420,
       "110": 432,
       "120": 444,
@@ -12106,7 +12062,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 574,
       "110": 590,
       "120": 606,
@@ -12137,7 +12093,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 461,
       "110": 475,
       "120": 488,
@@ -12168,7 +12124,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 168,
       "110": 172,
       "120": 177,
@@ -12199,7 +12155,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 224,
       "110": 230,
       "120": 236,
@@ -12230,7 +12186,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 112,
       "110": 115,
       "120": 118,
@@ -12266,7 +12222,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 224,
       "110": 230,
       "120": 236,
@@ -12297,7 +12253,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 336,
       "110": 345,
       "120": 355,
@@ -12328,7 +12284,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 448,
       "110": 460,
       "120": 473,
@@ -12359,7 +12315,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 224,
       "110": 230,
       "120": 236,
@@ -12395,7 +12351,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 448,
       "110": 460,
       "120": 473,
@@ -12426,7 +12382,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 280,
       "110": 288,
       "120": 296,
@@ -12457,7 +12413,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 168,
       "110": 172,
       "120": 177,
@@ -12488,7 +12444,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 560,
       "110": 576,
       "120": 592,
@@ -12519,7 +12475,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 336,
       "110": 345,
       "120": 355,
@@ -12553,7 +12509,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -12585,7 +12541,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -12617,7 +12573,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -12649,7 +12605,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 30,
       "10": 36,
       "20": 42,
@@ -12681,7 +12637,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 40,
       "10": 48,
       "20": 56,
@@ -12713,7 +12669,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -12745,7 +12701,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -12777,7 +12733,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 90,
       "60": 96,
       "70": 102,
@@ -12809,7 +12765,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 75,
       "60": 80,
       "70": 85,
@@ -12841,7 +12797,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 30,
       "10": 36,
       "20": 42,
@@ -12873,7 +12829,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10,
       "10": 12,
       "20": 14,
@@ -12905,7 +12861,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10,
       "10": 12,
       "20": 14,
@@ -12937,7 +12893,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -12969,7 +12925,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 120,
       "60": 128,
       "70": 136,
@@ -13001,7 +12957,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 180,
       "60": 192,
       "70": 204,
@@ -13033,7 +12989,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 60,
       "60": 64,
       "70": 68,
@@ -13062,7 +13018,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 150,
       "110": 155,
       "120": 160,
@@ -13093,7 +13049,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 75,
       "110": 77,
       "120": 80,
@@ -13124,7 +13080,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 75,
       "110": 77,
       "120": 80,
@@ -13155,7 +13111,7 @@
     "EquipType": "Back",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 75,
       "110": 77,
       "120": 80,
@@ -13189,7 +13145,7 @@
     "EquipType": "Face",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10,
       "10": 12,
       "20": 14,
@@ -13221,7 +13177,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 15,
       "10": 18,
       "20": 21,
@@ -13253,7 +13209,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50,
       "10": 60,
       "20": 70,
@@ -13285,7 +13241,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 50,
       "10": 60,
       "20": 70,
@@ -13317,7 +13273,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -13349,7 +13305,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "60": 120,
       "70": 127,
       "80": 135,
@@ -13380,7 +13336,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "70": 25,
       "80": 27,
       "90": 28,
@@ -13410,7 +13366,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 30,
       "60": 32,
       "70": 34,
@@ -13442,7 +13398,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "50": 45,
       "60": 48,
       "70": 51,
@@ -13474,7 +13430,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 150,
       "110": 155,
       "120": 160,
@@ -13511,7 +13467,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 77,
       "130": 79,
       "140": 81,
@@ -13546,7 +13502,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 77,
       "130": 79,
       "140": 81,
@@ -13581,7 +13537,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "120": 154,
       "130": 159,
       "140": 163,
@@ -13616,7 +13572,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 280,
       "110": 288,
       "120": 296,
@@ -13654,7 +13610,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 280,
       "110": 288,
       "120": 296,
@@ -13692,7 +13648,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 560,
       "110": 576,
       "120": 592,
@@ -13730,7 +13686,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 280,
       "110": 288,
       "120": 296,
@@ -13768,7 +13724,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 280,
       "110": 288,
       "120": 296,
@@ -13800,7 +13756,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 32,
       "160": 32,
       "170": 33
@@ -13826,7 +13782,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 128,
       "160": 131,
       "170": 134
@@ -13852,7 +13808,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 64,
       "160": 65,
       "170": 67
@@ -13881,7 +13837,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 42,
       "110": 43,
       "120": 44,
@@ -13915,7 +13871,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 28,
       "110": 28,
       "120": 29,
@@ -13949,7 +13905,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 14,
       "110": 14,
       "120": 14,
@@ -13983,7 +13939,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 14,
       "110": 14,
       "120": 14,
@@ -14017,7 +13973,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 28,
       "110": 28,
       "120": 29,
@@ -14051,7 +14007,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 28,
       "110": 28,
       "120": 29,
@@ -14082,7 +14038,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -14113,7 +14069,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 28,
       "110": 28,
       "120": 29,
@@ -14144,7 +14100,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 28,
       "110": 28,
       "120": 29,
@@ -14178,7 +14134,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 22,
       "160": 23,
       "170": 23
@@ -14210,7 +14166,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 750,
       "160": 766,
       "170": 783
@@ -14239,7 +14195,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 45,
       "160": 46,
       "170": 47
@@ -14268,7 +14224,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 90,
       "160": 92,
       "170": 94
@@ -14297,7 +14253,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 45,
       "160": 46,
       "170": 47
@@ -14329,7 +14285,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 45,
       "160": 46,
       "170": 47
@@ -14361,7 +14317,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 60,
       "160": 61,
       "170": 62
@@ -14393,7 +14349,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 120,
       "160": 122,
       "170": 125
@@ -14425,7 +14381,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 60,
       "160": 61,
       "170": 62
@@ -14454,7 +14410,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 21,
       "110": 21,
       "120": 22,
@@ -14488,7 +14444,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 28,
       "110": 28,
       "120": 29,
@@ -14522,7 +14478,7 @@
     "EquipType": "Shoulder",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -14556,7 +14512,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 21,
       "110": 21,
       "120": 22,
@@ -14590,7 +14546,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -14624,7 +14580,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 42,
       "110": 43,
       "120": 44,
@@ -14658,7 +14614,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 112,
       "110": 115,
       "120": 118,
@@ -14692,7 +14648,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 84,
       "110": 86,
       "120": 88,
@@ -14723,7 +14679,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 80,
       "170": 82
     },
@@ -14747,7 +14703,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 161,
       "170": 165
     },
@@ -14771,7 +14727,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 80,
       "170": 82
     },
@@ -14795,7 +14751,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 161,
       "170": 165
     },
@@ -14819,7 +14775,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 161,
       "170": 165
     },
@@ -14843,7 +14799,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 323,
       "170": 330
     },
@@ -14867,7 +14823,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 161,
       "170": 165
     },
@@ -14891,7 +14847,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 32,
       "30": 35,
       "40": 39,
@@ -14920,7 +14876,7 @@
     "EquipType": "Head",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 32,
       "30": 35,
       "40": 39,
@@ -14949,7 +14905,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 12,
       "30": 14,
       "40": 15,
@@ -14978,7 +14934,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 19,
       "30": 21,
       "40": 23,
@@ -15007,7 +14963,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 64,
       "30": 71,
       "40": 78,
@@ -15036,7 +14992,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 32,
       "30": 35,
       "40": 39,
@@ -15065,7 +15021,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "20": 32,
       "30": 35,
       "40": 39,
@@ -15094,7 +15050,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 25,
       "10": 30,
       "20": 35,
@@ -15123,7 +15079,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -15152,7 +15108,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 25,
       "10": 30,
       "20": 35,
@@ -15181,7 +15137,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 20,
       "10": 24,
       "20": 28,
@@ -15210,7 +15166,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 100,
       "10": 120,
       "20": 140,
@@ -15239,7 +15195,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 5,
       "10": 6,
       "20": 7,
@@ -15268,7 +15224,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 5,
       "10": 6,
       "20": 7,
@@ -15297,7 +15253,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 5,
       "10": 6,
       "20": 7,
@@ -15326,7 +15282,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10,
       "10": 12,
       "20": 14,
@@ -15355,7 +15311,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 8,
       "10": 9,
       "20": 11,
@@ -15384,7 +15340,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "1": 10,
       "10": 12,
       "20": 14,
@@ -15416,7 +15372,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -15450,7 +15406,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 112,
       "110": 115,
       "120": 118,
@@ -15484,7 +15440,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -15518,7 +15474,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -15552,7 +15508,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 112,
       "110": 115,
       "120": 118,
@@ -15586,7 +15542,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -15620,7 +15576,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -15654,7 +15610,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 112,
       "110": 115,
       "120": 118,
@@ -15688,7 +15644,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -15722,7 +15678,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -15756,7 +15712,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 112,
       "110": 115,
       "120": 118,
@@ -15790,7 +15746,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 56,
       "110": 57,
       "120": 59,
@@ -15824,7 +15780,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "170": 203
     },
     "ObtainedBy": {
@@ -15851,7 +15807,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "170": 814
     },
     "ObtainedBy": {
@@ -15878,7 +15834,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "170": 407
     },
     "ObtainedBy": {
@@ -15908,7 +15864,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "170": 203
     },
     "ObtainedBy": {
@@ -15938,7 +15894,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "170": 814
     },
     "ObtainedBy": {
@@ -15968,7 +15924,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "170": 407
     },
     "ObtainedBy": {
@@ -15992,7 +15948,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 49,
       "160": 49,
       "170": 50
@@ -16018,7 +15974,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 24,
       "160": 24,
       "170": 25
@@ -16044,7 +16000,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 24,
       "160": 24,
       "170": 25
@@ -16070,7 +16026,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 99,
       "160": 99,
       "170": 100
@@ -16096,7 +16052,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 49,
       "160": 49,
       "170": 50
@@ -16122,7 +16078,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "150": 49,
       "160": 49,
       "170": 50
@@ -16154,7 +16110,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 420,
       "170": 430
     },
@@ -16185,7 +16141,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 363,
       "170": 430
     },
@@ -16216,7 +16172,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 177,
       "170": 181
     },
@@ -16247,7 +16203,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthValues": {
+    "WorthOverrides": {
       "160": 177,
       "170": 181
     },
@@ -16272,7 +16228,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 45,
       "110": 46,
       "120": 48,
@@ -16303,7 +16259,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 45,
       "110": 46,
       "120": 48,
@@ -16334,7 +16290,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 45,
       "110": 46,
       "120": 48,
@@ -16365,7 +16321,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 45,
       "110": 46,
       "120": 48,
@@ -16396,7 +16352,7 @@
     "EquipType": "Arm",
     "StatType": "Normal",
     "Rarity": "Uncommon",
-    "WorthValues": {
+    "WorthOverrides": {
       "100": 45,
       "110": 46,
       "120": 48,

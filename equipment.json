@@ -1480,7 +1480,8 @@
     "Name": "Glasses",
     "Link": "Glasses",
     "MinLevel": 1,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Scarf": {
     "Name": "Scarf",
@@ -1492,25 +1493,29 @@
     "Name": "Loose Scarf",
     "Link": "Loose Scarf",
     "MinLevel": 1,
-    "EquipType": "Neck"
+    "EquipType": "Neck",
+    "Rarity": "Common"
   },
   "Hairband": {
     "Name": "Hairband",
     "Link": "Hairband",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Headband": {
     "Name": "Headband",
     "Link": "Headband",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Mysterious Mask": {
     "Name": "Mysterious Mask",
     "Link": "Mysterious Mask",
     "MinLevel": 1,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Scary Hat": {
     "Name": "Scary Hat",
@@ -1522,13 +1527,15 @@
     "Name": "Eye Poppers",
     "Link": "Eye Poppers",
     "MinLevel": 1,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Banded Top Hat": {
     "Name": "Banded Top Hat",
     "Link": "Banded Top Hat",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Top Hat": {
     "Name": "Top Hat",
@@ -1540,31 +1547,36 @@
     "Name": "Corduroy Hat",
     "Link": "Corduroy Hat",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Eyepatch": {
     "Name": "Eyepatch",
     "Link": "Eyepatch",
     "MinLevel": 1,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Gloves": {
     "Name": "Gloves",
     "Link": "Gloves",
     "MinLevel": 1,
-    "EquipType": "Arm"
+    "EquipType": "Arm",
+    "Rarity": "Common"
   },
   "Canvas Hat": {
     "Name": "Canvas Hat",
     "Link": "Canvas Hat",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Monocle": {
     "Name": "Monocle",
     "Link": "Monocle",
     "MinLevel": 1,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Toothpick": {
     "Name": "Toothpick",
@@ -1606,7 +1618,8 @@
     "Name": "Cowboy Hat",
     "Link": "Cowboy Hat",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Durag": {
     "Name": "Durag",
@@ -1679,7 +1692,8 @@
     "Name": "Head Bandages",
     "Link": "Head Bandages",
     "MinLevel": 1,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Military Cap": {
     "Name": "Military Cap",
@@ -4488,13 +4502,15 @@
     "Name": "Bruiser Armor",
     "Link": "Bruiser Armor",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Bruiser Boots": {
     "Name": "Bruiser Boots",
     "Link": "Bruiser Boots",
     "MinLevel": 50,
-    "EquipType": "Legging"
+    "EquipType": "Legging",
+    "Rarity": "Common"
   },
   "Tropical Shirt": {
     "Name": "Tropical Shirt",
@@ -4512,37 +4528,43 @@
     "Name": "Sailor's Headband",
     "Link": "Sailor's Headband",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Uncommon"
   },
   "Sailor's Hat": {
     "Name": "Sailor's Hat",
     "Link": "Sailor's Hat",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Uncommon"
   },
   "Sailor's Jacket": {
     "Name": "Sailor's Jacket",
     "Link": "Sailor's Jacket",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Sailor's Cloak": {
     "Name": "Sailor's Cloak",
     "Link": "Sailor's Cloak",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Uncommon"
   },
   "Sailor's Shirt": {
     "Name": "Sailor's Shirt",
     "Link": "Sailor's Shirt",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Sailor's Boots": {
     "Name": "Sailor's Boots",
     "Link": "Sailor's Boots",
     "MinLevel": 50,
-    "EquipType": "Legging"
+    "EquipType": "Legging",
+    "Rarity": "Uncommon"
   },
   "Warrior's Coat": {
     "Name": "Warrior's Coat",
@@ -5459,28 +5481,32 @@
     "Link": "Deluxe Hunting Armor",
     "MinLevel": 50,
     "MaxLevel": 100,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Uncommon"
   },
   "Deluxe Hunting Boots": {
     "Name": "Deluxe Hunting Boots",
     "Link": "Deluxe Hunting Boots",
     "MinLevel": 50,
     "MaxLevel": 100,
-    "EquipType": "Legging"
+    "EquipType": "Legging",
+    "Rarity": "Uncommon"
   },
   "Flower Dress": {
     "Name": "Flower Dress",
     "Link": "Flower Dress",
     "MinLevel": 50,
     "MaxLevel": 100,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Flower Leggings": {
     "Name": "Flower Leggings",
     "Link": "Flower Leggings",
     "MinLevel": 50,
     "MaxLevel": 100,
-    "EquipType": "Legging"
+    "EquipType": "Legging",
+    "Rarity": "Common"
   },
   "Thane Cloak": {
     "Name": "Thane Cloak",
@@ -5813,31 +5839,36 @@
     "Name": "Cape",
     "Link": "Cape",
     "MinLevel": 50,
-    "EquipType": "Collar"
+    "EquipType": "Collar",
+    "Rarity": "Common"
   },
   "Gilded Wings": {
     "Name": "Gilded Wings",
     "Link": "Gilded Wings",
     "MinLevel": 50,
-    "EquipType": "Back"
+    "EquipType": "Back",
+    "Rarity": "Common"
   },
   "Hood": {
     "Name": "Hood",
     "Link": "Hood",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Blindfold": {
     "Name": "Blindfold",
     "Link": "Blindfold",
     "MinLevel": 50,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Dual Bracelets": {
     "Name": "Dual Bracelets",
     "Link": "Dual Bracelets",
     "MinLevel": 50,
-    "EquipType": "Arm"
+    "EquipType": "Arm",
+    "Rarity": "Common"
   },
   "Valkyrie Helm": {
     "Name": "Valkyrie Helm",
@@ -5849,13 +5880,15 @@
     "Name": "Crow Wings",
     "Link": "Crow Wings",
     "MinLevel": 50,
-    "EquipType": "Back"
+    "EquipType": "Back",
+    "Rarity": "Common"
   },
   "Dual Armbands": {
     "Name": "Dual Armbands",
     "Link": "Dual Armbands",
     "MinLevel": 50,
-    "EquipType": "Arm"
+    "EquipType": "Arm",
+    "Rarity": "Common"
   },
   "Frilled Top": {
     "Name": "Frilled Top",
@@ -5891,7 +5924,8 @@
     "Name": "Fur Hood",
     "Link": "Fur Hood",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Seafarer's Coat": {
     "Name": "Seafarer's Coat",
@@ -5903,25 +5937,29 @@
     "Name": "Long-Horned Helm",
     "Link": "Long-Horned Helm",
     "MinLevel": 50,
-    "EquipType": "Helmrt"
+    "EquipType": "Helmrt",
+    "Rarity": "Uncommon"
   },
   "Round Hood": {
     "Name": "Round Hood",
     "Link": "Round Hood",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Musketeer Hat": {
     "Name": "Musketeer Hat",
     "Link": "Musketeer Hat",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Fear Mask": {
     "Name": "Fear Mask",
     "Link": "Fear Mask",
     "MinLevel": 50,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Common"
   },
   "Villainous Mask": {
     "Name": "Villainous Mask",
@@ -5966,19 +6004,22 @@
     "Name": "Head Goggles",
     "Link": "Head Goggles",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Common"
   },
   "Mystic Hood": {
     "Name": "Mystic Hood",
     "Link": "Mystic Hood",
     "MinLevel": 50,
-    "EquipType": "Hat"
+    "EquipType": "Hat",
+    "Rarity": "Uncommon"
   },
   "Pearl Eyepatch": {
     "Name": "Pearl Eyepatch",
     "Link": "Pearl Eyepatch",
     "MinLevel": 50,
-    "EquipType": "Face"
+    "EquipType": "Face",
+    "Rarity": "Uncommon"
   },
   "Sunset Shades": {
     "Name": "Sunset Shades",
@@ -5990,7 +6031,8 @@
     "Name": "Iron Fists",
     "Link": "Iron Fists",
     "MinLevel": 50,
-    "EquipType": "Arm"
+    "EquipType": "Arm",
+    "Rarity": "Common"
   },
   "Spiked Iron Fists": {
     "Name": "Spiked Iron Fists",
@@ -6002,7 +6044,8 @@
     "Name": "Martial Artist Gi",
     "Link": "Martial Artist Gi",
     "MinLevel": 50,
-    "EquipType": "Chestpiece"
+    "EquipType": "Chestpiece",
+    "Rarity": "Common"
   },
   "Samerian Captain Pauldrons": {
     "Name": "Samerian Captain Pauldrons",
@@ -8212,7 +8255,9 @@
     "Link": "Atlantean Shell Helmet",
     "MinLevel": 100,
     "EquipType": "Helmet",
-    "Rarity": "Uncommon"
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "Description": "A shell-shaped growth from the head of an Atlantean from the Dark Sea."
   },
   "Atlantean Snapper Helmet": {
     "Name": "Atlantean Snapper Helmet",
@@ -8225,28 +8270,36 @@
     "Link": "Atlantean Starfish",
     "MinLevel": 100,
     "EquipType": "Face",
-    "Rarity": "Uncommon"
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "Description": "A starfish from the face of an Atlantean in the Dark Sea."
   },
   "Atlantean Ear Mutation": {
     "Name": "Atlantean Ear Mutation",
     "Link": "Atlantean Ear Mutation",
     "MinLevel": 100,
     "EquipType": "Face",
-    "Rarity": "Uncommon"
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "Description": "A fish-like ear mutation from the head of an Atlantean in the Dark Sea, a result of prolonged exposure to magic-polluted rain."
   },
   "Atlantean Sailfish Fin": {
     "Name": "Atlantean Sailfish Fin",
     "Link": "Atlantean Sailfish Fin",
     "MinLevel": 100,
     "EquipType": "Back",
-    "Rarity": "Uncommon"
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "Description": "A sailfish fin from the back of an Atlantean in the Dark Sea, a result of prolonged exposure to magic-polluted rain."
   },
   "Atlantean Shark Fin": {
     "Name": "Atlantean Shark Fin",
     "Link": "Atlantean Shark Fin",
     "MinLevel": 100,
     "EquipType": "Back",
-    "Rarity": "Uncommon"
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "Description": "A shark-like fin from an Atlantean in the Dark Sea, a result of prolonged exposure to magic-polluted rain."
   },
   "Atlantean-Hide Body": {
     "Name": "Atlantean-Hide Body",
@@ -8266,21 +8319,27 @@
     "Link": "Atlantean-Hide Legs",
     "MinLevel": 100,
     "EquipType": "Legging",
-    "Rarity": "Uncommon"
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "Description": "A growth of barnacles and moss covering the skin of Atlanteans in the Dark Sea, developed from prolonged exposure to its magic-polluted rain."
   },
   "Atlantean Fish Leg": {
     "Name": "Atlantean Fish Leg",
     "Link": "Atlantean Fish Leg",
     "MinLevel": 100,
     "EquipType": "Chestpiece",
-    "Rarity": "Uncommon"
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "Description": "A severe mutation of a human leg developed from prolonged exposure to the Dark Sea's magic-polluted rain."
   },
   "Atlantean Creature Leg": {
     "Name": "Atlantean Creature Leg",
     "Link": "Atlantean Creature Leg",
     "MinLevel": 100,
     "EquipType": "Legging",
-    "Rarity": "Uncommon"
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "Description": "A severe mutation of a human leg developed from prolonged exposure to the Dark Sea's magic-polluted rain."
   },
   "Arcmancer Hat": {
     "Name": "Arcmancer Hat",
@@ -9598,7 +9657,9 @@
     "Link": "Oracle Amulet (Poor)",
     "MinLevel": 100,
     "JewelSlots": 0,
-    "EquipType": "Neck"
+    "EquipType": "Neck",
+    "StatType": "Vitality",
+    "Rarity": "Rare"
   },
   "Floral Blossom": {
     "Name": "Floral Blossom",
@@ -9764,13 +9825,15 @@
     "Name": "Large Cloak",
     "Link": "Large Cloak",
     "EquipType": "Collar",
-    "MinLevel": 100
+    "MinLevel": 100,
+    "Rarity": "Common"
   },
   "Large Jacket": {
     "Name": "Large Jacket",
     "Link": "Large Jacket",
     "EquipType": "Collar",
-    "MinLevel": 100
+    "MinLevel": 100,
+    "Rarity": "Common"
   },
   "Samerian Commander Pauldrons": {
     "Name": "Samerian Commander Pauldrons",

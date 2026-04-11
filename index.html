@@ -386,22 +386,6 @@ body.highlight-missing td.cell-missing {
   gap: 5px;
 }
 .action-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
-
-#missingToggle {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  font-size: 12px;
-  color: var(--text-dim);
-  cursor: pointer;
-  user-select: none;
-  padding: 4px 8px;
-  border-radius: 5px;
-  transition: background 0.12s;
-}
-#missingToggle:hover { background: var(--bg3); }
-#missingToggle input { accent-color: var(--missing); cursor: pointer; }
-#missingToggle.on { color: var(--missing); }
 </style>
 </head>
 <body>
@@ -442,11 +426,6 @@ body.highlight-missing td.cell-missing {
     <div class="sidebar-section">
       <div class="sidebar-label">Missing by field</div>
       <div id="fieldList"></div>
-    </div>
-    <div class="sidebar-section">
-      <div class="sidebar-label">
-        <label id="missingToggle"><input type="checkbox" id="highlightCheck"> Highlight missing cells</label>
-      </div>
     </div>
     <div class="sidebar-section">
       <div class="sidebar-label">Columns</div>
@@ -839,15 +818,9 @@ function downloadCSV(content, filename) {
   URL.revokeObjectURL(url);
 }
 
-/* ── MISSING HIGHLIGHT TOGGLE ────────────────────────────── */
-document.getElementById('highlightCheck').addEventListener('change', function() {
-  const tog = document.getElementById('missingToggle');
-  if (this.checked) { document.body.classList.add('highlight-missing'); tog.classList.add('on'); }
-  else { document.body.classList.remove('highlight-missing'); tog.classList.remove('on'); }
-});
-
 /* ── INIT ────────────────────────────────────────────────── */
 async function init(data) {
+  document.body.classList.add('highlight-missing');
   allData = Array.isArray(data)
     ? data
     : Object.entries(data).map(([key, item]) => ({ _key: key, ...item }));

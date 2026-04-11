@@ -11474,10 +11474,11 @@
       }
     },
     "MinLevel": 150,
+    "MaxLevel": null,
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "BaseWorth": 2321,
+    "BaseWorth": 1250,
     "WorthOverrides": {
       "150": 2321,
       "160": 2392,
@@ -11502,11 +11503,11 @@
       }
     },
     "MinLevel": 150,
-    "MaxLevel": 180,
+    "MaxLevel": null,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "BaseWorth": 4642,
+    "BaseWorth": 2500,
     "WorthOverrides": {
       "150": 4642,
       "170": 4928
@@ -11530,11 +11531,11 @@
       }
     },
     "MinLevel": 150,
-    "MaxLevel": 180,
+    "MaxLevel": null,
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Mystic",
-    "BaseWorth": 2321,
+    "BaseWorth": 1250,
     "WorthOverrides": {
       "150": 2321,
       "160": 2392,

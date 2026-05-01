@@ -8160,10 +8160,10 @@
     "Image": "Sophragos Hood.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.8095
+        "Multiplier": 0.607125
       },
       "Defense": {
-        "Multiplier": -0.3068
+        "Multiplier": -0.07182188
       }
     },
     "MinLevel": 120,
@@ -8192,10 +8192,10 @@
     "Image": "Sophragos Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.8095
+        "Multiplier": 0.607125
       },
       "Defense": {
-        "Multiplier": -0.3068
+        "Multiplier": -0.07182188
       }
     },
     "MinLevel": 120,
@@ -8224,10 +8224,10 @@
     "Image": "Sophragos Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": "14 / 13"
+        "Multiplier": "14 / 13 * 0.75"
       },
       "Defense": {
-        "Multiplier": -0.41
+        "Multiplier": -0.0956
       }
     },
     "MinLevel": 120,
@@ -11467,7 +11467,7 @@
     "Image": "Omen Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": -0.4
+        "Multiplier": -0.466666667
       },
       "Defense": {
         "Multiplier": 1.255
@@ -11496,7 +11496,7 @@
     "Image": "Omen Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": -0.53
+        "Multiplier": -0.618333333
       },
       "Defense": {
         "Multiplier": 1.675
@@ -11524,7 +11524,7 @@
     "Image": "Omen Leggings.png",
     "Stats": {
       "Power": {
-        "Multiplier": -0.4
+        "Multiplier": -0.466666667
       },
       "Defense": {
         "Multiplier": 1.255

@@ -11553,13 +11553,13 @@
     "Image": "Kraken Band.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.5
+        "Multiplier": 0.3793
       },
       "Defense": {
-        "Multiplier": 0.25
+        "Multiplier": 0.20175
       },
       "Range": {
-        "Multiplier": 0.25
+        "Multiplier": 0.297625
       }
     },
     "MinLevel": 150,

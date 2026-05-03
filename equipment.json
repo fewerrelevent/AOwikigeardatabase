@@ -10205,6 +10205,40 @@
     "Variations": null,
     "Description": "A black mask and dark yellow tattered cloak, the signature outfit of the Forsaken, a group of assassin that originated in the Nimbus Lands."
   },
+  "Dragon Tooth Necklace": {
+    "Name": "Dragon Tooth Necklace",
+    "Link": "Dragon Tooth Necklace",
+    "Image": "Dragon Tooth Necklace.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.198
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons"
+    },
+    "Variations": null,
+    "Description": "A necklace made out of the tooth of a young or adolescent dragon.",
+    "JewelSlots": 2
+  },
   "Shroud": {
     "Name": "Shroud",
     "Link": "Shroud",

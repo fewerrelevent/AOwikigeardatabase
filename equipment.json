@@ -10218,11 +10218,11 @@
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 250,
+    "MaxLevel": null,
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 39,
+    "BaseWorth": 25,
     "WorthOverrides": {
       "110": 40,
       "120": 42,

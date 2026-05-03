@@ -8160,10 +8160,10 @@
     "Image": "Sophragos Hood.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.607125
+        "Multiplier": 0.6073125
       },
       "Defense": {
-        "Multiplier": -0.07182188
+        "Multiplier": -0.0715
       }
     },
     "MinLevel": 120,
@@ -8172,14 +8172,6 @@
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 180,
-    "WorthOverrides": {
-      "120": 180,
-      "130": 273,
-      "140": 280,
-      "150": 288,
-      "160": 295,
-      "170": 302
-    },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
     },
@@ -8192,10 +8184,10 @@
     "Image": "Sophragos Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.607125
+        "Multiplier": 0.6073125
       },
       "Defense": {
-        "Multiplier": -0.07182188
+        "Multiplier": -0.0715
       }
     },
     "MinLevel": 120,
@@ -8204,14 +8196,6 @@
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 180,
-    "WorthOverrides": {
-      "120": 180,
-      "130": 273,
-      "140": 280,
-      "150": 288,
-      "160": 295,
-      "170": 302
-    },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
     },
@@ -8224,7 +8208,7 @@
     "Image": "Sophragos Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": "14 / 13 * 0.75"
+        "Multiplier": 0.80975
       },
       "Defense": {
         "Multiplier": -0.0956
@@ -8236,14 +8220,6 @@
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 360,
-    "WorthOverrides": {
-      "120": 360,
-      "130": 547,
-      "140": 561,
-      "150": 576,
-      "160": 590,
-      "170": 604
-    },
     "ObtainedBy": {
       "1": "Dark Sealed Chests"
     },

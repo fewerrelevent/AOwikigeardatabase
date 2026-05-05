@@ -11595,10 +11595,10 @@
     "Image": "Apex Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3475
+        "Multiplier": 0.375
       },
       "Defense": {
-        "Multiplier": 0.45
+        "Multiplier": 0.4725
       }
     },
     "MinLevel": 100,
@@ -11622,10 +11622,10 @@
     "Image": "Apex Leggings.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.260625
+        "Multiplier": 0.275
       },
       "Defense": {
-        "Multiplier": 0.3375
+        "Multiplier": 0.3544
       }
     },
     "MinLevel": 100,
@@ -11646,10 +11646,10 @@
     "Image": "Apex Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.260625
+        "Multiplier": 0.275
       },
       "Defense": {
-        "Multiplier": 0.3375
+        "Multiplier": 0.3544
       }
     },
     "MinLevel": 100,
@@ -17031,6 +17031,1656 @@
     },
     "Variations": 37,
     "Description": "Two silver bracelets with dyed metal bracelets stacked on top of them. They were taken from the Crone, a murderous witch who wanders the Nimbus Sea.",
+    "JewelSlots": 2
+  },
+  "Light Purple Dragon Helmet": {
+    "Name": "Light Purple Dragon Helmet",
+    "Link": "Light Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Purple Dragon Armor": {
+    "Name": "Light Purple Dragon Armor",
+    "Link": "Light Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Purple Dragon Boots": {
+    "Name": "Light Purple Dragon Boots",
+    "Link": "Light Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Purple Dragon Cape": {
+    "Name": "Light Purple Dragon Cape",
+    "Link": "Light Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Lesser Purple Dragoneye Amulet": {
+    "Name": "Lesser Purple Dragoneye Amulet",
+    "Link": "Light Dragoneye Amulet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 2
+  },
+  "Light Black Dragon Helmet": {
+    "Name": "Light Black Dragon Helmet",
+    "Link": "Light Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.14
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Black Dragon Armor": {
+    "Name": "Light Black Dragon Armor",
+    "Link": "Light Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Black Dragon Boots": {
+    "Name": "Light Black Dragon Boots",
+    "Link": "Light Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.14
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Black Dragon Cape": {
+    "Name": "Light Black Dragon Cape",
+    "Link": "Light Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.14
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Lesser Black Dragoneye Amulet": {
+    "Name": "Lesser Black Dragoneye Amulet",
+    "Link": "Light Dragoneye Amulet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 2
+  },
+  "Light Brown Dragon Helmet": {
+    "Name": "Light Brown Dragon Helmet",
+    "Link": "Light Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.465
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Brown Dragon Armor": {
+    "Name": "Light Brown Dragon Armor",
+    "Link": "Light Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.64
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Brown Dragon Boots": {
+    "Name": "Light Brown Dragon Boots",
+    "Link": "Light Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.465
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Brown Dragon Cape": {
+    "Name": "Light Brown Dragon Cape",
+    "Link": "Light Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.465
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Lesser Brown Dragoneye Amulet": {
+    "Name": "Lesser Brown Dragoneye Amulet",
+    "Link": "Light Dragoneye Amulet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.64
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 2
+  },
+  "Light Golden Dragon Helmet": {
+    "Name": "Light Golden Dragon Helmet",
+    "Link": "Light Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Golden Dragon Armor": {
+    "Name": "Light Golden Dragon Armor",
+    "Link": "Light Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Golden Dragon Boots": {
+    "Name": "Light Golden Dragon Boots",
+    "Link": "Light Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Golden Dragon Cape": {
+    "Name": "Light Golden Dragon Cape",
+    "Link": "Light Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Lesser Golden Dragoneye Amulet": {
+    "Name": "Lesser Golden Dragoneye Amulet",
+    "Link": "Light Dragoneye Amulet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 2
+  },
+  "Light White Dragon Helmet": {
+    "Name": "Light White Dragon Helmet",
+    "Link": "Light Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light White Dragon Armor": {
+    "Name": "Light White Dragon Armor",
+    "Link": "Light Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light White Dragon Boots": {
+    "Name": "Light White Dragon Boots",
+    "Link": "Light Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light White Dragon Cape": {
+    "Name": "Light White Dragon Cape",
+    "Link": "Light Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Lesser White Dragoneye Amulet": {
+    "Name": "Lesser White Dragoneye Amulet",
+    "Link": "Light Dragoneye Amulet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 2
+  },
+  "Light Red Dragon Helmet": {
+    "Name": "Light Red Dragon Helmet",
+    "Link": "Light Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Red Dragon Armor": {
+    "Name": "Light Red Dragon Armor",
+    "Link": "Light Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Red Dragon Boots": {
+    "Name": "Light Red Dragon Boots",
+    "Link": "Light Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Red Dragon Cape": {
+    "Name": "Light Red Dragon Cape",
+    "Link": "Light Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Lesser Red Dragoneye Amulet": {
+    "Name": "Lesser Red Dragoneye Amulet",
+    "Link": "Light Dragoneye Amulet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 2
+  },
+  "Light Blue Dragon Helmet": {
+    "Name": "Light Blue Dragon Helmet",
+    "Link": "Light Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.445
+      }
+    },
+    "StatOverrides": {
+      "120": {
+        "Dexterity": 27
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Blue Dragon Armor": {
+    "Name": "Light Blue Dragon Armor",
+    "Link": "Light Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.6
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Blue Dragon Boots": {
+    "Name": "Light Blue Dragon Boots",
+    "Link": "Light Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.445
+      }
+    },
+    "StatOverrides": {
+      "120": {
+        "Dexterity": 27
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Blue Dragon Cape": {
+    "Name": "Light Blue Dragon Cape",
+    "Link": "Light Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.445
+      }
+    },
+    "StatOverrides": {
+      "120": {
+        "Dexterity": 27
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Lesser Blue Dragoneye Amulet": {
+    "Name": "Lesser Blue Dragoneye Amulet",
+    "Link": "Light Dragoneye Amulet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.6
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 2
+  },
+  "Light Teal Dragon Helmet": {
+    "Name": "Light Teal Dragon Helmet",
+    "Link": "Light Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Teal Dragon Armor": {
+    "Name": "Light Teal Dragon Armor",
+    "Link": "Light Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Teal Dragon Boots": {
+    "Name": "Light Teal Dragon Boots",
+    "Link": "Light Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Teal Dragon Cape": {
+    "Name": "Light Teal Dragon Cape",
+    "Link": "Light Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Lesser Teal Dragoneye Amulet": {
+    "Name": "Lesser Teal Dragoneye Amulet",
+    "Link": "Light Dragoneye Amulet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 2
+  },
+  "Light Green Dragon Helmet": {
+    "Name": "Light Green Dragon Helmet",
+    "Link": "Light Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Green Dragon Armor": {
+    "Name": "Light Green Dragon Armor",
+    "Link": "Light Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Green Dragon Boots": {
+    "Name": "Light Green Dragon Boots",
+    "Link": "Light Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Light Green Dragon Cape": {
+    "Name": "Light Green Dragon Cape",
+    "Link": "Light Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Lesser Green Dragoneye Amulet": {
+    "Name": "Lesser Green Dragoneye Amulet",
+    "Link": "Light Dragoneye Amulet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Young|Young Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
     "JewelSlots": 2
   }
 }

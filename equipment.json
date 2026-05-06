@@ -17443,10 +17443,15 @@
     "Image": "Placeholder V2.png",
     "Stats": {
       "Defense": {
-        "Multiplier": 0.64
+        "Multiplier": 0.62
       },
       "Dexterity": {
         "Multiplier": 0.2
+      }
+    },
+    "StatOverrides": {
+      "110": {
+        "Defense": 183
       }
     },
     "MinLevel": 100,
@@ -17545,10 +17550,15 @@
     "Image": "Placeholder V2.png",
     "Stats": {
       "Defense": {
-        "Multiplier": 0.64
+        "Multiplier": 0.62
       },
       "Dexterity": {
         "Multiplier": 0.2
+      }
+    },
+    "StatOverrides": {
+      "110": {
+        "Defense": 183
       }
     },
     "MinLevel": 100,

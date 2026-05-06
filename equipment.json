@@ -17036,7 +17036,7 @@
   "Light Purple Dragon Helmet": {
     "Name": "Light Purple Dragon Helmet",
     "Link": "Light Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Purple Dragon Helmet.png",
     "Stats": {
       "Range": {
         "Multiplier": 0.3
@@ -17050,7 +17050,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Helmet Accessory",
+    "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17073,7 +17073,7 @@
   "Light Purple Dragon Armor": {
     "Name": "Light Purple Dragon Armor",
     "Link": "Light Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Purple Dragon Armor.png",
     "Stats": {
       "Range": {
         "Multiplier": 0.4
@@ -17110,7 +17110,7 @@
   "Light Purple Dragon Boots": {
     "Name": "Light Purple Dragon Boots",
     "Link": "Light Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Purple Dragon Boots.png",
     "Stats": {
       "Range": {
         "Multiplier": 0.3
@@ -17147,7 +17147,7 @@
   "Light Purple Dragon Cape": {
     "Name": "Light Purple Dragon Cape",
     "Link": "Light Dragon Cape",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Purple Dragon Cape.png",
     "Stats": {
       "Range": {
         "Multiplier": 0.3
@@ -17161,7 +17161,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Collar Accessory",
+    "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 39,
@@ -17184,7 +17184,7 @@
   "Lesser Purple Dragoneye Amulet": {
     "Name": "Lesser Purple Dragoneye Amulet",
     "Link": "Light Dragoneye Amulet",
-    "Image": "Placeholder V2.png",
+    "Image": "Lesser Purple Dragoneye Amulet.png",
     "Stats": {
       "Range": {
         "Multiplier": 0.4
@@ -17198,7 +17198,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Neck Accessory",
+    "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17216,12 +17216,12 @@
       "1": "Dragons#Young|Young Dragon"
     },
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
-    "JewelSlots": 2
+    "JewelSlots": 0
   },
   "Light Black Dragon Helmet": {
     "Name": "Light Black Dragon Helmet",
     "Link": "Light Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Black Dragon Helmet.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.14
@@ -17235,7 +17235,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Helmet Accessory",
+    "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17258,7 +17258,7 @@
   "Light Black Dragon Armor": {
     "Name": "Light Black Dragon Armor",
     "Link": "Light Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Black Dragon Armor.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.19
@@ -17332,7 +17332,7 @@
   "Light Black Dragon Cape": {
     "Name": "Light Black Dragon Cape",
     "Link": "Light Dragon Cape",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Black Dragon Cape.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.14
@@ -17346,7 +17346,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Collar Accessory",
+    "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 39,
@@ -17369,7 +17369,7 @@
   "Lesser Black Dragoneye Amulet": {
     "Name": "Lesser Black Dragoneye Amulet",
     "Link": "Light Dragoneye Amulet",
-    "Image": "Placeholder V2.png",
+    "Image": "Lesser Black Dragoneye Amulet.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.19
@@ -17383,7 +17383,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Neck Accessory",
+    "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17401,12 +17401,12 @@
       "1": "Dragons#Young|Young Dragon"
     },
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
-    "JewelSlots": 2
+    "JewelSlots": 0
   },
   "Light Brown Dragon Helmet": {
     "Name": "Light Brown Dragon Helmet",
     "Link": "Light Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Brown Dragon Helmet.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.465
@@ -17417,7 +17417,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Helmet Accessory",
+    "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17440,7 +17440,7 @@
   "Light Brown Dragon Armor": {
     "Name": "Light Brown Dragon Armor",
     "Link": "Light Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Brown Dragon Armor.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.62
@@ -17479,7 +17479,7 @@
   "Light Brown Dragon Boots": {
     "Name": "Light Brown Dragon Boots",
     "Link": "Light Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Brown Dragon Boots.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.465
@@ -17513,7 +17513,7 @@
   "Light Brown Dragon Cape": {
     "Name": "Light Brown Dragon Cape",
     "Link": "Light Dragon Cape",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Brown Dragon Cape.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.465
@@ -17524,7 +17524,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Collar Accessory",
+    "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 39,
@@ -17547,7 +17547,7 @@
   "Lesser Brown Dragoneye Amulet": {
     "Name": "Lesser Brown Dragoneye Amulet",
     "Link": "Light Dragoneye Amulet",
-    "Image": "Placeholder V2.png",
+    "Image": "Lesser Brown Dragoneye Amulet.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.62
@@ -17563,7 +17563,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Neck Accessory",
+    "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17581,12 +17581,12 @@
       "1": "Dragons#Young|Young Dragon"
     },
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
-    "JewelSlots": 2
+    "JewelSlots": 0
   },
   "Light Golden Dragon Helmet": {
     "Name": "Light Golden Dragon Helmet",
     "Link": "Light Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Golden Dragon Helmet.png",
     "Stats": {
       "Haste": {
         "Multiplier": 0.3
@@ -17600,7 +17600,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Helmet Accessory",
+    "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17623,7 +17623,7 @@
   "Light Golden Dragon Armor": {
     "Name": "Light Golden Dragon Armor",
     "Link": "Light Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Golden Dragon Armor.png",
     "Stats": {
       "Haste": {
         "Multiplier": 0.4
@@ -17660,7 +17660,7 @@
   "Light Golden Dragon Boots": {
     "Name": "Light Golden Dragon Boots",
     "Link": "Light Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Golden Dragon Boots.png",
     "Stats": {
       "Haste": {
         "Multiplier": 0.3
@@ -17697,7 +17697,7 @@
   "Light Golden Dragon Cape": {
     "Name": "Light Golden Dragon Cape",
     "Link": "Light Dragon Cape",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Golden Dragon Cape.png",
     "Stats": {
       "Haste": {
         "Multiplier": 0.3
@@ -17711,7 +17711,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Collar Accessory",
+    "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 39,
@@ -17734,7 +17734,7 @@
   "Lesser Golden Dragoneye Amulet": {
     "Name": "Lesser Golden Dragoneye Amulet",
     "Link": "Light Dragoneye Amulet",
-    "Image": "Placeholder V2.png",
+    "Image": "Lesser Golden Dragoneye Amulet.png",
     "Stats": {
       "Haste": {
         "Multiplier": 0.4
@@ -17748,7 +17748,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Neck Accessory",
+    "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17766,7 +17766,7 @@
       "1": "Dragons#Young|Young Dragon"
     },
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
-    "JewelSlots": 2
+    "JewelSlots": 0
   },
   "Light White Dragon Helmet": {
     "Name": "Light White Dragon Helmet",
@@ -17785,7 +17785,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Helmet Accessory",
+    "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17808,7 +17808,7 @@
   "Light White Dragon Armor": {
     "Name": "Light White Dragon Armor",
     "Link": "Light Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Light White Dragon Armor.png",
     "Stats": {
       "Regeneration": {
         "Multiplier": 0.4
@@ -17845,7 +17845,7 @@
   "Light White Dragon Boots": {
     "Name": "Light White Dragon Boots",
     "Link": "Light Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Light White Dragon Boots.png",
     "Stats": {
       "Regeneration": {
         "Multiplier": 0.3
@@ -17882,7 +17882,7 @@
   "Light White Dragon Cape": {
     "Name": "Light White Dragon Cape",
     "Link": "Light Dragon Cape",
-    "Image": "Placeholder V2.png",
+    "Image": "Light White Dragon Cape.png",
     "Stats": {
       "Regeneration": {
         "Multiplier": 0.3
@@ -17919,7 +17919,7 @@
   "Lesser White Dragoneye Amulet": {
     "Name": "Lesser White Dragoneye Amulet",
     "Link": "Light Dragoneye Amulet",
-    "Image": "Placeholder V2.png",
+    "Image": "Lesser White Dragoneye Amulet.png",
     "Stats": {
       "Regeneration": {
         "Multiplier": 0.4
@@ -17933,7 +17933,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Neck Accessory",
+    "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17951,12 +17951,12 @@
       "1": "Dragons#Young|Young Dragon"
     },
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
-    "JewelSlots": 2
+    "JewelSlots": 0
   },
   "Light Red Dragon Helmet": {
     "Name": "Light Red Dragon Helmet",
     "Link": "Light Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Red Dragon Helmet.png",
     "Stats": {
       "Pierce": {
         "Multiplier": 0.3
@@ -17970,7 +17970,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Helmet Accessory",
+    "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -17993,7 +17993,7 @@
   "Light Red Dragon Armor": {
     "Name": "Light Red Dragon Armor",
     "Link": "Light Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Red Dragon Armor.png",
     "Stats": {
       "Pierce": {
         "Multiplier": 0.4
@@ -18030,7 +18030,7 @@
   "Light Red Dragon Boots": {
     "Name": "Light Red Dragon Boots",
     "Link": "Light Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Red Dragon Boots.png",
     "Stats": {
       "Pierce": {
         "Multiplier": 0.3
@@ -18067,7 +18067,7 @@
   "Light Red Dragon Cape": {
     "Name": "Light Red Dragon Cape",
     "Link": "Light Dragon Cape",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Red Dragon Cape.png",
     "Stats": {
       "Pierce": {
         "Multiplier": 0.3
@@ -18081,7 +18081,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Collar Accessory",
+    "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 39,
@@ -18104,7 +18104,7 @@
   "Lesser Red Dragoneye Amulet": {
     "Name": "Lesser Red Dragoneye Amulet",
     "Link": "Light Dragoneye Amulet",
-    "Image": "Placeholder V2.png",
+    "Image": "Lesser Red Dragoneye Amulet.png",
     "Stats": {
       "Pierce": {
         "Multiplier": 0.4
@@ -18118,7 +18118,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Neck Accessory",
+    "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -18136,12 +18136,12 @@
       "1": "Dragons#Young|Young Dragon"
     },
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
-    "JewelSlots": 2
+    "JewelSlots": 0
   },
   "Light Blue Dragon Helmet": {
     "Name": "Light Blue Dragon Helmet",
     "Link": "Light Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Blue Dragon Helmet.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.3
@@ -18157,7 +18157,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Helmet Accessory",
+    "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -18180,7 +18180,7 @@
   "Light Blue Dragon Armor": {
     "Name": "Light Blue Dragon Armor",
     "Link": "Light Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Blue Dragon Armor.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.4
@@ -18214,7 +18214,7 @@
   "Light Blue Dragon Boots": {
     "Name": "Light Blue Dragon Boots",
     "Link": "Light Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Blue Dragon Boots.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.3
@@ -18253,7 +18253,7 @@
   "Light Blue Dragon Cape": {
     "Name": "Light Blue Dragon Cape",
     "Link": "Light Dragon Cape",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Blue Dragon Cape.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.3
@@ -18269,7 +18269,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Collar Accessory",
+    "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 39,
@@ -18292,7 +18292,7 @@
   "Lesser Blue Dragoneye Amulet": {
     "Name": "Lesser Blue Dragoneye Amulet",
     "Link": "Light Dragoneye Amulet",
-    "Image": "Placeholder V2.png",
+    "Image": "Lesser Blue Dragoneye Amulet.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.4
@@ -18303,7 +18303,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Neck Accessory",
+    "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -18321,12 +18321,12 @@
       "1": "Dragons#Young|Young Dragon"
     },
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
-    "JewelSlots": 2
+    "JewelSlots": 0
   },
   "Light Teal Dragon Helmet": {
     "Name": "Light Teal Dragon Helmet",
     "Link": "Light Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Teal Dragon Helmet.png",
     "Stats": {
       "Resistance": {
         "Multiplier": 0.3
@@ -18340,7 +18340,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Helmet Accessory",
+    "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -18363,7 +18363,7 @@
   "Light Teal Dragon Armor": {
     "Name": "Light Teal Dragon Armor",
     "Link": "Light Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Teal Dragon Armor.png",
     "Stats": {
       "Resistance": {
         "Multiplier": 0.4
@@ -18400,7 +18400,7 @@
   "Light Teal Dragon Boots": {
     "Name": "Light Teal Dragon Boots",
     "Link": "Light Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Teal Dragon Boots.png",
     "Stats": {
       "Resistance": {
         "Multiplier": 0.3
@@ -18437,7 +18437,7 @@
   "Light Teal Dragon Cape": {
     "Name": "Light Teal Dragon Cape",
     "Link": "Light Dragon Cape",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Teal Dragon Cape.png",
     "Stats": {
       "Resistance": {
         "Multiplier": 0.3
@@ -18451,7 +18451,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Collar Accessory",
+    "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 39,
@@ -18474,7 +18474,7 @@
   "Lesser Teal Dragoneye Amulet": {
     "Name": "Lesser Teal Dragoneye Amulet",
     "Link": "Light Dragoneye Amulet",
-    "Image": "Placeholder V2.png",
+    "Image": "Lesser Teal Dragoneye Amulet.png",
     "Stats": {
       "Resistance": {
         "Multiplier": 0.4
@@ -18488,7 +18488,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Neck Accessory",
+    "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -18506,12 +18506,12 @@
       "1": "Dragons#Young|Young Dragon"
     },
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
-    "JewelSlots": 2
+    "JewelSlots": 0
   },
   "Light Green Dragon Helmet": {
     "Name": "Light Green Dragon Helmet",
     "Link": "Light Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Green Dragon Helmet.png",
     "Stats": {
       "Size": {
         "Multiplier": 0.3
@@ -18525,7 +18525,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Helmet Accessory",
+    "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -18548,7 +18548,7 @@
   "Light Green Dragon Armor": {
     "Name": "Light Green Dragon Armor",
     "Link": "Light Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Green Dragon Armor.png",
     "Stats": {
       "Size": {
         "Multiplier": 0.4
@@ -18585,7 +18585,7 @@
   "Light Green Dragon Boots": {
     "Name": "Light Green Dragon Boots",
     "Link": "Light Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Green Dragon Boots.png",
     "Stats": {
       "Size": {
         "Multiplier": 0.3
@@ -18622,7 +18622,7 @@
   "Light Green Dragon Cape": {
     "Name": "Light Green Dragon Cape",
     "Link": "Light Dragon Cape",
-    "Image": "Placeholder V2.png",
+    "Image": "Light Green Dragon Cape.png",
     "Stats": {
       "Size": {
         "Multiplier": 0.3
@@ -18636,7 +18636,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Collar Accessory",
+    "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 39,
@@ -18659,7 +18659,7 @@
   "Lesser Green Dragoneye Amulet": {
     "Name": "Lesser Green Dragoneye Amulet",
     "Link": "Light Dragoneye Amulet",
-    "Image": "Placeholder V2.png",
+    "Image": "Lesser Green Dragoneye Amulet.png",
     "Stats": {
       "Size": {
         "Multiplier": 0.4
@@ -18673,7 +18673,7 @@
     },
     "MinLevel": 100,
     "MaxLevel": 250,
-    "EquipType": "Neck Accessory",
+    "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 78,
@@ -18691,7 +18691,7 @@
       "1": "Dragons#Young|Young Dragon"
     },
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
-    "JewelSlots": 2
+    "JewelSlots": 0
   },
   "Corrupted Blood Dragon Helmet": {
     "Name": "Corrupted Blood Dragon Helmet",

@@ -17141,7 +17141,7 @@
     "ObtainedBy": {
       "1": "Dragons#Young|Young Dragon"
     },
-    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
     "JewelSlots": 2
   },
   "Light Purple Dragon Cape": {
@@ -17326,7 +17326,7 @@
     "ObtainedBy": {
       "1": "Dragons#Young|Young Dragon"
     },
-    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
     "JewelSlots": 2
   },
   "Light Black Dragon Cape": {
@@ -17507,7 +17507,7 @@
     "ObtainedBy": {
       "1": "Dragons#Young|Young Dragon"
     },
-    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
     "JewelSlots": 2
   },
   "Light Brown Dragon Cape": {
@@ -17691,7 +17691,7 @@
     "ObtainedBy": {
       "1": "Dragons#Young|Young Dragon"
     },
-    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
     "JewelSlots": 2
   },
   "Light Golden Dragon Cape": {
@@ -17876,7 +17876,7 @@
     "ObtainedBy": {
       "1": "Dragons#Young|Young Dragon"
     },
-    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
     "JewelSlots": 2
   },
   "Light White Dragon Cape": {
@@ -18061,7 +18061,7 @@
     "ObtainedBy": {
       "1": "Dragons#Young|Young Dragon"
     },
-    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
     "JewelSlots": 2
   },
   "Light Red Dragon Cape": {
@@ -18247,7 +18247,7 @@
     "ObtainedBy": {
       "1": "Dragons#Young|Young Dragon"
     },
-    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
     "JewelSlots": 2
   },
   "Light Blue Dragon Cape": {
@@ -18431,7 +18431,7 @@
     "ObtainedBy": {
       "1": "Dragons#Young|Young Dragon"
     },
-    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
     "JewelSlots": 2
   },
   "Light Teal Dragon Cape": {
@@ -18616,7 +18616,7 @@
     "ObtainedBy": {
       "1": "Dragons#Young|Young Dragon"
     },
-    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
     "JewelSlots": 2
   },
   "Light Green Dragon Cape": {
@@ -18691,6 +18691,166 @@
       "1": "Dragons#Young|Young Dragon"
     },
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 2
+  },
+  "Corrupted Blood Dragon Helmet": {
+    "Name": "Corrupted Blood Dragon Helmet",
+    "Link": "Corrupted Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Dexterity": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 97,
+    "WorthOverrides": {
+      "100": 97,
+      "110": 100,
+      "120": 104,
+      "130": 108,
+      "140": 111,
+      "150": 115,
+      "160": 118,
+      "170": 122
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A horned helmet crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Blood Dragon Armor": {
+    "Name": "Corrupted Blood Dragon Armor",
+    "Link": "Corrupted Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Dexterity": {
+        "Multiplier": 0.8
+      },
+      "Haste": {
+        "Multiplier": 0.4
+      },
+      "Power": {
+        "Multiplier": 0.45
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 392,
+    "WorthOverrides": {
+      "100": 392,
+      "110": 407,
+      "120": 421,
+      "130": 435,
+      "140": 450,
+      "150": 464,
+      "160": 478,
+      "170": 492
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A set of upper body armor crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Blood Dragon Boots": {
+    "Name": "Corrupted Blood Dragon Boots",
+    "Link": "Corrupted Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Dexterity": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 196,
+    "WorthOverrides": {
+      "100": 196,
+      "110": 203,
+      "120": 210,
+      "130": 217,
+      "140": 225,
+      "150": 232,
+      "160": 239,
+      "170": 246
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a corrupted dragon dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Blood Dragon Cape": {
+    "Name": "Corrupted Blood Dragon Cape",
+    "Link": "Corrupted Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Dexterity": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 97,
+    "WorthOverrides": {
+      "100": 97,
+      "110": 100,
+      "120": 104,
+      "130": 108,
+      "140": 111,
+      "150": 115,
+      "160": 118,
+      "170": 122
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A cape crafted using the wing of a corrupted dragon.",
     "JewelSlots": 2
   }
 }

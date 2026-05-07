@@ -18748,7 +18748,7 @@
         "Multiplier": 0.45
       },
       "Drawback": {
-        "Value": 2
+        "Value": 3
       }
     },
     "MinLevel": 100,
@@ -18820,6 +18820,646 @@
     "Stats": {
       "Dexterity": {
         "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 97,
+    "WorthOverrides": {
+      "100": 97,
+      "110": 100,
+      "120": 104,
+      "130": 108,
+      "140": 111,
+      "150": 115,
+      "160": 118,
+      "170": 122
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A cape crafted using the wing of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Corrupted Molten Dragon Helmet": {
+    "Name": "Corrupted Molten Dragon Helmet",
+    "Link": "Corrupted Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 97,
+    "WorthOverrides": {
+      "100": 97,
+      "110": 100,
+      "120": 104,
+      "130": 108,
+      "140": 111,
+      "150": 115,
+      "160": 118,
+      "170": 122
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A horned helmet crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Molten Dragon Armor": {
+    "Name": "Corrupted Blood Dragon Armor",
+    "Link": "Corrupted Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.8
+      },
+      "Haste": {
+        "Multiplier": 0.4
+      },
+      "Power": {
+        "Multiplier": 0.45
+      },
+      "Drawback": {
+        "Value": 3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 392,
+    "WorthOverrides": {
+      "100": 392,
+      "110": 407,
+      "120": 421,
+      "130": 435,
+      "140": 450,
+      "150": 464,
+      "160": 478,
+      "170": 492
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A set of upper body armor crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Molten Dragon Boots": {
+    "Name": "Corrupted Molten Dragon Boots",
+    "Link": "Corrupted Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 196,
+    "WorthOverrides": {
+      "100": 196,
+      "110": 203,
+      "120": 210,
+      "130": 217,
+      "140": 225,
+      "150": 232,
+      "160": 239,
+      "170": 246
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a corrupted dragon dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Molten Dragon Cape": {
+    "Name": "Corrupted Molten Dragon Cape",
+    "Link": "Corrupted Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 97,
+    "WorthOverrides": {
+      "100": 97,
+      "110": 100,
+      "120": 104,
+      "130": 108,
+      "140": 111,
+      "150": 115,
+      "160": 118,
+      "170": 122
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A cape crafted using the wing of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Corrupted 'Dragon' Helmet": {
+    "Name": "Corrupted 'Dragon' Helmet",
+    "Link": "Corrupted Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 97,
+    "WorthOverrides": {
+      "100": 97,
+      "110": 100,
+      "120": 104,
+      "130": 108,
+      "140": 111,
+      "150": 115,
+      "160": 118,
+      "170": 122
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A horned helmet crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted 'Dragon' Armor": {
+    "Name": "Corrupted 'Dragon' Armor",
+    "Link": "Corrupted Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.8
+      },
+      "Haste": {
+        "Multiplier": 0.4
+      },
+      "Power": {
+        "Multiplier": 0.45
+      },
+      "Drawback": {
+        "Value": 3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 392,
+    "WorthOverrides": {
+      "100": 392,
+      "110": 407,
+      "120": 421,
+      "130": 435,
+      "140": 450,
+      "150": 464,
+      "160": 478,
+      "170": 492
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A set of upper body armor crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted 'Dragon' Boots": {
+    "Name": "Corrupted 'Dragon' Boots",
+    "Link": "Corrupted Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 196,
+    "WorthOverrides": {
+      "100": 196,
+      "110": 203,
+      "120": 210,
+      "130": 217,
+      "140": 225,
+      "150": 232,
+      "160": 239,
+      "170": 246
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a corrupted dragon dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted 'Dragon' Cape": {
+    "Name": "Corrupted 'Dragon' Cape",
+    "Link": "Corrupted Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 97,
+    "WorthOverrides": {
+      "100": 97,
+      "110": 100,
+      "120": 104,
+      "130": 108,
+      "140": 111,
+      "150": 115,
+      "160": 118,
+      "170": 122
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A cape crafted using the wing of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Corrupted Crystal Dragon Helmet": {
+    "Name": "Corrupted Crystal Dragon Helmet",
+    "Link": "Corrupted Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 97,
+    "WorthOverrides": {
+      "100": 97,
+      "110": 100,
+      "120": 104,
+      "130": 108,
+      "140": 111,
+      "150": 115,
+      "160": 118,
+      "170": 122
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A horned helmet crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Crystal Dragon Armor": {
+    "Name": "Corrupted Crystal Dragon Armor",
+    "Link": "Corrupted Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.8
+      },
+      "Haste": {
+        "Multiplier": 0.4
+      },
+      "Power": {
+        "Multiplier": 0.45
+      },
+      "Drawback": {
+        "Value": 3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 392,
+    "WorthOverrides": {
+      "100": 392,
+      "110": 407,
+      "120": 421,
+      "130": 435,
+      "140": 450,
+      "150": 464,
+      "160": 478,
+      "170": 492
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A set of upper body armor crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Crystal Dragon Boots": {
+    "Name": "Corrupted Crystal Dragon Boots",
+    "Link": "Corrupted Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 196,
+    "WorthOverrides": {
+      "100": 196,
+      "110": 203,
+      "120": 210,
+      "130": 217,
+      "140": 225,
+      "150": 232,
+      "160": 239,
+      "170": 246
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a corrupted dragon dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Crystal Dragon Cape": {
+    "Name": "Corrupted Crystal Dragon Cape",
+    "Link": "Corrupted Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.6
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 97,
+    "WorthOverrides": {
+      "100": 97,
+      "110": 100,
+      "120": 104,
+      "130": 108,
+      "140": 111,
+      "150": 115,
+      "160": 118,
+      "170": 122
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A cape crafted using the wing of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Corrupted Stone Dragon Helmet": {
+    "Name": "Corrupted Stone Dragon Helmet",
+    "Link": "Corrupted Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.62
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 97,
+    "WorthOverrides": {
+      "100": 97,
+      "110": 100,
+      "120": 104,
+      "130": 108,
+      "140": 111,
+      "150": 115,
+      "160": 118,
+      "170": 122
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A horned helmet crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Stone Dragon Armor": {
+    "Name": "Corrupted Stone Dragon Armor",
+    "Link": "Corrupted Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.62
+      },
+      "Haste": {
+        "Multiplier": 0.4
+      },
+      "Power": {
+        "Multiplier": 0.45
+      },
+      "Drawback": {
+        "Value": 3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 392,
+    "WorthOverrides": {
+      "100": 392,
+      "110": 407,
+      "120": 421,
+      "130": 435,
+      "140": 450,
+      "150": 464,
+      "160": 478,
+      "170": 492
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A set of upper body armor crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Stone Dragon Boots": {
+    "Name": "Corrupted Stone Dragon Boots",
+    "Link": "Corrupted Dragon Boots",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.465
+      },
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Power": {
+        "Multiplier": 0.337
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 196,
+    "WorthOverrides": {
+      "100": 196,
+      "110": 203,
+      "120": 210,
+      "130": 217,
+      "140": 225,
+      "150": 232,
+      "160": 239,
+      "170": 246
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a corrupted dragon dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Corrupted Stone Dragon Cape": {
+    "Name": "Corrupted Stone Dragon Cape",
+    "Link": "Corrupted Dragon Cape",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.465
       },
       "Haste": {
         "Multiplier": 0.3

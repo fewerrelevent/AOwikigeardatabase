@@ -18696,7 +18696,7 @@
   "Corrupted Blood Dragon Helmet": {
     "Name": "Corrupted Blood Dragon Helmet",
     "Link": "Corrupted Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Blood Dragon Helmet.png",
     "Stats": {
       "Dexterity": {
         "Multiplier": 0.6
@@ -18736,7 +18736,7 @@
   "Corrupted Blood Dragon Armor": {
     "Name": "Corrupted Blood Dragon Armor",
     "Link": "Corrupted Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Blood Dragon Armor.png",
     "Stats": {
       "Dexterity": {
         "Multiplier": 0.8
@@ -18776,7 +18776,7 @@
   "Corrupted Blood Dragon Boots": {
     "Name": "Corrupted Blood Dragon Boots",
     "Link": "Corrupted Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Blood Dragon Boots.png",
     "Stats": {
       "Dexterity": {
         "Multiplier": 0.6
@@ -18856,7 +18856,7 @@
   "Corrupted Molten Dragon Helmet": {
     "Name": "Corrupted Molten Dragon Helmet",
     "Link": "Corrupted Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Molten Dragon Helmet.png",
     "Stats": {
       "Pierce": {
         "Multiplier": 0.6
@@ -18894,9 +18894,9 @@
     "JewelSlots": 2
   },
   "Corrupted Molten Dragon Armor": {
-    "Name": "Corrupted Blood Dragon Armor",
+    "Name": "Corrupted Molten Dragon Armor",
     "Link": "Corrupted Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Molten Dragon Armor.png",
     "Stats": {
       "Pierce": {
         "Multiplier": 0.8
@@ -18936,7 +18936,7 @@
   "Corrupted Molten Dragon Boots": {
     "Name": "Corrupted Molten Dragon Boots",
     "Link": "Corrupted Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Molten Dragon Boots.png",
     "Stats": {
       "Pierce": {
         "Multiplier": 0.6
@@ -19016,7 +19016,7 @@
   "Corrupted 'Dragon' Helmet": {
     "Name": "Corrupted 'Dragon' Helmet",
     "Link": "Corrupted Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Dragon Helmet.png",
     "Stats": {
       "Resistance": {
         "Multiplier": 0.6
@@ -19056,7 +19056,7 @@
   "Corrupted 'Dragon' Armor": {
     "Name": "Corrupted 'Dragon' Armor",
     "Link": "Corrupted Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Dragon Armor.png",
     "Stats": {
       "Resistance": {
         "Multiplier": 0.8
@@ -19096,7 +19096,7 @@
   "Corrupted 'Dragon' Boots": {
     "Name": "Corrupted 'Dragon' Boots",
     "Link": "Corrupted Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Dragon Boots.png",
     "Stats": {
       "Resistance": {
         "Multiplier": 0.6
@@ -19176,7 +19176,7 @@
   "Corrupted Crystal Dragon Helmet": {
     "Name": "Corrupted Crystal Dragon Helmet",
     "Link": "Corrupted Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Crystal Dragon Helmet.png",
     "Stats": {
       "Size": {
         "Multiplier": 0.6
@@ -19216,7 +19216,7 @@
   "Corrupted Crystal Dragon Armor": {
     "Name": "Corrupted Crystal Dragon Armor",
     "Link": "Corrupted Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Crystal Dragon Armor.png",
     "Stats": {
       "Size": {
         "Multiplier": 0.8
@@ -19256,7 +19256,7 @@
   "Corrupted Crystal Dragon Boots": {
     "Name": "Corrupted Crystal Dragon Boots",
     "Link": "Corrupted Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Crystal Dragon Boots.png",
     "Stats": {
       "Size": {
         "Multiplier": 0.6
@@ -19336,7 +19336,7 @@
   "Corrupted Stone Dragon Helmet": {
     "Name": "Corrupted Stone Dragon Helmet",
     "Link": "Corrupted Dragon Helmet",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Stone Dragon Helmet.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.62
@@ -19376,7 +19376,7 @@
   "Corrupted Stone Dragon Armor": {
     "Name": "Corrupted Stone Dragon Armor",
     "Link": "Corrupted Dragon Armor",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Stone Dragon Armor.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.62
@@ -19416,7 +19416,7 @@
   "Corrupted Stone Dragon Boots": {
     "Name": "Corrupted Stone Dragon Boots",
     "Link": "Corrupted Dragon Boots",
-    "Image": "Placeholder V2.png",
+    "Image": "Corrupted Stone Dragon Boots.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.465

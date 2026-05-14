@@ -1548,7 +1548,8 @@
     "MinLevel": 1,
     "EquipType": "Hat",
     "StatType": "Normal",
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Description": "A fancy top hat usually worn by wealthy individuals."
   },
   "Top Hat": {
     "Name": "Top Hat",
@@ -1564,7 +1565,8 @@
     "MinLevel": 1,
     "EquipType": "Hat",
     "StatType": "Normal",
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Description": "A fine hat made out of corduroy, great for protecting your face from the sun."
   },
   "Eyepatch": {
     "Name": "Eyepatch",
@@ -1588,7 +1590,8 @@
     "MinLevel": 1,
     "EquipType": "Hat",
     "StatType": "Normal",
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Description": "A stylish hat made out of thick canvas fabric."
   },
   "Monocle": {
     "Name": "Monocle",
@@ -1642,7 +1645,8 @@
     "MinLevel": 1,
     "EquipType": "Hat",
     "StatType": "Normal",
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Description": "A stylish hat usually worn by outlaws."
   },
   "Durag": {
     "Name": "Durag",
@@ -4537,7 +4541,8 @@
     "MinLevel": 50,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Description": "A vest with many layers of leather and fabric for protection."
   },
   "Bruiser Boots": {
     "Name": "Bruiser Boots",
@@ -4545,7 +4550,8 @@
     "MinLevel": 50,
     "EquipType": "Legging",
     "StatType": "Normal",
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Description": "A pair of thick leather boots made for protection."
   },
   "Tropical Shirt": {
     "Name": "Tropical Shirt",
@@ -5915,7 +5921,8 @@
     "MinLevel": 50,
     "EquipType": "Collar",
     "StatType": "Normal",
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Description": "A small cape made out of fur, usually worn by adventurers."
   },
   "Gilded Wings": {
     "Name": "Gilded Wings",
@@ -5939,7 +5946,8 @@
     "MinLevel": 50,
     "EquipType": "Face",
     "StatType": "Normal",
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Description": "A thin piece of cloth to be placed over someone's eyes."
   },
   "Dual Bracelets": {
     "Name": "Dual Bracelets",
@@ -5963,7 +5971,8 @@
     "MinLevel": 50,
     "EquipType": "Back",
     "StatType": "Normal",
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Description": "A pair of feathery, decorative wings."
   },
   "Dual Armbands": {
     "Name": "Dual Armbands",
@@ -8383,7 +8392,9 @@
     "Link": "Atlantean-Hide Body",
     "MinLevel": 100,
     "EquipType": "Chestpiece",
-    "Rarity": "Uncommon"
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "Description": "A growth of barnacles and moss covering the skin of Atlanteans in the Dark Sea, developed from prolonged exposure to its magic-polluted rain."
   },
   "Atlantean Tentacled Cloak": {
     "Name": "Atlantean Tentacled Cloak",
@@ -9583,7 +9594,8 @@
       "1": "Chests",
       "2": "Fishing"
     },
-    "Variations": 37
+    "Variations": 37,
+    "Description": "An ornate set of silver pauldrons with a cape."
   },
   "Caped Golden Pauldrons": {
     "Name": "Caped Golden Pauldrons",
@@ -9617,7 +9629,8 @@
       "1": "Chests",
       "2": "Fishing"
     },
-    "Variations": 37
+    "Variations": 37,
+    "Description": "An ornate set of golden pauldrons with a cape."
   },
   "Titanium Plumed Helmet": {
     "Name": "Titanium Plumed Helmet",

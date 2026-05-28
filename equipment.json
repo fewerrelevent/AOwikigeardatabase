@@ -11490,10 +11490,10 @@
     "Image": "Omen Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": -0.466666667
+        "Multiplier": -0.4635
       },
       "Defense": {
-        "Multiplier": 1.255
+        "Multiplier": 1.25625
       }
     },
     "MinLevel": 150,
@@ -11519,7 +11519,7 @@
     "Image": "Omen Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": -0.618333333
+        "Multiplier": -0.618
       },
       "Defense": {
         "Multiplier": 1.675
@@ -11547,10 +11547,10 @@
     "Image": "Omen Leggings.png",
     "Stats": {
       "Power": {
-        "Multiplier": -0.466666667
+        "Multiplier": -0.4635
       },
       "Defense": {
-        "Multiplier": 1.255
+        "Multiplier": 1.25625
       }
     },
     "MinLevel": 150,

@@ -520,7 +520,7 @@
     "Image": "HuntingArmor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.5
+        "Multiplier": 0.45
       }
     },
     "MinLevel": 1,
@@ -550,7 +550,7 @@
     "Image": "HuntingBoots.png",
     "Stats": {
       "Power": {
-        "Multiplier": "5 / 14"
+        "Multiplier": "9/28"
       }
     },
     "MinLevel": 1,
@@ -1685,7 +1685,7 @@
     "Image": "Fitted Jacket.png",
     "Stats": {
       "Power": {
-        "Multiplier": "8 / 35"
+        "Multiplier": "36/175"
       }
     },
     "MinLevel": 1,
@@ -1938,7 +1938,7 @@
     "Image": "Vest.png",
     "Stats": {
       "Power": {
-        "Multiplier": "8 / 35"
+        "Multiplier": "36/175"
       }
     },
     "MinLevel": 1,
@@ -2688,7 +2688,7 @@
     "Image": "Tiger Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       }
     },
     "MinLevel": 1,
@@ -2718,7 +2718,7 @@
     "Image": "Tiger Belt.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       }
     },
     "MinLevel": 1,
@@ -2748,7 +2748,7 @@
     "Image": "White Tiger Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       }
     },
     "MinLevel": 1,
@@ -2778,7 +2778,7 @@
     "Image": "White Tiger Belt.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       }
     },
     "MinLevel": 1,
@@ -2808,7 +2808,7 @@
     "Image": "Panther Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       }
     },
     "MinLevel": 1,
@@ -2838,7 +2838,7 @@
     "Image": "Panther Belt.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       }
     },
     "MinLevel": 1,
@@ -3648,7 +3648,7 @@
     "Image": "Jasper Amulet.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.45
+        "Multiplier": 0.405
       },
       "Pierce": {
         "Multiplier": 0.625
@@ -3768,7 +3768,7 @@
     "Image": "Bone Crown.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.36
+        "Multiplier": 0.324
       }
     },
     "MinLevel": 1,
@@ -3798,7 +3798,7 @@
     "Image": "Placeholder_V2.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.36
+        "Multiplier": 0.324
       }
     },
     "MinLevel": 1,
@@ -3829,7 +3829,7 @@
     "Image": "Bone Bracelets.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.36
+        "Multiplier": 0.324
       }
     },
     "MinLevel": 1,
@@ -4190,7 +4190,7 @@
     "Image": "Butler's Jacket.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.35
+        "Multiplier": 0.315
       }
     },
     "MinLevel": 50,
@@ -4220,7 +4220,7 @@
     "Image": "Butler's Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.25
+        "Multiplier": 0.225
       }
     },
     "MinLevel": 50,
@@ -4250,7 +4250,7 @@
     "Link": "Maid Top",
     "Stats": {
       "Power": {
-        "Multiplier": 0.355
+        "Multiplier": 0.3195
       }
     },
     "MinLevel": 50,
@@ -4279,7 +4279,7 @@
     "Link": "Maid Skirt",
     "Stats": {
       "Power": {
-        "Multiplier": 0.25
+        "Multiplier": 0.225
       }
     },
     "MinLevel": 50,
@@ -4451,7 +4451,7 @@
     "Image": "GreyArcherCloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": "13 / 35"
+        "Multiplier": "117/350"
       }
     },
     "MinLevel": 50,
@@ -4481,7 +4481,7 @@
     "Image": "BlackArcherVest.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.5
+        "Multiplier": 0.45
       }
     },
     "MinLevel": 50,
@@ -4511,7 +4511,7 @@
     "Image": "Archer Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": "13 / 35"
+        "Multiplier": "117/350"
       }
     },
     "MinLevel": 50,
@@ -5004,7 +5004,7 @@
     "Image": "Greenwish cultist cowl.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.225
+        "Multiplier": 0.2025
       },
       "Haste": {
         "Multiplier": 0.125
@@ -5037,7 +5037,7 @@
     "Image": "Greenwish cultist faulds.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.225
+        "Multiplier": 0.2025
       },
       "Haste": {
         "Multiplier": 0.125
@@ -5070,7 +5070,7 @@
     "Image": "Greenwish cultist robe.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.45
+        "Multiplier": 0.405
       },
       "Haste": {
         "Multiplier": 0.25
@@ -5103,7 +5103,7 @@
     "Image": "GreenwishCultistBoots.png",
     "Stats": {
       "Power": {
-        "Multiplier": "1 / 3"
+        "Multiplier": 0.3
       },
       "Haste": {
         "Multiplier": 0.2
@@ -5701,7 +5701,7 @@
     "Image": "Lost Envoy Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.6175
+        "Multiplier": 0.55575
       },
       "Regeneration": {
         "Multiplier": 0.45
@@ -5729,7 +5729,7 @@
     "Image": "Lost Envoy Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.463125
+        "Multiplier": 0.4168125
       },
       "Regeneration": {
         "Multiplier": 0.3375
@@ -5755,7 +5755,7 @@
     "Image": "Lost Envoy Pauldrons.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.463125
+        "Multiplier": 0.4168125
       },
       "Regeneration": {
         "Multiplier": 0.3375
@@ -5988,7 +5988,7 @@
     "Image": "Frilled Top.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.35
+        "Multiplier": 0.315
       }
     },
     "MinLevel": 50,
@@ -6218,7 +6218,7 @@
     "Image": "Lost Chief Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.439
+        "Multiplier": 0.3951
       },
       "Size": {
         "Multiplier": 0.3
@@ -6255,7 +6255,7 @@
     "Image": "Lost Chief Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.575
+        "Multiplier": 0.5175
       },
       "Size": {
         "Multiplier": 0.4
@@ -6292,7 +6292,7 @@
     "Image": "Lost Chief Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.439
+        "Multiplier": 0.3951
       },
       "Size": {
         "Multiplier": 0.3
@@ -6740,7 +6740,7 @@
     "Image": "DiplomatRobes.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.6175
+        "Multiplier": 0.55575
       },
       "Resistance": {
         "Multiplier": 0.45
@@ -6766,7 +6766,7 @@
     "Image": "Lost Diplomat Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.463125
+        "Multiplier": 0.4168125
       },
       "Resistance": {
         "Multiplier": 0.3375
@@ -6794,7 +6794,7 @@
     "Image": "Lost Diplomat Pauldrons.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.463125
+        "Multiplier": 0.4168125
       },
       "Resistance": {
         "Multiplier": 0.3375
@@ -7023,7 +7023,7 @@
     "Image": "BlackSorcererHat.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       }
     },
     "MinLevel": 100,
@@ -7055,7 +7055,7 @@
     "Image": "BlackSorcererRobes.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.5
+        "Multiplier": 0.45
       }
     },
     "MinLevel": 100,
@@ -7086,7 +7086,7 @@
     "Image": "BlackSorcererPants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       }
     },
     "MinLevel": 100,
@@ -7117,7 +7117,7 @@
     "Image": "Sorcerer Spectacles.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       }
     },
     "MinLevel": 100,
@@ -7622,7 +7622,7 @@
         "Multiplier": 0.225
       },
       "Power": {
-        "Multiplier": 0.675
+        "Multiplier": 0.6075
       },
       "Drawback": {
         "Value": 2
@@ -7657,7 +7657,7 @@
         "Multiplier": 0.3
       },
       "Power": {
-        "Multiplier": 0.9
+        "Multiplier": 0.81
       },
       "Drawback": {
         "Value": 3
@@ -7692,7 +7692,7 @@
         "Multiplier": 0.225
       },
       "Power": {
-        "Multiplier": 0.675
+        "Multiplier": 0.6075
       },
       "Drawback": {
         "Value": 2
@@ -7727,7 +7727,7 @@
         "Multiplier": 0.225
       },
       "Power": {
-        "Multiplier": 0.675
+        "Multiplier": 0.6075
       },
       "Drawback": {
         "Value": 2
@@ -8064,7 +8064,7 @@
     "Image": "Diatrys Hood.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.255
+        "Multiplier": 0.2295
       },
       "Pierce": {
         "Multiplier": 0.553
@@ -8099,7 +8099,7 @@
     "Image": "Diatrys Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.322
+        "Multiplier": 0.2898
       },
       "Pierce": {
         "Multiplier": 0.73
@@ -8134,7 +8134,7 @@
     "Image": "Diatrys Leggings.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.255
+        "Multiplier": 0.2295
       },
       "Pierce": {
         "Multiplier": 0.553
@@ -8169,7 +8169,7 @@
     "Image": "Sophragos Hood.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.6073125
+        "Multiplier": 0.54658125
       },
       "Defense": {
         "Multiplier": -0.0715
@@ -8193,7 +8193,7 @@
     "Image": "Sophragos Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.6073125
+        "Multiplier": 0.54658125
       },
       "Defense": {
         "Multiplier": -0.0715
@@ -8217,7 +8217,7 @@
     "Image": "Sophragos Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.80975
+        "Multiplier": 0.728775
       },
       "Defense": {
         "Multiplier": -0.0956
@@ -8435,7 +8435,7 @@
     "Image": "Arcmancer Hat.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.27
+        "Multiplier": 0.243
       }
     },
     "MinLevel": 100,
@@ -8454,7 +8454,7 @@
     "Image": "Arcmancer Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.36
+        "Multiplier": 0.324
       }
     },
     "MinLevel": 100,
@@ -8473,7 +8473,7 @@
     "Image": "Arcmancer Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.27
+        "Multiplier": 0.243
       }
     },
     "MinLevel": 100,
@@ -8763,7 +8763,7 @@
     "Image": "Fighting Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.36
+        "Multiplier": 0.324
       }
     },
     "MinLevel": 100,
@@ -8782,7 +8782,7 @@
     "Image": "Fighting Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.27
+        "Multiplier": 0.243
       }
     },
     "MinLevel": 100,
@@ -8820,7 +8820,7 @@
     "Image": "Fighting Headband.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.27
+        "Multiplier": 0.243
       }
     },
     "MinLevel": 100,
@@ -8838,7 +8838,7 @@
     "Link": "Oracle Hat",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Regeneration": {
         "Multiplier": 0.225
@@ -8860,7 +8860,7 @@
     "Link": "Oracle Robes",
     "Stats": {
       "Power": {
-        "Multiplier": 0.5
+        "Multiplier": 0.45
       },
       "Regeneration": {
         "Multiplier": 0.3
@@ -8882,7 +8882,7 @@
     "Link": "Oracle Pants",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Regeneration": {
         "Multiplier": 0.225
@@ -9193,7 +9193,7 @@
     "Image": "Arcsphere Thumbnail.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2025
+        "Multiplier": 0.18225
       }
     },
     "MinLevel": 100,
@@ -9222,7 +9222,7 @@
     "Image": "ArcaniumBracelet.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.281
+        "Multiplier": 0.2529
       },
       "Haste": {
         "Multiplier": 0.15
@@ -9401,7 +9401,7 @@
     "Link": "Wealthy Merchant Coat",
     "Stats": {
       "Power": {
-        "Multiplier": 0.335
+        "Multiplier": 0.3015
       },
       "Defense": {
         "Multiplier": 0.262
@@ -9965,7 +9965,7 @@
     "Image": "Spiked Bracelets.png",
     "Stats": {
       "Power": {
-        "Multiplier": "2 / 7"
+        "Multiplier": "9/35"
       },
       "Pierce": {
         "Multiplier": 0.3
@@ -10047,7 +10047,7 @@
     "Image": "Dapper Witch Hat.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Range": {
         "Multiplier": 0.3
@@ -10149,7 +10149,7 @@
     "Image": "ForsakenRobe.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.5
+        "Multiplier": 0.45
       }
     },
     "MinLevel": 160,
@@ -10174,7 +10174,7 @@
     "Image": "ForsakenBoots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.37
+        "Multiplier": 0.333
       }
     },
     "MinLevel": 160,
@@ -10199,7 +10199,7 @@
     "Image": "ForsakenCloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.37
+        "Multiplier": 0.333
       }
     },
     "MinLevel": 160,
@@ -10224,7 +10224,7 @@
     "Image": "Dragon Tooth Necklace.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.198
+        "Multiplier": 0.1782
       },
       "Defense": {
         "Multiplier": 0.4
@@ -10258,7 +10258,7 @@
     "Image": "BrownShroud.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Range": {
         "Multiplier": 0.3
@@ -10293,7 +10293,7 @@
     "Image": "BrownCollaredCape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Range": {
         "Multiplier": 0.3
@@ -10328,7 +10328,7 @@
     "Image": "MagentaRavennaNobleArmor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.5
+        "Multiplier": 0.45
       },
       "Range": {
         "Multiplier": 0.4
@@ -10361,7 +10361,7 @@
     "Image": "MagentaRavennaNobleBoots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Range": {
         "Multiplier": 0.3
@@ -10712,7 +10712,7 @@
     "Image": "RavennaApostleGi.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.5
+        "Multiplier": 0.45
       },
       "Dexterity": {
         "Multiplier": 0.4
@@ -10747,7 +10747,7 @@
     "Image": "RavennaApostleLeggings.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Dexterity": {
         "Multiplier": 0.3
@@ -10779,7 +10779,7 @@
     "Image": "RavennaApostleBracelets.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Dexterity": {
         "Multiplier": 0.3
@@ -10814,7 +10814,7 @@
     "Image": "RavennaApostleFaulds.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Dexterity": {
         "Multiplier": 0.3
@@ -10849,7 +10849,7 @@
     "Image": "RavennaApostlePauldrons.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Dexterity": {
         "Multiplier": 0.3
@@ -10977,7 +10977,7 @@
     "Image": "Calvus Crown New.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Range": {
         "Multiplier": 0.225
@@ -11014,7 +11014,7 @@
     "Image": "Ravenna Fallen King Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.5
+        "Multiplier": 0.45
       },
       "Range": {
         "Multiplier": 0.3
@@ -11051,7 +11051,7 @@
     "Image": "Ravenna Fallen King Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Range": {
         "Multiplier": 0.225
@@ -11088,7 +11088,7 @@
     "Image": "MantelloOfRavennasFallenKing.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Range": {
         "Multiplier": 0.225
@@ -11125,7 +11125,7 @@
     "Image": "Captain maria cloak(placeholder).png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.525
+        "Multiplier": 0.4725
       },
       "Resistance": {
         "Multiplier": 0.42
@@ -11155,7 +11155,7 @@
     "Image": "CaptainMariaBoots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.39375
+        "Multiplier": 0.354375
       },
       "Resistance": {
         "Multiplier": 0.315
@@ -11184,7 +11184,7 @@
     "Image": "Captain Maria's Hat Low Quality.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.39375
+        "Multiplier": 0.354375
       },
       "Resistance": {
         "Multiplier": 0.315
@@ -11213,7 +11213,7 @@
     "Image": "Maria's cloak in the inventory.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.39375
+        "Multiplier": 0.354375
       },
       "Resistance": {
         "Multiplier": 0.315
@@ -11242,7 +11242,7 @@
     "Image": "Scorching Sentinel Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.45
+        "Multiplier": 0.405
       },
       "Haste": {
         "Multiplier": 0.335
@@ -11274,7 +11274,7 @@
     "Image": "Scorching sentinel leggings.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.345
+        "Multiplier": 0.3105
       },
       "Haste": {
         "Multiplier": 0.25
@@ -11306,7 +11306,7 @@
     "Image": "Scorching Sentinel Helmet.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.345
+        "Multiplier": 0.3105
       },
       "Haste": {
         "Multiplier": 0.25
@@ -11338,7 +11338,7 @@
     "Image": "Scorching Sentinel Pauldrons.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.345
+        "Multiplier": 0.3105
       },
       "Haste": {
         "Multiplier": 0.25
@@ -11370,7 +11370,7 @@
     "Image": "Valerii mask.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.345
+        "Multiplier": 0.3105
       },
       "Haste": {
         "Multiplier": 0.25
@@ -11401,7 +11401,7 @@
     "Link": "Vermilion Bracelet",
     "Stats": {
       "Power": {
-        "Multiplier": 0.525
+        "Multiplier": 0.4725
       },
       "Haste": {
         "Multiplier": 0.25
@@ -11433,7 +11433,7 @@
     "Image": "Rear Admiral Amelia’s Tarnished Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Defense": {
         "Multiplier": 0.3
@@ -11463,7 +11463,7 @@
     "Image": "Architect Kalliste's Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.43125
+        "Multiplier": 0.388125
       },
       "Pierce": {
         "Multiplier": 0.33
@@ -11519,7 +11519,7 @@
     "Image": "Omen Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": -0.559
+        "Multiplier": -0.5563
       },
       "Defense": {
         "Multiplier": 1.675
@@ -11576,7 +11576,7 @@
     "Image": "Kraken Band.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3793
+        "Multiplier": 0.34137
       },
       "Defense": {
         "Multiplier": 0.20175
@@ -11608,7 +11608,7 @@
     "Image": "Apex Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Defense": {
         "Multiplier": 0.4725
@@ -11635,7 +11635,7 @@
     "Image": "Apex Leggings.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.275
+        "Multiplier": 0.2475
       },
       "Defense": {
         "Multiplier": 0.3544
@@ -11659,7 +11659,7 @@
     "Image": "Apex Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.275
+        "Multiplier": 0.2475
       },
       "Defense": {
         "Multiplier": 0.3544
@@ -11693,7 +11693,7 @@
     "Image": "Leviathan Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.393
+        "Multiplier": 0.3537
       },
       "Dexterity": {
         "Multiplier": 0.36
@@ -11726,7 +11726,7 @@
     "Image": "Leviathan Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Dexterity": {
         "Multiplier": 0.27
@@ -11759,7 +11759,7 @@
     "Image": "Leviathan Robe.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Dexterity": {
         "Multiplier": 0.27
@@ -11792,7 +11792,7 @@
     "Image": "Placeholder_V2.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Dexterity": {
         "Multiplier": 0.27
@@ -11825,7 +11825,7 @@
     "Image": "Widow's Tear.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.355
+        "Multiplier": 0.3195
       },
       "Dexterity": {
         "Multiplier": 0.49
@@ -12175,7 +12175,7 @@
     "Image": "Ravenna Undying King Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.5
+        "Multiplier": 0.45
       },
       "Pierce": {
         "Multiplier": 0.3
@@ -12241,7 +12241,7 @@
     "Image": "Ravenna Undying King Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3375
       },
       "Pierce": {
         "Multiplier": 0.225
@@ -12924,7 +12924,7 @@
     "Image": "Blood Tiger Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.198
+        "Multiplier": 0.1782
       }
     },
     "MinLevel": 100,
@@ -12956,7 +12956,7 @@
     "Image": "Blood Tiger Belt.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.198
+        "Multiplier": 0.1782
       }
     },
     "MinLevel": 100,
@@ -12988,7 +12988,7 @@
     "Image": "Kynatos Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.198
+        "Multiplier": 0.1782
       }
     },
     "MinLevel": 100,
@@ -13020,7 +13020,7 @@
     "Image": "Kynatos Belt.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.198
+        "Multiplier": 0.1782
       }
     },
     "MinLevel": 100,
@@ -13052,7 +13052,7 @@
     "Image": "Bearpaw Bandit Shoulderpads.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.1
+        "Multiplier": 0.09
       },
       "Dexterity": {
         "Multiplier": 0.2
@@ -13085,7 +13085,7 @@
     "Image": "Bearpaw Bandit Sash.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.1
+        "Multiplier": 0.09
       },
       "Dexterity": {
         "Multiplier": 0.2
@@ -13118,7 +13118,7 @@
     "Image": "Bearpaw Bandit Belt.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.1
+        "Multiplier": 0.09
       },
       "Dexterity": {
         "Multiplier": 0.2
@@ -13151,7 +13151,7 @@
     "Image": "Bearpaw Bandit Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.1
+        "Multiplier": 0.09
       },
       "Dexterity": {
         "Multiplier": 0.2
@@ -13184,7 +13184,7 @@
     "Image": "Bearpaw Bandit Hood.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.15
+        "Multiplier": 0.135
       },
       "Dexterity": {
         "Multiplier": 0.3
@@ -13217,7 +13217,7 @@
     "Image": "Bearpaw Bandit Shirt.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       },
       "Dexterity": {
         "Multiplier": 0.4
@@ -13250,7 +13250,7 @@
     "Image": "Bearpaw Bandit Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.15
+        "Multiplier": 0.135
       },
       "Dexterity": {
         "Multiplier": 0.3
@@ -13283,7 +13283,7 @@
     "Image": "Bearpaw Leader Vest.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.195
+        "Multiplier": 0.1755
       },
       "Dexterity": {
         "Multiplier": 0.4
@@ -13316,7 +13316,7 @@
     "Image": "Bearpaw Leader Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.15
+        "Multiplier": 0.135
       },
       "Dexterity": {
         "Multiplier": 0.3
@@ -13349,7 +13349,7 @@
     "Image": "Jaw Pirate Necklace.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       },
       "Range": {
         "Multiplier": 0.4
@@ -13382,7 +13382,7 @@
     "Image": "Jaw Pirate Sash.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       },
       "Range": {
         "Multiplier": 0.4
@@ -13415,7 +13415,7 @@
     "Image": "Jaw Pirate Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       },
       "Range": {
         "Multiplier": 0.4
@@ -13448,7 +13448,7 @@
     "Image": "Jaw Pirate Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.2
+        "Multiplier": 0.18
       },
       "Range": {
         "Multiplier": 0.4
@@ -13481,7 +13481,7 @@
     "Image": "Jaw Quartermaster Sash.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.32
+        "Multiplier": 0.288
       },
       "Range": {
         "Multiplier": 0.22
@@ -13514,7 +13514,7 @@
     "Image": "Jawquartermasternecklace.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.32
+        "Multiplier": 0.288
       },
       "Range": {
         "Multiplier": 0.22
@@ -13547,7 +13547,7 @@
     "Image": "Jaw Quartermaster Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.32
+        "Multiplier": 0.288
       },
       "Range": {
         "Multiplier": 0.22
@@ -14143,7 +14143,7 @@
     "Image": "Bogatyr Helmet.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.125
+        "Multiplier": 0.1125
       },
       "Defense": {
         "Multiplier": 0.15
@@ -14182,7 +14182,7 @@
     "Image": "Bogatyr Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.125
+        "Multiplier": 0.1125
       },
       "Defense": {
         "Multiplier": 0.15
@@ -14221,7 +14221,7 @@
     "Image": "Bogatyr Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.17
+        "Multiplier": 0.153
       },
       "Defense": {
         "Multiplier": 0.2
@@ -14260,7 +14260,7 @@
     "Image": "Bogatyr Faulds.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.125
+        "Multiplier": 0.1125
       },
       "Defense": {
         "Multiplier": 0.15
@@ -14299,7 +14299,7 @@
     "Image": "Bogatyr Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.125
+        "Multiplier": 0.1125
       },
       "Defense": {
         "Multiplier": 0.15
@@ -14629,7 +14629,7 @@
     "Image": "Goldsail Pirate Coat.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.54
+        "Multiplier": 0.486
       }
     },
     "MinLevel": 100,
@@ -14661,7 +14661,7 @@
     "Image": "Goldsail Pirate Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.405
+        "Multiplier": 0.3645
       }
     },
     "MinLevel": 100,
@@ -14693,7 +14693,7 @@
     "Image": "Goldsail Pirate Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.405
+        "Multiplier": 0.3645
       }
     },
     "MinLevel": 100,
@@ -14725,7 +14725,7 @@
     "Image": "Goldsail Captain Hat.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.125
+        "Multiplier": 0.1125
       },
       "Size": {
         "Multiplier": 0.614
@@ -14755,7 +14755,7 @@
     "Image": "Ocean Amulet.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.27
+        "Multiplier": 0.243
       },
       "Regeneration": {
         "Multiplier": 0.58
@@ -14788,7 +14788,7 @@
     "Image": "Goldsail Captain Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.077
+        "Multiplier": 0.0693
       },
       "Size": {
         "Multiplier": 0.4
@@ -14818,7 +14818,7 @@
     "Image": "Goldsail Captain Coat.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.153
+        "Multiplier": 0.1377
       },
       "Size": {
         "Multiplier": 0.814
@@ -14848,7 +14848,7 @@
     "Image": "Goldsail Captain Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.125
+        "Multiplier": 0.1125
       },
       "Size": {
         "Multiplier": 0.614
@@ -16005,7 +16005,7 @@
     "Image": "Morrigan Family Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Range": {
         "Multiplier": 0.3
@@ -16040,7 +16040,7 @@
     "Image": "Morrigan Family Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.199
+        "Multiplier": 0.1791
       },
       "Range": {
         "Multiplier": 0.2
@@ -16075,7 +16075,7 @@
     "Image": "Morrigan Family Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Range": {
         "Multiplier": 0.3
@@ -16110,7 +16110,7 @@
     "Image": "Carver Family Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Range": {
         "Multiplier": 0.3
@@ -16145,7 +16145,7 @@
     "Image": "Carver Family Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.199
+        "Multiplier": 0.1791
       },
       "Range": {
         "Multiplier": 0.2
@@ -16180,7 +16180,7 @@
     "Image": "Carver Family Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Range": {
         "Multiplier": 0.3
@@ -16215,7 +16215,7 @@
     "Image": "Astralis Family Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Range": {
         "Multiplier": 0.3
@@ -16250,7 +16250,7 @@
     "Image": "Astralis Family Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.199
+        "Multiplier": 0.1791
       },
       "Range": {
         "Multiplier": 0.2
@@ -16285,7 +16285,7 @@
     "Image": "Astralis Family Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Range": {
         "Multiplier": 0.3
@@ -16320,7 +16320,7 @@
     "Image": "Flemming Family Cape.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Range": {
         "Multiplier": 0.3
@@ -16355,7 +16355,7 @@
     "Image": "Flemming Family Robes.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.199
+        "Multiplier": 0.1791
       },
       "Range": {
         "Multiplier": 0.2
@@ -16390,7 +16390,7 @@
     "Image": "Flemming Family Pants.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.3
+        "Multiplier": 0.27
       },
       "Range": {
         "Multiplier": 0.3
@@ -16764,7 +16764,7 @@
     "Image": "The Lost Coronet of Skyhall.PNG",
     "Stats": {
       "Power": {
-        "Multiplier": 0.27
+        "Multiplier": 0.243
       },
       "Regeneration": {
         "Multiplier": 0.45
@@ -16796,7 +16796,7 @@
     "Image": "Broken Prince Shirt.PNG",
     "Stats": {
       "Power": {
-        "Multiplier": 0.36
+        "Multiplier": 0.324
       },
       "Regeneration": {
         "Multiplier": 0.6
@@ -16828,7 +16828,7 @@
     "Image": "Broken Prince Pants.PNG",
     "Stats": {
       "Power": {
-        "Multiplier": 0.27
+        "Multiplier": 0.243
       },
       "Regeneration": {
         "Multiplier": 0.45
@@ -16860,7 +16860,7 @@
     "Image": "Broken Prince Cape.PNG",
     "Stats": {
       "Power": {
-        "Multiplier": 0.27
+        "Multiplier": 0.243
       },
       "Regeneration": {
         "Multiplier": 0.45

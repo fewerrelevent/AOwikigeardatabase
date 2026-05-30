@@ -7792,7 +7792,7 @@
     "Image": "WhiteTheurgistPants.png",
     "Stats": {
       "Dexterity": {
-        "Multiplier": "23 / 30"
+        "Multiplier": 0.7675
       },
       "Warding": {
         "Value": 1
@@ -7825,7 +7825,7 @@
     "Image": "WhiteTheurgistHat.png",
     "Stats": {
       "Dexterity": {
-        "Multiplier": "23 / 30"
+        "Multiplier": 0.7675
       },
       "Warding": {
         "Value": 1
@@ -7858,7 +7858,7 @@
     "Image": "WhiteTheurgistCloak.png",
     "Stats": {
       "Dexterity": {
-        "Multiplier": "23 / 30"
+        "Multiplier": 0.7675
       },
       "Warding": {
         "Value": 1
@@ -9214,7 +9214,8 @@
       "4": "Wandering Merchants"
     },
     "Variations": null,
-    "Description": "An arcanium-glass dome capable of conducting some magic, meant to be worn on the head."
+    "Description": "An arcanium-glass dome capable of conducting some magic, meant to be worn on the head.",
+    "JewelSlots": 2
   },
   "Arcanium Bracelet": {
     "Name": "Arcanium Bracelet",

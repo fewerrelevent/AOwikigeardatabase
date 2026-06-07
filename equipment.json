@@ -18707,6 +18707,1686 @@
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
     "JewelSlots": 0
   },
+  "Heavy Purple Dragon Helmet": {
+    "Name": "Heavy Purple Dragon Helmet",
+    "Link": "Heavy Dragon Helmet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Range": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy helmet crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Purple Dragon Armor": {
+    "Name": "Heavy Purple Dragon Armor",
+    "Link": "Heavy Dragon Armor",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Range": {
+        "Multiplier": 0.544
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy upper body armor crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Purple Dragon Leggings": {
+    "Name": "Heavy Purple Dragon Leggings",
+    "Link": "Heavy Dragon Leggings",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Range": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of an ancient dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Purple Dragon Cloak": {
+    "Name": "Heavy Purple Dragon Cloak",
+    "Link": "Heavy Dragon Cloak",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Range": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy cloak crafted using the wing of an ancient dragon.",
+    "JewelSlots": 2
+  },
+  "Grand Purple Dragoneye Amulet": {
+    "Name": "Grand Purple Dragoneye Amulet",
+    "Link": "Grand Dragoneye Amulet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Range": {
+        "Multiplier": 0.75
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A metal amulet made out of the preserved eye of an ancient dragon.",
+    "JewelSlots": 0
+  },
+  "Heavy Black Dragon Helmet": {
+    "Name": "Heavy Black Dragon Helmet",
+    "Link": "Heavy Dragon Helmet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.3347475
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy helmet crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Black Dragon Armor": {
+    "Name": "Heavy Black Dragon Armor",
+    "Link": "Heavy Dragon Armor",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.44633
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy upper body armor crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Black Dragon Leggings": {
+    "Name": "Heavy Black Dragon Leggings",
+    "Link": "Heavy Dragon Leggings",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.3347475
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of an ancient dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Black Dragon Cloak": {
+    "Name": "Heavy Black Dragon Cloak",
+    "Link": "Heavy Dragon Cloak",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.3347475
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy cloak crafted using the wing of an ancient dragon.",
+    "JewelSlots": 2
+  },
+  "Grand Black Dragoneye Amulet": {
+    "Name": "Grand Black Dragoneye Amulet",
+    "Link": "Grand Dragoneye Amulet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.54315
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A metal amulet made out of the preserved eye of an ancient dragon.",
+    "JewelSlots": 0
+  },
+  "Heavy Brown Dragon Helmet": {
+    "Name": "Heavy Brown Dragon Helmet",
+    "Link": "Heavy  Dragon Helmet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.5599944
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy helmet crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Brown Dragon Armor": {
+    "Name": "Heavy Brown Dragon Armor",
+    "Link": "Heavy Dragon Armor",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.7466592
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy upper body armor crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Brown Dragon Leggings": {
+    "Name": "Heavy Brown Dragon Leggings",
+    "Link": "Heavy Dragon Leggings",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.5599944
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of an ancient dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Brown Dragon Cloak": {
+    "Name": "Heavy Brown Dragon Cloak",
+    "Link": "Heavy Dragon Cloak",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.5599944
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy cloak crafted using the wing of an ancient dragon.",
+    "JewelSlots": 2
+  },
+  "Grand Brown Dragoneye Amulet": {
+    "Name": "Grand Brown Dragoneye Amulet",
+    "Link": "Grand Dragoneye Amulet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.8611025
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A metal amulet made out of the preserved eye of an ancient dragon.",
+    "JewelSlots": 0
+  },
+  "Heavy Golden Dragon Helmet": {
+    "Name": "Heavy Golden Dragon Helmet",
+    "Link": "Heavy Dragon Helmet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Haste": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy helmet crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Golden Dragon Armor": {
+    "Name": "Heavy Golden Dragon Armor",
+    "Link": "Heavy Dragon Armor",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Haste": {
+        "Multiplier": 0.544
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy upper body armor crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Golden Dragon Leggings": {
+    "Name": "Heavy Golden Dragon Leggings",
+    "Link": "Heavy Dragon Leggings",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Haste": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of an ancient dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Golden Dragon Cloak": {
+    "Name": "Heavy Golden Dragon Cloak",
+    "Link": "Heavy Dragon Cloak",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Haste": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy cloak crafted using the wing of an ancient dragon.",
+    "JewelSlots": 2
+  },
+  "Grand Golden Dragoneye Amulet": {
+    "Name": "Grand Golden Dragoneye Amulet",
+    "Link": "Grand Dragoneye Amulet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Haste": {
+        "Multiplier": 0.75
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A metal amulet made out of the preserved eye of an ancient dragon.",
+    "JewelSlots": 0
+  },
+  "Heavy White Dragon Helmet": {
+    "Name": "Heavy White Dragon Helmet",
+    "Link": "Heavy Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Regeneration": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy helmet crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy White Dragon Armor": {
+    "Name": "Heavy White Dragon Armor",
+    "Link": "Heavy Dragon Armor",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Regeneration": {
+        "Multiplier": 0.544
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy upper body armor crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy White Dragon Leggings": {
+    "Name": "Heavy White Dragon Leggings",
+    "Link": "Heavy Dragon Leggings",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Regeneration": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of an ancient dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy White Dragon Cloak": {
+    "Name": "Heavy White Dragon Cloak",
+    "Link": "Heavy Dragon Cloak",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Regeneration": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy cloak crafted using the wing of an ancient dragon.",
+    "JewelSlots": 2
+  },
+  "Grand White Dragoneye Amulet": {
+    "Name": "Grand White Dragoneye Amulet",
+    "Link": "Grand Dragoneye Amulet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Dexterity": {
+        "Multiplier": 0.75
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A metal amulet made out of the preserved eye of an ancient dragon.",
+    "JewelSlots": 0
+  },
+  "Heavy Red Dragon Helmet": {
+    "Name": "Heavy Red Dragon Helmet",
+    "Link": "Heavy Dragon Helmet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Pierce": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy helmet crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Red Dragon Armor": {
+    "Name": "Heavy Red Dragon Armor",
+    "Link": "Heavy Dragon Armor",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Pierce": {
+        "Multiplier": 0.544
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy upper body armor crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Red Dragon Leggings": {
+    "Name": "Heavy Red Dragon Leggings",
+    "Link": "Heavy Dragon Leggings",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Pierce": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of an ancient dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Red Dragon Cloak": {
+    "Name": "Heavy Red Dragon Cloak",
+    "Link": "Heavy Dragon Cloak",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Pierce": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy cloak crafted using the wing of an ancient dragon.",
+    "JewelSlots": 2
+  },
+  "Grand Red Dragoneye Amulet": {
+    "Name": "Grand Red Dragoneye Amulet",
+    "Link": "Grand Dragoneye Amulet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Pierce": {
+        "Multiplier": 0.75
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A metal amulet made out of the preserved eye of an ancient dragon.",
+    "JewelSlots": 0
+  },
+  "Heavy Blue Dragon Helmet": {
+    "Name": "Heavy Blue Dragon Helmet",
+    "Link": "Heavy Dragon Helmet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Dexterity": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy helmet crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Blue Dragon Armor": {
+    "Name": "Heavy Blue Dragon Armor",
+    "Link": "Heavy Dragon Armor",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Dexterity": {
+        "Multiplier": 0.544
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy upper body armor crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Blue Dragon Leggings": {
+    "Name": "Heavy Blue Dragon Leggings",
+    "Link": "Heavy Dragon Leggings",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Dexterity": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of an ancient dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Blue Dragon Cloak": {
+    "Name": "Heavy Blue Dragon Cloak",
+    "Link": "Heavy Dragon Cloak",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Dexterity": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy cloak crafted using the wing of an ancient dragon.",
+    "JewelSlots": 2
+  },
+  "Grand Blue Dragoneye Amulet": {
+    "Name": "Grand Blue Dragoneye Amulet",
+    "Link": "Grand Dragoneye Amulet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Dexterity": {
+        "Multiplier": 0.75
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A metal amulet made out of the preserved eye of an ancient dragon.",
+    "JewelSlots": 0
+  },
+  "Heavy Teal Dragon Helmet": {
+    "Name": "Heavy Teal Dragon Helmet",
+    "Link": "Heavy Dragon Helmet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Resistance": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy helmet crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Teal Dragon Armor": {
+    "Name": "Heavy Teal Dragon Armor",
+    "Link": "Heavy Dragon Armor",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Resistance": {
+        "Multiplier": 0.544
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy upper body armor crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Teal Dragon Leggings": {
+    "Name": "Heavy Teal Dragon Leggings",
+    "Link": "Heavy Dragon Leggings",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Resistance": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of an ancient dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Teal Dragon Cloak": {
+    "Name": "Heavy Teal Dragon Cloak",
+    "Link": "Heavy Dragon Cloak",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Resistance": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy cloak crafted using the wing of an ancient dragon.",
+    "JewelSlots": 2
+  },
+  "Grand Teal Dragoneye Amulet": {
+    "Name": "Grand Teal Dragoneye Amulet",
+    "Link": "Grand Dragoneye Amulet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Resistance": {
+        "Multiplier": 0.75
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BBaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A metal amulet made out of the preserved eye of an ancient dragon.",
+    "JewelSlots": 0
+  },
+  "Heavy Green Dragon Helmet": {
+    "Name": "Heavy Green Dragon Helmet",
+    "Link": "Heavy Dragon Helmet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Size": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy helmet crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Green Dragon Armor": {
+    "Name": "Heavy Green Dragon Armor",
+    "Link": "Heavy Dragon Armor",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Size": {
+        "Multiplier": 0.544
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy upper body armor crafted using the scales of an ancient dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Green Dragon Leggings": {
+    "Name": "Heavy Green Dragon Leggings",
+    "Link": "Heavy Dragon Leggings",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Size": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of an ancient dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Green Dragon Cloak": {
+    "Name": "Heavy Green Dragon Cloak",
+    "Link": "Heavy Dragon Cloak",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.1429875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Size": {
+        "Multiplier": 0.408
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A heavy cloak crafted using the wing of an ancient dragon.",
+    "JewelSlots": 2
+  },
+  "Grand Green Dragoneye Amulet": {
+    "Name": "Grand Green Dragoneye Amulet",
+    "Link": "Grand Dragoneye Amulet",
+    "Image": "Placeholder_V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19065
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Size": {
+        "Multiplier": 0.75
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Mythical Dragons"
+    },
+    "Description": "A metal amulet made out of the preserved eye of an ancient dragon.",
+    "JewelSlots": 0
+  },
   "Corrupted Blood Dragon Helmet": {
     "Name": "Corrupted Blood Dragon Helmet",
     "Link": "Corrupted Dragon Helmet",
@@ -19505,6 +21185,1041 @@
       "1": "Dragons#Atlantean/Corrupted|Corrupted Full Grown/Powerful Dragon"
     },
     "Description": "A cape crafted using the wing of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Blood Dragon Helmet": {
+    "Name": "Heavy Corrupted Blood Dragon Helmet",
+    "Link": "Heavy Corrupted Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Dexterity": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy helmet crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Blood Dragon Armor": {
+    "Name": "Heavy Corrupted Blood Dragon Armor",
+    "Link": "Heavy Corrupted Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.476625
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Dexterity": {
+        "Multiplier": 0.8
+      },
+      "Drawback": {
+        "Value": 3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A full set of upper heavy body armor crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Blood Dragon Leggings": {
+    "Name": "Heavy Corrupted Blood Dragon Leggings",
+    "Link": "Heavy Corrupted Dragon Leggings",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Dexterity": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of a corrupted dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Blood Dragon Cloak": {
+    "Name": "Heavy Corrupted Blood Dragon Cloak",
+    "Link": "Heavy Corrupted Dragon Cloak",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Dexterity": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy cloak crafted using the wing of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Blood Dragon Pauldron": {
+    "Name": "Heavy Corrupted Blood Dragon Pauldron",
+    "Link": "Heavy Corrupted Dragon Pauldron",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.2383125
+      },
+      "Defense": {
+        "Multiplier": 0.22222
+      },
+      "Dexterity": {
+        "Multiplier": 0.4
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Shoulder",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy pauldron crafted using the horns and scales of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Molten Dragon Helmet": {
+    "Name": "Heavy Corrupted Molten Dragon Helmet",
+    "Link": "Heavy Corrupted Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Pierce": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy helmet crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Molten Dragon Armor": {
+    "Name": "Heavy Corrupted Molten Dragon Armor",
+    "Link": "Heavy Corrupted Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.476625
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Pierce": {
+        "Multiplier": 0.8
+      },
+      "Drawback": {
+        "Value": 3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A full set of upper heavy body armor crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Molten Dragon Leggings": {
+    "Name": "Heavy Corrupted Molten Dragon Leggings",
+    "Link": "Heavy Corrupted Dragon Leggings",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Pierce": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of a corrupted dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Molten Dragon Cloak": {
+    "Name": "Heavy Corrupted Molten Dragon Cloak",
+    "Link": "Heavy Corrupted Dragon Cloak",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Pierce": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy cloak crafted using the wing of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Molten Dragon Pauldron": {
+    "Name": "Heavy Corrupted Molten Dragon Pauldron",
+    "Link": "Heavy Corrupted Dragon Pauldron",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.2383125
+      },
+      "Defense": {
+        "Multiplier": 0.22222
+      },
+      "Pierce": {
+        "Multiplier": 0.4
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Shoulder",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy pauldron crafted using the horns and scales of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted 'Dragon' Helmet": {
+    "Name": "Heavy Corrupted 'Dragon' Helmet",
+    "Link": "Heavy Corrupted Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Resistance": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy helmet crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted 'Dragon' Armor": {
+    "Name": "Heavy Corrupted 'Dragon' Armor",
+    "Link": "Heavy Corrupted Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.476625
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Resistance": {
+        "Multiplier": 0.8
+      },
+      "Drawback": {
+        "Value": 3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A full set of upper heavy body armor crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted 'Dragon' Leggings": {
+    "Name": "Heavy Corrupted 'Dragon' Leggings",
+    "Link": "Heavy Corrupted Dragon Leggings",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Resistance": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of a corrupted dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted 'Dragon' Cloak": {
+    "Name": "Heavy Corrupted 'Dragon' Cloak",
+    "Link": "Heavy Corrupted Dragon Cloak",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Resistance": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy cloak crafted using the wing of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted 'Dragon' Pauldron": {
+    "Name": "Heavy Corrupted 'Dragon' Pauldron",
+    "Link": "Heavy Corrupted Dragon Pauldron",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.2383125
+      },
+      "Defense": {
+        "Multiplier": 0.22222
+      },
+      "Resistance": {
+        "Multiplier": 0.4
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Shoulder",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy pauldron crafted using the horns and scales of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Crystal Dragon Helmet": {
+    "Name": "Heavy Corrupted Crystal Dragon Helmet",
+    "Link": "Heavy Corrupted Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Size": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy helmet crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Crystal Dragon Armor": {
+    "Name": "Heavy Corrupted Crystal Dragon Armor",
+    "Link": "Heavy Corrupted Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.476625
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Size": {
+        "Multiplier": 0.8
+      },
+      "Drawback": {
+        "Value": 3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A full set of upper heavy body armor crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Crystal Dragon Leggings": {
+    "Name": "Heavy Corrupted Crystal Dragon Leggings",
+    "Link": "Heavy Corrupted Dragon Leggings",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Size": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of a corrupted dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Crystal Dragon Cloak": {
+    "Name": "Heavy Corrupted Crystal Dragon Cloak",
+    "Link": "Heavy Corrupted Dragon Cloak",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.33333
+      },
+      "Size": {
+        "Multiplier": 0.6
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy cloak crafted using the wing of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Crystal Dragon Pauldron": {
+    "Name": "Heavy Corrupted Crystal Dragon Pauldron",
+    "Link": "Heavy Corrupted Dragon Pauldron",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.2383125
+      },
+      "Defense": {
+        "Multiplier": 0.22222
+      },
+      "Size": {
+        "Multiplier": 0.4
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Shoulder",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy pauldron crafted using the horns and scales of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Stone Dragon Helmet": {
+    "Name": "Heavy Corrupted Stone Dragon Helmet",
+    "Link": "Heavy Corrupted Dragon Helmet",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.66666
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy helmet crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Stone Dragon Armor": {
+    "Name": "Heavy Corrupted Stone Dragon Armor",
+    "Link": "Heavy Corrupted Dragon Armor",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.88888
+      },
+      "Drawback": {
+        "Value": 3
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A full set of upper heavy body armor crafted using the scales of a corrupted dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Stone Dragon Leggings": {
+    "Name": "Heavy Corrupted Stone Dragon Leggings",
+    "Link": "Heavy Corrupted Dragon Leggings",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.66666
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A full set of heavy leggings crafted using the scales of a corrupted dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Stone Dragon Cloak": {
+    "Name": "Heavy Corrupted Stone Dragon Cloak",
+    "Link": "Heavy Corrupted Dragon Cloak",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.35746875
+      },
+      "Defense": {
+        "Multiplier": 0.66666
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy cloak crafted using the wing of a corrupted dragon.",
+    "JewelSlots": 2
+  },
+  "Heavy Corrupted Stone Dragon Pauldron": {
+    "Name": "Heavy Corrupted Stone Dragon Pauldron",
+    "Link": "Heavy Corrupted Dragon Pauldron",
+    "Image": "Placeholder V2.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.2383125
+      },
+      "Defense": {
+        "Multiplier": 0.44444
+      },
+      "Drawback": {
+        "Value": 2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Shoulder",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 0,
+    "WorthOverrides": {
+      "100": 0,
+      "110": 0,
+      "120": 0,
+      "130": 0,
+      "140": 0,
+      "150": 0,
+      "160": 0,
+      "170": 0
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Ancient_Dragons|Corrupted Ancient Dragons",
+      "2": "Dragons#Mythical_Dragons|Corrupted Mythical Dragons",
+      "3": "Dragons#Dragonlord|Dragonlord"
+    },
+    "Description": "A heavy pauldron crafted using the horns and scales of a corrupted dragon.",
     "JewelSlots": 2
   }
 }

@@ -10284,7 +10284,9 @@
       "150": 38,
       "160": 39
     },
-    "ObtainedBy": "Lord Elius",
+    "ObtainedBy": {
+      "1": "Lord Elius"
+    },
     "Variations": 37,
     "Description": "A bandana made out of fine cloth."
   },
@@ -10319,7 +10321,9 @@
       "150": 77,
       "160": 80
     },
-    "ObtainedBy": "Lord Elius",
+    "ObtainedBy": {
+      "1": "Lord Elius"
+    },
     "Variations": 37,
     "Description": "A flowing collared cape made out of fine cloth."
   },
@@ -10352,7 +10356,9 @@
       "130": 271,
       "140": 281
     },
-    "ObtainedBy": "Lord Elius",
+    "ObtainedBy": {
+      "1": "Lord Elius"
+    },
     "Variations": 16,
     "Description": "A finely crafted set of bronze armor trimmed in gold, with ornate fabric and golden chainmail. This armor was specifically made to be worn by the nobles of the Ravenna Realm, and was stolen from Lord Elius after he was defeated in the sky of the Bronze Sea."
   },
@@ -10387,7 +10393,9 @@
       "150": 145,
       "160": 149
     },
-    "ObtainedBy": "Lord Elius",
+    "ObtainedBy": {
+      "1": "Lord Elius"
+    },
     "Variations": 16,
     "Description": "A pair of well-made leather boots with a gold trim. These boots were specifically made to be worn by the nobles of the Ravenna Realm, and were stolen from Lord Elius after he was defeated in the sky of the Bronze Sea."
   },

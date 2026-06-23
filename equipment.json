@@ -8439,6 +8439,7 @@
       }
     },
     "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -8458,6 +8459,7 @@
       }
     },
     "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -8477,6 +8479,7 @@
       }
     },
     "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Legging",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -8499,6 +8502,7 @@
       }
     },
     "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Helmet",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -8521,6 +8525,7 @@
       }
     },
     "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -8543,6 +8548,7 @@
       }
     },
     "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Legging",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -8565,6 +8571,7 @@
       }
     },
     "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -8587,6 +8594,7 @@
       }
     },
     "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Chestpiece",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -8609,6 +8617,7 @@
       }
     },
     "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Legging",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -9197,6 +9206,7 @@
       }
     },
     "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Hat",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -9230,6 +9240,7 @@
       }
     },
     "MinLevel": 120,
+    "MaxLevel": 250,
     "EquipType": "Arm",
     "StatType": "Arcanium",
     "Rarity": "Uncommon",
@@ -9400,6 +9411,7 @@
   "Wealthy Merchant Coat": {
     "Name": "Wealthy Merchant Coat",
     "Link": "Wealthy Merchant Coat",
+    "Image": "Wealthy_Merchant_Coat.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.335
@@ -10256,7 +10268,7 @@
   "Shroud": {
     "Name": "Shroud",
     "Link": "Shroud",
-    "Image": "BrownShroud.png",
+    "Image": "BlackShroud.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.375
@@ -10293,7 +10305,7 @@
   "Collared Cape": {
     "Name": "Collared Cape",
     "Link": "Collared Cape",
-    "Image": "BrownCollaredCape.png",
+    "Image": "BlackCollaredCape.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.375
@@ -10330,7 +10342,7 @@
   "Ravenna Noble Armor": {
     "Name": "Ravenna Noble Armor",
     "Link": "Ravenna Noble Armor",
-    "Image": "MagentaRavennaNobleArmor.png",
+    "Image": "BlackRavennaNobleArmor.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.5
@@ -10365,7 +10377,7 @@
   "Ravenna Noble Boots": {
     "Name": "Ravenna Noble Boots",
     "Link": "Ravenna Noble Boots",
-    "Image": "MagentaRavennaNobleBoots.png",
+    "Image": "BlackRavennaNobleBoots.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.375
@@ -11190,7 +11202,7 @@
   "Captain Maria's Hat": {
     "Name": "Captain Maria's Hat",
     "Link": "Captain Maria's Hat",
-    "Image": "Captain Maria's Hat Low Quality.png",
+    "Image": "Captain Maria's Hat.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.39375
@@ -11408,6 +11420,7 @@
   "Vermilion Bracelet": {
     "Name": "Vermilion Bracelet",
     "Link": "Vermilion Bracelet",
+    "Image": "VermilionBracelet.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.525

@@ -11636,21 +11636,18 @@
     "Image": "Apex Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.375
+        "Multiplier": 0.3745
       },
       "Defense": {
         "Multiplier": 0.4725
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 250,
+    "MaxLevel": 450,
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 305,
-    "WorthOverrides": {
-      "100": 305
-    },
+    "BaseWorth": 250,
     "ObtainedBy": {
       "1": "White Eyes"
     },
@@ -11663,18 +11660,18 @@
     "Image": "Apex Leggings.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.275
+        "Multiplier": 0.280875
       },
       "Defense": {
-        "Multiplier": 0.3544
+        "Multiplier": 0.354375
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 250,
+    "MaxLevel": 450,
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "WorthOverrides": {},
+    "BaseWorth": 125,
     "ObtainedBy": {
       "1": "White Eyes"
     },
@@ -11687,28 +11684,18 @@
     "Image": "Apex Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.275
+        "Multiplier": 0.280875
       },
       "Defense": {
-        "Multiplier": 0.3544
+        "Multiplier": 0.354375
       }
     },
     "MinLevel": 100,
-    "MaxLevel": 250,
+    "MaxLevel": 450,
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 152,
-    "WorthOverrides": {
-      "100": 152,
-      "110": 155,
-      "120": 158,
-      "130": 161,
-      "140": 163,
-      "150": 166,
-      "160": 169,
-      "170": 172
-    },
+    "BaseWorth": 125,
     "ObtainedBy": {
       "1": "White Eyes"
     },
@@ -12101,22 +12088,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 150,
-    "WorthOverrides": {
-      "50": 150,
-      "60": 155,
-      "70": 160,
-      "80": 165,
-      "90": 170,
-      "100": 175,
-      "110": 180,
-      "120": 185,
-      "130": 190,
-      "140": 195,
-      "150": 200,
-      "160": 205,
-      "170": 210
-    },
+    "BaseWorth": 125,
     "ObtainedBy": {
       "1": "Poison Jaws"
     },
@@ -12141,22 +12113,7 @@
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 150,
-    "WorthOverrides": {
-      "50": 150,
-      "60": 155,
-      "70": 160,
-      "80": 165,
-      "90": 170,
-      "100": 175,
-      "110": 180,
-      "120": 185,
-      "130": 190,
-      "140": 195,
-      "150": 200,
-      "160": 205,
-      "170": 210
-    },
+    "BaseWorth": 125,
     "ObtainedBy": {
       "1": "Poison Jaws"
     },
@@ -12184,12 +12141,7 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 80,
-    "WorthOverrides": {
-      "150": 80,
-      "160": 82,
-      "170": 84
-    },
+    "BaseWorth": 50,
     "ObtainedBy": {
       "1": "King Octavious"
     },
@@ -12217,12 +12169,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 320,
-    "WorthOverrides": {
-      "150": 320,
-      "160": 328,
-      "170": 336
-    },
+    "BaseWorth": 200,
     "ObtainedBy": {
       "1": "King Octavious"
     },
@@ -12250,12 +12197,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 80,
-    "WorthOverrides": {
-      "150": 80,
-      "160": 82,
-      "170": 84
-    },
+    "BaseWorth": 50,
     "ObtainedBy": {
       "1": "King Octavious"
     },
@@ -12283,12 +12225,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 160,
-    "WorthOverrides": {
-      "150": 160,
-      "160": 164,
-      "170": 168
-    },
+    "BaseWorth": 100,
     "ObtainedBy": {
       "1": "King Octavious"
     },

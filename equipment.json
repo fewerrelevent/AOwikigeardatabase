@@ -11495,9 +11495,6 @@
     "StatType": "Normal",
     "Rarity": "Mystic",
     "BaseWorth": 350,
-    "WorthOverrides": {
-      "140": 350
-    },
     "ObtainedBy": {
       "1": "Rear Admiral Amelia"
     },
@@ -11722,12 +11719,7 @@
     "EquipType": "Chestpiece",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 160,
-    "WorthOverrides": {
-      "150": 160,
-      "160": 164,
-      "170": 168
-    },
+    "BaseWorth": 100,
     "ObtainedBy": {
       "1": "Leviathan"
     },
@@ -11755,12 +11747,7 @@
     "EquipType": "Legging",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 80,
-    "WorthOverrides": {
-      "150": 80,
-      "160": 82,
-      "170": 84
-    },
+    "BaseWorth": 50,
     "ObtainedBy": {
       "1": "Leviathan"
     },
@@ -11788,12 +11775,7 @@
     "EquipType": "Waist",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 40,
-    "WorthOverrides": {
-      "150": 40,
-      "160": 41,
-      "170": 42
-    },
+    "BaseWorth": 25,
     "ObtainedBy": {
       "1": "Leviathan"
     },
@@ -11821,12 +11803,7 @@
     "EquipType": "Collar",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 40,
-    "WorthOverrides": {
-      "150": 40,
-      "160": 41,
-      "170": 42
-    },
+    "BaseWorth": 25,
     "ObtainedBy": {
       "1": "Leviathan"
     },
@@ -11854,12 +11831,7 @@
     "EquipType": "Neck",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 160,
-    "WorthOverrides": {
-      "150": 160,
-      "160": 164,
-      "170": 168
-    },
+    "BaseWorth": 100,
     "ObtainedBy": {
       "1": "Leviathan"
     },

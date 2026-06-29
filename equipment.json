@@ -8876,6 +8876,7 @@
   "Oracle Hat": {
     "Name": "Oracle Hat",
     "Link": "Oracle Hat",
+    "Image": "Oracle Hat.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.375
@@ -8889,15 +8890,29 @@
     "EquipType": "Hat",
     "StatType": "Vitality",
     "Rarity": "Rare",
+    "BaseWorth": 125,
+    "WorthOverrides": {
+      "100": 175,
+      "110": 180,
+      "120": 185,
+      "130": 190,
+      "140": 195,
+      "150": 200,
+      "160": 205,
+      "170": 210
+    },
+    "JewelSlots": 2,
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
+    "Variations": null,
     "Description": "A set of old robes that was enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
   },
   "Oracle Robes": {
     "Name": "Oracle Robes",
     "Link": "Oracle Robes",
+    "Image": "Oracle Robes.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.5
@@ -8911,15 +8926,29 @@
     "EquipType": "Chestpiece",
     "StatType": "Vitality",
     "Rarity": "Rare",
+    "BaseWorth": 250,
+    "WorthOverrides": {
+      "100": 350,
+      "110": 360,
+      "120": 370,
+      "130": 380,
+      "140": 390,
+      "150": 400,
+      "160": 410,
+      "170": 420
+    },
+    "JewelSlots": 2,
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
+    "Variations": null,
     "Description": "A set of old robes that were enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
   },
   "Oracle Pants": {
     "Name": "Oracle Pants",
     "Link": "Oracle Pants",
+    "Image": "Oracle Pants.png",
     "Stats": {
       "Power": {
         "Multiplier": 0.375
@@ -8933,15 +8962,29 @@
     "EquipType": "Legging",
     "StatType": "Vitality",
     "Rarity": "Rare",
+    "BaseWorth": 125,
+    "WorthOverrides": {
+      "100": 175,
+      "110": 180,
+      "120": 185,
+      "130": 190,
+      "140": 195,
+      "150": 200,
+      "160": 205,
+      "170": 210
+    },
+    "JewelSlots": 2,
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
+    "Variations": null,
     "Description": "The lower part of a set of old robes that were enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
   },
   "Oracle Helmet": {
     "Name": "Oracle Helmet",
     "Link": "Oracle Helmet",
+    "Image": "Oracle Helmet.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.45
@@ -8955,15 +8998,29 @@
     "EquipType": "Helmet",
     "StatType": "Vitality",
     "Rarity": "Rare",
+    "BaseWorth": 175,
+    "WorthOverrides": {
+      "100": 244,
+      "110": 252,
+      "120": 259,
+      "130": 266,
+      "140": 273,
+      "150": 280,
+      "160": 287,
+      "170": 294
+    },
+    "JewelSlots": 2,
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
+    "Variations": null,
     "Description": "An old helmet that was enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
   },
   "Oracle Armor": {
     "Name": "Oracle Armor",
     "Link": "Oracle Armor",
+    "Image": "Oracle Armor.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.6
@@ -8977,15 +9034,29 @@
     "EquipType": "Chestpiece",
     "StatType": "Vitality",
     "Rarity": "Rare",
+    "BaseWorth": 350,
+    "WorthOverrides": {
+      "100": 489,
+      "110": 504,
+      "120": 518,
+      "130": 532,
+      "140": 546,
+      "150": 560,
+      "160": 574,
+      "170": 588
+    },
+    "JewelSlots": 2,
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
+    "Variations": null,
     "Description": "An old set of heavy armor that was enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
   },
   "Oracle Leggings": {
     "Name": "Oracle Leggings",
     "Link": "Oracle Leggings",
+    "Image": "Oracle Leggings.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.45
@@ -8999,59 +9070,29 @@
     "EquipType": "Legging",
     "StatType": "Vitality",
     "Rarity": "Rare",
+    "BaseWorth": 175,
+    "WorthOverrides": {
+      "100": 245,
+      "110": 252,
+      "120": 259,
+      "130": 266,
+      "140": 273,
+      "150": 280,
+      "160": 287,
+      "170": 294
+    },
+    "JewelSlots": 2,
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
+    "Variations": null,
     "Description": "An old set of armored leggings that were enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
-  },
-  "Alitheia Robes": {
-    "Name": "Alitheia Robes",
-    "Link": "Alitheia Robes",
-    "Stats": {
-      "Haste": {
-        "Multiplier": 0.6
-      },
-      "Regeneration": {
-        "Multiplier": 0.8
-      }
-    },
-    "MinLevel": 100,
-    "MaxLevel": 250,
-    "EquipType": "Chestpiece",
-    "StatType": "Vitality",
-    "Rarity": "Rare",
-    "ObtainedBy": {
-      "1": "Chests",
-      "2": "Fishing"
-    },
-    "Description": "A set of mysterious old robes that were enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
-  },
-  "Alitheia Pants": {
-    "Name": "Alitheia Pants",
-    "Link": "Alitheia Pants",
-    "Stats": {
-      "Haste": {
-        "Multiplier": 0.45
-      },
-      "Regeneration": {
-        "Multiplier": 0.6
-      }
-    },
-    "MinLevel": 100,
-    "MaxLevel": 250,
-    "EquipType": "Legging",
-    "StatType": "Vitality",
-    "Rarity": "Rare",
-    "ObtainedBy": {
-      "1": "Chests",
-      "2": "Fishing"
-    },
-    "Description": "The lower part of a set of mysterious robes that were enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
   },
   "Alitheia Hat": {
     "Name": "Alitheia Hat",
     "Link": "Alitheia Hat",
+    "Image": "Alitheia Hat.png",
     "Stats": {
       "Haste": {
         "Multiplier": 0.45
@@ -9065,11 +9106,96 @@
     "EquipType": "Hat",
     "StatType": "Vitality",
     "Rarity": "Rare",
+    "BaseWorth": 125,
+    "WorthOverrides": {
+      "100": 175,
+      "110": 180,
+      "120": 185,
+      "130": 190,
+      "140": 195,
+      "150": 200,
+      "160": 205,
+      "170": 210
+    },
+    "JewelSlots": 2,
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
+    "Variations": null,
     "Description": "A mysterious old hat that was enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
+  },
+  "Alitheia Robes": {
+    "Name": "Alitheia Robes",
+    "Link": "Alitheia Robes",
+    "Image": "Alitheia Robes.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.6
+      },
+      "Regeneration": {
+        "Multiplier": 0.8
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Chestpiece",
+    "StatType": "Vitality",
+    "Rarity": "Rare",
+    "BaseWorth": 250,
+    "WorthOverrides": {
+      "100": 350,
+      "110": 360,
+      "120": 370,
+      "130": 380,
+      "140": 390,
+      "150": 400,
+      "160": 410,
+      "170": 420
+    },
+    "JewelSlots": 2,
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing"
+    },
+    "Variations": null,
+    "Description": "A set of mysterious old robes that were enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
+  },
+  "Alitheia Pants": {
+    "Name": "Alitheia Pants",
+    "Link": "Alitheia Pants",
+    "Image": "Alitheia Pants.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.45
+      },
+      "Regeneration": {
+        "Multiplier": 0.6
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": 250,
+    "EquipType": "Legging",
+    "StatType": "Vitality",
+    "Rarity": "Rare",
+    "BaseWorth": 125,
+    "WorthOverrides": {
+      "100": 175,
+      "110": 180,
+      "120": 185,
+      "130": 190,
+      "140": 195,
+      "150": 200,
+      "160": 205,
+      "170": 210
+    },
+    "JewelSlots": 2,
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing"
+    },
+    "Variations": null,
+    "Description": "The lower part of a set of mysterious robes that were enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the robes to boost the power of their spirit weapons."
   },
   "Sunken Warrior Helmet": {
     "Name": "Sunken Warrior Helmet",
@@ -9779,7 +9905,8 @@
       "170": 336
     },
     "ObtainedBy": {
-      "1": "Chests"
+      "1": "Chests",
+      "2": "Fishing"
     },
     "Variations": null,
     "Description": "An old bracelet that was enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the bracelet to boost the power of their spirit weapons"
@@ -9787,11 +9914,38 @@
   "Oracle Amulet (Poor)": {
     "Name": "Oracle Amulet (Poor)",
     "Link": "Oracle Amulet (Poor)",
+    "Image": "Oracle Amulet (Poor).png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.375
+      },
+      "Regeneration": {
+        "Multiplier": 1.25
+      }
+    },
     "MinLevel": 100,
-    "JewelSlots": 0,
+    "MaxLevel": 250,
     "EquipType": "Neck",
     "StatType": "Vitality",
-    "Rarity": "Rare"
+    "Rarity": "Rare",
+    "BaseWorth": 150,
+    "WorthOverrides": {
+      "100": 210,
+      "110": 216,
+      "120": 222,
+      "130": 228,
+      "140": 234,
+      "150": 240,
+      "160": 246,
+      "170": 252
+    },
+    "JewelSlots": 0,
+    "Variations": null,
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing"
+    },
+    "Description": "An old gemstone necklace that was enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the amulet to boost the power of their relics."
   },
   "Floral Blossom": {
     "Name": "Floral Blossom",

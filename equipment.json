@@ -9889,13 +9889,14 @@
         "Multiplier": 0.5
       }
     },
-    "MinLevel": 110,
-    "MaxLevel": 220,
+    "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Arm",
     "StatType": "Vitality",
     "Rarity": "Rare",
-    "BaseWorth": 288,
+    "BaseWorth": 280,
     "WorthOverrides": {
+      "100": 280,
       "110": 288,
       "120": 296,
       "130": 304,
@@ -9904,12 +9905,13 @@
       "160": 328,
       "170": 336
     },
+    "JewelSlots": 2,
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
     "Variations": null,
-    "Description": "An old bracelet that was enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the bracelet to boost the power of their spirit weapons"
+    "Description": "An old bracelet that was enchanted to store spirit energy, something only a very skilled enchanter and oracle can do. Oracles can store or call upon spirit energy from the bracelet to boost the power of their relics."
   },
   "Oracle Amulet (Poor)": {
     "Name": "Oracle Amulet (Poor)",

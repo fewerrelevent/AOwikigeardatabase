@@ -6042,7 +6042,8 @@
     "MinLevel": 50,
     "EquipType": "Hat",
     "StatType": "Normal",
-    "Rarity": "Common"
+    "Rarity": "Common",
+    "Description": "A round hood that is perfect for hiding your identity."
   },
   "Musketeer Hat": {
     "Name": "Musketeer Hat",

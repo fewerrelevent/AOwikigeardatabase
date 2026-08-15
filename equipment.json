@@ -1562,10 +1562,31 @@
   "Corduroy Hat": {
     "Name": "Corduroy Hat",
     "Link": "Corduroy Hat",
+    "Image": "CurduroyHat.png",
+    "Stats": {
+      "Dexterity": {
+        "Multiplier": 0.3
+      }
+    },
     "MinLevel": 1,
+    "MaxLevel": 50,
     "EquipType": "Hat",
     "StatType": "Normal",
     "Rarity": "Common",
+    "BaseWorth": 12,
+    "WorthOverrides": {
+      "1": 12,
+      "10": 14,
+      "20": 16,
+      "30": 19,
+      "40": 21,
+      "50": 24
+    },
+    "ObtainedBy": {
+      "1": "Chests",
+      "2": "Fishing"
+    },
+    "Variations": 37,
     "Description": "A fine hat made out of corduroy, great for protecting your face from the sun."
   },
   "Eyepatch": {

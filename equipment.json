@@ -1568,6 +1568,26 @@
         "Multiplier": 0.3
       }
     },
+    "StatOverrides": {
+      "1": {
+        "Dexterity": 0
+      },
+      "10": {
+        "Dexterity": 1
+      },
+      "20": {
+        "Dexterity": 3
+      },
+      "30": {
+        "Dexterity": 5
+      },
+      "40": {
+        "Dexterity": 7
+      },
+      "50": {
+        "Dexterity": 9
+      }
+    },
     "MinLevel": 1,
     "MaxLevel": 50,
     "EquipType": "Hat",

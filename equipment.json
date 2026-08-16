@@ -6260,7 +6260,7 @@
     "Image": "Lost Chief Cloak.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.439
+        "Multiplier": 0.43875
       },
       "Size": {
         "Multiplier": 0.3
@@ -6287,7 +6287,6 @@
     "ObtainedBy": {
       "1": "Hallbjorn"
     },
-    "Variations": null,
     "Description": "A tattered black cloak adorned with the bloody bones and jaws of sharks. It once belonged to the Lost Chief of Redwake, Hallbjorn.",
     "JewelSlots": 2
   },
@@ -6297,7 +6296,7 @@
     "Image": "Lost Chief Armor.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.575
+        "Multiplier": 0.585
       },
       "Size": {
         "Multiplier": 0.4
@@ -6324,7 +6323,6 @@
     "ObtainedBy": {
       "1": "Hallbjorn"
     },
-    "Variations": null,
     "Description": "A rusted, heavy chestpiece and arm braces that were once worn by the Lost Chief of Redwake, Hallbjorn.",
     "JewelSlots": 2
   },
@@ -6334,7 +6332,7 @@
     "Image": "Lost Chief Boots.png",
     "Stats": {
       "Power": {
-        "Multiplier": 0.439
+        "Multiplier": 0.43875
       },
       "Size": {
         "Multiplier": 0.3
@@ -6361,7 +6359,6 @@
     "ObtainedBy": {
       "1": "Hallbjorn"
     },
-    "Variations": null,
     "Description": "A pair of worn boots trimmed in silver that were once worn by the Lost Chief of Redwake, Hallbjorn.",
     "JewelSlots": 2
   },

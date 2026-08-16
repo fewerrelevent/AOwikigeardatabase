@@ -5237,7 +5237,13 @@
       "2": "Wind-Row Wolves",
       "3": "Fishing"
     },
-    "Description": "A set of boots normally worn by hikers or mountain bandits."
+    "Description": "A set of boots normally worn by hikers or mountain bandits.",
+    "LastUpdate": "v1.21.25",
+    "Image": "Mountaineer'sBoots.png",
+    "BaseWorth": 30,
+    "WorthOverrides": {
+      "50": 30
+    }
   },
   "Steel Helmet": {
     "Name": "Steel Helmet",

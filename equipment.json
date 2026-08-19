@@ -22349,5 +22349,20 @@
     },
     "Description": "A heavy pauldron crafted using the horns and scales of a corrupted dragon.",
     "JewelSlots": 2
+  },
+  "Guild Clan Armor": {
+    "Name": "Guild Clan Armor",
+    "Image": "Guild Clan Armor.png",
+    "MinLevel": 1,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Uncommon",
+    "BaseWorth": 800,
+    "ObtainedBy": {
+      "1": "Sir Garen"
+    },
+    "Description": "A set of lightweight upper body armor painted to match your clan colors. It was handcrafted by Sir Garen, a freelance blacksmith who wanders the War Seas forging unique armor and accessories for renowned warriors.",
+    "JewelSlots": 1,
+    "LastUpdate": "v1.21.25"
   }
 }

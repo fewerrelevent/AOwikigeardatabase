@@ -940,12 +940,17 @@
     "Image": "Keraxe Viking Belts.png",
     "MinLevel": 20,
     "MaxLevel": 70,
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.3
+      }
+    },
     "EquipType": "Front",
     "StatType": "Normal",
     "Rarity": "Common",
-    "BaseWorth": 20,
+    "BaseWorth": 25,
     "WorthOverrides": {
-      "20": 20,
+      "20": 25,
       "30": 28,
       "40": 31,
       "50": 34,

@@ -93,7 +93,7 @@
   "Leather Armor": {
     "Name": "Leather Armor",
     "Link": "Leather Armor",
-    "Image": "LeatherArmor.png",
+    "Image": "Leather Armor.png",
     "Stats": {
       "Defense": {
         "Multiplier": 0.35

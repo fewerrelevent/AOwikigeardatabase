@@ -7227,82 +7227,91 @@
     "Name": "Titanium Bucket Helmet",
     "Link": "Titanium Bucket Helmet",
     "Image": "Titanium Bucket Helmet.png",
-    "MinLevel": 100,
-    "MaxLevel": 250,
     "Stats": {
       "Defense": {
         "Multiplier": 0.45
       }
     },
+    "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthOverrides": {
-      "110": 9,
-      "120": 13,
-      "130": 17,
-      "140": 21
+      "110": 36,
+      "120": 37,
+      "130": 38,
+      "140": 39,
+      "150": 40,
+      "160": 41,
+      "170": 42
     },
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
     "Variations": null,
-    "Description": "A sturdy helmet made of iron, usually worn by knights."
+    "Description": "A sturdy helmet made out of iron, usually worn by knights."
   },
   "Titanium Gladiator Helmet": {
     "Name": "Titanium Gladiator Helmet",
     "Link": "Titanium Gladiator Helmet",
     "Image": "Titanium Gladiator Helmet.png",
-    "MinLevel": 100,
-    "MaxLevel": 250,
     "Stats": {
       "Defense": {
         "Multiplier": 0.45
       }
     },
+    "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthOverrides": {
-      "110": 9,
-      "120": 13,
-      "130": 17,
-      "140": 21
+      "110": 36,
+      "120": 37,
+      "130": 38,
+      "140": 39,
+      "150": 40,
+      "160": 41,
+      "170": 42
     },
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
     "Variations": null,
-    "Description": "A sturdy helmet made of iron, usually worn by knights."
+    "Description": "A sturdy helmet made out of iron, usually worn by knights."
   },
   "Titanium Plumed Helmet": {
     "Name": "Titanium Plumed Helmet",
     "Link": "Titanium Plumed Helmet",
     "Image": "Titanium Plumed Helmet.png",
-    "MinLevel": 100,
-    "MaxLevel": 250,
     "Stats": {
       "Defense": {
         "Multiplier": 0.45
       }
     },
+    "MinLevel": 100,
+    "MaxLevel": 250,
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Uncommon",
     "WorthOverrides": {
-      "110": 9,
-      "120": 13,
-      "130": 17,
-      "140": 21
+      "110": 36,
+      "120": 37,
+      "130": 38,
+      "140": 39,
+      "150": 40,
+      "160": 41,
+      "170": 42
     },
     "ObtainedBy": {
       "1": "Chests",
       "2": "Fishing"
     },
     "Variations": null,
-    "Description": "A sturdy helmet made of iron, usually worn by knights."
+    "Description": "A sturdy helmet made out of iron, usually worn by knights."
   },
   "Titanium Kettle Helmet": {
     "Name": "Titanium Kettle Helmet",

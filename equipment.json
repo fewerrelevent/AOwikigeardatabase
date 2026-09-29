@@ -18909,6 +18909,2142 @@
     "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
     "JewelSlots": 0
   },
+  "Purple Dragon Helmet": {
+    "Name": "Purple Dragon Helmet",
+    "Link": "Dragon Helmet",
+    "Image": "Purple Dragon Helmet.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Purple Dragon Hood": {
+    "Name": "Purple Dragon Hood",
+    "Link": "Dragon Hood",
+    "Image": "Purple Dragon Hood.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Purple Dragon Armor": {
+    "Name": "Purple Dragon Armor",
+    "Link": "Dragon Armor",
+    "Image": "Purple Dragon Armor.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Purple Dragon Boots": {
+    "Name": "Purple Dragon Boots",
+    "Link": "Dragon Boots",
+    "Image": "Purple Dragon Boots.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Purple Dragon Faulds": {
+    "Name": "Purple Dragon Faulds",
+    "Link": "Dragon Faulds",
+    "Image": "Purple Dragon Faulds.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Purple Dragon Cape": {
+    "Name": "Purple Dragon Cape",
+    "Link": "Dragon Cape",
+    "Image": "Purple Dragon Cape.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Purple Dragoneye Amulet": {
+    "Name": "Purple Dragoneye Amulet",
+    "Link": "Dragoneye Amulet",
+    "Image": "Purple Dragoneye Amulet.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 0
+  },
+  "Black Dragon Helmet": {
+    "Name": "Black Dragon Helmet",
+    "Link": "Dragon Helmet",
+    "Image": "Black Dragon Helmet.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.14
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Black Dragon Hood": {
+    "Name": "Black Dragon Hood",
+    "Link": "Dragon Hood",
+    "Image": "Black Dragon Hood.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Black Dragon Armor": {
+    "Name": "Black Dragon Armor",
+    "Link": "Dragon Armor",
+    "Image": "Black Dragon Armor.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Black Dragon Boots": {
+    "Name": "Black Dragon Boots",
+    "Link": "Dragon Boots",
+    "Image": "Black Dragon Boots.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.14
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Black Dragon Faulds": {
+    "Name": "Black Dragon Faulds",
+    "Link": "Dragon Faulds",
+    "Image": "Black Dragon Faulds.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Black Dragon Cape": {
+    "Name": "Black Dragon Cape",
+    "Link": "Dragon Cape",
+    "Image": "Black Dragon Cape.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.14
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Black Dragoneye Amulet": {
+    "Name": "Black Dragoneye Amulet",
+    "Link": "Dragoneye Amulet",
+    "Image": "Black Dragoneye Amulet.png",
+    "Stats": {
+      "Power": {
+        "Multiplier": 0.19
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 0
+  },
+  "Brown Dragon Helmet": {
+    "Name": "Brown Dragon Helmet",
+    "Link": "Dragon Helmet",
+    "Image": "Brown Dragon Helmet.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.465
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Brown Dragon Hood": {
+    "Name": "Brown Dragon Hood",
+    "Link": "Dragon Hood",
+    "Image": "Brown Dragon Hood.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Brown Dragon Armor": {
+    "Name": "Brown Dragon Armor",
+    "Link": "Dragon Armor",
+    "Image": "Brown Dragon Armor.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.62
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "StatOverrides": {
+      "110": {
+        "Defense": 183
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Brown Dragon Boots": {
+    "Name": "Brown Dragon Boots",
+    "Link": "Dragon Boots",
+    "Image": "Brown Dragon Boots.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.465
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Brown Dragon Faulds": {
+    "Name": "Brown Dragon Faulds",
+    "Link": "Dragon Faulds",
+    "Image": "Brown Dragon Faulds.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Brown Dragon Cape": {
+    "Name": "Brown Dragon Cape",
+    "Link": "Dragon Cape",
+    "Image": "Brown Dragon Cape.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.465
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Brown Dragoneye Amulet": {
+    "Name": "Brown Dragoneye Amulet",
+    "Link": "Dragoneye Amulet",
+    "Image": "Brown Dragoneye Amulet.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.62
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "StatOverrides": {
+      "110": {
+        "Defense": 183
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 0
+  },
+  "Golden Dragon Helmet": {
+    "Name": "Golden Dragon Helmet",
+    "Link": "Dragon Helmet",
+    "Image": "Golden Dragon Helmet.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Golden Dragon Hood": {
+    "Name": "Golden Dragon Hood",
+    "Link": "Dragon Hood",
+    "Image": "Golden Dragon Hood.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Golden Dragon Armor": {
+    "Name": "Golden Dragon Armor",
+    "Link": "Dragon Armor",
+    "Image": "Golden Dragon Armor.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Golden Dragon Boots": {
+    "Name": "Golden Dragon Boots",
+    "Link": "Dragon Boots",
+    "Image": "Golden Dragon Boots.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Golden Dragon Faulds": {
+    "Name": "Golden Dragon Faulds",
+    "Link": "Dragon Faulds",
+    "Image": "Golden Dragon Faulds.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Golden Dragon Cape": {
+    "Name": "Golden Dragon Cape",
+    "Link": "Dragon Cape",
+    "Image": "Golden Dragon Cape.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Golden Dragoneye Amulet": {
+    "Name": "Golden Dragoneye Amulet",
+    "Link": "Dragoneye Amulet",
+    "Image": "Golden Dragoneye Amulet.png",
+    "Stats": {
+      "Haste": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 0
+  },
+  "White Dragon Helmet": {
+    "Name": "White Dragon Helmet",
+    "Link": "Dragon Helmet",
+    "Image": "White Dragon Helmet.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "White Dragon Hood": {
+    "Name": "White Dragon Hood",
+    "Link": "Dragon Hood",
+    "Image": "White Dragon Hood.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "White Dragon Armor": {
+    "Name": "White Dragon Armor",
+    "Link": "Dragon Armor",
+    "Image": "White Dragon Armor.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "White Dragon Boots": {
+    "Name": "White Dragon Boots",
+    "Link": "Dragon Boots",
+    "Image": "White Dragon Boots.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "White Dragon Faulds": {
+    "Name": "White Dragon Faulds",
+    "Link": "Dragon Faulds",
+    "Image": "White Dragon Faulds.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "White Dragon Cape": {
+    "Name": "White Dragon Cape",
+    "Link": "Dragon Cape",
+    "Image": "White Dragon Cape.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Collar Accessory",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "White Dragoneye Amulet": {
+    "Name": "White Dragoneye Amulet",
+    "Link": "Dragoneye Amulet",
+    "Image": "White Dragoneye Amulet.png",
+    "Stats": {
+      "Regeneration": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 0
+  },
+  "Red Dragon Helmet": {
+    "Name": "Red Dragon Helmet",
+    "Link": "Dragon Helmet",
+    "Image": "Red Dragon Helmet.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Red Dragon Hood": {
+    "Name": "Red Dragon Hood",
+    "Link": "Dragon Hood",
+    "Image": "Red Dragon Hood.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Red Dragon Armor": {
+    "Name": "Red Dragon Armor",
+    "Link": "Dragon Armor",
+    "Image": "Red Dragon Armor.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Red Dragon Boots": {
+    "Name": "Red Dragon Boots",
+    "Link": "Dragon Boots",
+    "Image": "Red Dragon Boots.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Red Dragon Faulds": {
+    "Name": "Red Dragon Faulds",
+    "Link": "Dragon Faulds",
+    "Image": "Red Dragon Faulds.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Red Dragon Cape": {
+    "Name": "Red Dragon Cape",
+    "Link": "Dragon Cape",
+    "Image": "Red Dragon Cape.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Red Dragoneye Amulet": {
+    "Name": "Red Dragoneye Amulet",
+    "Link": "Dragoneye Amulet",
+    "Image": "Red Dragoneye Amulet.png",
+    "Stats": {
+      "Pierce": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 0
+  },
+  "Blue Dragon Helmet": {
+    "Name": "Blue Dragon Helmet",
+    "Link": "Dragon Helmet",
+    "Image": "Blue Dragon Helmet.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.445
+      }
+    },
+    "StatOverrides": {
+      "120": {
+        "Dexterity": 27
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Blue Dragon Hood": {
+    "Name": "Blue Dragon Hood",
+    "Link": "Dragon Hood",
+    "Image": "Blue Dragon Hood.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Blue Dragon Armor": {
+    "Name": "Blue Dragon Armor",
+    "Link": "Dragon Armor",
+    "Image": "Blue Dragon Armor.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.6
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Blue Dragon Boots": {
+    "Name": "Blue Dragon Boots",
+    "Link": "Dragon Boots",
+    "Image": "Blue Dragon Boots.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.445
+      }
+    },
+    "StatOverrides": {
+      "120": {
+        "Dexterity": 27
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Blue Dragon Faulds": {
+    "Name": "Blue Dragon Faulds",
+    "Link": "Dragon Faulds",
+    "Image": "Blue Dragon Faulds.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Blue Dragon Cape": {
+    "Name": "Blue Dragon Cape",
+    "Link": "Dragon Cape",
+    "Image": "Blue Dragon Cape.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.445
+      }
+    },
+    "StatOverrides": {
+      "120": {
+        "Dexterity": 27
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Blue Dragoneye Amulet": {
+    "Name": "Blue Dragoneye Amulet",
+    "Link": "Dragoneye Amulet",
+    "Image": "Blue Dragoneye Amulet.png",
+    "Stats": {
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.6
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 0
+  },
+  "Teal Dragon Helmet": {
+    "Name": "Teal Dragon Helmet",
+    "Link": "Dragon Helmet",
+    "Image": "Teal Dragon Helmet.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Teal Dragon Hood": {
+    "Name": "Teal Dragon Hood",
+    "Link": "Dragon Hood",
+    "Image": "Teal Dragon Hood.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Teal Dragon Armor": {
+    "Name": "Teal Dragon Armor",
+    "Link": "Dragon Armor",
+    "Image": "Teal Dragon Armor.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Teal Dragon Boots": {
+    "Name": "Teal Dragon Boots",
+    "Link": "Dragon Boots",
+    "Image": "Teal Dragon Boots.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Teal Dragon Faulds": {
+    "Name": "Teal Dragon Faulds",
+    "Link": "Dragon Faulds",
+    "Image": "Teal Dragon Faulds.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Teal Dragon Cape": {
+    "Name": "Teal Dragon Cape",
+    "Link": "Dragon Cape",
+    "Image": "Teal Dragon Cape.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Teal Dragoneye Amulet": {
+    "Name": "Teal Dragoneye Amulet",
+    "Link": "Dragoneye Amulet",
+    "Image": "Teal Dragoneye Amulet.png",
+    "Stats": {
+      "Resistance": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 0
+  },
+  "Green Dragon Helmet": {
+    "Name": "Green Dragon Helmet",
+    "Link": "Dragon Helmet",
+    "Image": "Green Dragon Helmet.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Helmet",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 78,
+      "110": 81,
+      "120": 84,
+      "130": 87,
+      "140": 90,
+      "150": 92,
+      "160": 95,
+      "170": 98
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Green Dragon Hood": {
+    "Name": "Green Dragon Hood",
+    "Link": "Dragon Hood",
+    "Image": "Green Dragon Hood.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Hat",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Green Dragon Armor": {
+    "Name": "Green Dragon Armor",
+    "Link": "Dragon Armor",
+    "Image": "Green Dragon Armor.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Chestpiece",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 314,
+    "WorthOverrides": {
+      "100": 314,
+      "110": 325,
+      "120": 337,
+      "130": 348,
+      "140": 360,
+      "150": 371,
+      "160": 382,
+      "170": 394
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A full set of lightweight upper body armor crafted using the scales of a young dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Green Dragon Boots": {
+    "Name": "Green Dragon Boots",
+    "Link": "Dragon Boots",
+    "Image": "Green Dragon Boots.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Legging",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 157,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A pair of boots crafted using the scales of a young or adolescent dragon, making them as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Green Dragon Faulds": {
+    "Name": "Green Dragon Faulds",
+    "Link": "Dragon Faulds",
+    "Image": "Green Dragon Faulds.png",
+    "Stats": {
+      "Range": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Waist",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 50,
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "JewelSlots": 2
+  },
+  "Green Dragon Cape": {
+    "Name": "Green Dragon Cape",
+    "Link": "Dragon Cape",
+    "Image": "Green Dragon Cape.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.3
+      },
+      "Defense": {
+        "Multiplier": 0.3
+      },
+      "Dexterity": {
+        "Multiplier": 0.15
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Collar",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 39,
+    "WorthOverrides": {
+      "100": 39,
+      "110": 40,
+      "120": 42,
+      "130": 43,
+      "140": 45,
+      "150": 46,
+      "160": 47,
+      "170": 49
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A shoulder cape crafted using the wing of a young or adolescent dragon, secured over the shoulder by a dragonscale clasp.",
+    "JewelSlots": 2
+  },
+  "Green Dragoneye Amulet": {
+    "Name": "Green Dragoneye Amulet",
+    "Link": "Dragoneye Amulet",
+    "Image": "Green Dragoneye Amulet.png",
+    "Stats": {
+      "Size": {
+        "Multiplier": 0.4
+      },
+      "Defense": {
+        "Multiplier": 0.4
+      },
+      "Dexterity": {
+        "Multiplier": 0.2
+      }
+    },
+    "MinLevel": 100,
+    "MaxLevel": null,
+    "EquipType": "Neck",
+    "StatType": "Normal",
+    "Rarity": "Rare",
+    "BaseWorth": 78,
+    "WorthOverrides": {
+      "100": 157,
+      "110": 162,
+      "120": 168,
+      "130": 174,
+      "140": 180,
+      "150": 185,
+      "160": 191,
+      "170": 197
+    },
+    "ObtainedBy": {
+      "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
+    },
+    "Description": "A metal amulet made out of the preserved eye of a young or adolescent dragon.",
+    "JewelSlots": 0
+  },
   "Heavy Purple Dragon Helmet": {
     "Name": "Heavy Purple Dragon Helmet",
     "Link": "Heavy Dragon Helmet",

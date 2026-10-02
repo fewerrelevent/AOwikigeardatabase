@@ -19043,13 +19043,16 @@
     "Image": "Purple Dragon Faulds.png",
     "Stats": {
       "Range": {
-        "Multiplier": 0.3
+        "Multiplier": 0.39
       },
       "Defense": {
-        "Multiplier": 0.3
-      },
-      "Dexterity": {
-        "Multiplier": 0.15
+        "Multiplier": 0.349
+      }
+    },
+    "StatOverrides": {
+      "170": {
+        "Defense": 168,
+        "Range": 33
       }
     },
     "MinLevel": 100,
@@ -19058,10 +19061,13 @@
     "StatType": "Normal",
     "Rarity": "Rare",
     "BaseWorth": 50,
+    "WorthOverrides": {
+      "170": 295
+    },
     "ObtainedBy": {
       "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
     },
-    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "Lower body faulds crafted using the wing of a dragon.",
     "JewelSlots": 2
   },
   "Purple Dragon Cape": {
@@ -20334,15 +20340,20 @@
     "Image": "Blue Dragon Helmet.png",
     "Stats": {
       "Defense": {
-        "Multiplier": 0.3
+        "Multiplier": 0.33
       },
       "Dexterity": {
-        "Multiplier": 0.445
+        "Multiplier": 0.3
+      },
+      "Resistance": {
+        "Multiplier": 0.36
       }
     },
     "StatOverrides": {
-      "120": {
-        "Dexterity": 27
+      "100": {
+        "Defense": 89,
+        "Dexterity": 15,
+        "Resistance": 18
       }
     },
     "MinLevel": 100,
@@ -20350,21 +20361,14 @@
     "EquipType": "Helmet",
     "StatType": "Normal",
     "Rarity": "Rare",
-    "BaseWorth": 78,
+    "BaseWorth": 117,
     "WorthOverrides": {
-      "100": 78,
-      "110": 81,
-      "120": 84,
-      "130": 87,
-      "140": 90,
-      "150": 92,
-      "160": 95,
-      "170": 98
+      "100": 117
     },
     "ObtainedBy": {
       "1": "Dragons#Full_Grown_Dragons|Full Grown Dragon"
     },
-    "Description": "A lightweight helmet crafted using the scales of a young or adolescent dragon, making it as hard as steel.",
+    "Description": "A thick helmet crafted using the scales of a dragon, making it as hard as steel.",
     "JewelSlots": 2
   },
   "Blue Dragon Hood": {

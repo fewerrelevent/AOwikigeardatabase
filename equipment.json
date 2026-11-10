@@ -21937,13 +21937,13 @@
     "Image": "Placeholder_V2.png",
     "Stats": {
       "Regeneration": {
-        "Multiplier": 0.4
+        "Multiplier": 0.75
       },
       "Defense": {
         "Multiplier": 0.44444
       },
-      "Dexterity": {
-        "Multiplier": 0.75
+      "Power": {
+        "Multiplier": 0.19065
       }
     },
     "MinLevel": 100,
